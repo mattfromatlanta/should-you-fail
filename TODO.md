@@ -3,12 +3,13 @@
 ## Current Priorities
 
 ### Chapter Development
-1. **Write Chapter 5: Return to Oechenfor** - Document the party's return from the Drekklands and events in Oechenfor
+1. Organize NPC's and sort by character importance
 2. **Finish Planning Chapter 6: Trip to Find Cetyri in the Feywild** - Complete the chapter structure and narrative flow
 3. **Complete Chapter 6 Encounter List** - Finish designing encounters for the Feywild journey
 4. Correct the timing of when Lomani's discoveries caused Cetyri and Bronik to flee (this is at the end of chapter 5)
 
 ## Thin Details - NPCs Needing Development
+1. Organize 
 
 ### Major NPCs Mentioned But Not Detailed
 - **Xilo, Lord of Robins:** Fey lord trusted by Milicent (future arc)

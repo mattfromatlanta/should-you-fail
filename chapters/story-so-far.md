@@ -46,7 +46,9 @@ Meanwhile, others visited Bo'Lug in the Foot of the Falls. The old Bullywug shar
 
 At the Library of Rhymes and Antiquities, the party discovered crucial documents: the Testament of Embers (an Estaran epic about Varkhasia the red Unary Great Wyrm), the Ode to Seven Lords (a poem about the Rebel Fey), a letter from a goblin soldier named Grib, and a personal letter from Caera written during the Rebellion. These texts revealed the deep history of the world—including hints that the Material Plane had been destroyed and recreated before.
 
-A speak with dead ritual revealed information about Milicent's "Shadow Projector"—a device using the Material Plane itself as a lens to capture and transform beings. When Lomani shared his findings about Cetyri's multiversal soul, the dragon became worried. This might be what Erol meant by "his choice"—connecting his fragmented souls could grant him strength to destroy Milicent, but with disastrous effects.
+A speak with dead ritual revealed information about Milicent's "Shadow Projector"—a device using the Material Plane itself as a lens to capture and transform beings. 
+
+When Lomani shared his findings about Cetyri's multiversal soul, the dragon became worried. This might be what Erol meant by "his choice"—connecting his fragmented souls could grant him strength to destroy Milicent, but with disastrous effects.
 
 Concerned, Cetyri and Bronik fled together into the Feywild.
 
