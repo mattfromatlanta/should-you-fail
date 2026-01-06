@@ -146,11 +146,11 @@ The fragments found at the Estaran tower in the Drekklands are the same material
 Despite fleeing from Milicent centuries ago when she began enslaving mortals, Yrk maintains enough of a relationship with her to arrange meetings and apparently move freely in her realm. This suggests their break was not absolute, and Yrk may have conflicted feelings about her methods versus her cause.
 
 ### Gord's Complicity
-The imprisoned merchant has been working for Milicent from within his cell, either coerced, bribed with promises of freedom, or motivated by revenge. This raises questions about security in Oechenfor and who else might be compromised.
+The merchant has been working for Felicity and Milicent's quicklings without knowing true purpose of what he's creating. When confronted, he sheepishly admits his fault. He helps the party get on the right track to undo Felicity's plans.
 
 ## Chapter Outcomes
 
-The party successfully stops the kidnappings in Oechenfor by capturing the star metal tools and confronting the quickling operation. However, this was always going to lead to a meeting with Milicent—Yrk had arranged it, and the party's investigation served to prove their capability.
+The party successfully stops the kidnappings in Oechenfor by capturing the star metal tools and disrupting the quickling operation. However, this was always going to lead to a meeting with Milicent—Yrk had arranged it, and the party's investigation served to prove their capability.
 
 The party meets Milicent face to face for the first time and learns the full truth about the Estaran threat. They understand the stakes: the survival of all existence hangs in the balance. The Estarans have destroyed the universe 54 times before and are preparing to do it again.
 
@@ -158,4 +158,4 @@ The party forms an alliance with Milicent, but on their terms. They convince her
 
 The party returns to Oechenfor safely with new purpose and terrible knowledge. They must now find Cetyri and Bronik (who fled into the Feywild in Chapter 3) and help the blind gold dragon understand and accept his potential to become the Dragon Singularity. The fate of the 55th universe—and all future universes—may depend on their success.
 
-The disappearances in Oechenfor will cease. Gord Lankenmangled's role will need to be addressed. And the party must decide how much of this truth to share with the people of Oechenfor, the Allied Cities, and their allies. The weight of cosmic knowledge now rests on their shoulders.
+The disappearances in Oechenfor will cease. Now the party must make their plans to stop the Estarans.
