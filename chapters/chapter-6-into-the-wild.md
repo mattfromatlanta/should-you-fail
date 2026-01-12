@@ -1,4 +1,4 @@
-# Chapter 6: The Memorial of Ozevriel
+# Chapter 6: Into the Wild
 
 ## Overview
 

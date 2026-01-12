@@ -71,3 +71,21 @@ The party awoke with Yrk in a strange space—like a shadow projection but someh
 They returned with Yrk to the material world and reunited with Eigitch. The ancient goblin and his great-great-great-grandson greeted each other with dry, understated affection. The party asked Yrk to reach out to Milicent seeking an audience, and he agreed to contact the Shadowdame.
 
 Eigitch and the party made their way back to Naeliste by submarine, now invisible to Milicent's gaze and ready for what comes next.
+
+## Chapter 5: Return to Oechenfor
+
+Protected by the Trickster's Blessing, the party returned from Naeliste to Oechenfor, where they discovered a disturbing pattern: promising young citizens had been vanishing since they left. Centaurs in the Faedwood warned of dark omens over the city.
+
+Investigation led to Gord Lankenmangled, the imprisoned dwarf merchant, who had been crafting specialized tools from star metal fragments—the same material found at the Estaran tower in the Drekklands. These tools were designed for quicklings conducting kidnapping operations for Milicent.
+
+The party raided the quicklings' safehouse and captured the tools. The next evening, quickling leader Felicity burned the safehouse to lure them back. When the party returned, they were pulled into shadow space once more. After defeating Felicity's forces, they were offered something different: an invitation to go deeper.
+
+The party accepted and found themselves fully in the Shadowfell, greeted by Yrk and Milicent's honor guard. As promised guests, they were escorted to Milicent's mountain fortress.
+
+In her audience hall, Milicent revealed the full truth. She brought them to a sealed chamber holding an imprisoned Estaran and explained the horrifying reality: the Estarans have destroyed and recreated the universe 54 times before. Each time a Dragon Singularity emerged or rebellion threatened their empire, they enacted total annihilation and reconstruction. The current world is the 55th iteration.
+
+Milicent's plan: guide Cetyri to become a Unary Great Wyrm—a Dragon Singularity synthesized from all versions of his soul across realities. This cosmic being is what the Estarans fear most, powerful enough to defeat them permanently before they complete their next apocalypse.
+
+The party agreed to ally with Milicent on one condition: she must cease enslaving mortals and put her hopes entirely in their hands. After centuries building the Dread Legion, Milicent accepted. She returned them safely to Oechenfor.
+
+Now the party must return to Naeliste and have a conversation with Cetyir...
