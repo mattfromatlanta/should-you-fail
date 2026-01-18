@@ -88,4 +88,20 @@ Milicent's plan: guide Cetyri to become a Unary Great Wyrm—a Dragon Singularit
 
 The party agreed to ally with Milicent on one condition: she must cease enslaving mortals and put her hopes entirely in their hands. After centuries building the Dread Legion, Milicent accepted. She returned them safely to Oechenfor.
 
-Now the party must return to Naeliste and have a conversation with Cetyir...
+Now the party must return to Naeliste and have a conversation with Cetyri...
+
+## Chapter 6: Into the Wild
+
+Upon returning to Naeliste, the party discovered that Cetyri and Bronik had fled into the Feywild. Lomani Nae's careful questioning had revealed she understood the truth about Cetyri's world-spanning soul, and the young dragon ran to protect that secret.
+
+The party pursued them through the Faedwood into the Feywild's scorched wasteland—outer regions devastated by ancient Estaran invasion. After encounters with hobgoblin bandits and a tense meeting at Rinick's Diner with Twi'Xu (Animal Lord and lieutenant to Xilo)--where they also learned of the Blue Dragon Egedzoo--they tracked Cetyri to the settlement of Qu.
+
+Through honest conversation, the party convinced Cetyri to stop running and accept his role in stopping the Estarans. Understanding the survival of all worlds is at stake, Cetyri committed to the cause.
+
+Hoping to gain Xilo as an ally and connect to their fey roots, the party commissioned an airship deeper into the Feywild. Mid-flight, they were attacked by Egedzoo, the adult blue dragon seeking to rule the wasteland. Though they repelled the attack, their airship crashed near a mysterious tower structure.
+
+The tower proved to be the memorial tomb of Ozevriel, the Rebel Fey hero slain in the first rebellion against the Estarans. The party defeated the trapped demons and ascended to the top of the tower. Here the discovered Ozevrial's tomb was created at the base of Milicent's ancient lab. They encountered Hootini there and spent a few hours thoroughly reviewing everything they could find—critical research on the Estarans and cross-world transit theories developed with Yrk. Hootini then let them know that Xilo had arrived and was waiting back at the airship. They started thinking about Metgal as a place to go next.
+
+Xilo was pleased to meet them and supports their grand quest. To begin, he asked them for help slaying Egedzoo. The dragon is building power in the wasteland and must be stopped. The party agreed.
+
+Now they just have to do it...
