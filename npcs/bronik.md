@@ -37,6 +37,12 @@ Bronik is captured by the party during Chapter 2. Over time, he comes to accept 
 - Leaves the Underdark with the party and Cetyri
 - Travels with them to Naeliste in the Feywild
 - Later flees to the Feywild with Cetyri when the dragon becomes worried about questions from Lomani Nae (this occurs while the party seeks the Trickster with Eigitch the Old and travels to meet Milicent)
+- Accompanies party through Feywild adventures (Chapter 6)
+- Stays out of combat but provides support to Cetyri
+
+## Current Status (End of Chapter 6)
+
+Returning to Material Plane with party and Cetyri. Continues as loyal friend to Cetyri, part of the extended group. Relationship with party: Trusted companion.
 
 ## Possessions
 

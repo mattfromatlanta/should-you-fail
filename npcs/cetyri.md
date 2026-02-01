@@ -33,3 +33,11 @@ The party encounters Cetyri in the Underdark during Chapter 2. They leave the Un
 ## Flight to the Feywild
 
 While the party is away seeking the Trickster with Eigitch the Old and eventually traveling to meet Milicent, Cetyri becomes worried about questions being asked by Lomani Nae. He flees deeper into the Feywild, taking Bronik with him. The party must later track them down and convince Cetyri to join their cause willingly—a difficult task given that Milicent, who tortured him for a century, is involved in the plan.
+
+## Commitment to the Cause
+
+After the party tracks Cetyri to Qu and has an honest conversation about the stakes—the 54 previous apocalypses, the Dragon Singularity, and his potential role—Cetyri agrees to stop running. While frightened and needing time to process, he understands the survival of all existence is at stake and commits to working with the party.
+
+## Current Status (End of Chapter 6)
+
+Cetyri is returning to the Material Plane with the party. He has witnessed their tactical capabilities and alliance-building (securing Xilo's support). Processing his role but no longer fleeing. Relationship with party: Committed ally, still developing trust.

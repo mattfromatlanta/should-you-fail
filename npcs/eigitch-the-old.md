@@ -41,3 +41,7 @@ Won't immediately tell the party about the submarine or that the path is underwa
 - Goblins are taking bets on whether this journey will finally kill him
 - Some believe Eigitch will live forever
 - "If the Yeti didn't get him, nothing will"
+
+## Current Status (End of Chapter 6)
+
+Serving as messenger/contact point in Naeliste between Yrk and the party. Delivered Yrk's message about working on something important and meeting up in a few weeks. Relationship with party: Trusted contact and facilitator.

@@ -62,3 +62,7 @@ Great-great-great-grandfather to Eigitch the Old. Only they remember Yrk's true 
 ## The Trickster's Blessing
 
 Can provide protection from Milicent's gaze, making the party safe from her tracking on the Material Plane.
+
+## Current Status (End of Chapter 6)
+
+Working with Milicent on designing portable radiant projector and star model for the party's cross-world journey. Traveling mortal world with Felicity. Left message for party in Naeliste via Eigitch. Will arrive in Aris a few days after party. Relationship with party: Ally providing technical/magical support for cosmic quest.

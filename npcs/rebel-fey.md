@@ -15,6 +15,8 @@ Crowned in antlers dark with moss and thunder's stain. He held the lawless world
 ### Xilo, Lord of Robins
 A riddle's end, a feather's flick, a grin—joy beneath the thorn. He spoke in verse and taught the lost to win with riddles bright and laughter sharply born. Where he passed, shadows thinned and died, though sorrow nests where robins used to fly.
 
+**Current Status (End of Chapter 6):** Alliance secured with party after successful defeat of Egedzoo. Traveling to Aris as envoy of the Rebel Fey. Pragmatic, quick-witted, loyal to Milicent's memory while supporting the cosmic quest. Relationship with party: Committed partner and ally.
+
 ### Ozevriel (Deceased)
 The shield of flame, the calm before the wrath. He stood alone and turned the Estara from their chosen path, allowing the other six to escape. His antlers broke; he wept but did not ask. Every age since has held the cost.
 

@@ -104,4 +104,6 @@ The tower proved to be the memorial tomb of Ozevriel, the Rebel Fey hero slain i
 
 Xilo was pleased to meet them and supports their grand quest. To begin, he asked them for help slaying Egedzoo. The dragon is building power in the wasteland and must be stopped. The party agreed.
 
-Now they just have to do it...
+The assault on Egedzoo's lair was decisive. While Xilo's forces drew away the hobgoblin army, the party infiltrated the canyon stronghold. Cormin's illusions wasted Egedzoo's ambush, Aelira's webs pinned the dragon, and Peno's might finished him. With Egedzoo slain and his hoard claimed, Xilo's alliance was secured.
+
+Xilo agreed to travel with them as an envoy of the Rebel Fey. The party now returns to the Material Plane with Cetyri, Bronik, Xilo, and Hootini—ready to journey to Aris and then to Metgal, where they hope to find the means to travel beyond this world.
