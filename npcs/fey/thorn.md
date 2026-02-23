@@ -1,7 +1,7 @@
 # Thorn
 
 ## Basic Information
-**Race:** Unknown (likely Eladrin or Fey-connected)
+**Race:** Eladrin
 **Role:** Veteran of the Rebellion
 **Status:** Unknown (disappeared)
 **Relationship:** Caera's partner, Aelira's father

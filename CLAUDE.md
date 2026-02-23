@@ -13,7 +13,7 @@ Key campaign elements:
 - Gallifax, an ancient and powerful dragon ally
 - Milicent, a powerful figure raising an army in the Shadowfell
 - Cetyri, a lost dragon who is key to the final plan
-- The Gold Dragon Singularity, a weapon to defeat the Estarans
+- The Gold Dragon Singularity, a weapon to defeat the Estarans. Cytiri's destiny?
 - Travel between worlds and planes (Material, Shadowfell, Feywild)
 
 ## Project Goals
@@ -55,7 +55,8 @@ Build outlines and encounters for the remaining campaign arc, including:
 
 The campaign has extensive existing documentation (2340+ lines) covering:
 - Overall story arcs and major plot points
-- Chapter 1: Invaders (complete with encounters)
+- Chapters 1 to 7 documents in the 'chapters' folder
+- NPC descriptions in 'npcs' organized according to their most general affiliation: Heroes, Mortal World, Feywild, Foes
 - Magic items and treasure distribution
 - Scene descriptions and encounter details
 

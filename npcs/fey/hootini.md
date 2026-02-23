@@ -4,7 +4,7 @@
 **Race:** Moon Fey (Owl)
 **Role:** Aelira's fey companion, former servant of Milicent
 **Status:** Active
-**First Appearance:** Chapter 6
+**First Appearance:** Chapter 1 (Familiar + Summoned Fey), Chapter 6 (True Form, encountered in the Feywild)
 
 ## Description
 

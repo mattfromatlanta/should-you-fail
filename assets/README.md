@@ -1,8 +1,3 @@
 # Assets
 
-Visual and reference materials for the campaign.
-
-## Subdirectories
-
-- `maps/` - Battle maps, world maps, location maps
-- `handouts/` - Player handouts, letters, documents, images
+Reference materials for the campaign. Any document in the 'assets' folder should be a player-facing type resource.

@@ -1,6 +1,6 @@
 # Planes and Cosmology
 
-## The Material Plane
+## The Mortal World
 
 The primary world where the campaign takes place. Home to the Allied Cities, the Faedwood, the Uplands, and mortal civilizations.
 
@@ -31,6 +31,8 @@ Powerful beings who once ruled mortals and can traverse planes. They inflicted m
 ### Dragons
 
 Ancient and powerful beings allied with mortals. Gallifax protects the Allied Cities. Cetyri is a lost dragon key to Milicent's plan—using his instances across worlds to invoke the Gold Dragon Singularity, a weapon to eliminate the Estarans.
+
+Dragon souls reach across worlds and a particulary dragon will have multiple instances across the cosmos. Bringing dragon instances into proximity could fuse the dragons to a single stronger creature or could cause catastrophic damage to the world where it happens. 
 
 ### The Rebel Fey
 

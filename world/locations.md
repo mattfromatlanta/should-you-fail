@@ -47,8 +47,8 @@ The lands between and beyond these cities are often grouped into broader regions
 - **Axial Plains** - The agricultural and cultural center of the alliance
 - **Noe** - Far north region that remains damaged by the Rebellion, especially around Metgal
 - **Vaenaris** - Region across the southern sea, farthest from Estaran power during their rule
-- **Drakland** - Southern region
-- **Gateflow River** - Major waterway
+- **Drekklands** - Southern region
+- **Gateflow River** - Major waterway in the North near Metgal.
 - **Mistywinde River** - Flows south from the Uplands through the Faedwood to Oechenfor
 - **Blacktongue River** - Named after Kriv the Blacktongue
 

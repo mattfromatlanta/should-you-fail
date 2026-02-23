@@ -25,7 +25,7 @@ A more recent conflict in which mortals rose up against continuing Estaran oppre
 - Lamat Velu
 - Other veterans who became Founders
 
-The Rebellion included the burning of Metgal, a catastrophic event with massive mortal casualties. The Rebellion ended 150 years ago, successfully freeing the Allied Cities from direct Estaran rule.
+The Rebellion included the destruction of Metgal, a catastrophic event with massive mortal casualties. The Rebellion ended 150 years ago, successfully freeing the Allied Cities from direct Estaran rule.
 
 ## Post-Rebellion Era (Last 150 Years)
 

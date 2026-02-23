@@ -12,11 +12,7 @@ Historical conflict in which mortals rose up against the Estara. Key figures inc
 
 ### The Archshade Milicent
 
-A powerful figure raising an army in the Shadowfell to fight the Estarans before they can return and enact their doomsday plan. She holds an Estaran prisoner who revealed the plan. She seeks to recruit powerful individuals, including Erol and Lamat. Uses Quicklings as servants and agents.
-
-### Planned Alliance (Future)
-
-Milicent envisions an alliance of the Citizen Counsel, Naeliste, herself, and the Rebel Fey to stand against the Estarans.
+Once the Rebel Fey Lady of the Moon. Now the great Archshade general. She raised an army of captured souls which--unknown to most--was the difference in the 2nd Rebellion. She lives in a secret fortress in the Shadowfell. She holds an Estaran prisoner who revealed the long history of Estaran cataclysms and their ultimate fear of a Dragon Singularity. Her closest partners are Felicity, Yrk, and now the party.
 
 ## Fey of the Faedwood
 
