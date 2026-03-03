@@ -18,6 +18,10 @@ Aldrin is somewhat caught. His own feeling is that driving the Estarans away was
 
 Aldrin is taking regular council from Ardo Manessi. He has no idea that Ardo has been stirring up trouble around town, hoping to take power for himself
 
+#### Ardo's Plots
+
+Ardo's plan is to provoke chaos and position himself as the only sane choice to be Chief Exarch. He has manipulated Nava's illusionist, Cormin Vallai, to insist that they should put on a big demonstration and prove the Veterans are out of touch. He has worked assiduously to convince Aldrin he would be the thoughtful, moderate choice instead of Nava. He has quietly spread rumors of commoners who believe veterans invented the Estarans for their own power.
+
 ## Erol + Xilo
 
 Erol is also staying in the High Ward in similar arrangements to Aldrin. Lamat is with her.
@@ -42,4 +46,169 @@ These two will arrive in Aris hours before the riot. They've made a breakthrough
 
 ## 2. The Riot and the Dragon
 
+This encounter unfolds in three escalating phases, timed to begin at sunset. The party can be anywhere in the city when it starts — on the streets, with Aldrin, with Nava Kurn, or making their way to the Hall of Allies.
+
+### Setup
+
+Yrk and Felicity have arrived and delivered their warning: the machine is ready, and it's time to leave. The party has had to balance their urgency against whatever business they still have in Aris. The clock is ticking.
+
+If the party has not yet met Nava Kurn, they may notice Young Bastards organizing quietly throughout the afternoon — people moving into position across the city, whispering instructions, clearing space. A DC 14 Insight or Perception check during afternoon hours reveals something coordinated is being planned.
+
+---
+
+### Phase 1 — The Illusion
+
+At sunset, the sky above Aris tears open.
+
+An Estaran host descends from the heavens — vast, silent, terrifying. Every detail is perfect: the crystalline armor, the cold geometric formations, the eerie humming of ancient power weapons charging. The illusion covers the entire city simultaneously.
+
+The city erupts. Crowds scatter. Street vendors abandon their stalls. Children cry. Shutters slam across the Living Districts. In the High Ward, the Veteran councilors spill into the streets and immediately begin shouting contradictory orders. Citizen guards form up without any coordination — some rushing toward the river markets, some toward the Hall of Allies, many simply milling in confusion.
+
+**For the party:**
+- Characters who have actually seen Estarans may make a DC 12 Investigation check to notice something is off about the illusion (it's too static, it doesn't move with full dimensional depth).
+- Anyone who casts *detect magic* or similar will immediately identify the illusion for what it is.
+- The party may try to calm those around them (Persuasion DC 13 to reassure a crowd, though they'll be skeptical) or join the Veterans organizing a response.
+
+---
+
+### Phase 2 — The Reveal
+
+After several minutes of chaos, the illusion collapses all at once.
+
+Nava Kurn appears on the steps of the River Market's central platform — a position visible to thousands. Her voice carries with magical amplification, ringing off the Estaran stonework.
+
+> *"Look at what just happened. An illusion — painted air — and your Veterans fell apart. No coordination. No plan. No leadership. These are the people who demand you keep funding their armies. These are the people who call themselves your protectors. They couldn't stop a shadow."*
+
+She is not shouting. She is calm, almost sad. The effect is devastating.
+
+The crowd reaction is divided: cheers from Young Bastard supporters in the Living Districts, furious silence from Veterans who have pushed to the front. A few people laugh. More look uncertain, shifting their weight.
+
+**For the party:**
+- If they approach Nava Kurn during this moment, she will acknowledge them briefly. She knows who they are. She's not interested in being stopped. If the party tries to argue with her, she has a sharp, clear answer: "Are they wrong?"
+- A DC 14 Persuasion check can convince her to retreat before Phase 3 begins. She'll tell the party they're asking her to be quiet so the Veterans can save face, and she expects something in return.
+
+---
+
+### Phase 3 — The Riot
+
+A Veteran captain shoves a Young Bastard in the crowd. The Young Bastard shoves back. A punch is thrown.
+
+Within minutes, fighting spreads across every district of the city. This is not a pitched battle — it is a hundred small violent confrontations, scattered from the River Markets to the High Ward gates. Both sides have people who wanted this. Nava Kurn is trying to de-escalate, but the moment has outrun her.
+
+**For the party:**
+- The party can intervene in individual brawls (each brawl: treat as 2-4 Veterans vs. 2-4 Young Bastards, all commoner or guard stats, nonlethal by default).
+- A DC 15 Persuasion check (with advantage if Aldrin, Erol, or Nava is present) can end a specific confrontation. De-escalating three or more confrontations visibly earns respect from both factions — but can't stop the riot citywide.
+- The streets are difficult terrain as crowds surge. Visibility is poor. Fires may start in the Living Districts if the riot goes on long enough.
+
+---
+
+### Gallifax
+
+Gallifax hears the riot begin from the Hall of Allies. He waits. This is what Ardo Manessi has been counting on — he knows the dragon will not let the city tear itself apart if he can stop it.
+
+After the second or third report of serious violence, Gallifax makes his choice. He leaves Maelric's side.
+
+The dragon erupts from the Hall of Allies into the night sky and begins flying low over the city, releasing long blasts of lightning into the air above crowd centers — not at people, but close enough to scatter them. His roar echoes off every stone surface in Aris.
+
+The fighting begins to thin. People run. But Gallifax is everywhere except where Maelric is.
+
+**For the party:**
+- If they have been trying to reach Gallifax for a conversation, this is their last window before the assassination attempt. He is in the air and moving fast, focused entirely on the riot. A flying party member or a very loud, very public shout for his attention (DC 16 Persuasion, he is not in a listening mood) may get a few seconds with him.
+- Gallifax will not return to the Hall of Allies voluntarily until the riot is contained. He is not abandoning Maelric — he is choosing the city. He will regret this.
+
+---
+
+### Scene End
+
+The riot is not over, but it begins to thin under Gallifax's intervention. The party, wherever they are, hears shouting from the direction of the Hall of Allies.
+
+Something has gone wrong.
+
+*Move to Encounter 3: The Attempt on Maelric.*
+
 ## 3. The Attempt on Maelric
+
+While Gallifax circles the city and the riot burns itself out, Ardo Manessi's assassins move.
+
+Ardo has no part in the Young Bastards' demonstration — he didn't need to. He only needed to know it was coming, and he's had people watching Nava Kurn for weeks. When Gallifax left the Hall of Allies, a signal was sent.
+
+---
+
+### The Assassins
+
+Ardo has sent three operatives: a pair of career killers (use **Spy** stats) and a third who serves as lookout and escape coordinator (use **Bandit Captain** stats). They are professionals. They do not linger. Their instructions are simple: Maelric does not wake up, and they are not caught.
+
+They enter through the Underworks — Ardo provided a route through sealed Estaran tunnels that bypasses the Hall's guarded entrances. They surface inside the Hall itself, behind the crystal columns near Maelric's trance-chamber.
+
+The entire operation is designed to take less than five minutes.
+
+---
+
+### If the Party Returns in Time
+
+If any party members are at or near the Hall of Allies when the assassins move, they will encounter them before the deed is done.
+
+The assassins do not want a fight — they want to vanish. If confronted, the lookout immediately begins withdrawing toward the Underworks entrance while the two killers buy time. They will flee rather than fight to the death; their loyalty is to payment, not the cause.
+
+**Capture and Questioning:**
+- A captured assassin knows only what they need to know: the entry route, the target, and a dead-drop location for their payment.
+- DC 14 Intimidation or DC 16 Persuasion to get the name of who hired them. They are afraid of Ardo, but they are more afraid of dying in a Hall guarded by an ancient dragon.
+- The dead-drop location and the Underworks route are traceable back to Ardo if the party investigates.
+
+Maelric survives. He remains in his trance, undisturbed. Gallifax, when he returns, will be grim and grateful and ask no questions he doesn't want answered.
+
+---
+
+### If the Party Does Not Return
+
+The assassins reach Maelric. They are efficient. He does not suffer.
+
+By the time anyone raises an alarm, the three operatives are already back in the Underworks and gone. There is no body left behind, no evidence of how they entered. The Hall's guards — those not drawn out by the riot — find Maelric cold in his chair. The wound is small and precise.
+
+Ardo Manessi will be among the first to arrive on the scene, looking shaken and grief-stricken.
+
+---
+
+### Gallifax's Return
+
+Whether Maelric lives or dies, Gallifax returns to the Hall of Allies as the riot finally breaks. He lands hard in the central chamber and goes immediately to Maelric's side.
+
+**If Maelric survived:** Gallifax stands over the trance-throne for a long moment, then turns to whoever is present. He says nothing. His relief and his shame are both plain on his face. He will carry this.
+
+**If Maelric is dead:** A sound comes from the Hall that people will describe for the rest of their lives. Not a roar — something lower, something that shakes the crystal in the walls and the bones in the chest. Gallifax does not move for several minutes.
+
+Then he asks, very quietly, who did this.
+
+No one can give him a name. But there is one name everyone in the city knows.
+
+---
+
+### Gallifax and Nava Kurn
+
+Gallifax does not investigate. He does not ask questions. He has watched Nava Kurn for weeks — watched her speeches, watched the riots she stoked, watched the city he loves pull itself apart at her urging. And now Maelric is dead and she is the reason the city was burning when it happened.
+
+He finds her in the town square.
+
+Nava Kurn is there with her people, trying to manage the aftermath of the riot, likely still arguing with Veterans, perhaps speaking to a crowd. She sees the dragon descend and she does not run. She faces him.
+
+Gallifax does not speak. He exhales.
+
+The lightning bolt is not a warning. It is not a performance. It is the act of a creature who has decided, and the decision took less than a breath. Hundreds of people are watching. Nava Kurn has no chance of surviving this.
+
+When it is over, Gallifax looks at the crowd around her — the stunned, the screaming, the ones who cannot move — and then he lifts from the square and does not come back.
+
+He leaves Aris. He leaves Maelric's body. He leaves the city he has guarded for a century.
+
+He is gone.
+
+---
+
+### Aftermath
+
+The political situation in Aris collapses. Maelric is dead. Nava Kurn is dead. Gallifax is gone. The Citizen Conference has no clear authority and two martyrs.
+
+Ardo Manessi moves quickly into the vacuum.
+
+Aldrin and Erol are left standing in the wreckage, and the party has a world to save and a machine waiting to take them somewhere else.
+
+Whatever unfinished business remains in Aris, the clock has run out.
