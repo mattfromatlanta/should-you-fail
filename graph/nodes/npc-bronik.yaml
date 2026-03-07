@@ -1,0 +1,35 @@
+id: npc-bronik
+type: npc
+name: Bronik
+tags: [half-dragon, white-dragon, son-of-torma, party-ally, wyvern]
+status: alive
+summary: White half-dragon son of Torma the Unforgiving; captured in Chapter 2; became a trusted party companion; accompanying the party back to the Material Plane.
+content: |
+  White half-dragon who rides a wyvern named Dirge. Son of Torma the Unforgiving and brother
+  to the traitorous Gullux. Came searching for Gullux and the stolen treasure after Gullux
+  betrayed Torma by stealing dragon eggs. Recognized items from Torma's hoard (adamantine armor
+  and flaming sword) when he encountered the party.
+
+  Captured by the party in Chapter 2. Over time accepted them and became a trusted companion.
+  Traveled to Naeliste with the party and Cetyri. Stayed in Naeliste with the Goblins while
+  the party sought the Trickster. Later accompanied Cetyri into the Feywild when the dragon
+  fled—out of simple friendship and loyalty.
+
+  Stays out of combat but provides support to Cetyri. Returning to the Material Plane with the
+  party at end of Chapter 6.
+relationships:
+  - target: npc-torma-the-unforgiving
+    rel: family
+    notes: Son; was her loyal agent searching for Gullux
+  - target: npc-gullux
+    rel: family
+    notes: Brother; Gullux was a traitor to Torma
+  - target: npc-cetyri
+    rel: ally
+    notes: Close friend; accompanied him into the Feywild
+  - target: location-naeliste
+    rel: stayed_in
+    notes: Made friends with the Goblins in Chapter 3
+sources:
+  - npcs/heroes/bronik.md
+  - chapters/chapter-2-darkness.md

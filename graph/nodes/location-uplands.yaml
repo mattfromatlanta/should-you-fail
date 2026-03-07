@@ -1,0 +1,29 @@
+id: location-uplands
+type: location
+name: The Uplands
+tags: [tundra, north, lome, east-hills, upland-stair]
+status: active
+summary: Tundra region north of the Faedwood; home to Lome and the East Hills cave systems; accessible via the Upland Stair.
+content: |
+  Tundra region characterized by thin air, cold winds, and serene beauty. Patches of snow
+  remain even after winter—"serene purity" contrasted with the Faedwood's richness. Contains
+  Lome village (now evacuated), the Upland Stair, the Teeth ridge, East Falls, and the
+  East Hills to the east.
+
+  Sub-locations:
+  - Upland Stair: narrow 250-foot switchback connecting to the Faedwood below
+  - The Teeth: high ridge west of the Upland Stair; Erol and Lamat's manor sits here
+  - East Falls: waterfall at the cliff's edge overlooking the Faedwood
+  - Lome: highland village at the confluence of two mountain streams (evacuated)
+  - East Hills: mountain range where Dragonborn established their cave hideout
+relationships:
+  - target: location-faedwood
+    rel: connected_to
+  - target: location-lome
+    rel: contains
+  - target: location-upland-stair
+    rel: contains
+  - target: location-east-hills
+    rel: connected_to
+sources:
+  - world/locations.md

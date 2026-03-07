@@ -1,0 +1,19 @@
+id: location-qu
+type: location
+name: Qu
+tags: [feywild, wasteland, settlement, cetyri, chapter-6]
+status: active
+summary: Small Fey settlement on the edge of the Feywild wasteland where Cetyri and Bronik took shelter before the party caught up to them.
+content: |
+  A rougher town on the edge of the Feywild wasteland. Cetyri and Bronik sheltered here briefly
+  before the party tracked them down. The party arranged a heart-to-heart conversation here,
+  convincing Cetyri to stop running and commit to the cause.
+relationships:
+  - target: location-feywild-wasteland
+    rel: located_in
+  - target: npc-cetyri
+    rel: visited_by
+  - target: npc-bronik
+    rel: visited_by
+sources:
+  - chapters/chapter-6a-into-the-wild.md

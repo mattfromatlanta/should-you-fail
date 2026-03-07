@@ -1,0 +1,34 @@
+id: enc-ch5-05-the-fire-trap
+type: encounter
+name: "Ch5 E05: The Fire Trap"
+tags: [chapter-5, combat, shadow-projection, felicity, fire, third-capture]
+status: complete
+summary: Felicity burns her own safehouse to lure the party back; when they investigate, they are pulled into the Shadow Projector a third time—but this time receive an invitation deeper.
+content: |
+  The night after the raid, Felicity sets fire to the safehouse herself. The blaze draws the
+  party back to investigate. When they arrive: they are pulled into the Shadow Projector for
+  the third time. They fight Felicity's minions in the shadow space.
+
+  After defeating them, something unexpected happens. Instead of being expelled back to the
+  Material Plane, they sense an invitation to go deeper—not expulsion but a beckoning. They
+  accept. This is Yrk's arrangement coming to fruition: the meeting with Milicent, finally.
+
+  The fire was always the plan—a dramatic way to guarantee the party would be in the right
+  place for the shadow seizure that would lead to the audience.
+relationships:
+  - target: npc-felicity
+    rel: features
+  - target: npc-milicent
+    rel: features
+    notes: The invitation deeper is her opening the door
+  - target: npc-yrk-the-trickster
+    rel: referenced_in
+    notes: Yrk's arrangement is being fulfilled
+  - target: concept-shadow-projector
+    rel: features
+  - target: chapter-5-return-to-oechenfor
+    rel: part_of
+  - target: location-oechenfor
+    rel: set_in
+sources:
+  - chapters/chapter-5-return-to-oechenfor.md

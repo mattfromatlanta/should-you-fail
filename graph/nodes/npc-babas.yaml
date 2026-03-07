@@ -1,0 +1,10 @@
+id: npc-babas
+type: npc
+name: Babas
+tags: [player-character, cleric, human, female, party]
+status: alive
+summary: Female human cleric; one of the seven player characters.
+content: |
+  Player character. Female human cleric. One of the seven members of the party.
+relationships: []
+sources: []

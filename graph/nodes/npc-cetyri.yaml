@@ -1,0 +1,43 @@
+id: npc-cetyri
+type: npc
+name: Cetyri
+tags: [dragon, gold-dragon, revenant, blind, singularity, party-ally]
+status: undead
+summary: Blind gold dragon revenant, former prisoner of Milicent for a century; the intended Dragon Singularity; committed ally as of Chapter 6.
+content: |
+  Once a protector of good people. Captured by Milicent, used to train her Death Knights for a
+  century. Died as her prisoner and returned as a revenant. His soul exhibits an irregular,
+  dispersed pattern with strands reaching across many worlds simultaneously—the basis of
+  Milicent's plan for the Dragon Singularity.
+
+  He is blind and was found in the Underdark lake in Chapter 2 (his body was carried there by
+  water after death). He initially assumed he was still in Milicent's dungeon.
+
+  After Lomani Nae's careful examination revealed knowledge of dragon multiplicity, he fled into
+  the Feywild with Bronik to protect the secret. The party tracked him to Qu in Chapter 6a and
+  had an honest conversation about the 54 apocalypses, the Dragon Singularity, and the stakes.
+  He committed to the cause—frightened but understanding the necessity.
+
+  Returning to the Material Plane with the party at end of Chapter 6. Still needs time to process
+  his role. Sight not yet restored ("blind for the moment" per DM notes).
+relationships:
+  - target: npc-milicent
+    rel: former_prisoner_of
+    notes: Prisoner for a century; tortured to train Death Knights
+  - target: npc-bronik
+    rel: ally
+    notes: Bronik accompanied him into the Feywild out of friendship
+  - target: npc-lomani-nae
+    rel: examined_by
+    notes: Lomani discovered his soul's multiverse-spanning nature
+  - target: concept-dragon-singularity
+    rel: destined_for
+  - target: location-underdark
+    rel: found_at
+    notes: Discovered in the underground lake in Chapter 2
+  - target: chapter-2-darkness
+    rel: appears_in
+sources:
+  - npcs/heroes/cetyri.md
+  - chapters/chapter-2-darkness.md
+  - chapters/chapter-6a-into-the-wild.md

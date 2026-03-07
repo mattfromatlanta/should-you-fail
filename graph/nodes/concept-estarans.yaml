@@ -1,0 +1,43 @@
+id: concept-estarans
+type: concept
+name: The Estarans (Estara)
+tags: [estarans, estara, cosmic-threat, planar, ancient, empire]
+summary: Ancient extra-world beings who ruled mortals for millennia, banished in the Rebellion, and planning a 55th cosmic annihilation.
+content: |
+  The Estarans are powerful beings who are not native to the mortal world—they came from somewhere
+  else entirely and rule a vast multi-world empire. Approximately 2,000 years ago they arrived on
+  the mortal world, conscripted mortals into extra-planar wars, and were eventually banished in the
+  Rebellion ~150 years ago.
+
+  Their most terrifying secret: when a rebellion or Dragon Singularity threatens their empire,
+  they enact their "Last Resort"—the complete annihilation of the Material Plane, followed by
+  reconstruction under their control. They have done this 54 times. The current world is the 55th
+  iteration. They are preparing to do it again.
+
+  Key properties:
+  - Not native to this world; operate across a vast multi-world empire
+  - Keep worlds isolated from one another to prevent awareness of their scale
+  - Veterans' fragmented memories result from this isolation strategy
+  - Vulnerable to necrotic energy (fundamentally opposes their ordered nature)
+  - Use Radiant Projectors to travel between worlds
+  - Laid psychic traps in veterans' minds to prevent recovering lost memories
+  - Fear Dragon Singularities (Unary Great Wyrms) above all else
+  - Incursions follow an escalating pattern before permanent presence is established
+relationships:
+  - target: concept-dragon-singularity
+    rel: fears
+  - target: concept-shadow-projector
+    rel: inspired
+    notes: Shadow Projector is a corrupted Radiant Projector
+  - target: event-first-war
+    rel: caused
+  - target: event-rebellion
+    rel: caused
+  - target: npc-milicent
+    rel: enemy_of
+sources:
+  - world/cosmology.md
+  - world/history.md
+  - chapters/chapter-3-shadow-pursuit.md
+  - chapters/chapter-5-return-to-oechenfor.md
+  - chapters/chapter-6a-into-the-wild.md

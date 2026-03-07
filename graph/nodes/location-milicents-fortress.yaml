@@ -1,0 +1,20 @@
+id: location-milicents-fortress
+type: location
+name: Milicent's Mountain Fortress
+tags: [shadowfell, milicent, shadow-projector, dread-legion, fortress]
+status: active
+summary: Milicent's seat of power in the Shadowfell; houses the Shadow Projector; where the party first met Milicent in Chapter 5.
+content: |
+  A massive fortress in the Shadowfell, located in the mountains. The Shadow Projector is
+  housed here. Contains audience halls, a sealed chamber where Milicent keeps an imprisoned
+  Estaran, and quarters for the Dread Legion. The party visited in Chapter 5 as guests, learned
+  the truth about the 54 apocalypses, and forged their alliance with Milicent here.
+relationships:
+  - target: npc-milicent
+    rel: controlled_by
+  - target: concept-shadow-projector
+    rel: contains
+  - target: location-shadowfell
+    rel: located_in
+sources:
+  - chapters/chapter-5-return-to-oechenfor.md

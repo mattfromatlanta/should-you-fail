@@ -1,0 +1,31 @@
+id: enc-ch4-05-the-sunken-fortress
+type: encounter
+name: "Ch4 E05: The Sunken Fortress"
+tags: [chapter-4, exploration, combat, estaran-ruin, multiverse, twin-dragons, impossible-space]
+status: complete
+summary: The party discovers an Estaran tower ruin at the bottom of a lake with impossible spatial properties; they encounter two identical young black dragons—the same dragon in two bodies.
+content: |
+  At the bottom of a lake in the southern Drekklands, the party discovers an Estaran tower
+  ruin. The structure demonstrates the Estara's reality-bending architecture: the interior is
+  larger than the exterior, space is fragmented or damaged, and portals randomly connect
+  different areas—causing the party to become separated as they explore.
+
+  Inside: two young black dragons that appear identical. They are the same dragon in two
+  bodies—a concrete piece of evidence for the multiverse. The party may not consciously
+  register the implication, but it reinforces the concept underlying Cetyri's potential as a
+  Unary Great Wyrm.
+
+  The party defeats both dragons and proceeds.
+relationships:
+  - target: concept-estarans
+    rel: features
+    notes: Estaran ruin demonstrates their reality-bending architecture
+  - target: concept-dragon-singularity
+    rel: referenced_in
+    notes: Twin dragons hint at the multiverse concept that underlies the singularity
+  - target: chapter-4-journey-to-the-trickster
+    rel: part_of
+  - target: location-drekklands
+    rel: set_in
+sources:
+  - chapters/chapter-4-journey-to-trickster.md

@@ -1,0 +1,23 @@
+id: npc-peno
+type: npc
+name: Peno
+tags: [player-character, fighter, maul, melee, party, goliath]
+status: alive
+summary: Goliath fighter; primary melee combatant who typically wields a maul; seasonal work for Breeci Gibbal in Oechenfor.
+content: |
+  Player character. Goliath fighter who specializes in direct melee combat, typically
+  wielding a maul. Seasonally employed by Breeci Gibbal, a Svirfneblin apothecary
+  in Oechenfor.
+
+  Notable moments:
+  - Ch6b E01: Hammered Egedzoo with his maul once Aelira's webbing pinned the dragon,
+    contributing to a swift decisive kill.
+relationships:
+  - target: enc-ch6b-01-egedzoo-assault
+    rel: appears_in
+  - target: npc-breeci-gibbal
+    rel: employed_by
+    notes: Seasonal work as Breeci's employee in Oechenfor
+sources:
+  - prompts/session-worksheets/chapter-6b-egedzoo-assault.md
+  - npcs/mortals/breeci-gibbal.md

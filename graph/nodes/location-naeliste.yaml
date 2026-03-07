@@ -1,0 +1,38 @@
+id: location-naeliste
+type: location
+name: Naeliste
+tags: [feywild, fey-city, eladrin, goblin, bullywug, safe-haven, library]
+status: active
+summary: Fey city built at the base of the Teeth cliffs where the West Falls thunder down; home to Eladrin, Goblins, and Bullywugs; safe from Milicent's tracking.
+content: |
+  Lies in the shadow of the Teeth at the base of the cliff face. The West Falls thunder down
+  feeding a wide basin of marshland, river delta, and shallow lake. Three peoples:
+  - Eladrin: slender towers stretching hundreds of meters, shifting with seasonal moods
+  - Goblins: carved into the cliff stone behind the waterfalls (Goblinville, Goblinworks)
+  - Bullywugs: low round homes at the water's edge (Foot of the Falls)
+
+  Key locations: Library of Rhymes and Antiquities (Melbara), The Circle (teleportation nexus,
+  Lomani Nae), The Echo Root (memory exchange chamber), The Four Towers (Shifting Sky, Long
+  Step, Falling Mist, Umbral Bound), Goblinworks (Eigitch's submarine built here).
+
+  Special property: Milicent cannot track visitors while they remain in Naeliste. Five Oni
+  guard the approach and require the "joining pact" phrase for entry.
+
+  The party used Naeliste as base of operations in Chapters 3 and 6.
+relationships:
+  - target: npc-melbara
+    rel: contains
+  - target: npc-lomani-nae
+    rel: contains
+  - target: npc-eigitch-the-old
+    rel: contains
+  - target: npc-bronik
+    rel: contains
+    notes: Bronik stayed here during Chapters 3-4
+  - target: location-feywild
+    rel: located_in
+  - target: location-teeth
+    rel: located_near
+sources:
+  - world/naeliste.md
+  - chapters/chapter-3-shadow-pursuit.md

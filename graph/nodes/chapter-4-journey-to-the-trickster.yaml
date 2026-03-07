@@ -1,0 +1,65 @@
+id: chapter-4-journey-to-the-trickster
+type: chapter
+name: Chapter 4: Journey to the Trickster
+tags: [chapter, drekklands, yrk, tricksters-blessing, underwet, aboleth, bullywugs]
+status: complete
+summary: Party travels the Underwet by submarine, reunites the Gulpfen Brood, discovers the Sunken Fortress (Estaran ruin), and receives the Trickster's Blessing from Yrk.
+content: |
+  Eigitch took the party through the Underwet in his submarine. After fighting chuul along the
+  way, they surfaced in a cave where they battled kua-toa and rescued four bullywugs from the
+  mental grip of an Aboleth named Mr'Hrm'N'Ahir. Before they defeated it, the Aboleth asked a
+  cryptic question: "How many moments has this world existed?" The question was a subtle hint
+  that there have been worlds before this one.
+
+  The party surfaced with the rescued bullywugs at Bullhome, a ruined keep by a vast lake in the
+  Drekklands. There they met the rest of the Gulpfen Brood, separated when the strongest members
+  set out through water passages while others waited at the keep. The party reunited the tribe.
+  The Gulpfen survivors warned about Kriv the Blacktongue, the greatest black dragon in the
+  eastern Drekklands.
+
+  The party set out southwest to avoid Kriv's territory, traveling through the Drekklands' strange
+  and dangerous landscape. The swamp exhibited magical instability: shifting channels, temporal
+  slippage, illusion-rooted flora, mood-inducing weather, and terrain that folded back on itself.
+  They encountered dinosaurs, trolls, and worse.
+
+  In the southern Drekklands, they discovered a sunken Estaran tower at the bottom of a lake. The
+  interior was larger than the exterior, with fragmented space and random portals linking different
+  areas. The party became separated as they explored and faced two young black dragons—but
+  something was wrong. The dragons appeared to be exactly the same dragon in two bodies, a hint
+  at the multiverse's nature.
+
+  Realizing they had to go east to find the Trickster, the party cautiously entered Kriv's
+  territory. When they arrived at the great dragon's lair, they found Kriv already dead—slain by
+  an unknown force.
+
+  A lone goblin attacked them. This was Yrk the Trickster, and despite being nearly 2000 years
+  old, his power was remarkable. He defeated the party easily, slaying them one by one.
+
+  The party awoke with Yrk in a strange space—like a shadow projection but somehow calmer. Yrk
+  apologized. This was the Trickster's Blessing. Through their deaths in his calm shadow space,
+  they had been severed from their mortal attachments to the Material Plane. They could no longer
+  be followed by Milicent or tracked on the Material Plane.
+
+  They returned with Yrk to the material world and reunited with Eigitch. The ancient goblin and
+  his great-great-great-grandson greeted each other with dry, understated affection. The party
+  asked Yrk to reach out to Milicent seeking an audience, and he agreed to contact the Shadowdame.
+
+  Eigitch and the party made their way back to Naeliste by submarine, now invisible to Milicent's
+  gaze and ready for what comes next.
+relationships:
+  - target: npc-yrk-the-trickster
+    rel: features
+  - target: npc-eigitch-the-old
+    rel: features
+  - target: location-drekklands
+    rel: set_in
+  - target: location-underwet
+    rel: set_in
+  - target: concept-tricksters-blessing
+    rel: introduces
+  - target: chapter-3-shadow-pursuit
+    rel: preceded_by
+  - target: chapter-5-return-to-oechenfor
+    rel: followed_by
+sources:
+  - archive/chapters/chapter-4-journey-to-trickster.md

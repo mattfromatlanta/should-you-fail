@@ -1,0 +1,26 @@
+id: enc-ch3-01-pursuit-to-naeliste
+type: encounter
+name: "Ch3 E01: Pursuit to Naeliste"
+tags: [chapter-3, travel, milicent-agents, naeliste, tricksters-blessing-goal]
+status: complete
+summary: The party is pursued by Milicent's forces but makes it to Naeliste—one of the few places on the Material Plane where she cannot track them.
+content: |
+  After separating from Erol, Lamat, and Lome's citizens (who went south to Oechenfor), the
+  party travels east with Cetyri and Bronik toward Naeliste. Milicent's forces pursue them on
+  the Material Plane. They are vulnerable until they reach the safety of the Fey city.
+
+  Naeliste is protected: Milicent cannot track visitors while they remain within it. The party
+  passes through the five Oni guards who demand the "joining pact" phrase, gaining entry.
+
+  Erol's advice directed them here specifically—she knew about Naeliste's protection and the
+  need to seek the Trickster's Blessing.
+relationships:
+  - target: npc-milicent
+    rel: features
+    notes: Her forces pursue the party
+  - target: chapter-3-shadow-pursuit
+    rel: part_of
+  - target: location-naeliste
+    rel: set_in
+sources:
+  - chapters/chapter-3-shadow-pursuit.md

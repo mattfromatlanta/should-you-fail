@@ -1,0 +1,38 @@
+id: location-aris
+type: location
+name: Aris
+tags: [allied-cities, capital, political, hall-of-allies, estaran-architecture]
+status: active
+summary: Largest city and political capital of the Allied Cities; seat of the Counsel of Citizens; built atop the largest known Estaran stronghold complex.
+content: |
+  Aris sprawls across seven hills at the confluence of two rivers. Built atop and from the bones
+  of an ancient Estaran stronghold—the largest such complex in the known world. Population ~50,000
+  souls. The most cosmopolitan settlement in the Allied Cities.
+
+  The Hall of Allies dominates the highest hill: originally an Estaran command nexus, now the
+  seat of government. Gallifax's lair is in the Hall's vast central chamber, large enough to
+  house him comfortably. Maelric's throne sits there under vigil.
+
+  Districts: High Ward (Estaran towers, government, wealthy), Living Districts (vast majority
+  of population, Young Bastards support), Underworks (sealed Estaran underground), River Markets
+  (floating market platforms at river confluence).
+
+  Current situation (Chapter 7): Political crisis following Maelric's catatonic state.
+  Veterans faction vs. Young Bastards reform movement. Doppelganger infiltration (per Ch3 lore).
+  Aldrin and Erol arrived trying to stabilize things.
+relationships:
+  - target: faction-allied-cities
+    rel: capital_of
+  - target: faction-counsel-of-citizens
+    rel: contains
+  - target: npc-gallifax
+    rel: contains
+    notes: Gallifax's lair is in the Hall of Allies
+  - target: npc-maelric-sturmwald
+    rel: contains
+  - target: concept-estarans
+    rel: built_by
+    notes: Built atop and from ancient Estaran stronghold
+sources:
+  - world/locations.md
+  - chapters/chapter 7/chapter-7-synopsis.md

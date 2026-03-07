@@ -1,0 +1,22 @@
+id: npc-twi-xu
+type: npc
+name: Twi'Xu, Animal Lord, Lieutenant of Bluebirds
+tags: [fey, animal-lord, xilo, feywild, ally]
+status: alive
+summary: Animal Lord and close lieutenant of Xilo; stationed in Rinick's Diner to observe Egedzoo; helped arrange the party's meeting with Xilo.
+content: |
+  Powerful fey creature sworn vassal to Xilo, Lord of Robins. One of Xilo's closest advisors.
+  Encountered at Rinick's Diner in a tense standoff with Egedzoo—neither willing to fight in
+  neutral territory. Agreed to help arrange a meeting with Xilo after learning the party works
+  with Milicent. Could not leave his post to guide them directly—doing so would give Egedzoo
+  too much freedom.
+relationships:
+  - target: npc-xilo-lord-of-robins
+    rel: serves
+  - target: npc-egedzoo
+    rel: monitors
+  - target: location-rincks-diner
+    rel: based_at
+sources:
+  - npcs/fey/twi-xu.md
+  - chapters/chapter-6a-into-the-wild.md

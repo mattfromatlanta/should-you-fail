@@ -1,0 +1,23 @@
+id: npc-ahkkathassys
+type: npc
+name: Ahkkathassys
+tags: [lizardfolk, oechenfor, founder, bard, drekklands]
+status: alive
+summary: Lizardfolk traveling bard from the Drekklands; one of the six Founders of Oechenfor; recruited by Adrum Zannis at Aldrin Stoneward's suggestion; still resides in Oechenfor.
+content: |
+  Traveling bard from the Drekklands. Recruited to come to Oechenfor by Adrum Zannis at the
+  suggestion of Aldrin Stoneward, becoming one of the six Founders of the city. Still resides
+  in Oechenfor.
+relationships:
+  - target: npc-adrum-zannis
+    rel: ally
+    notes: She recruited him to Oechenfor
+  - target: npc-aldrin-stoneward
+    rel: ally
+    notes: Aldrin suggested his recruitment
+  - target: location-oechenfor
+    rel: founded
+  - target: location-drekklands
+    rel: originated_from
+sources:
+  - npcs/mortals/ahkkathassys.md

@@ -1,0 +1,20 @@
+id: enc-ch1-04-a-glimpse-of-the-enemy
+type: encounter
+name: "Ch1 E04: A Glimpse of the Enemy"
+tags: [chapter-1, combat, dragonborn, the-nest, faepath]
+status: complete
+summary: First combat with White Dragonborn soldiers at The Nest waypoint on the Faepath.
+content: |
+  The party's first direct combat encounter of the campaign. White Dragonborn soldiers have
+  posted at The Nest—the stone dome waypoint on the Faepath. The party engages and defeats
+  them, getting their first look at the enemy: these Dragonborn speak a crude dialect of
+  Draconic unfamiliar to local speakers.
+
+  Loot from invaders' stash: 10 Walloping Arrows.
+relationships:
+  - target: chapter-1-invaders
+    rel: part_of
+  - target: location-faedwood
+    rel: set_in
+sources:
+  - chapters/chapter-1-invaders.md

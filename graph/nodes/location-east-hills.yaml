@@ -1,0 +1,20 @@
+id: location-east-hills
+type: location
+name: East Hills
+tags: [uplands, mountains, dragonborn, cave-system, chapter-1]
+status: active
+summary: Mountain range east of the Uplands where White Dragonborn established their cave hideout; leads down to the Underdark.
+content: |
+  Mountain range east of the Uplands. Dragonborn invaders established their hideout in cave
+  systems at the base. The cave system extends deep underground to the Underdark, where the
+  party explored in Chapter 2. After the dragon threat, the caves served as temporary refuge
+  for Lome's citizens.
+relationships:
+  - target: location-uplands
+    rel: located_near
+  - target: location-underdark
+    rel: contains
+sources:
+  - world/locations.md
+  - chapters/chapter-1-invaders.md
+  - chapters/chapter-2-darkness.md

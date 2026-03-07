@@ -1,0 +1,173 @@
+# Should You Fail - Graph Node Index
+# Lists all nodes by type. Update this index when adding new nodes.
+
+factions:
+  - faction-allied-cities
+  - faction-counsel-of-citizens
+  - faction-milicents-forces
+  - faction-rebel-fey
+  - faction-lome-monastery
+
+concepts:
+  - concept-estarans
+  - concept-dragon-singularity
+  - concept-shadow-projector
+  - concept-tricksters-blessing
+
+npcs:
+  # Player Characters
+  - npc-cormin       # Sorcerer (mind magic)
+  - npc-aelira       # Druid (Robe of Eyes; bonded to Hootini)
+  - npc-sylvaris     # Ranger
+  - npc-peno         # Fighter (maul)
+  - npc-babas        # Cleric, female human
+  - npc-beacon       # Warlock, male human
+  - npc-valen        # Paladin (Oath of Vengeance), male human
+  # Heroes / Party Allies
+  - npc-gallifax
+  - npc-cetyri
+  - npc-bronik
+  - npc-felicity
+  - npc-yrk-the-trickster
+  - npc-aldrin-stoneward
+  - npc-maelric-sturmwald
+  - npc-erol
+  - npc-lamat
+  - npc-hootini
+  - npc-eigitch-the-old
+  # Fey Allies
+  - npc-melbara
+  - npc-lomani-nae
+  - npc-caera
+  - npc-xilo-lord-of-robins
+  - npc-ozevriel
+  - npc-twi-xu
+  # Mortals
+  - npc-brother-alistair
+  - npc-kruftus-unter
+  - npc-fzuga
+  - npc-midge-wittle
+  - npc-gord-lankenmangled
+  # Oechenfor NPCs
+  - npc-delamin-van-morgaaran  # Cormin's eldest brother; head of Van Morgaaran Trading
+  - npc-maelyn-heatherfields   # Delamin's lieutenant; Cormin ally
+  - npc-taram-thristle         # City counselor; Cormin's old school friend
+  - npc-nirsa-hoegartner       # Socialite; Taram's ex-wife; now with Ooli
+  - npc-ooli-forgegarden       # Dwarf city counselor; with Nirsa
+  - npc-adrum-zannis           # Svirfneblin Founder; runs Adrum's Vault
+  - npc-ahkkathassys           # Lizardfolk bard Founder
+  - npc-breeci-gibbal          # Svirfneblin apothecary; employs Peno
+  # Chapter 7: Aris NPCs
+  - npc-nava-kurn              # Young Bastards faction leader
+  - npc-ardo-manessi           # Ambitious double-dealer; secretly plots against Maelric
+  # Foes
+  - npc-gullux
+  - npc-torma-the-unforgiving
+  - npc-egedzoo
+  - npc-mr-hrm-n-ahir
+  - npc-maxxa-twins
+  # Milicent (complex - foe/ally)
+  - npc-milicent
+
+locations:
+  # Allied Cities / Material Plane
+  - location-aris
+  - location-oechenfor
+  - location-lome
+  - location-faedwood
+  - location-uplands
+  - location-upland-stair
+  - location-teeth
+  - location-east-hills
+  - location-underdark
+  - location-drekklands
+  - location-underwet
+  # Feywild
+  - location-feywild
+  - location-feywild-wasteland
+  - location-naeliste
+  - location-rincks-diner
+  - location-qu
+  - location-memorial-of-ozevriel
+  # Shadowfell
+  - location-shadowfell
+  - location-milicents-fortress
+
+events:
+  - event-first-war
+  - event-rebellion
+  - event-dragonborn-invasion
+  - event-milicent-alliance
+
+chapters:
+  - chapter-1-invaders
+  - chapter-2-darkness
+  - chapter-3-shadow-pursuit
+  - chapter-4-journey-to-the-trickster
+  - chapter-5-return-to-oechenfor
+  - chapter-6a-into-the-wild
+  - chapter-6b-death-to-egedzoo
+  - chapter-7-aris-the-fracturing-capital
+
+artifacts:
+  - artifact-testament-of-embers
+  - artifact-letter-from-grib
+  - artifact-ode-to-seven-lords
+  - artifact-letter-from-caera
+
+encounters:
+  # Chapter 1: Invaders
+  - enc-ch1-01-the-meeting
+  - enc-ch1-02-faeries-are-angry
+  - enc-ch1-03-a-carcass-a-mess
+  - enc-ch1-04-a-glimpse-of-the-enemy
+  - enc-ch1-05-the-stair-is-held
+  - enc-ch1-06-the-missing-heroes
+  - enc-ch1-07-a-town-under-siege
+  - enc-ch1-08-we-drive-them-out
+  - enc-ch1-09-the-dream
+  - enc-ch1-10-waking
+  # Chapter 2: Darkness
+  - enc-ch2-01-what-lome-needs
+  - enc-ch2-02-wary-hippogriffs
+  - enc-ch2-03-whats-in-a-hole
+  - enc-ch2-04-beholders-realm
+  - enc-ch2-05-the-revenant
+  - enc-ch2-06-back-to-the-shadow
+  - enc-ch2-07-come-with-me
+  # Chapter 3: The Shadow Pursuit
+  - enc-ch3-01-pursuit-to-naeliste
+  - enc-ch3-02-library-research
+  - enc-ch3-03-lomani-examines-cetyri
+  - enc-ch3-04-eigitch-and-the-plan
+  # Chapter 4: Journey to the Trickster
+  - enc-ch4-01-the-underwet-journey
+  - enc-ch4-02-the-aboleth
+  - enc-ch4-03-bullhome-reunion
+  - enc-ch4-04-drekklands-travel
+  - enc-ch4-05-the-sunken-fortress
+  - enc-ch4-06-krivs-territory
+  - enc-ch4-07-the-tricksters-test
+  - enc-ch4-08-audience-with-yrk
+  # Chapter 5: Return to Oechenfor
+  - enc-ch5-01-return-through-faedwood
+  - enc-ch5-02-the-missing-children
+  - enc-ch5-03-gords-betrayal
+  - enc-ch5-04-the-quickling-safehouse
+  - enc-ch5-05-the-fire-trap
+  - enc-ch5-06-milicents-fortress
+  - enc-ch5-07-the-imprisoned-estaran
+  - enc-ch5-08-the-alliance
+  # Chapter 6a: Into the Wild
+  - enc-ch6a-01-cetyris-flight
+  - enc-ch6a-02-feywild-entry
+  - enc-ch6a-03-rincks-diner
+  - enc-ch6a-04-confronting-cetyri
+  - enc-ch6a-05-aerial-attack
+  - enc-ch6a-06-ozevriel-memorial
+  - enc-ch6a-07-trapped-demons
+  - enc-ch6a-08-milicents-observatory
+  - enc-ch6a-09-meeting-xilo
+  # Chapter 6b: Death to Egedzoo
+  - enc-ch6b-01-egedzoo-assault
+  - enc-ch6b-02-xilo-alliance-and-return

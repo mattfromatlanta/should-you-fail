@@ -1,0 +1,22 @@
+id: enc-ch4-01-the-underwet-journey
+type: encounter
+name: "Ch4 E01: The Underwet Journey"
+tags: [chapter-4, travel, submarine, eigitch, rainbow-trout, underwet]
+status: complete
+summary: The party departs Naeliste in Eigitch's submarine "The Rainbow Trout" through the underground river system; a map error leads them off course into unexpected territory.
+content: |
+  The party boards Eigitch's submarine, the "Rainbow Trout," and descends into the Underwet—the
+  underground river system flowing beneath the Allied Cities. Travel through the Underwet is
+  protected from Milicent's tracking.
+
+  A mistake on Eigitch's map leads them off the planned route into unexpected territory—
+  setting up their encounter with the Aboleth.
+relationships:
+  - target: npc-eigitch-the-old
+    rel: features
+  - target: chapter-4-journey-to-the-trickster
+    rel: part_of
+  - target: location-underwet
+    rel: set_in
+sources:
+  - chapters/chapter-4-journey-to-trickster.md

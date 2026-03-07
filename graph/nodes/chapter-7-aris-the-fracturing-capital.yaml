@@ -1,0 +1,43 @@
+id: chapter-7-aris-the-fracturing-capital
+type: chapter
+name: Chapter 7: Aris - The Fracturing Capital
+tags: [chapter, aris, maelric, political-crisis, veterans, young-bastards, in-progress]
+status: in-progress
+summary: Party arrives in Aris to find the political situation fractured: Maelric is catatonic, Veterans vs Young Bastards battle for control, and Yrk/Felicity are en route.
+content: |
+  Aris is in crisis. Chief Exarch Maelric fell into a catatonic trance ~2 months ago after
+  triggering an Estaran psychic trap. The Counsel of Citizens is deadlocked: Veterans faction
+  (wants Council of Regency in Maelric's name) vs Young Bastards reform movement (wants
+  new leadership, veteran retirements, resource redistribution). Aldrin and Erol arrived and
+  are trying to hold things together.
+
+  Gallifax keeps strict vigil over Maelric, trusting no one. Ardo Manessi plays both sides.
+  Doppelganger infiltration rumored.
+
+  Yrk and Felicity will arrive a few days after the party, bringing the portable Radiant
+  Projector project. The party must navigate the political crisis while preparing for the
+  next phase of the cosmic quest.
+
+  Current status: In planning. Five key encounters TBD.
+relationships:
+  - target: npc-maelric-sturmwald
+    rel: centers_on
+  - target: npc-gallifax
+    rel: features
+  - target: npc-aldrin-stoneward
+    rel: features
+  - target: npc-erol
+    rel: features
+  - target: npc-yrk-the-trickster
+    rel: features
+    notes: Arriving a few days after the party
+  - target: npc-felicity
+    rel: features
+    notes: Arriving with Yrk
+  - target: location-aris
+    rel: set_in
+  - target: chapter-6b-death-to-egedzoo
+    rel: preceded_by
+sources:
+  - chapters/chapter 7/chapter-7-synopsis.md
+  - planning/chapter-7-campaign-notes.md

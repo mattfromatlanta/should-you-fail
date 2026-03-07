@@ -1,0 +1,36 @@
+id: enc-ch6a-03-rincks-diner
+type: encounter
+name: "Ch6a E03: Rinick's Diner"
+tags: [chapter-6a, roleplay, twi-xu, egedzoo, neutral-ground, xilo-connection]
+status: complete
+summary: The party enters Rinick's neutral-ground diner and interrupts a tense standoff between Twi'Xu (Xilo's lieutenant) and Egedzoo; Twi'Xu agrees to help arrange a meeting with Xilo.
+content: |
+  Rinick's Diner is a neutral-ground roadside establishment respected by all factions—violence
+  is forbidden. The party enters to find two dangerous patrons watching each other with deadly
+  intensity. Aelira uses her Robe of Eyes to see their true forms:
+
+  - Twi'Xu: Animal Lord, Lieutenant of Bluebirds, sworn vassal to Xilo, Lord of Robins.
+    He is observing Egedzoo on Xilo's orders.
+  - Egedzoo: Adult blue dragon in disguise, building territory and uniting hobgoblin factions.
+    He departs quietly to avoid provoking an Animal Lord on neutral ground.
+
+  The party engages Twi'Xu. When they explain they are searching for Cetyri and working with
+  Milicent, Twi'Xu confirms: all the Rebel Fey understand the debt owed to Milicent. He cannot
+  leave his post (giving Egedzoo too much freedom) but agrees to help arrange a Xilo meeting.
+  He confirms Cetyri and Bronik passed through heading to Qu.
+relationships:
+  - target: npc-twi-xu
+    rel: features
+  - target: npc-egedzoo
+    rel: features
+  - target: npc-xilo-lord-of-robins
+    rel: referenced_in
+  - target: npc-aelira
+    rel: features
+    notes: Used Robe of Eyes to identify true forms of Twi'Xu and Egedzoo
+  - target: chapter-6a-into-the-wild
+    rel: part_of
+  - target: location-rincks-diner
+    rel: set_in
+sources:
+  - chapters/chapter-6a-into-the-wild.md

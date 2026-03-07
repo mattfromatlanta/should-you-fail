@@ -1,0 +1,35 @@
+id: npc-gullux
+type: npc
+name: Gullux the Iceflesh Grafter
+tags: [dragonborn, white-dragonborn, half-dragon, foe, chapter-1, defeated]
+status: dead
+summary: White half-dragon son of Torma; grafted dragon parts onto himself; led the Dragonborn invasion of the Uplands; defeated in Milicent's shadow space in Chapter 1.
+content: |
+  White half-dragon, son of Torma the Unforgiving and brother to Bronik. Transformed himself
+  into something monstrous by grafting true dragon parts onto his already half-dragon form.
+  Grafts held by stitched twine, leather bands, and metal staples. Size and strength of an ogre.
+  Radiates cold, hateful energy.
+
+  Led 50 White Dragonborn from the East Hills into the Uplands in winter. Betrayed Torma by
+  stealing dragon eggs from her clutch—an act that established his leadership among the clans.
+  Always jealous and insecure according to Bronik.
+
+  Defeated by the party in Milicent's shadow projection in Chapter 1. After the party awakened,
+  all remaining Dragonborn in the hideout were found dead—slain by Milicent.
+relationships:
+  - target: npc-torma-the-unforgiving
+    rel: family
+    notes: Son; betrayed her by stealing eggs
+  - target: npc-bronik
+    rel: family
+    notes: Brother
+  - target: npc-milicent
+    rel: used_by
+    notes: Milicent used the party's fight with him as a test; slew his remaining men
+  - target: event-dragonborn-invasion
+    rel: led
+  - target: location-east-hills
+    rel: based_in
+sources:
+  - npcs/foes/gullux.md
+  - chapters/chapter-1-invaders.md

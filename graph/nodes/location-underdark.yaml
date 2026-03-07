@@ -1,0 +1,28 @@
+id: location-underdark
+type: location
+name: The Underdark (East Hills Cave System)
+tags: [underdark, underground, beholders, cetyri, kobold-ruins, east-hills]
+status: active
+summary: Deep cave system beneath the East Hills containing the Beholder realm, kobold ruins, underground canyon and lake where Cetyri was found.
+content: |
+  Entry via the East Hills cave system that Gullux's band used as a hideout. Passages lead
+  deep underground to the Underdark. Key areas explored in Chapter 2:
+
+  - Kobold Ruins: Ancient hiding place of kobolds who fled Milicent's service; contains
+    trapped rooms, secret doors, mimics, curses written to "Shadowdame M"; held significant
+    ore treasure
+  - Underground Canyon: Great cave system with canyon, waterfall, and lake; home to rival
+    beholders Maxxa'Valien and Maxxa'Volien (twin fortresses at either end of canyon)
+  - The Lake: Cold, clean water in the middle of the canyon; where Cetyri's body was
+    carried and where the party found him
+relationships:
+  - target: location-east-hills
+    rel: located_in
+  - target: npc-cetyri
+    rel: contains
+    notes: Cetyri's body was found in the underground lake
+  - target: location-uplands
+    rel: connected_to
+sources:
+  - world/underdark-locations.md
+  - chapters/chapter-2-darkness.md

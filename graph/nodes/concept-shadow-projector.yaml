@@ -1,0 +1,36 @@
+id: concept-shadow-projector
+type: concept
+name: The Shadow Projector
+tags: [milicent, shadowfell, shadow-space, estaran, radiant-projector, dread-legion]
+summary: A device Milicent and Yrk built ~400 years ago by corrupting Estaran Radiant Projector technology; used to capture and transform mortals.
+content: |
+  The Shadow Projector is a corrupted adaptation of ancient Estaran Radiant Projectors. It uses
+  the Material Plane as a lens (the "Essential Knot") to project concentrated darkness across
+  realities. It captures creatures who pass through its projection and gradually transforms
+  captives into shadow beings—Milicent's Dread Legion.
+
+  Built by Milicent and Yrk ~400 years ago. Yrk did not know it would be used to enslave
+  mortals; when he realized, he broke ties with Milicent. Located in Milicent's mountain
+  fortress in the Shadowfell.
+
+  The party has been pulled into shadow projections multiple times:
+  - Ch1: vs Gullux (first contact with Milicent's power)
+  - Ch2: vs transformed Maxxa'Valien
+  - Ch5: vs Felicity's minions, then invited deeper into the Shadowfell
+
+  Following the party's alliance with Milicent, she agreed to stop using it for conscription.
+  Yrk is now working with Milicent on a portable version (Radiant Projector) for the party's
+  cross-world travel.
+relationships:
+  - target: npc-milicent
+    rel: created_by
+  - target: npc-yrk-the-trickster
+    rel: created_by
+  - target: location-milicents-fortress
+    rel: located_in
+  - target: concept-estarans
+    rel: derived_from
+    notes: Corrupted adaptation of Estaran Radiant Projector technology
+sources:
+  - chapters/chapter-3-shadow-pursuit.md
+  - chapters/chapter-5-return-to-oechenfor.md

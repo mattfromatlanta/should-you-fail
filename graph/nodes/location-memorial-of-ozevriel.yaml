@@ -1,0 +1,34 @@
+id: location-memorial-of-ozevriel
+type: location
+name: Memorial of Ozevriel
+tags: [feywild, tomb, ozevriel, milicent-observatory, pilgrimage, chapter-6]
+status: active
+summary: Ancient memorial tower and tomb in the Feywild's eternal twilight forest; houses Ozevriel's crystal-preserved body and Milicent's old observatory at the peak.
+content: |
+  Ancient tower and tomb complex dedicated to Ozevriel, who died in the First War. Once a
+  pilgrimage site revered throughout Fey history; now fallen into disrepair, largely forgotten.
+
+  Structure:
+  - Stone patio entrance
+  - Underground tunnel and antechamber (contained 50-year-old arcane trap with 2 Arcanaloths
+    and 5 Dire Worgs; cleared by party in Chapter 6a)
+  - Ozevriel's tomb chamber: body preserved in crystal, standing eternal watch; his verse
+    from the Ode to Seven Lords inscribed beneath him
+  - Spiral staircase leading up
+  - Milicent's observatory at peak: astronomical instruments, star charts, decades of research
+    on Estarans; where Hootini awaited the party; four key documents recovered here
+
+  The airship crashed near this structure, grounding the party and leading to its discovery.
+relationships:
+  - target: npc-ozevriel
+    rel: memorial_for
+  - target: npc-milicent
+    rel: contains
+    notes: Her observatory is at the peak
+  - target: npc-hootini
+    rel: contains
+    notes: Hootini awaited the party here
+  - target: location-feywild
+    rel: located_in
+sources:
+  - chapters/chapter-6a-into-the-wild.md

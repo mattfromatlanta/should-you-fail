@@ -1,0 +1,24 @@
+id: enc-ch1-01-the-meeting
+type: encounter
+name: "Ch1 E01: The Meeting"
+tags: [chapter-1, roleplay, oechenfor, aldrin, call-to-action]
+status: complete
+summary: Aldrin Stoneward calls for volunteers in Oechenfor to investigate the silence from Lome and hostility in the Faedwood before he departs for the Citizen Conference.
+content: |
+  The campaign's opening scene. Chief Citizen Aldrin Stoneward is preparing to leave for Aris
+  and the first Citizen Conference in years, but he cannot leave without addressing the crisis:
+  Lome has gone silent since winter, and the Faedwood has turned hostile to travelers. He calls
+  for volunteers willing to investigate before he departs. The party answers.
+
+  Brother Alistair Thornfield is also present. This is the party's first meeting with Aldrin.
+relationships:
+  - target: npc-aldrin-stoneward
+    rel: features
+  - target: npc-brother-alistair
+    rel: features
+  - target: chapter-1-invaders
+    rel: part_of
+  - target: location-oechenfor
+    rel: set_in
+sources:
+  - chapters/chapter-1-invaders.md

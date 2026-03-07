@@ -1,0 +1,35 @@
+id: location-lome
+type: location
+name: Lome
+tags: [uplands, highland-village, erol, lamat, evacuated, abandoned]
+status: abandoned
+summary: Small highland village in the Uplands co-founded by Erol and Lamat five years ago; evacuated after the Dragonborn siege and Torma's attack; now stands empty.
+content: |
+  Founded five years ago by Erol the Faed and Lamat Velu at the confluence of two mountain
+  streams in the Uplands. Population fewer than 200 before evacuation. Built with intention
+  and care around shared labor, modest farming, and respect for balance—spiritual, communal,
+  and ecological.
+
+  Notable features: Orchard Path Monastery, The Wary Hippogriff inn (Midge Wittle), broken
+  Estaran statue at the edge of town.
+
+  Key leaders: Mayor Kruftus Unter (werebear), Midge Wittle (gnome entrepreneur), F'zuga
+  (orc monk). After the Dragonborn siege and subsequent dragon threat, Erol and Lamat led a
+  full evacuation south to Oechenfor. The village now stands empty.
+relationships:
+  - target: npc-erol
+    rel: founded_by
+  - target: npc-lamat
+    rel: founded_by
+  - target: npc-kruftus-unter
+    rel: led_by
+  - target: npc-fzuga
+    rel: contains
+    notes: Monastery was here
+  - target: location-uplands
+    rel: located_in
+  - target: location-upland-stair
+    rel: connected_to
+sources:
+  - world/locations.md
+  - chapters/chapter-1-invaders.md

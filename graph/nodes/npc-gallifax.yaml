@@ -1,0 +1,34 @@
+id: npc-gallifax
+type: npc
+name: Gallifax
+tags: [dragon, bronze-dragon, ancient, ally, allied-cities, protector]
+status: alive
+summary: Ancient bronze dragon, Aegis and Steward of Free People for the Allied Cities; currently keeping vigil over the catatonic Maelric in Aris.
+content: |
+  An ancient bronze dragon who serves as protector and ally to the Allied Cities. Titles:
+  "Aegis and Steward of Free People." For generations allied with the Estara during their rule,
+  but during the Rebellion he witnessed the Estara unleash nightmare magic that burned Metgal.
+  Appalled by their cruelty, he abandoned them and joined the mortals—a turning point that helped
+  win the Rebellion.
+
+  His hoard is surprisingly modest for his age; he values knowledge and historical artifacts over
+  gold. He has made his lair in the Hall of Allies in Aris. Currently he is keeping strict vigil
+  over the catatonic Maelric, trusting no one's attempts to reach him through psychic means.
+relationships:
+  - target: faction-allied-cities
+    rel: protects
+  - target: npc-maelric-sturmwald
+    rel: ally
+    notes: Keeps vigil over Maelric's catatonic body in Aris
+  - target: event-rebellion
+    rel: participated_in
+    notes: Switched sides from Estara to mortals; key turning point
+  - target: concept-estarans
+    rel: former_ally
+    notes: Was allied with the Estara before witnessing their cruelty at Metgal
+  - target: location-aris
+    rel: located_in
+    notes: Lair in the Hall of Allies
+sources:
+  - npcs/heroes/gallifax.md
+  - chapters/chapter 7/chapter-7-synopsis.md

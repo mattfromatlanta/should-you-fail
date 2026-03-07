@@ -1,0 +1,19 @@
+id: npc-hootini
+type: npc
+name: Hootini
+tags: [fey, moon-fey, companion, aelira, milicent, feywild]
+status: alive
+summary: Aelira's fey companion; one of the Moon Fey who once served Milicent; found the party at Ozevriel's memorial and guides them through Milicent's research.
+content: |
+  One of the Moon Fey who once served Milicent before her transformation into the Shadowdame.
+  Now serves as Aelira's fey companion and permanent companion to the party. Awaited the party
+  at Milicent's observatory atop Ozevriel's memorial in Chapter 6a. Guided them through
+  Milicent's research documents. Remains with Aelira as a link to the Feywild.
+relationships:
+  - target: npc-milicent
+    rel: former_servant
+  - target: location-memorial-of-ozevriel
+    rel: found_at
+sources:
+  - npcs/fey/hootini.md
+  - chapters/chapter-6a-into-the-wild.md

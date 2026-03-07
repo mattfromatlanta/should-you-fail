@@ -1,0 +1,32 @@
+id: faction-allied-cities
+type: faction
+name: The Allied Cities
+tags: [government, mortal, allied-cities, counsel-of-citizens]
+status: active
+summary: Coalition of mortal cities freed from Estaran rule ~150 years ago, governed by the Counsel of Citizens.
+content: |
+  The Allied Cities span a diverse region unified by mutual history, shared culture, and open
+  trade. Nearly two thousand years ago these lands were shaped under Estaran dominion. After
+  centuries of conscription into extra-planar wars, mortals rebelled and banished the Estara ~150
+  years ago. Their four major cities—Aris, Metgal, Hestar, and Alimar—form the political core
+  and convene the Citizen Conference when unity is needed. Gallifax serves as their ancient
+  dragon protector.
+relationships:
+  - target: npc-gallifax
+    rel: protected_by
+  - target: npc-aldrin-stoneward
+    rel: led_by
+    notes: Chief Citizen of Oechenfor, one of the Founders
+  - target: npc-maelric-sturmwald
+    rel: led_by
+    notes: Chief Exarch, seat in Aris
+  - target: faction-counsel-of-citizens
+    rel: governed_by
+  - target: event-rebellion
+    rel: founded_after
+  - target: concept-estarans
+    rel: liberated_from
+sources:
+  - world/locations.md
+  - world/factions.md
+  - world/history.md

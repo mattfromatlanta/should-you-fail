@@ -1,0 +1,52 @@
+id: npc-milicent
+type: npc
+name: Milicent (The Shadowdame)
+tags: [archshade, archfey, shadowfell, rebel-fey, moon-fey, antagonist, ally]
+status: alive
+summary: Former Rebel Fey Lady of the Moon, now the Shadowdame; architect of the Dragon Singularity plan to stop the Estarans; allied with the party since Chapter 5.
+content: |
+  One of the seven original Rebel Fey who fought the Estarans in the First War. Once the Lady
+  of the Moon, a brilliant scholar who studied order and predictability—unusual for a Fey. Her
+  methodical research revealed Estaran vulnerabilities, their outworld origin, and the escalating
+  pattern of their incursions. She was Erol's first patron before their bond broke.
+
+  ~400 years ago she and Yrk built the Shadow Projector. When she began using it to enslave
+  mortals for her Dread Legion army, Yrk fled. She spent a century keeping Cetyri prisoner,
+  training Death Knights with him—and possibly damaging his soul in the specific way needed for
+  the Dragon Singularity.
+
+  Her plan: guide Cetyri to become the Unary Great Wyrm and use that cosmic power to permanently
+  defeat the Estarans before they enact their 55th apocalypse.
+
+  In Chapter 5 she agreed to stop enslaving mortals and trust the party to execute her plan.
+  Agents: Felicity (mortal world operative), Yrk (technical collaborator).
+
+  Milicent has an observatory at Ozevriel's memorial tower in the Feywild—a relic of her scholarly
+  past. She cannot track the party in Naeliste or after they receive the Trickster's Blessing.
+relationships:
+  - target: npc-cetyri
+    rel: former_captor
+    notes: Kept him prisoner for a century to train Death Knights; damaged his soul for singularity
+  - target: npc-yrk-the-trickster
+    rel: former_partner
+    notes: Co-built the Shadow Projector; Yrk fled when she began enslaving mortals
+  - target: npc-erol
+    rel: former_patron_of
+    notes: Was Erol's first patron before their bond broke
+  - target: npc-felicity
+    rel: employs
+  - target: faction-rebel-fey
+    rel: former_member
+  - target: concept-shadow-projector
+    rel: created_by
+  - target: concept-dragon-singularity
+    rel: planned_by
+  - target: location-milicents-fortress
+    rel: controls
+  - target: concept-estarans
+    rel: enemy_of
+sources:
+  - world/factions.md
+  - chapters/chapter-3-shadow-pursuit.md
+  - chapters/chapter-5-return-to-oechenfor.md
+  - chapters/chapter-6a-into-the-wild.md

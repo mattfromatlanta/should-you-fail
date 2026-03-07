@@ -1,0 +1,45 @@
+id: event-rebellion
+type: event
+name: The Rebellion (Second Rebellion)
+tags: [history, rebellion, estara, allied-cities, 150-years-ago, metgal, gallifax]
+status: past
+summary: Ended ~150 years ago; mortals successfully freed the Allied Cities from Estaran rule; key participants include Gallifax, Maelric, Aldrin, Erol, Lamat, Caera, and Thorn.
+content: |
+  A more recent conflict (ended ~150 years ago) in which mortals rose up against continued
+  Estaran oppression. The Rebellion included the catastrophic destruction of Metgal by Estaran
+  nightmare magic and fire—massive mortal casualties. This atrocity was the turning point that
+  caused Gallifax to abandon the Estara and join the mortals.
+
+  Key participants:
+  - Maelric Sturmwald
+  - Gallifax (switched sides from Estara after witnessing destruction of Metgal)
+  - Aldrin Stoneward (veteran from 2000 years prior)
+  - Erol the Faed and Lamat Velu
+  - Caera and Thorn (Aelira's parents)
+  - Other veterans who became the Founders
+
+  Milicent's forces were secretly critical to the Rebellion's success—without her Dread
+  Legion, the Estara would never have been driven away (according to Xilo and Twi'Xu).
+
+  After the Rebellion: Aldrin, Erol, Lamat, and other veteran Founders established Oechenfor.
+relationships:
+  - target: npc-gallifax
+    rel: pivotal_participant
+    notes: Switched sides from Estara to mortals at Metgal
+  - target: npc-maelric-sturmwald
+    rel: led_by
+  - target: npc-aldrin-stoneward
+    rel: participant
+  - target: npc-erol
+    rel: participant
+  - target: npc-lamat
+    rel: participant
+  - target: npc-milicent
+    rel: secretly_supported_by
+  - target: faction-allied-cities
+    rel: resulted_in
+  - target: concept-estarans
+    rel: against
+sources:
+  - world/history.md
+  - world/factions.md

@@ -1,0 +1,25 @@
+id: enc-ch5-02-the-missing-children
+type: encounter
+name: "Ch5 E02: The Missing Children"
+tags: [chapter-5, roleplay, oechenfor, alistair, kidnappings, quicklings, milicent]
+status: complete
+summary: Brother Alistair Thornfield briefs the party: promising young citizens—particularly the talented and young—have been disappearing since the party left Oechenfor.
+content: |
+  At the Oechenfor town hall, Brother Alistair Thornfield delivers grim news. Since the party
+  departed, people with exceptional promise—particularly young people with outstanding talent
+  or potential—have been vanishing without explanation. The city is gripped by fear.
+
+  This is Milicent's quickling operation: Felicity's team has been abducting candidates for
+  the Dread Legion. The party doesn't know this yet—they need to investigate.
+relationships:
+  - target: npc-brother-alistair
+    rel: features
+  - target: npc-milicent
+    rel: referenced_in
+    notes: The disappearances are her operation, unknown to the party
+  - target: chapter-5-return-to-oechenfor
+    rel: part_of
+  - target: location-oechenfor
+    rel: set_in
+sources:
+  - chapters/chapter-5-return-to-oechenfor.md

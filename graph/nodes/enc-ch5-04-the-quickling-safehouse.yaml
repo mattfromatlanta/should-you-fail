@@ -1,0 +1,21 @@
+id: enc-ch5-04-the-quickling-safehouse
+type: encounter
+name: "Ch5 E04: The Quickling Safehouse"
+tags: [chapter-5, combat, oechenfor, quicklings, felicity, star-metal]
+status: complete
+summary: The party tracks Felicity's quicklings to their safehouse and raids it, capturing the star metal kidnapping tools before they can be used again.
+content: |
+  Following the leads from Gord's confession, the party locates Felicity's hidden safehouse
+  in or near Oechenfor. They raid it and capture the star metal tools before the quicklings
+  can complete another abduction run. This appears to disrupt Milicent's kidnapping operation.
+
+  But Felicity has a contingency plan.
+relationships:
+  - target: npc-felicity
+    rel: features
+  - target: chapter-5-return-to-oechenfor
+    rel: part_of
+  - target: location-oechenfor
+    rel: set_in
+sources:
+  - chapters/chapter-5-return-to-oechenfor.md

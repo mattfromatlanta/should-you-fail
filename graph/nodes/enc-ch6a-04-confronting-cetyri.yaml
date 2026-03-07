@@ -1,0 +1,33 @@
+id: enc-ch6a-04-confronting-cetyri
+type: encounter
+name: "Ch6a E04: Confronting Cetyri in Qu"
+tags: [chapter-6a, roleplay, cetyri, bronik, qu, dragon-singularity, commitment]
+status: complete
+summary: The party tracks Cetyri and Bronik to Qu and has a heart-to-heart about the full stakes; Cetyri agrees to stop running and commits to the cause.
+content: |
+  The party travels to Qu and locates Cetyri and Bronik just as they are about to flee deeper
+  into the Feywild. The party lays everything bare in an honest conversation:
+  - Milicent's full plan and her reasons
+  - The 54 previous apocalypses the Estarans have enacted
+  - The concept of the Dragon Singularity and what it means for a dragon
+  - Cetyri's unique capacity to become a Unary Great Wyrm without catastrophic world damage
+  - The existential stakes: refusal means the survival of all existence is compromised
+
+  Cetyri is overwhelmed. He is frightened. He needs time to process. But he understands the
+  stakes and agrees to stop running. This is not enthusiastic acceptance—it is resignation
+  to necessity. He commits to working with the party.
+
+  Local robbers are handled without serious trouble after they arrive.
+relationships:
+  - target: npc-cetyri
+    rel: features
+  - target: npc-bronik
+    rel: features
+  - target: concept-dragon-singularity
+    rel: features
+  - target: chapter-6a-into-the-wild
+    rel: part_of
+  - target: location-qu
+    rel: set_in
+sources:
+  - chapters/chapter-6a-into-the-wild.md

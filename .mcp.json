@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "syf-campaign": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["/Users/matthewfishel/Repos/should-you-fail/mcp/dist/index.js"]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+id: location-shadowfell
+type: location
+name: The Shadowfell
+tags: [plane, shadowfell, milicent, dread-legion, dark]
+status: active
+summary: Dark reflection of the Material Plane; Milicent maintains her fortress and army here.
+content: |
+  A dark reflection of the Material Plane. Milicent maintains her mountain fortress here where
+  she raises the Dread Legion. Travel to the Shadowfell is perilous—hostile environments,
+  dangerous terrain, threats that erode safety simply by existing there.
+
+  Erol and Lamat briefly hid in Shadowfell refuges during their disappearance.
+relationships:
+  - target: location-milicents-fortress
+    rel: contains
+  - target: npc-milicent
+    rel: home_of
+sources:
+  - world/cosmology.md
+  - chapters/chapter-5-return-to-oechenfor.md

@@ -1,0 +1,31 @@
+id: enc-ch3-04-eigitch-and-the-plan
+type: encounter
+name: "Ch3 E04: Eigitch and the Plan"
+tags: [chapter-3, roleplay, eigitch, submarine, bronik-stays, trickster-route]
+status: complete
+summary: The party meets Eigitch the Old—great-great-great-grandson of Yrk—who agrees to guide them through the Underwet by submarine to meet the Trickster; Bronik decides to stay in Naeliste with the Goblins.
+content: |
+  Eigitch the Old, a 173-year-old goblin and submarine builder, is eager to take the party to
+  meet his great-great-great-grandfather despite a few practical jokes. He knows the underground
+  river system (the Underwet) that can get them to the Drekklands and Yrk the Trickster without
+  being exposed to Milicent's gaze on the surface.
+
+  Bronik finds companionship among the Goblins of Naeliste and decides to stay behind while
+  the party makes this journey. He and the Goblins become fast friends.
+
+  The plan is set: travel via submarine through the Underwet to meet Yrk and receive the
+  Trickster's Blessing, which will protect the party from Milicent's tracking permanently.
+relationships:
+  - target: npc-eigitch-the-old
+    rel: features
+  - target: npc-bronik
+    rel: features
+    notes: Decides to stay in Naeliste with the Goblins
+  - target: chapter-3-shadow-pursuit
+    rel: part_of
+  - target: location-naeliste
+    rel: set_in
+  - target: location-underwet
+    rel: referenced_in
+sources:
+  - chapters/chapter-3-shadow-pursuit.md

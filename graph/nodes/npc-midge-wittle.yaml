@@ -1,0 +1,17 @@
+id: npc-midge-wittle
+type: npc
+name: Midge Wittle
+tags: [gnome, rock-gnome, lome, entrepreneur, wary-hippogriff]
+status: alive
+summary: Rock Gnome entrepreneur and innkeeper of The Wary Hippogriff in Lome; proposed hippogriff breeding for aerial transport.
+content: |
+  Rock Gnome proprietor of The Wary Hippogriff inn in Lome. Resourceful entrepreneur who
+  prioritized transport solutions during Lome's recovery—specifically proposed a road, elevator,
+  and flying courier service using hippogriff breeding. The hippogriff plan was interrupted
+  by Bronik's arrival in Chapter 2.
+relationships:
+  - target: location-lome
+    rel: located_in
+sources:
+  - npcs/mortals/midge-wittle.md
+  - chapters/chapter-1-invaders.md

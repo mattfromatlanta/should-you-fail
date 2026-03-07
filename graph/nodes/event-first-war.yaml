@@ -1,0 +1,37 @@
+id: event-first-war
+type: event
+name: The First War (First Rebellion)
+tags: [history, ancient, estara, fey, first-war, rebel-fey, 2000-years-ago]
+status: past
+summary: ~2000 years ago; the first conflict against the Estarans led by the seven Rebel Fey and mortals; much history lost to time; Yrk survived; Ozevriel died.
+content: |
+  Approximately 2000 years ago, shortly after the Estarans arrived, the Fey and mortals began
+  resisting. Led by the seven Rebel Fey (Itrina, Carris, Xilo, Ozevriel, Thessa, Varuun,
+  Milicent). Much of this history is lost to time—barely legends remain. Key events:
+
+  - The Fey fought the Estara from the moment they arrived
+  - Strategic withdrawal to the Faedwood to bottleneck the Estara
+  - Grib's letter (an artifact) documents the desperation of this period
+  - Ozevriel sacrificed himself so the other six Rebel Fey could escape
+  - Yrk the Trickster survived by avoiding direct confrontation, misdirection, sabotage
+  - Aldrin Stoneward was gifted with ageless life during this era by the Estara
+
+  The war ultimately did not drive the Estara away permanently—they continued ruling for
+  ~1850 more years until the more recent Rebellion.
+relationships:
+  - target: faction-rebel-fey
+    rel: led_by
+  - target: concept-estarans
+    rel: caused_by
+  - target: npc-ozevriel
+    rel: died_in
+  - target: npc-yrk-the-trickster
+    rel: survived_by
+  - target: npc-aldrin-stoneward
+    rel: era_of
+    notes: Received ageless life from the Estara during this period
+  - target: artifact-letter-from-grib
+    rel: documented_in
+sources:
+  - world/history.md
+  - chapters/chapter-3-shadow-pursuit.md

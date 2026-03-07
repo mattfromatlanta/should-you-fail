@@ -1,0 +1,20 @@
+id: faction-counsel-of-citizens
+type: faction
+name: Counsel of Citizens
+tags: [government, allied-cities, politics]
+status: active
+summary: The governing body of the Allied Cities, composed of representatives from each member city.
+content: |
+  Convenes Citizen Conferences in Aris when unity decisions are required. After Maelric entered
+  his catatonic state the Counsel convened in emergency session, exposing deep political fractures
+  between the Veterans faction and the Young Bastards reform movement.
+relationships:
+  - target: faction-allied-cities
+    rel: governs
+  - target: location-aris
+    rel: located_in
+  - target: npc-maelric-sturmwald
+    rel: led_by
+sources:
+  - world/factions.md
+  - chapters/chapter 7/chapter-7-synopsis.md

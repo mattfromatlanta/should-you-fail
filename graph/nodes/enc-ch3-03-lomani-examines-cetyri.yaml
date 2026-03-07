@@ -1,0 +1,31 @@
+id: enc-ch3-03-lomani-examines-cetyri
+type: encounter
+name: "Ch3 E03: Lomani Examines Cetyri"
+tags: [chapter-3, roleplay, cetyri, lomani, naeliste, dragon-singularity, soul-discovery]
+status: complete
+summary: Lomani Nae performs a spiritual examination of Cetyri and discovers his soul reaches across realities—the first in-world confirmation of his Dragon Singularity potential.
+content: |
+  Lomani Nae, the spiritual elder of House Nae and keeper of the teleportation circle, performs
+  a careful spiritual examination of Cetyri. Through this examination she discovers that his
+  spirit exhibits an irregular, dispersed pattern with strands reaching to many worlds
+  simultaneously—his soul exists in multiple realities at once.
+
+  This is the first concrete in-world confirmation of what Milicent has known and planned around
+  for decades. Cetyri himself is present for this discovery; the implications are profound and
+  troubling.
+
+  This examination will later become the trigger for Cetyri's flight to the Feywild (when he
+  realizes Lomani understood what she found).
+relationships:
+  - target: npc-lomani-nae
+    rel: features
+  - target: npc-cetyri
+    rel: features
+  - target: concept-dragon-singularity
+    rel: features
+  - target: chapter-3-shadow-pursuit
+    rel: part_of
+  - target: location-naeliste
+    rel: set_in
+sources:
+  - chapters/chapter-3-shadow-pursuit.md

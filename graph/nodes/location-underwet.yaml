@@ -1,0 +1,23 @@
+id: location-underwet
+type: location
+name: The Underwet
+tags: [underground, river, submarine, drekklands, eigitch, safe-from-milicent]
+status: active
+summary: Eigitch's name for the underground river system flowing beneath the Allied Cities; a secret path to the Drekklands protected from Milicent's sight while traveling through it.
+content: |
+  The underground river system flowing beneath the Allied Cities. Named the "Underwet" by
+  Eigitch the Old. Connects Naeliste to the Drekklands—a secret path that is protected from
+  Milicent's sight while travelers move through it. Eigitch's submarine "The Rainbow Trout"
+  navigates these passages.
+
+  Contains a Kua-Toa village where the Aboleth Lord Mr'Hrm'N'Ahir enslaved Bullywugs before
+  being defeated by the party.
+relationships:
+  - target: location-naeliste
+    rel: connected_to
+  - target: location-drekklands
+    rel: connected_to
+  - target: npc-eigitch-the-old
+    rel: navigated_by
+sources:
+  - chapters/chapter-4-journey-to-trickster.md

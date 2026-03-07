@@ -1,0 +1,34 @@
+id: event-dragonborn-invasion
+type: event
+name: Dragonborn Invasion of the Uplands
+tags: [chapter-1, dragonborn, gullux, lome, uplands, invasion]
+status: past
+summary: Winter before campaign start; Gullux led 50 White Dragonborn from the East Hills to besiege Lome; defeated by the party in Chapter 1.
+content: |
+  During winter preceding the campaign's start, Gullux stole white dragon eggs from Torma the
+  Unforgiving's clutch. Using this as a power move, he led fifty White Dragonborn warriors
+  from the East Hills down to the Uplands. They took the Upland Stair and laid siege to Lome,
+  hunting Fey in the Faedwood for sport.
+
+  The party was recruited by Aldrin Stoneward to investigate. They fought through the Faedwood,
+  up the Upland Stair, and ultimately confronted Gullux in Milicent's shadow projection.
+  Gullux was defeated; all remaining Dragonborn were found dead—slain by Milicent. Three
+  stolen white dragon eggs were found in the hideout. The party burned them.
+
+  This event introduced Milicent to the party (indirectly) and led directly to the threat
+  of Torma arriving in Chapter 2.
+relationships:
+  - target: npc-gullux
+    rel: led_by
+  - target: npc-milicent
+    rel: manipulated_by
+    notes: Milicent used the fight as a test; slew the remaining Dragonborn
+  - target: location-lome
+    rel: targeted
+  - target: location-upland-stair
+    rel: contested
+  - target: chapter-1-invaders
+    rel: covered_in
+sources:
+  - chapters/chapter-1-invaders.md
+  - world/history.md

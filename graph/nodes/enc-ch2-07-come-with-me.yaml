@@ -1,0 +1,38 @@
+id: enc-ch2-07-come-with-me
+type: encounter
+name: "Ch2 E07: Come With Me If You Want to Live"
+tags: [chapter-2, roleplay, torma, erol, lamat, evacuation, milicent-offer]
+status: complete
+summary: Torma attacks and collapses the cave entrance; Erol and Lamat return dramatically to slay her; Milicent's agents offer escape; the party leaves with Cetyri and Bronik.
+content: |
+  The chapter's climax. Torma the Unforgiving attacks the East Hills cave entrance and collapses
+  it, trapping everyone inside. Then Erol and Lamat appear—returning from wherever they have
+  been hiding—and slay Torma. Dramatic and decisive. Lome's citizens are safe.
+
+  In the aftermath, Milicent's agents (implied to be Quicklings) appear to offer the party
+  escape and guidance: "Come with us if you want to live."
+
+  Outcomes:
+  - Torma is dead (slain by Erol and Lamat)
+  - Erol and Lamat lead the people of Lome south to Oechenfor
+  - The party follows down the Upland Stair with Cetyri and Bronik
+  - On Erol's advice, they turn east rather than south—toward the shelter of Naeliste
+  - Bronik begins to consider that his capture might have set him free
+  - The party is directed to seek the Trickster's Blessing
+relationships:
+  - target: npc-torma-the-unforgiving
+    rel: features
+  - target: npc-erol
+    rel: features
+  - target: npc-lamat
+    rel: features
+  - target: npc-bronik
+    rel: features
+  - target: npc-cetyri
+    rel: features
+  - target: chapter-2-darkness
+    rel: part_of
+  - target: location-east-hills
+    rel: set_in
+sources:
+  - chapters/chapter-2-darkness.md

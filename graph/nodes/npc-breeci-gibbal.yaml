@@ -1,0 +1,17 @@
+id: npc-breeci-gibbal
+type: npc
+name: Breeci Gibbal
+tags: [svirfneblin, oechenfor, wizard, apothecary, shady]
+status: alive
+summary: Svirfneblin wizard and apothecary in Oechenfor with a maybe-slightly-shady reputation; seasonal employer of Peno the Goliath.
+content: |
+  Svirfneblin wizard and apothecary operating in Oechenfor. Has a reputation for being
+  maybe-slightly-shady. Seasonally employs Peno the Goliath.
+relationships:
+  - target: npc-peno
+    rel: employs
+    notes: Seasonal employer of Peno
+  - target: location-oechenfor
+    rel: located_in
+sources:
+  - npcs/mortals/breeci-gibbal.md

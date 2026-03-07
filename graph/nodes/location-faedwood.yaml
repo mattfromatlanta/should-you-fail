@@ -1,0 +1,26 @@
+id: location-faedwood
+type: location
+name: The Faedwood
+tags: [forest, fey, faepath, nest, feywild-adjacent, oechenfor]
+status: active
+summary: Ancient forest inhabited by Fey, connecting Oechenfor to the Uplands via the Faepath; recently hostile due to Dragonborn hunting.
+content: |
+  Ancient forest north of Oechenfor. Home to faeries, pixies, sprites, and other Fey creatures.
+  The Faepath runs north-south through the forest, connecting Oechenfor to the Uplands. The
+  Nest is a stone dome waypoint along the Faepath—a 100-foot diameter campsite.
+
+  Turned hostile to travelers due to White Dragonborn hunting Fey for sport in Chapter 1.
+  Hidden paths through the Faedwood can be used to cross into the Feywild.
+
+  The Mistywinde River flows south through the Faedwood to Oechenfor.
+relationships:
+  - target: location-oechenfor
+    rel: connected_to
+  - target: location-uplands
+    rel: connected_to
+  - target: location-feywild
+    rel: bordering
+    notes: Hidden paths allow crossing to the Feywild
+sources:
+  - world/locations.md
+  - chapters/chapter-1-invaders.md

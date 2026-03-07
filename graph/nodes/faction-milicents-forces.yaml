@@ -1,0 +1,27 @@
+id: faction-milicents-forces
+type: faction
+name: Milicent's Forces
+tags: [shadowfell, dread-legion, archshade, milicent, quicklings]
+status: active
+summary: The army Milicent has built in the Shadowfell, including the Dread Legion and mortal operatives like Felicity and Yrk.
+content: |
+  Milicent spent centuries using the Shadow Projector to capture promising mortals and transform
+  them into shadow soldiers—the Dread Legion. Following the party's alliance with her in Chapter 5,
+  she agreed to stop conscripting mortals and put her trust in the party instead. Her active mortal
+  agents include Felicity (quickling team leader), Yrk (technical ally), and the Shadow Projector
+  itself housed in her mountain fortress in the Shadowfell.
+relationships:
+  - target: npc-milicent
+    rel: led_by
+  - target: npc-felicity
+    rel: member_of
+  - target: npc-yrk-the-trickster
+    rel: allied_with
+    notes: Yrk is a technical collaborator, not a subordinate
+  - target: location-milicents-fortress
+    rel: based_in
+  - target: concept-shadow-projector
+    rel: uses
+sources:
+  - world/factions.md
+  - chapters/chapter-5-return-to-oechenfor.md

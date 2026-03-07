@@ -1,0 +1,21 @@
+id: npc-eigitch-the-old
+type: npc
+name: Eigitch the Old
+tags: [goblin, naeliste, submarine, trickster, ally]
+status: alive
+summary: 173-year-old goblin of Naeliste; great-great-great-grandson of Yrk the Trickster; submarine captain and guide for the party's journey to the Drekklands.
+content: |
+  173-year-old goblin who lives in Naeliste. Great-great-great-grandson of Yrk the Trickster—only
+  they know Yrk's true name (Ar'gix). Built and captains the submarine "The Rainbow Trout" in
+  the Goblinworks. Guided the party through the Underwet to the Drekklands in Chapter 4. Enjoys
+  practical jokes. Reunited with Yrk with dry, understated affection.
+relationships:
+  - target: npc-yrk-the-trickster
+    rel: family
+    notes: Great-great-great-grandson
+  - target: location-naeliste
+    rel: located_in
+sources:
+  - npcs/fey/eigitch-the-old.md
+  - chapters/chapter-3-shadow-pursuit.md
+  - chapters/chapter-4-journey-to-trickster.md

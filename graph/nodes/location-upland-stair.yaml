@@ -1,0 +1,24 @@
+id: location-upland-stair
+type: location
+name: Upland Stair
+tags: [uplands, faedwood, stair, chapter-1, contested]
+status: active
+summary: Narrow 250-foot switchback connecting the Faepath to the Uplands; taken by Dragonborn invaders in Chapter 1.
+content: |
+  A narrow stepped switchback connecting the Faepath below to the Uplands above. Total ascent
+  approximately 250 feet. High natural rock walls block views going up or down. Stairs require
+  2 feet of movement per 1 foot of ascent. Located one day's march from the Upland Stair (at
+  the top) from East Falls.
+
+  Taken and held by Gullux's Dragonborn garrison during the Chapter 1 invasion. The party
+  fought through it to reach Lome.
+relationships:
+  - target: location-faedwood
+    rel: connected_to
+  - target: location-uplands
+    rel: connected_to
+  - target: event-dragonborn-invasion
+    rel: contested_in
+sources:
+  - world/locations.md
+  - chapters/chapter-1-invaders.md

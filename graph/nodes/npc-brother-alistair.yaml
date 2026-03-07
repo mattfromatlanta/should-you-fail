@@ -1,0 +1,19 @@
+id: npc-brother-alistair
+type: npc
+name: Brother Alistair Thornfield
+tags: [human, cleric, oechenfor, ally]
+status: alive
+summary: Cleric of Oechenfor who helps maintain order; briefed the party on the disappearances in Chapter 5.
+content: |
+  Cleric who assists in governance and community welfare in Oechenfor. Briefed the party when
+  they returned in Chapter 5 that promising young citizens had been disappearing since they left.
+  Has been trying to maintain order and calm in the city while people vanish without explanation.
+relationships:
+  - target: location-oechenfor
+    rel: located_in
+  - target: chapter-5-return-to-oechenfor
+    rel: appears_in
+sources:
+  - npcs/mortals/brother-alistair-thornfield.md
+  - chapters/chapter-1-invaders.md
+  - chapters/chapter-5-return-to-oechenfor.md

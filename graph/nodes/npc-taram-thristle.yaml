@@ -1,0 +1,26 @@
+id: npc-taram-thristle
+type: npc
+name: Taram Thristle
+tags: [oechenfor, counselor, young, divorced, cormin-friend]
+status: alive
+summary: Young Oechenfor city counselor and old school friend of Cormin; divorced after Cormin's investigation revealed his wife Nirsa's affair with Gord Lankenmangled.
+content: |
+  A young city counselor of some note in Oechenfor. Old school friend of Cormin's.
+
+  Enlisted Cormin's help to discover whether his wife Nirsa was having an affair.
+  Cormin's investigation confirmed it—she was involved with Gord Lankenmangled. The
+  marriage ended and Nirsa reverted to her maiden name, Hoegartner.
+relationships:
+  - target: npc-cormin
+    rel: ally
+    notes: Old school friend; Cormin investigated Nirsa's affair for him
+  - target: npc-nirsa-hoegartner
+    rel: divorced_from
+    notes: Formerly married; divorced after affair was revealed
+  - target: npc-gord-lankenmangled
+    rel: wronged_by
+    notes: Nirsa had an affair with Gord while married to Taram
+  - target: location-oechenfor
+    rel: located_in
+sources:
+  - npcs/mortals/taram-thristle.md

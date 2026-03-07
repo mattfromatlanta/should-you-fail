@@ -1,0 +1,48 @@
+id: enc-ch6a-08-milicents-observatory
+type: encounter
+name: "Ch6a E08: Milicent's Observatory"
+tags: [chapter-6a, exploration, milicent-research, hootini, observatory, estaran-intelligence, four-documents]
+status: complete
+summary: At the memorial tower's peak, the party discovers Milicent's ancient observatory; Hootini reveals himself as a Moon Fey; the party spends hours studying her research and recovers four key documents.
+content: |
+  At the top of the memorial tower's spiral staircase: Milicent's ancient observatory. Built
+  before her transformation into the Shadowdame, when she was a brilliant scholar studying
+  order, predictability, and the nature of reality—unusual for a Fey.
+
+  Hootini, Aelira's fey companion, awaits them here. He reveals he is one of the Moon Fey
+  who once served Milicent. He explains the significance of the location and guides the party
+  through the research. His loyalty to Milicent's cause is clarified.
+
+  The party spends several hours reviewing Milicent's astronomical instruments, star charts,
+  and decades of research. Key findings:
+  - The Estarans are not native to this world
+  - Necrotic energy uniquely damages Estaran materials (philosophical opposition)
+  - The Estarans likely use Radiant Projectors to travel between worlds
+  - Estaran incursions follow an escalating pattern toward permanent presence
+  - Milicent was methodically researching how to stop this escalation
+
+  Four documents recovered:
+  1. "Systematic Testing of Energetic Applications to Estaran Artifacts"
+  2. Letter from Yrk to Milicent (theorizes about Radiant Projectors; mentions Metgal)
+  3. "Evidence for Outworld Origin"
+  4. "Analysis of Estaran Temporal Patterns"
+relationships:
+  - target: npc-hootini
+    rel: features
+    notes: Revealed as Moon Fey here; becomes permanent companion
+  - target: npc-milicent
+    rel: features
+    notes: Her past as a scholar; research is hers
+  - target: npc-yrk-the-trickster
+    rel: referenced_in
+    notes: His letter to Milicent mentions searching near Metgal for Radiant Projectors
+  - target: concept-estarans
+    rel: features
+    notes: Research documents Estaran vulnerabilities and patterns
+  - target: chapter-6a-into-the-wild
+    rel: part_of
+  - target: location-memorial-of-ozevriel
+    rel: set_in
+sources:
+  - chapters/chapter-6a-into-the-wild.md
+  - prompts/session-worksheets/chapter-6a-final-session.md

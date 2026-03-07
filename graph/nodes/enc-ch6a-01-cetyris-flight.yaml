@@ -1,0 +1,28 @@
+id: enc-ch6a-01-cetyris-flight
+type: encounter
+name: "Ch6a E01: Cetyri's Flight"
+tags: [chapter-6a, roleplay, cetyri, lomani, naeliste, flight-to-feywild]
+status: complete
+summary: The party returns to Naeliste to find Cetyri gone—he fled into the Feywild with Bronik after realizing Lomani's examination revealed his multiverse-spanning soul.
+content: |
+  The party returns to Naeliste after their alliance with Milicent, expecting to continue
+  working with Cetyri. Instead: he is gone. Lomani Nae explains that her careful examination
+  of Cetyri in Chapter 3 revealed more than she let on. Her questions about dragon multiplicity
+  made it clear she understood what she had found—and Cetyri realized it. Frightened that the
+  knowledge of his soul's nature was spreading, he fled into the Feywild to protect the secret.
+
+  Bronik accompanied him out of simple loyalty and friendship, not fully understanding why
+  they were running. The party is only a day or so behind them.
+relationships:
+  - target: npc-cetyri
+    rel: features
+  - target: npc-bronik
+    rel: features
+  - target: npc-lomani-nae
+    rel: features
+  - target: chapter-6a-into-the-wild
+    rel: part_of
+  - target: location-naeliste
+    rel: set_in
+sources:
+  - chapters/chapter-6a-into-the-wild.md

@@ -1,0 +1,19 @@
+id: enc-ch1-05-the-stair-is-held
+type: encounter
+name: "Ch1 E05: The Stair Is Held Against Us"
+tags: [chapter-1, combat, upland-stair, dragonborn, chokepoint]
+status: complete
+summary: The party fights through the Dragonborn garrison holding the Upland Stair—a dangerous 250-foot switchback chokepoint—to reach the Uplands.
+content: |
+  A major tactical combat encounter at the Upland Stair. The 250-foot switchback with high
+  natural rock walls blocking sightlines is held by Dragonborn soldiers as a garrison. Each
+  foot of ascent costs 2 feet of movement. The party must fight through the gauntlet to break
+  through to the Uplands and reach Lome. Significant challenge given the terrain advantage
+  held by defenders.
+relationships:
+  - target: chapter-1-invaders
+    rel: part_of
+  - target: location-upland-stair
+    rel: set_in
+sources:
+  - chapters/chapter-1-invaders.md

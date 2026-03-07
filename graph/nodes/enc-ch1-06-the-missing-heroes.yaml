@@ -1,0 +1,26 @@
+id: enc-ch1-06-the-missing-heroes
+type: encounter
+name: "Ch1 E06: The Missing Heroes"
+tags: [chapter-1, exploration, erol, lamat, manor, teeth, east-falls]
+status: complete
+summary: The party investigates Erol and Lamat's abandoned manor atop the Teeth—they left in a hurry, as if they had just stepped out.
+content: |
+  Exploration of the Eladrin-style manor at the cliff edge above East Falls. The manor shows
+  signs of a hasty departure that was staged to look normal. Clues suggest Erol and Lamat left
+  suddenly to avoid being found. The party discovers: Lamat's Wraps of Unarmed Power +1 left
+  behind, 100pp + 5 rubies (200gp each), and Erol's Tome of Epicurean Delights with an
+  Immovable Rod in the garden shed. First direct encounter with the mystery of the Founders'
+  disappearance.
+relationships:
+  - target: npc-erol
+    rel: features
+    notes: Absent; manor is theirs
+  - target: npc-lamat
+    rel: features
+    notes: Absent; manor is theirs
+  - target: chapter-1-invaders
+    rel: part_of
+  - target: location-teeth
+    rel: set_in
+sources:
+  - chapters/chapter-1-invaders.md

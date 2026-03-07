@@ -1,0 +1,22 @@
+id: concept-tricksters-blessing
+type: concept
+name: The Trickster's Blessing
+tags: [yrk, blessing, protection, milicent, shadow, tracking]
+summary: A protection Yrk grants by ritually slaying recipients in a calm shadow space, severing their spiritual ties to the Material Plane and making them invisible to Milicent's tracking.
+content: |
+  Yrk confers the Trickster's Blessing through ritual combat—he defeats and slays the recipients
+  in a shadow space that is calmer and less corrupted than Milicent's. Through this death-and-
+  reawakening, recipients are severed from their mortal attachments and their birth world. They
+  can no longer be followed by Milicent or tracked on the Material Plane. The blessing also makes
+  travel between worlds easier (as referenced in campaign lore).
+
+  The party received the blessing at the end of Chapter 4.
+relationships:
+  - target: npc-yrk-the-trickster
+    rel: granted_by
+  - target: npc-milicent
+    rel: protects_against
+  - target: chapter-4-journey-to-the-trickster
+    rel: appears_in
+sources:
+  - chapters/chapter-4-journey-to-trickster.md

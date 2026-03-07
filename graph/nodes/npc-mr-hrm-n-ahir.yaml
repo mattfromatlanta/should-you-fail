@@ -1,0 +1,23 @@
+id: npc-mr-hrm-n-ahir
+type: npc
+name: Mr'Hrm'N'Ahir
+tags: [aboleth, underdark, underwet, chapter-4, defeated]
+status: dead
+summary: Aboleth Lord who enslaved Bullywugs and Kua-Toa in the Underwet; defeated by the party; his question about "how many moments" hinted at knowledge of previous worlds.
+content: |
+  An Aboleth Lord who dominated a Kua-Toa village in the Underwet and enslaved Bullywugs from
+  the Gulpfen Brood. When the party encountered him, he attempted to determine "how many moments"
+  the current world has existed—a subtle hint at knowledge of previous Material Planes and the
+  Estaran apocalypse cycle. Defeated by the party in Chapter 4; the freed Bullywugs were reunited
+  with the Gulpfen Brood survivors at Bullhome.
+relationships:
+  - target: location-underwet
+    rel: located_in
+  - target: chapter-4-journey-to-the-trickster
+    rel: appears_in
+  - target: concept-estarans
+    rel: hinted_at
+    notes: His question about "how many moments" hints at knowledge of the 54 previous worlds
+sources:
+  - npcs/foes/mr-hrm-n-ahir.md
+  - chapters/chapter-4-journey-to-trickster.md

@@ -1,0 +1,26 @@
+id: enc-ch2-04-beholders-realm
+type: encounter
+name: "Ch2 E04: Beholder's Realm"
+tags: [chapter-2, roleplay, beholders, maxxa-twins, underdark, deal]
+status: complete
+summary: The party enters the underground canyon and is confronted by Maxxa'Valien; they negotiate a deal to clear invading deep dragons from neutral territory between the beholders' twin fortresses.
+content: |
+  The party descends into a vast underground realm: a canyon with waterfall, underground lake,
+  and matching fortresses at either end—one for Maxxa'Valien (the "perfect and majestic" twin)
+  and one for Maxxa'Volien (the "unspeakably deformed" twin). They were born when an unknown
+  god's nightmare split in two.
+
+  Maxxa'Valien confronts the party and enlists them to clear a pair of young deep dragons
+  that have settled in neutral territory between the fortresses. The party makes a deal.
+
+  Monsters in the broader canyon area: Myconids, Violet Fungus, Necrohulk, Shrieker Fungus,
+  Black Pudding, Ochre Jelly, Gas Spore Fungus.
+relationships:
+  - target: npc-maxxa-twins
+    rel: features
+  - target: chapter-2-darkness
+    rel: part_of
+  - target: location-underdark
+    rel: set_in
+sources:
+  - chapters/chapter-2-darkness.md

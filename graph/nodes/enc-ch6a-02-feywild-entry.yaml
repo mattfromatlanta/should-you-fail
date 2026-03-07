@@ -1,0 +1,25 @@
+id: enc-ch6a-02-feywild-entry
+type: encounter
+name: "Ch6a E02: Into the Scorched Wasteland"
+tags: [chapter-6a, travel, feywild, wasteland, hobgoblin, estaran-damage]
+status: complete
+summary: The party crosses into the Feywild via a hidden path through the Faedwood; they emerge into the scorched outer wasteland and repel a hobgoblin bandit attack.
+content: |
+  The party crosses from the Faedwood into the Feywild via one of the hidden paths. They
+  emerge into the scorched outer regions—a perpetual twilight landscape of rocky desert and
+  dead land. Enormous thorn vines the size of mountain ranges are visible on the horizon:
+  monuments to the violence the Estara did to this realm.
+
+  Shortly after arrival, hobgoblin bandits who operate in the wasteland attack. The party
+  repels them. Scouting from the air, they spot a structure about a mile northeast—Rinick's
+  Diner.
+relationships:
+  - target: chapter-6a-into-the-wild
+    rel: part_of
+  - target: location-feywild-wasteland
+    rel: set_in
+  - target: concept-estarans
+    rel: referenced_in
+    notes: The wasteland is the scar left by Estaran occupation
+sources:
+  - chapters/chapter-6a-into-the-wild.md

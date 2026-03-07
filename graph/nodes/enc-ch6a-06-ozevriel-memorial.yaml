@@ -1,0 +1,32 @@
+id: enc-ch6a-06-ozevriel-memorial
+type: encounter
+name: "Ch6a E06: Exploring Ozevriel's Memorial"
+tags: [chapter-6a, exploration, ozevriel, memorial, crystal, ode-inscription, first-war]
+status: complete
+summary: The party explores the ancient memorial tomb of Ozevriel—once a pilgrimage site, now fallen into disrepair; they read his verse from the Ode to Seven Lords inscribed beneath his crystal-preserved body.
+content: |
+  Grounded near the mysterious tower, the party investigates and realizes it is the memorial
+  tomb of Ozevriel—a hero slain in the first rebellion against the Estarans. Once one of the
+  most revered pilgrimage sites in Fey history; now largely forgotten and fallen into disrepair.
+
+  The party finds the stone patio entrance and begins exploring. In the tomb chamber:
+  Ozevriel himself, preserved in crystal, standing eternal watch. His verse from the Ode to
+  Seven Lords is inscribed on the platform beneath him. A profound moment of contact with the
+  ancient past and the sacrifice that made everything possible.
+
+  No combat in this section—pure discovery and historical significance.
+  (Per the session worksheet: "Reading the verse... Recognizing that this was once a pilgrimage
+  site but has fallen into disrepair.")
+relationships:
+  - target: npc-ozevriel
+    rel: features
+  - target: artifact-ode-to-seven-lords
+    rel: features
+    notes: His verse is inscribed in the tomb
+  - target: chapter-6a-into-the-wild
+    rel: part_of
+  - target: location-memorial-of-ozevriel
+    rel: set_in
+sources:
+  - chapters/chapter-6a-into-the-wild.md
+  - prompts/session-worksheets/chapter-6a-final-session.md

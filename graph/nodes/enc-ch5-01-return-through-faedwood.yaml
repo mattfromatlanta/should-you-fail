@@ -1,0 +1,19 @@
+id: enc-ch5-01-return-through-faedwood
+type: encounter
+name: "Ch5 E01: Return Through the Faedwood"
+tags: [chapter-5, travel, faedwood, centaurs, dark-omen, oechenfor]
+status: complete
+summary: Protected by the Trickster's Blessing, the party travels back through the Faedwood toward Oechenfor; centaurs warn them of dark omens hanging over the city.
+content: |
+  The party's first free travel since receiving the Trickster's Blessing—Milicent can no longer
+  track them. They travel from Naeliste back through the Faedwood toward Oechenfor.
+
+  Centaurs warn them: dark omens hang over Oechenfor. Something is deeply wrong in the city.
+  This foreshadows the kidnapping crisis they are about to discover.
+relationships:
+  - target: chapter-5-return-to-oechenfor
+    rel: part_of
+  - target: location-faedwood
+    rel: set_in
+sources:
+  - chapters/chapter-5-return-to-oechenfor.md

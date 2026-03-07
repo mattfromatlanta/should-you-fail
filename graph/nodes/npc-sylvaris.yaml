@@ -1,0 +1,17 @@
+id: npc-sylvaris
+type: npc
+name: Sylvaris
+tags: [player-character, ranger, scout, party]
+status: alive
+summary: Ranger; fills the scout role when the party needs advance reconnaissance.
+content: |
+  Player character. Ranger who takes on the scout role when the situation calls for it.
+
+  Notable moments:
+  - Ch6b E01: Scouted Egedzoo's sanctum with nearly supernatural stealth, providing the party
+    advance intelligence before the confrontation with the dragon.
+relationships:
+  - target: enc-ch6b-01-egedzoo-assault
+    rel: appears_in
+sources:
+  - prompts/session-worksheets/chapter-6b-egedzoo-assault.md

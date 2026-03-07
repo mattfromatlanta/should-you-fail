@@ -1,0 +1,24 @@
+id: npc-delamin-van-morgaaran
+type: npc
+name: Delamin Van Morgaaran
+tags: [oechenfor, merchant, van-morgaaran-trading, cormin-family, powerful]
+status: alive
+summary: Cormin's eldest brother; head of Van Morgaaran Trading in Oechenfor; the company built much of the city's infrastructure and may be more powerful than the city's Counselors.
+content: |
+  Leads the Oechenfor branch of the Van Morgaaran Trade Company. Under his leadership the
+  Company has built roads, warehouses, river docks, and a guild-run market system that drives
+  much of Oechenfor's prosperity. Some whisper the Van Morgaarens are more powerful than the
+  city's Counselors themselves.
+
+  Cormin is his younger brother.
+relationships:
+  - target: npc-cormin
+    rel: family
+    notes: Eldest brother
+  - target: npc-maelyn-heatherfields
+    rel: employs
+    notes: Maelyn is his lieutenant
+  - target: location-oechenfor
+    rel: located_in
+sources:
+  - npcs/mortals/delamin-van-morgaaran.md

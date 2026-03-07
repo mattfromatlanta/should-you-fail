@@ -1,0 +1,34 @@
+id: npc-aldrin-stoneward
+type: npc
+name: Aldrin Stoneward
+tags: [human, veteran, founder, oechenfor, allied-cities, rebellion, ageless]
+status: alive
+summary: Chief Citizen and Founder of Oechenfor; veteran gifted with ageless life by the Estara; currently in Aris navigating the political crisis.
+content: |
+  A middle-aged human man with dark skin and a bald head. Tall and regal with a seeming radiance.
+  Carries the legendary longsword Valor on his back. Gifted by the Estara with ageless, enduring
+  life before the First Rebellion. Fought alongside Maelric Sturmwald and Gallifax in the
+  Rebellion. Survived the burning of Metgal. Co-founded Oechenfor ~20 years ago with Erol the
+  Faed and other Founders.
+
+  Currently in Aris: arrived hoping to help the catatonic Maelric and stabilize the alliance.
+  Instead caught in an escalating political crisis between the Veterans and Young Bastards.
+  His reputation as a fair-minded moderate makes him valuable—and trapped—in the middle.
+relationships:
+  - target: npc-maelric-sturmwald
+    rel: ally
+  - target: npc-erol
+    rel: ally
+    notes: Co-founded Oechenfor with her; former romantic partners—she is the one who got away; deep mutual affection remains but Erol cannot live in his structured orbit
+  - target: faction-allied-cities
+    rel: member_of
+  - target: event-rebellion
+    rel: participated_in
+  - target: location-oechenfor
+    rel: founded
+  - target: location-aris
+    rel: currently_in
+sources:
+  - npcs/heroes/aldrin-stoneward.md
+  - chapters/chapter-1-invaders.md
+  - chapters/chapter 7/chapter-7-synopsis.md

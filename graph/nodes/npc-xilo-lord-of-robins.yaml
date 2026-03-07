@@ -1,0 +1,34 @@
+id: npc-xilo-lord-of-robins
+type: npc
+name: Xilo, Lord of Robins
+tags: [archfey, rebel-fey, feywild, ally, beast-lord]
+status: alive
+summary: One of the seven original Rebel Fey; quick-witted and pragmatic; allied with the party after they slew Egedzoo in Chapter 6b.
+content: |
+  One of the seven original Archfey who fought the Estarans in the First War. Maintains
+  surveillance on threats through agents like Twi'Xu. From the Ode to Seven Lords: "Joy beneath
+  the thorn, taught the lost to win." Quick-witted and pragmatic; immediately helpful to anyone
+  working with Milicent.
+
+  Understands that without Milicent's drastic measures, the Estarans would never have been driven
+  away. Concerned about the Feywild's weakened state since both Ozevriel (dead) and Milicent
+  (departed to Shadowfell) are absent.
+
+  After the party slew Egedzoo: provided safe passage back to the Material Plane, gifted a
+  Feywild Compass, and pledged alliance when the Estarans return.
+relationships:
+  - target: faction-rebel-fey
+    rel: member_of
+  - target: npc-twi-xu
+    rel: employs
+    notes: Twi'Xu is his lieutenant and Animal Lord
+  - target: npc-milicent
+    rel: former_ally
+    notes: Complex relationship; respects her past role but she is now the Shadowdame
+  - target: npc-egedzoo
+    rel: enemy_of
+  - target: location-feywild
+    rel: located_in
+sources:
+  - chapters/chapter-6a-into-the-wild.md
+  - assets/ode-to-seven-lords.md

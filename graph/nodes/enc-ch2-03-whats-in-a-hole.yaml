@@ -1,0 +1,32 @@
+id: enc-ch2-03-whats-in-a-hole
+type: encounter
+name: "Ch2 E03: What's In A Hole"
+tags: [chapter-2, combat, exploration, underdark, kobold-ruins, shadowdame-m, milicent]
+status: complete
+summary: The party explores the East Hills caves in search of shelter for Lome's citizens; they descend into the Underdark and discover kobold ruins containing a reference to "Shadowdame M."
+content: |
+  The party scouts the East Hills cave system for refuge space ahead of Torma's attack. The
+  caves lead deeper than expected, into the Underdark. They encounter piercers, ropers, and
+  various dungeon hazards before finding the kobold ruins.
+
+  The kobold ruins are the hiding place of kobolds who once served Milicent but fled her service.
+  She sent Death Knight champions to hunt them down. The ruins contain trapped rooms, secret
+  doors, and mimics—and crucially, a curse or inscription written to "Shadowdame M." This is
+  the party's first indirect reference to Milicent by name, though they don't yet understand it.
+
+  Treasure from kobold ruins: 50gp silver ore (trapped, 400 lbs), 80 lbs gold ore, 130 lbs
+  silver ore, 72 silver bars, 3 gold bars, Heward's Handy Haversack.
+
+  Monsters: Piercers, Ropers, Hook Horrors, Mimics, Green Slime, Zombies.
+relationships:
+  - target: npc-milicent
+    rel: referenced_in
+    notes: Inscription "Shadowdame M" is the party's first clue about her existence
+  - target: chapter-2-darkness
+    rel: part_of
+  - target: location-underdark
+    rel: set_in
+  - target: location-east-hills
+    rel: set_in
+sources:
+  - chapters/chapter-2-darkness.md

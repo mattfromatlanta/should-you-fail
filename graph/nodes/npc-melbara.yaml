@@ -1,0 +1,27 @@
+id: npc-melbara
+type: npc
+name: Melbara
+tags: [eladrin, naeliste, librarian, moon-druid, ally]
+status: alive
+summary: Queen Librarian of Naeliste's Library of Rhymes and Antiquities; Moon Druid; grandmother of Aelira; holds key historical documents.
+content: |
+  Queen Librarian and Moon Druid of Naeliste. Grandmother of Aelira (one of the party members).
+  Daughter-in-law relationship to Caera. Curates the Library of Rhymes and Antiquities, which
+  holds rare documents including the Testament of Embers, Grib's letter from the First War, and
+  the Ode to Seven Lords. Her collection's documents provided key revelations in Chapter 3.
+relationships:
+  - target: npc-caera
+    rel: family
+    notes: Daughter-in-law; Caera is Aelira's mother
+  - target: location-naeliste
+    rel: located_in
+  - target: artifact-testament-of-embers
+    rel: owns
+    notes: Held in her library collection
+  - target: artifact-letter-from-grib
+    rel: owns
+  - target: artifact-ode-to-seven-lords
+    rel: owns
+sources:
+  - npcs/fey/melbara.md
+  - chapters/chapter-3-shadow-pursuit.md

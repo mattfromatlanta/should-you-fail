@@ -1,0 +1,22 @@
+id: enc-ch1-08-we-drive-them-out
+type: encounter
+name: "Ch1 E08: We'll Drive Them From Our Land"
+tags: [chapter-1, roleplay, combat, lome, rally, dragonborn]
+status: complete
+summary: The party rallies Lome's defenders and pushes back against the besieging Dragonborn forces before the final confrontation with Gullux.
+content: |
+  The party organizes Lome's resistance with the help of Kruftus, F'zuga, and the monastery
+  monks. The town's defenders push back the Dragonborn harassing forces. This encounter builds
+  toward the final confrontation with Gullux and establishes the party as leaders worth
+  following.
+relationships:
+  - target: npc-kruftus-unter
+    rel: features
+  - target: npc-fzuga
+    rel: features
+  - target: chapter-1-invaders
+    rel: part_of
+  - target: location-lome
+    rel: set_in
+sources:
+  - chapters/chapter-1-invaders.md

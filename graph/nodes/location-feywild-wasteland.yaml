@@ -1,0 +1,28 @@
+id: location-feywild-wasteland
+type: location
+name: Feywild Wasteland (Scorched Outer Regions)
+tags: [feywild, wasteland, estaran-damage, hobgoblin, scorched, qu]
+status: active
+summary: The outer regions of the Feywild destroyed by Estaran influence; a rocky desert under perpetual twilight with hobgoblin bandit factions.
+content: |
+  Barren, desolate landscape cloaked in perpetual twilight. Scorched when the Estara's intensely
+  ordered, geometric nature clashed with the Feywild's wild, chaotic nature. Dominated by
+  enormous thorn vines visible on the horizon. Home to hobgoblin bandit factions.
+
+  Notable locations within:
+  - Rinick's Diner: neutral-ground roadside establishment; site of Twi'Xu/Egedzoo standoff
+  - Qu: small Fey settlement on the wasteland edge where Cetyri and Bronik sheltered
+  - Egedzoo's Canyon Lair: deep canyon stronghold of the adult blue dragon (now cleared)
+
+  One day's travel along a northeast ridge from the Feywild entry point.
+relationships:
+  - target: location-feywild
+    rel: part_of
+  - target: location-rincks-diner
+    rel: contains
+  - target: location-qu
+    rel: contains
+  - target: concept-estarans
+    rel: damaged_by
+sources:
+  - chapters/chapter-6a-into-the-wild.md

@@ -1,0 +1,31 @@
+id: enc-ch4-08-audience-with-yrk
+type: encounter
+name: "Ch4 E08: Audience with Yrk"
+tags: [chapter-4, roleplay, yrk, eigitch, milicent-contact, return-to-naeliste]
+status: complete
+summary: Yrk explains the Trickster's Blessing and agrees to contact Milicent for an audience; reunites with Eigitch in an understated, affectionate moment; the party returns to Naeliste.
+content: |
+  After the blessing is conferred, the party has an audience with Yrk the Trickster. He:
+  - Explains the nature of the Trickster's Blessing (severing from the Material Plane)
+  - Confirms they can no longer be tracked by Milicent's Shadow Projector
+  - Agrees to reach out to Milicent seeking an audience for the party
+  - Reunites with Eigitch—great-great-great-grandson and submarine captain—with dry,
+    understated affection; they are each other's only confidant on Yrk's true name (Ar'gix)
+
+  Yrk keeps word he will contact Milicent. The party and Eigitch return to Naeliste via
+  the Underwet submarine, now invisible to Milicent's gaze. Stage is set for meeting Milicent
+  directly in Chapter 5.
+relationships:
+  - target: npc-yrk-the-trickster
+    rel: features
+  - target: npc-eigitch-the-old
+    rel: features
+  - target: npc-milicent
+    rel: referenced_in
+    notes: Yrk agrees to arrange a meeting
+  - target: chapter-4-journey-to-the-trickster
+    rel: part_of
+  - target: location-drekklands
+    rel: set_in
+sources:
+  - chapters/chapter-4-journey-to-trickster.md

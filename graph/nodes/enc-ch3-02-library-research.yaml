@@ -1,0 +1,38 @@
+id: enc-ch3-02-library-research
+type: encounter
+name: "Ch3 E02: The Library of Rhymes and Antiquities"
+tags: [chapter-3, roleplay, naeliste, melbara, library, testament-of-embers, ode-to-seven-lords, letter-from-grib]
+status: complete
+summary: The party researches in Melbara's library and discovers three key historical documents: the Testament of Embers, the Ode to Seven Lords, and Grib's letter from the First War.
+content: |
+  The party investigates the Library of Rhymes and Antiquities under the guidance of Melbara,
+  the Queen Librarian and Moon Druid of Naeliste. Three critical documents come to light:
+
+  - **Testament of Embers**: Ancient Estaran epic describing Varkhasia the red Unary Great Wyrm
+    who nearly destroyed the Estaran Empire. Describes the Estara's "Last Resort"—annihilation
+    of the Material Plane.
+  - **Ode to Seven Lords**: Formal poem detailing the seven original Rebel Fey and Milicent's
+    fall. Milicent is named as "the fallen seventh, now the Shadowdame."
+  - **Letter from Grib to Yip**: Personal letter from the First War; the postscript mentions
+    Yrk by name—connecting the ancient goblin to this period.
+
+  Also found: the Letter from Caera to Melbara (written during the Rebellion).
+
+  These documents transform the party's understanding of the cosmic conflict.
+relationships:
+  - target: npc-melbara
+    rel: features
+  - target: artifact-testament-of-embers
+    rel: features
+  - target: artifact-ode-to-seven-lords
+    rel: features
+  - target: artifact-letter-from-grib
+    rel: features
+  - target: artifact-letter-from-caera
+    rel: features
+  - target: chapter-3-shadow-pursuit
+    rel: part_of
+  - target: location-naeliste
+    rel: set_in
+sources:
+  - chapters/chapter-3-shadow-pursuit.md

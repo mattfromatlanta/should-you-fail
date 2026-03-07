@@ -1,0 +1,19 @@
+id: enc-ch1-03-a-carcass-a-mess
+type: encounter
+name: "Ch1 E03: A Carcass, A Mess"
+tags: [chapter-1, exploration, faedwood, investigation, dragonborn-evidence]
+status: complete
+summary: The party finds evidence of the Dragonborn invaders—a trail of destruction along the Faepath indicating a large armed force passed through.
+content: |
+  Environmental storytelling encounter on the Faepath. The party discovers the aftermath of
+  Dragonborn passage: slaughtered animals, trampled vegetation, discarded equipment. The scale
+  of the force (fifty warriors) becomes apparent. First concrete evidence of the invasion.
+
+  Loot found at The Nest waypoint: Potion of Comprehension, Potion of Healing.
+relationships:
+  - target: chapter-1-invaders
+    rel: part_of
+  - target: location-faedwood
+    rel: set_in
+sources:
+  - chapters/chapter-1-invaders.md

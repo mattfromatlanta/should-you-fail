@@ -1,0 +1,66 @@
+id: chapter-3-shadow-pursuit
+type: chapter
+name: Chapter 3: The Shadow Pursuit
+tags: [chapter, naeliste, trickster, rebel-fey, milicent-lore, cetyri-potential]
+status: complete
+summary: Party reaches Naeliste, discovers key historical documents in the library, learns of Cetyri's potential as Dragon Singularity, and plans the journey to find Yrk the Trickster.
+content: |
+  Erol explained her absence: she and Lamat had discovered they were targets of a kidnapping
+  plot by Milicent, Erol's former patron. The Shadowdame had not forgotten their bond. Erol and
+  Lamat fled into the Feywild, where they gathered troubling intelligence: Milicent had reactivated
+  the same ritual that created the Dread Legion during the First Rebellion. She was collecting
+  bound souls, conscripting them into something vast. For what purpose, Erol did not know.
+
+  Before parting, Erol urged the party to seek the Trickster's Blessing, which would protect them
+  from Milicent's gaze. She directed them to Naeliste, the Fey city where Milicent could not
+  track them.
+
+  For two days through the Faedwood, the party was pursued by Milicent's quicklings, harried at
+  every step. They were attacked by wraiths and giants. During the journey, both Bronik and Cetyri
+  opened up, each questioning their place in what was to come.
+
+  The party arrived in Naeliste on March 27th. Sylvaris went off with his friend Chevin the
+  Silkstrand and hasn't been seen since. The party joined the Goblin stories and met Eigitch the
+  Old, who spoke of the Trickster's Blessing and the Drekklands far to the south. He recommended
+  they consult Bo'Lug Longtongue, who knew a path Milicent could not easily track.
+
+  The next day brought the Festival of the Last Frost. While Peno and Bronik helped with setup,
+  others brought Cetyri to Lomani Nae, an Eladrin cleric whose family founded Naeliste two
+  millennia ago. Lomani agreed to examine Cetyri and discovered something remarkable: the dragon's
+  soul reached across space, existing in multiple places simultaneously.
+
+  Meanwhile, others visited Bo'Lug in the Foot of the Falls. The old Bullywug shared a cryptic
+  riddle about swamps, old roots, and forgotten lords listening "still wet with sorrow." When the
+  party sought clarification from Eigitch, he revealed his secret: a submarine called "The Rainbow
+  Trout" that could travel the Underwet—an underground river system connecting distant places
+  across the world.
+
+  At the Library of Rhymes and Antiquities, the party discovered crucial documents: the Testament
+  of Embers (an Estaran epic about Varkhasia the red Unary Great Wyrm), the Ode to Seven Lords
+  (a poem about the Rebel Fey), a letter from a goblin soldier named Grib, and a personal letter
+  from Caera written during the Rebellion. These texts revealed the deep history of the world—
+  including hints that the Material Plane had been destroyed and recreated before.
+
+  A speak with dead ritual revealed information about Milicent's "Shadow Projector"—a device
+  using the Material Plane itself as a lens to capture and transform beings.
+
+  When Lomani shared his findings about Cetyri's multiversal soul, the dragon became worried.
+  This might be what Erol meant by "his choice"—connecting his fragmented souls could grant him
+  strength to destroy Milicent, but with disastrous effects.
+
+  Concerned, Cetyri and Bronik fled together into the Feywild.
+relationships:
+  - target: location-naeliste
+    rel: set_in
+  - target: npc-melbara
+    rel: features
+  - target: npc-lomani-nae
+    rel: features
+  - target: npc-eigitch-the-old
+    rel: features
+  - target: chapter-2-darkness
+    rel: preceded_by
+  - target: chapter-4-journey-to-the-trickster
+    rel: followed_by
+sources:
+  - archive/chapters/chapter-3-shadow-pursuit.md

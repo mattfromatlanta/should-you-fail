@@ -1,0 +1,45 @@
+id: chapter-1-invaders
+type: chapter
+name: Chapter 1: Invaders
+tags: [chapter, gullux, lome, dragonborn, milicent-first-contact, uplands]
+status: complete
+summary: The party investigates Lome's silence, discovers Dragonborn invaders led by Gullux, defeats him in Milicent's shadow space, and finds stolen dragon eggs.
+content: |
+  When spring thaw arrived and no word came from the highland village of Lome, Chief Citizen
+  Aldrin Stoneward called upon the party to investigate. The journey north through the Faedwood
+  revealed immediate trouble—a massive carcass discarded unnaturally, and terrified fey who
+  spoke of attackers from the Uplands occupying the Nest.
+
+  On the evening of March 16th, the party assaulted the Nest and defeated four Dragonborn
+  invaders, rescuing a captured pixie named Elmleaf and two travelers: Peno the Goliath and
+  Sylvaris, an Eladrin from Naeliste. A captured Dragonborn revealed their leader—a monster
+  called Gullux—commanded a larger force at the Upland Stair.
+
+  The next day, the party drove the invaders from the Upland Stair and reopened the path to
+  Lome. At the manor of Erol the Faed and her companion Lamat, they found signs of a hurried
+  departure. The protectors of Lome were nowhere to be found.
+
+  Arriving in Lome on March 19th, the party met Mayor Kruftus and the town leaders. The village
+  had been under siege since mid-winter. Many citizens had died fighting back against the raiders.
+  With a troop of volunteers, the party set out for the invaders' cave at the foot of the East Hills.
+
+  The battle with Gullux's forces led them into the cave, where they were suddenly trapped in a
+  shadowy projection of reality—a twisted reflection where shrill voices urged them on. When they
+  defeated Gullux in this strange space, they found themselves returned to the natural cave.
+  Searching the area, they discovered three white dragon eggs. The party burned them, ensuring
+  no more dragons would threaten the region.
+relationships:
+  - target: npc-aldrin-stoneward
+    rel: features
+  - target: npc-gullux
+    rel: features
+  - target: event-dragonborn-invasion
+    rel: covers
+  - target: location-lome
+    rel: set_in
+  - target: location-upland-stair
+    rel: set_in
+  - target: chapter-2-darkness
+    rel: followed_by
+sources:
+  - archive/chapters/chapter-1-invaders.md

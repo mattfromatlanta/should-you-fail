@@ -1,0 +1,17 @@
+id: npc-ooli-forgegarden
+type: npc
+name: Ooli Forgegarden
+tags: [dwarf, oechenfor, counselor]
+status: alive
+summary: Dwarf city counselor of Oechenfor; currently in a relationship with Nirsa Hoegartner, who was formerly married to fellow counselor Taram Thristle.
+content: |
+  Serves as a counselor in Oechenfor's city government. In a relationship with socialite
+  Nirsa Hoegartner, who was previously married to fellow counselor Taram Thristle.
+relationships:
+  - target: npc-nirsa-hoegartner
+    rel: partner
+    notes: Currently involved with Nirsa
+  - target: location-oechenfor
+    rel: located_in
+sources:
+  - npcs/mortals/ooli-forgegarden.md

@@ -1,0 +1,31 @@
+id: npc-ozevriel
+type: npc
+name: Ozevriel
+tags: [archfey, rebel-fey, deceased, memorial, first-war, feywild]
+status: dead
+summary: One of the seven Rebel Fey who sacrificed himself so the other six could escape during the First War; his memorial tower exists in the Feywild.
+content: |
+  From the Ode to Seven Lords—one of the original seven Rebel Fey. Sacrificed himself during the
+  First War to let the other six escape. His death weakened the Feywild fundamentally; he was
+  one of two pillars giving the realm stability. Milicent's departure to the Shadowfell removed
+  the second pillar, leaving the Feywild unable to heal.
+
+  His memorial tomb exists in the Feywild's eternal twilight forest—once a pilgrimage site, now
+  fallen into disrepair and largely forgotten. His body is preserved in crystal, standing eternal
+  watch. The party explored the memorial in Chapter 6a and discovered Milicent's old observatory
+  at its peak.
+
+  Verse from the Ode: "Ozevriel—he gave himself so six could walk away."
+relationships:
+  - target: faction-rebel-fey
+    rel: member_of
+  - target: location-memorial-of-ozevriel
+    rel: entombed_in
+  - target: event-first-war
+    rel: died_in
+  - target: npc-milicent
+    rel: former_ally
+    notes: Milicent built an observatory atop his memorial
+sources:
+  - chapters/chapter-6a-into-the-wild.md
+  - assets/ode-to-seven-lords.md

@@ -1,0 +1,49 @@
+id: enc-ch6b-01-egedzoo-assault
+type: encounter
+name: "Ch6b E01: Assault on Egedzoo's Canyon Lair"
+tags: [chapter-6b, combat, egedzoo, canyon, hobgoblins, lightning, traps, dragon-fight, actual-play]
+status: complete
+summary: Dawn assault on Egedzoo's canyon lair; Xilo's forces drew the hobgoblin army away; the party dispatched skeleton guard crews and faced Egedzoo in his sanctum—Cormin's mind magic exposed the lightning conductor web; Aelira pinned him; the party slew him decisively.
+content: |
+  Dawn assault, coordinated with Xilo. His forces engaged the bulk of the hobgoblin army,
+  drawing them away from the canyon lair.
+
+  The party infiltrated through the defended positions:
+  - **Entrance plateau**: Small skeleton crew of Hobgoblin Devastators and Iron Shadows.
+    Dispatched quickly.
+  - **Narrow passage**: Trapped corridor (lightning bolt trap, collapsing ceiling). Murder holes
+    from the guard chamber above.
+  - **Guard chamber**: Hobgoblin Warlord and soldiers in formation. Defeated.
+  - **Egedzoo's sanctum**: Vast cavern with elevated platform, lightning rod, unstable floor.
+
+  In the sanctum, Cormin (sorcerer, mind magic) conjured an illusory copy of the party to
+  lead the approach. Egedzoo ambushed the illusion with his surprise breath attack, wasting
+  it—and inadvertently revealing that his lair was rigged with conductors to carry lightning
+  breath in a web around the room, alerting the party to the hazard before they entered.
+  Sylvaris (ranger) scouted the sanctum with nearly supernatural stealth. Aelira (druid)
+  pinned the dragon in summoned webbing. Peno (fighter) hammered him with his maul. The beast
+  was quickly and decisively defeated.
+
+  The fight was a resounding victory. Treasure claimed: ~25,000gp in coins, gems, art objects,
+  trade goods, plus magic items.
+relationships:
+  - target: npc-egedzoo
+    rel: features
+  - target: npc-xilo-lord-of-robins
+    rel: features
+    notes: Coordinated the distraction of hobgoblin forces
+  - target: npc-cormin
+    rel: features
+  - target: npc-aelira
+    rel: features
+  - target: npc-sylvaris
+    rel: features
+  - target: npc-peno
+    rel: features
+  - target: chapter-6b-death-to-egedzoo
+    rel: part_of
+  - target: location-feywild-wasteland
+    rel: set_in
+sources:
+  - chapters/chapter-6b-death-to-egedzoo.md
+  - prompts/session-worksheets/chapter-6b-egedzoo-assault.md

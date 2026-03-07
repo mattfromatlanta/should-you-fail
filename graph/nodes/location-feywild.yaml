@@ -1,0 +1,31 @@
+id: location-feywild
+type: location
+name: The Feywild
+tags: [plane, feywild, fey, xilo, naeliste, rebel-fey]
+status: active
+summary: Vibrant reflection of the Material Plane; home to Fey and the Rebel Fey; outer regions scarred by Estaran occupation.
+content: |
+  A vibrant reflection of the Material Plane. Home to Fey creatures characterized by intense
+  magical energy. The Rebel Fey reside here. Naeliste is located in the Feywild.
+
+  Outer regions (closest to Material Plane) were scorched and ruined by Estaran influence—a
+  fundamental incompatibility between Estaran order and Fey chaos left these borderlands dead.
+  Giant thorn vines the size of mountain ranges mark the wasteland horizon.
+
+  The heart of the Feywild is an eternal twilight forest—the primal, untouched state of the
+  realm. The Memorial of Ozevriel stands in this forest.
+
+  The Feywild has been weakened since both Ozevriel (died) and Milicent (departed) are absent—
+  they were the two pillars of stability.
+relationships:
+  - target: location-naeliste
+    rel: contains
+  - target: location-feywild-wasteland
+    rel: contains
+  - target: location-memorial-of-ozevriel
+    rel: contains
+  - target: faction-rebel-fey
+    rel: home_of
+sources:
+  - world/cosmology.md
+  - chapters/chapter-6a-into-the-wild.md

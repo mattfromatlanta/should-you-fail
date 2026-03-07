@@ -1,0 +1,41 @@
+id: npc-yrk-the-trickster
+type: npc
+name: Yrk the Trickster (Ar'gix)
+tags: [goblin, ancient, trickster, ally, shadow-projector, drekklands, blessing]
+status: alive
+summary: Nearly 2000-year-old goblin survivor of the First War; co-creator of the Shadow Projector; grants the Trickster's Blessing; now allied with the party.
+content: |
+  An ancient goblin who has survived nearly two millennia through cunning, misdirection, and
+  refusal to be found. Fought in the First War against the Estara, surviving by avoiding direct
+  confrontation. Was close to Milicent for decades and helped build the Shadow Projector's core
+  design ~400 years ago. Did not realize it would be used to enslave mortals. When Milicent
+  began creating the Dread Legion, he broke ties and fled to the Drekklands.
+
+  The Drekklands' magical instability suits him—hard to map, hard to follow. Great-great-great-
+  grandfather to Eigitch the Old. Has the deepest knowledge of the Shadow Projector's structure.
+
+  Grants the Trickster's Blessing through ritual combat death in a calm shadow space—severs
+  recipients' spiritual ties to the Material Plane, making them invisible to Milicent's tracking.
+
+  Current status (end of Ch6): Working with Milicent on a portable Radiant Projector and star
+  model for the party's cross-world journey. Traveling the mortal world with Felicity. Will
+  arrive in Aris a few days after the party.
+relationships:
+  - target: npc-milicent
+    rel: former_partner
+    notes: Co-built Shadow Projector; fled when she began enslaving mortals
+  - target: npc-eigitch-the-old
+    rel: family
+    notes: Great-great-great-grandfather
+  - target: npc-felicity
+    rel: traveling_with
+    notes: Working together on portable Radiant Projector project
+  - target: concept-shadow-projector
+    rel: created_by
+  - target: concept-tricksters-blessing
+    rel: grants
+  - target: location-drekklands
+    rel: located_in
+sources:
+  - npcs/heroes/yrk-the-trickster.md
+  - chapters/chapter-4-journey-to-trickster.md

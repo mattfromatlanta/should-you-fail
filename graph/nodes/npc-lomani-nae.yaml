@@ -1,0 +1,22 @@
+id: npc-lomani-nae
+type: npc
+name: Lomani Nae
+tags: [eladrin, naeliste, cleric, teleportation, spiritual, cetyri]
+status: alive
+summary: The Doorkeeper of Naeliste; cleric who maintains the teleportation circle; spiritually examined Cetyri and discovered his soul's multiverse-spanning nature.
+content: |
+  The Quiet Branch and spiritual elder of House Nae. Cleric who maintains Naeliste's permanent
+  teleportation nexus (the Circle). Through careful spiritual examination of Cetyri, discovered
+  that his soul exhibits an irregular, dispersed pattern with strands reaching to many worlds
+  simultaneously. Her questions about dragon multiplicity inadvertently spooked Cetyri into
+  fleeing to the Feywild.
+relationships:
+  - target: npc-cetyri
+    rel: examined
+    notes: Discovered his soul's multiverse-spanning nature; triggered his flight
+  - target: location-naeliste
+    rel: located_in
+sources:
+  - npcs/fey/lomani-nae.md
+  - chapters/chapter-3-shadow-pursuit.md
+  - chapters/chapter-6a-into-the-wild.md

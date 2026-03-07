@@ -1,0 +1,30 @@
+id: npc-caera
+type: npc
+name: Caera
+tags: [eladrin, druid, naeliste, rebellion-veteran, aelira-parent, fey]
+status: alive
+summary: Eladrin Druid of Naeliste; mother of Aelira; veteran of the Rebellion; brings news about Erol in Chapter 2.
+content: |
+  Eladrin Druid of the Land, drawing power from quiet mysteries of the ancient woods. Attuned
+  to dreams, omens, and the unspoken language of flora and fauna. Preferred wild shape: Night
+  Heron. Mother of Aelira (party member). Daughter-in-law of Melbara. Partner was Thorn (who
+  vanished years ago). Both fought in the Rebellion to make a world their daughter could walk
+  through without fear.
+
+  After the Rebellion ended she raised Aelira. Pledged to help Lome recover but had to return
+  to Naeliste when Milicent began abducting mortals. Confirmed Erol is female. Has known Erol
+  for many years, respects her deeply.
+relationships:
+  - target: npc-melbara
+    rel: family
+    notes: Daughter-in-law
+  - target: npc-erol
+    rel: ally
+    notes: Has known her for years; deeply respects her
+  - target: location-naeliste
+    rel: located_in
+  - target: event-rebellion
+    rel: participated_in
+sources:
+  - npcs/fey/caera.md
+  - chapters/chapter-2-darkness.md

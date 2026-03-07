@@ -1,0 +1,26 @@
+id: enc-ch1-07-a-town-under-siege
+type: encounter
+name: "Ch1 E07: A Town Under Siege"
+tags: [chapter-1, roleplay, lome, siege, kruftus, midge, fzuga]
+status: complete
+summary: The party arrives in Lome and finds the town living under constant Dragonborn harassment—the townspeople are frightened but holding on.
+content: |
+  Arrival in Lome. The town of fewer than 200 is under siege by Gullux's Dragonborn force.
+  The party meets the three town leaders: Kruftus Unter (werebear mayor), F'zuga (orc monk),
+  and Midge Wittle (gnome innkeeper). They assess the situation and the town's needs:
+  Kruftus needs security and supplies; F'zuga needs rebuilding capability; Midge needs
+  transport infrastructure. The party also encounters Elmleaf, a pixie warrior captured by
+  the invaders.
+relationships:
+  - target: npc-kruftus-unter
+    rel: features
+  - target: npc-fzuga
+    rel: features
+  - target: npc-midge-wittle
+    rel: features
+  - target: chapter-1-invaders
+    rel: part_of
+  - target: location-lome
+    rel: set_in
+sources:
+  - chapters/chapter-1-invaders.md

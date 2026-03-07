@@ -1,0 +1,27 @@
+id: npc-adrum-zannis
+type: npc
+name: Adrum Zannis
+tags: [svirfneblin, oechenfor, founder, veteran, rebellion, adrum-vault]
+status: alive
+summary: Aged female Svirfneblin; veteran of the Estaran campaigns and Rebellion; one of the six Founders of Oechenfor; operates Adrum's Vault, a subterranean archive and secure storage facility.
+content: |
+  Veteran of both the Estaran campaigns and the Rebellion. One of the six Founders of
+  Oechenfor, bringing military experience and strategic vision to the city's establishment.
+  Recruited Ahkkathassys to come to Oechenfor at the suggestion of Aldrin Stoneward.
+
+  Operates Adrum's Vault: a subterranean archive, magical repository, and neutral ground
+  for high-value exchanges beneath Oechenfor. Entry requires recommendation or sponsorship
+  by one of the city's Founders. Her descendants help maintain the facility.
+relationships:
+  - target: npc-aldrin-stoneward
+    rel: ally
+    notes: Co-founded Oechenfor; she recruited Ahkkathassys at his suggestion
+  - target: npc-ahkkathassys
+    rel: ally
+    notes: Recruited him to Oechenfor
+  - target: location-oechenfor
+    rel: founded
+  - target: event-rebellion
+    rel: participated_in
+sources:
+  - npcs/mortals/adrum-zannis.md

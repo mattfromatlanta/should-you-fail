@@ -1,0 +1,16 @@
+id: npc-nava-kurn
+type: npc
+name: Nava Kurn
+tags: [dwarf, aris, counselor, young-bastards, faction-leader]
+status: alive
+summary: Dwarf woman, 45; charismatic leader of the Young Bastards political faction in Aris; sharp-tongued and pragmatic, frustrated with Veteran dominance and pressing for new leadership.
+content: |
+  Charismatic leader of the Young Bastards, the reform-minded political faction in Aris.
+  Sharp-tongued and pragmatic; deeply frustrated with the Veteran old guard's dominance.
+  Sees Maelric's catatonic state as proof the old order must step aside and is pressing for
+  new leadership, veteran retirements, and resource redistribution.
+relationships:
+  - target: location-aris
+    rel: located_in
+sources:
+  - chapters/chapter 7/chapter-7-npcs.txt

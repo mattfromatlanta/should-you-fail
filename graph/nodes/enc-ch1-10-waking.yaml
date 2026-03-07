@@ -1,0 +1,32 @@
+id: enc-ch1-10-waking
+type: encounter
+name: "Ch1 E10: Waking"
+tags: [chapter-1, exploration, dragon-eggs, gullux-hideout, mysterious-slaughter]
+status: complete
+summary: The party awakens from the shadow projection to find all remaining Dragonborn in the hideout mysteriously slain; they discover three stolen white dragon eggs, which they burn.
+content: |
+  The party wakes in the East Hills cave hideout. Every Dragonborn not already dead in combat
+  has been slain with no external wounds—Milicent's work, but the party doesn't know that yet.
+  In the hideout they find three white dragon eggs, stolen by Gullux from Torma the Unforgiving.
+  The party burns all three eggs.
+
+  The Founders Erol and Lamat remain missing. The chapter ends with the siege broken, Lome
+  safe for now, and a profound mystery unsolved: what was that shadow place, who killed the
+  Dragonborn, and whose eggs were those?
+
+  Treasure from the chapter's total hoard: 1350gp, 1900ep, 4250sp; magic items distributed
+  throughout the chapter including Boots of Speed, Flametongue Longsword, Adamantine Plate
+  Armor, and several other items.
+relationships:
+  - target: npc-milicent
+    rel: features
+    notes: Her unseen handiwork—all remaining Dragonborn slain without trace
+  - target: npc-torma-the-unforgiving
+    rel: referenced_in
+    notes: The eggs were hers; burning them will have consequences in Ch2
+  - target: chapter-1-invaders
+    rel: part_of
+  - target: location-east-hills
+    rel: set_in
+sources:
+  - chapters/chapter-1-invaders.md

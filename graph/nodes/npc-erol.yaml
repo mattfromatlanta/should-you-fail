@@ -1,0 +1,92 @@
+id: npc-erol
+type: npc
+name: Erol the Faed
+tags: [eladrin, veteran, founder, oechenfor, lome, warlock, rebellion]
+status: alive
+summary: Eladrin veteran warlock, co-Founder of Oechenfor and Lome; was Milicent's warlock until Estaran conscription changed everything; now serves Xilo; returned to slay Torma at end of Chapter 2; currently in Aris supporting Aldrin.
+content: |
+  Erol is an Eladrin Fey, perhaps the greatest of the Founders of Oechenfor. Female.
+  Warlock. Stunning and wild to behold—beautiful, certainly, but her presence is defined
+  more by obvious supernatural power than beauty. Only a Fey Lord such as Milicent or Xilo,
+  or an ancient dragon, would cast a shadow over her.
+
+  Like all Eladrin, her aspect (Spring, Summer, Fall, Winter) reflects her mood—but Erol is
+  unusual. She possesses such natural talent and magical depth that she often appears as a
+  blend of aspects, or takes on aspects other Eladrin do not: an Indian Summer, a False
+  Spring in January, a morning thunderstorm, a drought in March. Other Eladrin do not
+  generally do this.
+
+  HISTORY WITH MILICENT:
+  Erol was once Milicent's warlock—the earliest known bond between them. She was conscripted
+  by the Estarans before the 2nd Rebellion, taken away to do unknown work for them. This
+  conscription renewed Milicent's drive to fight the Estarans; it was while Erol was absent
+  that Milicent resolved to found the Dread Legion.
+
+  When Erol returned, she was shocked by what Milicent had become. She surrendered her
+  warlock powers and severed the bond. Milicent was heartbroken but let her go. Erol then
+  lived a quiet life for a time.
+
+  When the Rebellion began again in earnest, Erol went to Xilo and asked to join his service
+  so she could fight the Estarans with her full power. She now serves him as his warlock.
+
+  Later, fearing Milicent would come to conscript her back into service, Erol and Lamat
+  disappeared into the Feywild and Shadowfell, moving between refuges.
+
+  VETERAN STATUS:
+  Erol is a veteran of Estaran conscription but is far less affected by the lingering Estaran
+  magic that mortal veterans experience. She doesn't know exactly why—it may be her Fey
+  nature, or something different about the nature of her conscription. Like all veterans, she
+  has no distinguishable memory of her service away from this world.
+
+  RELATIONSHIP WITH ALDRIN:
+  Erol and Aldrin Stoneward were once partners before she and Lamat grew close. There is
+  still deep affection between them. To Aldrin, Erol is the one who got away. Erol admires
+  him deeply but always felt constrained in his orbit—he is ultimately a soldier and a
+  servant, and his world is structured accordingly. Erol, as a Fey, requires a less
+  structured way of life. Aldrin knows this and regrets it, but he is who he is, and Erol
+  will not accept him changing himself for her. Lamat has a similarly ordered mind, but
+  for Lamat the order is an internal exercise rather than an external one.
+
+  CHAPTER 2 END:
+  Returned dramatically to slay Torma the Unforgiving, saving the party. At the bottom of
+  the Upland Stair, before leading the Lome refugees south to Oechenfor, she told the party
+  to travel to Naeliste and then seek the Trickster (Yrk).
+
+  CURRENT STATUS (CHAPTER 7):
+  In Aris, arrived shortly after Aldrin. Has been providing moral support to Aldrin and
+  acting as envoy to local leaders and other Citizen Counselors when his attention is split.
+  Not especially focused on Fey political issues despite her role with Xilo.
+  Xilo's arrival will be a significant moment. Her history with Milicent is unresolved—the
+  party now works alongside Milicent, a fact Erol is likely to have strong feelings about.
+relationships:
+  - target: npc-lamat
+    rel: partner
+    notes: Life partner; co-founded Lome and Oechenfor together
+  - target: npc-aldrin-stoneward
+    rel: ally
+    notes: Co-founded Oechenfor; former romantic partners—deep affection remains; Aldrin is the one who got away from Erol's perspective, though she knows she cannot live constrained in his structured orbit
+  - target: npc-milicent
+    rel: former_servant_of
+    notes: Erol was Milicent's warlock; bond broke; Erol fled when Milicent came to conscript her
+  - target: npc-felicity
+    rel: replaced_by
+    notes: Felicity took Erol's place as Milicent's warlock servant
+  - target: npc-xilo-lord-of-robins
+    rel: serves
+    notes: Now Xilo's warlock after breaking from Milicent
+  - target: npc-torma-the-unforgiving
+    rel: slew
+    notes: Slew Torma at end of Chapter 2
+  - target: location-lome
+    rel: founded
+  - target: location-oechenfor
+    rel: founded
+  - target: event-rebellion
+    rel: participated_in
+  - target: location-aris
+    rel: currently_in
+sources:
+  - npcs/heroes/erol-and-lamat.md
+  - chapters/chapter-2-darkness.md
+  - chapters/chapter 7/chapter-7-synopsis.md
+  - chapters/chapter 7/chapter-7-npcs.txt

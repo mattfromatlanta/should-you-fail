@@ -1,0 +1,37 @@
+id: enc-ch5-08-the-alliance
+type: encounter
+name: "Ch5 E08: The Alliance"
+tags: [chapter-5, roleplay, milicent, alliance, dragon-singularity, dread-legion-ends, pivotal]
+status: complete
+summary: Milicent explains the Dragon Singularity plan and Cetyri's role; the party agrees to ally with her on one condition—she must stop enslaving mortals entirely; she accepts.
+content: |
+  The culmination of Chapters 1–5. Milicent explains the Dragon Singularity plan: Cetyri must
+  become a Unary Great Wyrm by unifying all versions of his soul across realities. This is the
+  Estarans' greatest fear. Her plan has been building toward this for decades.
+
+  The party faces a genuine moral dilemma: Milicent's methods are monstrous, but her cause
+  is the survival of all existence. They agree to work with her—but on one condition: she must
+  leave mortals alone. No more Shadow Projector conscription. No more kidnappings. She must
+  put her hopes entirely in their hands.
+
+  Milicent considers carefully. She has spent centuries building the Dread Legion, and now
+  these mortals ask her to abandon it and trust them. After a tense moment, she agrees.
+
+  This agreement ends the Dread Legion project. The party is returned safely to Oechenfor.
+  The disappearances in Oechenfor will stop. The party now carries the weight of preventing
+  universal extinction.
+relationships:
+  - target: npc-milicent
+    rel: features
+  - target: concept-dragon-singularity
+    rel: features
+  - target: npc-cetyri
+    rel: referenced_in
+  - target: event-milicent-alliance
+    rel: covers
+  - target: location-milicents-fortress
+    rel: set_in
+  - target: chapter-5-return-to-oechenfor
+    rel: part_of
+sources:
+  - chapters/chapter-5-return-to-oechenfor.md

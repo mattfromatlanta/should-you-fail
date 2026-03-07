@@ -1,0 +1,37 @@
+id: event-milicent-alliance
+type: event
+name: Alliance with Milicent
+tags: [chapter-5, milicent, alliance, dragon-singularity, dread-legion, pivotal]
+status: past
+summary: Chapter 5; the party met Milicent face to face in her Shadowfell fortress, learned the truth about 54 apocalypses and the Dragon Singularity plan, and forged an alliance on the condition she stop enslaving mortals.
+content: |
+  The party traveled to Milicent's Shadowfell fortress through the Shadow Projector (invited
+  deeper by Yrk's arrangement). Milicent treated them as guests, not captives. She showed them
+  an imprisoned Estaran and revealed:
+  - The Estarans have destroyed and recreated the Material Plane 54 times
+  - The current world is the 55th iteration
+  - Their doomsday plan is being prepared again
+  - Her plan: guide Cetyri to become the Dragon Singularity to stop them permanently
+
+  The party agreed to work with her on one condition: she must leave mortals alone and stop
+  using the Shadow Projector for conscription. She agreed. This was a massive shift—she
+  abandoned centuries of Dread Legion building to trust this small group of mortals.
+
+  This event represents the campaign's major turning point: the party now carries the weight
+  of preventing universal extinction.
+relationships:
+  - target: npc-milicent
+    rel: arranged_by
+  - target: npc-yrk-the-trickster
+    rel: facilitated_by
+    notes: Yrk arranged the meeting as promised in Chapter 4
+  - target: concept-dragon-singularity
+    rel: revealed
+  - target: concept-estarans
+    rel: revealed
+  - target: location-milicents-fortress
+    rel: occurred_at
+  - target: chapter-5-return-to-oechenfor
+    rel: covered_in
+sources:
+  - chapters/chapter-5-return-to-oechenfor.md

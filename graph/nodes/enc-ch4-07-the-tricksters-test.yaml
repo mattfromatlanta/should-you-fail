@@ -1,0 +1,26 @@
+id: enc-ch4-07-the-tricksters-test
+type: encounter
+name: "Ch4 E07: The Trickster's Test"
+tags: [chapter-4, combat, yrk, trickster, blessing, ritual-death]
+status: complete
+summary: A lone goblin of remarkable power attacks and slays the party one by one—this is Yrk the Trickster; his "murder" is how the Trickster's Blessing is conferred.
+content: |
+  The party encounters what appears to be a lone goblin with extraordinary power. He attacks
+  without explanation and defeats the party easily, slaying them one by one. This is Yrk the
+  Trickster—nearly 2000 years old, survivor of the First War, co-creator of the Shadow Projector.
+
+  The "death" is not what it appears to be: the party wakes in a strange space that resembles
+  a shadow projection but is calmer, quieter. Yrk is present and apologizes. He explains:
+  this is how the Trickster's Blessing works. Through their deaths in his calm shadow space,
+  they have been severed from their mortal attachments and the Material Plane.
+relationships:
+  - target: npc-yrk-the-trickster
+    rel: features
+  - target: concept-tricksters-blessing
+    rel: features
+  - target: chapter-4-journey-to-the-trickster
+    rel: part_of
+  - target: location-drekklands
+    rel: set_in
+sources:
+  - chapters/chapter-4-journey-to-trickster.md

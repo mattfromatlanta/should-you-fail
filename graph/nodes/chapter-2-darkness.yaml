@@ -1,0 +1,49 @@
+id: chapter-2-darkness
+type: chapter
+name: Chapter 2: Darkness
+tags: [chapter, underdark, beholders, cetyri, bronik, torma, milicent]
+status: complete
+summary: Party escapes Torma's wrath via the Underdark, encounters beholders, discovers Cetyri in the underground lake, meets Milicent's shadow space again, and Erol/Lamat return to slay Torma.
+content: |
+  After a brief celebration, reality set in: a white dragon must be coming for those stolen eggs.
+  While scouting the East Hills for potential shelter, the party encountered Bronik—a half-dragon
+  on a wyvern, searching for his brother Gullux. Bronik recognized items from his mother's hoard.
+  The threat was real, and her name was Torma the Unforgiving.
+
+  The party captured Bronik, and the people of Lome chose to evacuate to Oechenfor. The party
+  remained behind to explore the cave system, discovering an entrance to the Underdark. Within
+  the depths, they found kobold ruins—remnants of a tribe that had fled from "Shadowdame M."
+  The kobolds had been hunted and destroyed.
+
+  Deeper still, they entered a massive underground canyon shared by two beholder twins:
+  Maxxa'Valien and Maxxa'Volien. An intruder in their neutral territory had upset their careful
+  balance. The party struck a deal to remove this intruder.
+
+  Through the Mushroom Forest, past zombies and sentient fungus, they found the intruder in the
+  canyon's exact center: Cetyri, a blind gold dragon revenant. Once imprisoned and tortured by
+  Milicent—the same Shadowdame who destroyed the kobolds—Cetyri had washed into the canyon by
+  chance, unaware of where he was. The party resolved to lead him out.
+
+  Returning to settle their contract, the party was pulled back into Milicent's Shadow, facing a
+  corrupted version of Maxxa'Valien—first as a zombie beholder, then as an Eye Shadow. With the
+  balance between the beholder twins broken, the party fled the Underdark with Cetyri and Bronik.
+
+  At the cave mouth, they found their exit collapsed. Torma had attacked from above, sealing them
+  in. Then Erol and Lamat arrived, slaying the white dragon and freeing the party from their tomb.
+relationships:
+  - target: npc-cetyri
+    rel: introduces
+  - target: npc-bronik
+    rel: introduces
+  - target: npc-torma-the-unforgiving
+    rel: features
+  - target: npc-erol
+    rel: features
+  - target: location-underdark
+    rel: set_in
+  - target: chapter-1-invaders
+    rel: preceded_by
+  - target: chapter-3-shadow-pursuit
+    rel: followed_by
+sources:
+  - archive/chapters/chapter-2-darkness.md

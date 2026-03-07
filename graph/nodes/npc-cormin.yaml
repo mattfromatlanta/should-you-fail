@@ -1,0 +1,29 @@
+id: npc-cormin
+type: npc
+name: Cormin
+tags: [player-character, sorcerer, mind-magic, illusion, party]
+status: alive
+summary: Sorcerer with exceptional talent for mind-related magic; illusions are one facet of a broader gift for psychic and mental manipulation.
+content: |
+  Player character. Sorcerer with an unusual specialty in mind-affecting magic—illusions,
+  mental influence, and perception manipulation. His abilities extend beyond simple illusion
+  into the broader space of how minds experience reality.
+
+  Notable moments:
+  - Ch6b: Invoked an illusory copy of the party to lead the approach into Egedzoo's sanctum.
+    The dragon ambushed the illusion with his surprise breath attack, wasting it and
+    inadvertently revealing the lightning conductor web rigged throughout the room.
+relationships:
+  - target: enc-ch6b-01-egedzoo-assault
+    rel: appears_in
+  - target: npc-delamin-van-morgaaran
+    rel: family
+    notes: Eldest brother
+  - target: npc-maelyn-heatherfields
+    rel: ally
+    notes: Investigated a bad suitor for her; she is a true ally
+  - target: npc-taram-thristle
+    rel: ally
+    notes: Old school friend; Cormin investigated Nirsa's affair for him
+sources:
+  - prompts/session-worksheets/chapter-6b-egedzoo-assault.md

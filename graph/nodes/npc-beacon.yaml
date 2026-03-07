@@ -1,0 +1,10 @@
+id: npc-beacon
+type: npc
+name: Beacon
+tags: [player-character, warlock, human, male, party]
+status: alive
+summary: Male human warlock; one of the seven player characters.
+content: |
+  Player character. Male human warlock. One of the seven members of the party.
+relationships: []
+sources: []

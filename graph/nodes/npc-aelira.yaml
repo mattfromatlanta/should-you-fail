@@ -1,0 +1,37 @@
+id: npc-aelira
+type: npc
+name: Aelira
+tags: [player-character, druid, robe-of-eyes, party, fey-connection, hootini]
+status: alive
+summary: Druid with a Robe of Eyes; daughter of Caera and Thorn; granddaughter of Melbara; bonded to Hootini, a Moon Fey companion.
+content: |
+  Player character. Druid. Daughter of Caera (Eladrin druid of Naeliste) and Thorn (who
+  vanished years ago). Granddaughter of Melbara, Queen Librarian of Naeliste. Has strong
+  connections to Naeliste and the Fey world through her family.
+
+  Possesses a Robe of Eyes, which reveals the true forms of disguised or concealed creatures.
+
+  Bonded to Hootini, a Moon Fey who once served Milicent and now serves as her permanent
+  companion. Hootini cannot leave this world but Aelira will be able to summon his spirit
+  once per journey off-world.
+
+  Notable moments:
+  - Ch6a E03 (Rinick's Diner): Used Robe of Eyes to identify Twi'Xu and Egedzoo's true forms
+    during the tense standoff, giving the party critical intelligence.
+  - Ch6b E01: Pinned Egedzoo in summoned webbing, allowing the party to finish him quickly.
+relationships:
+  - target: npc-caera
+    rel: family
+    notes: Mother
+  - target: npc-melbara
+    rel: family
+    notes: Grandmother
+  - target: npc-hootini
+    rel: bonded_to
+  - target: enc-ch6a-03-rincks-diner
+    rel: appears_in
+  - target: enc-ch6b-01-egedzoo-assault
+    rel: appears_in
+sources:
+  - chapters/chapter-6a-into-the-wild.md
+  - prompts/session-worksheets/chapter-6b-egedzoo-assault.md

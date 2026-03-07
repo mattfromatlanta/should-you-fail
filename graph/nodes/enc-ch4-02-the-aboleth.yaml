@@ -1,0 +1,29 @@
+id: enc-ch4-02-the-aboleth
+type: encounter
+name: "Ch4 E02: The Aboleth's Domain"
+tags: [chapter-4, combat, aboleth, kua-toa, bullywugs, underwet, multiverse-hint]
+status: complete
+summary: The party encounters Mr'Hrm'N'Ahir the Aboleth Lord who has enslaved Bullywugs; his question about "how many moments" this world has existed hints at knowledge of the previous 54 apocalypses.
+content: |
+  Off course in the Underwet, the party finds a Kua-Toa village under the mental domination
+  of the Aboleth Lord Mr'Hrm'N'Ahir. The Aboleth has also enslaved Bullywugs from the Gulpfen
+  Brood.
+
+  Before combat, the Aboleth attempts to establish "how many moments" this world has existed—
+  a subtle hint that there have been worlds before this one. He seems to have ancient knowledge
+  of the Estaran apocalypse cycle, though the party may not make the connection yet.
+
+  The party defeats the Aboleth and frees its thralls—both the Kua-Toa and the enslaved
+  Bullywugs.
+relationships:
+  - target: npc-mr-hrm-n-ahir
+    rel: features
+  - target: concept-estarans
+    rel: referenced_in
+    notes: Aboleth's question hints at knowledge of the 54 previous worlds
+  - target: chapter-4-journey-to-the-trickster
+    rel: part_of
+  - target: location-underwet
+    rel: set_in
+sources:
+  - chapters/chapter-4-journey-to-trickster.md

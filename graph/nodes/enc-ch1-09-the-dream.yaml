@@ -1,0 +1,28 @@
+id: enc-ch1-09-the-dream
+type: encounter
+name: "Ch1 E09: The Dream"
+tags: [chapter-1, combat, shadow-projection, gullux, milicent, first-contact]
+status: complete
+summary: The party is pulled into Milicent's shadow projection to face Gullux—the campaign's first experience with the Shadow Projector; they hear Quicklings laughing from the walls.
+content: |
+  The campaign's defining first-act encounter. During the final confrontation with Gullux, the
+  party is seized by the Shadow Projector and pulled into a shadowy reflection space—a test
+  created by the Archshade Milicent. They fight Gullux here and defeat him.
+
+  The party hears Milicent's Quicklings laughing at them from the walls during the fight—their
+  first indirect contact with her. They leave the shadow projection without understanding what
+  it was or the nature of their capture. No one explains it to them.
+
+  This is the first use of the Shadow Projector against the party.
+relationships:
+  - target: npc-gullux
+    rel: features
+  - target: npc-milicent
+    rel: features
+    notes: Absent but present through her Quickling observers
+  - target: concept-shadow-projector
+    rel: features
+  - target: chapter-1-invaders
+    rel: part_of
+sources:
+  - chapters/chapter-1-invaders.md

@@ -1,0 +1,25 @@
+id: enc-ch4-03-bullhome-reunion
+type: encounter
+name: "Ch4 E03: Bullhome Reunion"
+tags: [chapter-4, roleplay, bullywugs, gulpfen-brood, drekklands, kriv-warning]
+status: complete
+summary: The party surfaces in the Drekklands and meets the Gulpfen Brood survivors at Bullhome; they reunite the tribe with the freed Bullywugs; the Brood warns about Kriv the Blacktongue.
+content: |
+  The party surfaces from the Underwet in a vast lake near Bullhome—a ruined keep on the edge
+  of the Drekklands, temporarily occupied by Gulpfen Brood survivors. The Brood members:
+  Gu'Rup (leader, reed hat), Preep (anxious lookout), Tuckle (competent moss gardener),
+  Nish-Nish (youngest, nosiest).
+
+  The party reunites the tribe by returning the enslaved Bullywugs freed from the Aboleth:
+  Vardo, Diniferous, Fub, and Malaki.
+
+  The Gulpfen Brood warns about Kriv the Blacktongue—the greatest black dragon in the region,
+  residing in the eastern Drekklands. The party needs to navigate around or through his
+  territory to find Yrk.
+relationships:
+  - target: chapter-4-journey-to-the-trickster
+    rel: part_of
+  - target: location-drekklands
+    rel: set_in
+sources:
+  - chapters/chapter-4-journey-to-trickster.md
