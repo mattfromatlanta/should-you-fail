@@ -1,22 +1,33 @@
 id: faction-rebel-fey
 type: faction
 name: The Rebel Fey
-tags: [fey, archfey, rebel, first-war, feywild]
+tags: [fey, archfey, rebel, first-war, feywild, animal-lords]
 status: active
-summary: The seven original Archfey and Beast Lords who led the first rebellion against the Estarans; five remain active.
+summary: The seven original Archfey who fought the Estarans in the First War; most are Animal Lords; they have no single leader; five remain active.
 content: |
   The seven original Rebel Fey were: Itrina, Carris, Xilo, Ozevriel, Thessa, Varuun, and
   Milicent. Ozevriel sacrificed himself so the other six could escape during the First War.
-  Milicent separated from the group when she began enslaving mortals. Five remain—Itrina, Carris,
-  Xilo, Thessa, and Varuun—and they are complex allies: they want Milicent's methods stopped but
-  understand the debt they owe her for the Rebellion's success. They possess knowledge of the
-  Shadow Projector and Cetyri's potential.
+  Milicent separated from the group when she began enslaving mortals. Five remain active:
+  Itrina, Carris, Xilo, Thessa, and Varuun.
 
-  Named members:
+  The Rebel Fey have no single leader. They are a loose alliance of ancient, immortal Archfey
+  who share history and purpose but act independently. They do not make binding collective
+  decisions and no one speaks for all of them. Xilo travels with the party as a personal
+  gesture — not as a representative empowered to commit the others.
+
+  Most (though not all) of the Rebel Fey are Animal Lords — ancient Fey who literally are
+  animals, moving between a natural animal form, a hybrid form, and a humanoid form. Xilo is
+  the Lord of Robins; Twi'Xu (his lieutenant, not one of the seven) is Lieutenant of Bluebirds.
+
+  They are complex allies: they want Milicent's methods stopped but understand the debt they
+  owe her for the Rebellion's success. They possess knowledge of the Shadow Projector and
+  Cetyri's potential.
+
+  Named members (from the Ode to Seven Lords):
   - Itrina: Watches from beyond the frost, holds lost names
   - Carris: Crowned in antlers, holds lawless borders
   - Xilo (Lord of Robins): Joy beneath the thorn, taught the lost to win
-  - Ozevriel: Sacrificed himself (deceased); memorial tomb exists in Feywild
+  - Ozevriel: Sacrificed himself (deceased); memorial tomb exists in the Feywild
   - Thessa: Walks where broken hearts grow gardens
   - Varuun: Guards places where worlds divide
   - Milicent: The fallen seventh, now the Shadowdame
@@ -32,5 +43,5 @@ relationships:
   - target: event-first-war
     rel: participated_in
 sources:
-  - chapters/chapter-3-shadow-pursuit.md
-  - assets/ode-to-seven-lords.md
+  - archive/chapters/chapter-3-shadow-pursuit.md
+  - archive/assets/ode-to-seven-lords.md

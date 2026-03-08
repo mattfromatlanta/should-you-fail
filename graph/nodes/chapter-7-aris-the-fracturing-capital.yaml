@@ -3,22 +3,41 @@ type: chapter
 name: Chapter 7: Aris - The Fracturing Capital
 tags: [chapter, aris, maelric, political-crisis, veterans, young-bastards, in-progress]
 status: in-progress
-summary: Party arrives in Aris to find the political situation fractured: Maelric is catatonic, Veterans vs Young Bastards battle for control, and Yrk/Felicity are en route.
+summary: Party arrives in Aris after a month on the road to find the city politically fractured. Maelric is catatonic, Veterans have dominated politics for 150 years due to unnatural longevity, and the Young Bastards demand change.
 content: |
-  Aris is in crisis. Chief Exarch Maelric fell into a catatonic trance ~2 months ago after
-  triggering an Estaran psychic trap. The Counsel of Citizens is deadlocked: Veterans faction
-  (wants Council of Regency in Maelric's name) vs Young Bastards reform movement (wants
-  new leadership, veteran retirements, resource redistribution). Aldrin and Erol arrived and
-  are trying to hold things together.
+  The party arrived in Aris after a month on the road, having stopped in Naeliste and Oechenfor
+  along the way. Twi'Xu was sent ahead to make arrangements and met them at the city gate,
+  leading them to the High Ward where dignitaries are housed.
 
-  Gallifax keeps strict vigil over Maelric, trusting no one. Ardo Manessi plays both sides.
-  Doppelganger infiltration rumored.
+  The city is in crisis. Chief Exarch Maelric fell into a catatonic trance ~2 months ago after
+  triggering an Estaran psychic trap. Gallifax keeps strict vigil over him in the Hall of Allies,
+  trusting no one.
 
-  Yrk and Felicity will arrive a few days after the party, bringing the portable Radiant
-  Projector project. The party must navigate the political crisis while preparing for the
-  next phase of the cosmic quest.
+  The political conflict: Veterans have held dominant power in the Allied Cities for 150 years,
+  sustained by unnatural longevity granted by Estaran magic. Whole generations of mortal citizens
+  have lived and died without inheriting political power. The Young Bastards are a loosely
+  affiliated movement of activists and leaders — many quite old by mortal standards, but young
+  compared to Veterans — who argue this has to change. They want veteran retirements, new public
+  offices, and redistribution of resources away from permanent war posture. The name is somewhat
+  ironic; they are not literally young.
 
-  Current status: In planning. Five key encounters TBD.
+  Aldrin and Erol arrived two months ago hoping to stabilize things. Aldrin is trying to hold
+  the peace as a moderate voice, increasingly exhausted. Ardo Manessi plays both sides, secretly
+  hoping to engineer chaos that will position him as Maelric's successor.
+
+  What has happened in session:
+  - On the way into town, the party intervened in a near-fight between Young Bastard protesters
+    and a trio of Veterans. The Veterans would likely have killed protesters. The party de-escalated.
+  - First morning: met Aldrin and were introduced to Ardo Manessi. Learned the situation with
+    Gallifax and Maelric. First heard of Nava Kurn (haven't met her yet).
+  - Visited Erol, who gave her perspective: Young Bastards have a valid complaint; Veterans are
+    too hidebound; loss is hard for long-lived creatures like Gallifax.
+  - Cormin led the party to find the protesters they saved and gather intelligence on the city's
+    mood. Picked up a rumor: something big is planned at the waterfront that evening, and not to
+    believe their worst fears.
+  - The party went to the waterfront amphitheater and hid to observe. As the sun set, a hundred
+    radiant beams descended from the heavens — each carrying an Estaran warrior, sword aflame,
+    descending on Aris. Alarm bells rang across the city. [Session ended here.]
 relationships:
   - target: npc-maelric-sturmwald
     rel: centers_on
@@ -30,14 +49,20 @@ relationships:
     rel: features
   - target: npc-yrk-the-trickster
     rel: features
-    notes: Arriving a few days after the party
+    notes: En route; not yet arrived
   - target: npc-felicity
     rel: features
     notes: Arriving with Yrk
+  - target: npc-twi-xu
+    rel: features
+    notes: Sent ahead; met party at gate
+  - target: npc-xilo-lord-of-robins
+    rel: features
+    notes: Traveling with party; building contacts in Aris
   - target: location-aris
     rel: set_in
   - target: chapter-6b-death-to-egedzoo
     rel: preceded_by
 sources:
-  - chapters/chapter 7/chapter-7-synopsis.md
-  - planning/chapter-7-campaign-notes.md
+  - archive/chapters/chapter 7/chapter-7-synopsis.md
+  - chapters/chapter 7/chapter-7-recap.md

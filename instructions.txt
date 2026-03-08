@@ -1,4 +1,1 @@
-Instructions
-============
-
-I've moved all the .MD files including chapters for this project into an archive folder. Let's now review internal documentation of this project and update to make it clear the new MCP and its graph are the official source of truth going forward. the content of archive should be searched and referenced only by user request. Before we do this, however, we should verify that every chapter of story-so-far.md is recorded in a graph node and indexed. This document has been carefully maintained and we want to make sure we bring it forward. If they don't already exist, make story-so-far nodes by chapter. Or adapt to the existing structure if each chapter's journal is already discrete.
+Put instructions here.

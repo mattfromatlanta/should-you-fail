@@ -3,20 +3,28 @@ type: npc
 name: Twi'Xu, Animal Lord, Lieutenant of Bluebirds
 tags: [fey, animal-lord, xilo, feywild, ally]
 status: alive
-summary: Animal Lord and close lieutenant of Xilo; stationed in Rinick's Diner to observe Egedzoo; helped arrange the party's meeting with Xilo.
+summary: Animal Lord and close lieutenant of Xilo; literally is a bluebird; encountered at Rinick's Diner where he monitored Egedzoo; sent ahead to Aris to make arrangements for the party's arrival.
 content: |
-  Powerful fey creature sworn vassal to Xilo, Lord of Robins. One of Xilo's closest advisors.
-  Encountered at Rinick's Diner in a tense standoff with Egedzoo—neither willing to fight in
-  neutral territory. Agreed to help arrange a meeting with Xilo after learning the party works
-  with Milicent. Could not leave his post to guide them directly—doing so would give Egedzoo
-  too much freedom.
+  Powerful Fey creature and vassal of Xilo, Lord of Robins. As an Animal Lord, Twi'Xu
+  literally is a bluebird — he moves between a small bird form, a hybrid form, and a humanoid
+  form. He carries the energy and manner of his bird nature.
+
+  One of Xilo's closest advisors, titled Lieutenant of Bluebirds. Encountered at Rinick's
+  Diner in the Feywild wasteland, holding a tense standoff with Egedzoo — neither willing to
+  fight in neutral territory. Agreed to help arrange a meeting with Xilo after learning the
+  party works with Milicent. Could not leave his post to guide them directly; doing so would
+  have given Egedzoo too much freedom.
+
+  Sent ahead to Aris to make arrangements before the party's arrival. Met the party at the
+  city gate and led them to the High Ward, where guest houses for dignitaries are available.
 relationships:
   - target: npc-xilo-lord-of-robins
     rel: serves
   - target: npc-egedzoo
     rel: monitors
   - target: location-rincks-diner
-    rel: based_at
+    rel: was_based_at
+  - target: location-aris
+    rel: currently_at
 sources:
-  - npcs/fey/twi-xu.md
-  - chapters/chapter-6a-into-the-wild.md
+  - archive/chapters/chapter-6a-into-the-wild.md

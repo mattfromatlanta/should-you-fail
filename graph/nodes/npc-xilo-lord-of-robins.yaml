@@ -1,27 +1,36 @@
 id: npc-xilo-lord-of-robins
 type: npc
 name: Xilo, Lord of Robins
-tags: [archfey, rebel-fey, feywild, ally, beast-lord]
+tags: [archfey, rebel-fey, feywild, ally, animal-lord]
 status: alive
-summary: One of the seven original Rebel Fey; quick-witted and pragmatic; allied with the party after they slew Egedzoo in Chapter 6b.
+summary: One of the seven original Rebel Fey; an Animal Lord who literally is a robin with humanoid and hybrid forms; quick-witted and energetic; volunteered to travel with the party after they slew Egedzoo.
 content: |
-  One of the seven original Archfey who fought the Estarans in the First War. Maintains
-  surveillance on threats through agents like Twi'Xu. From the Ode to Seven Lords: "Joy beneath
-  the thorn, taught the lost to win." Quick-witted and pragmatic; immediately helpful to anyone
-  working with Milicent.
+  One of the seven original Archfey who fought the Estarans in the First War. An Animal Lord:
+  he literally is a robin, though he moves between a small bird form, a hybrid form, and a
+  humanoid form. He has the personality and energy of a songbird — quick, bright, and restless.
 
-  Understands that without Milicent's drastic measures, the Estarans would never have been driven
-  away. Concerned about the Feywild's weakened state since both Ozevriel (dead) and Milicent
-  (departed to Shadowfell) are absent.
+  Maintains surveillance on threats through agents like Twi'Xu (Lieutenant of Bluebirds).
+  From the Ode to Seven Lords: "Joy beneath the thorn, taught the lost to win."
+
+  The Rebel Fey have no single leader. Xilo speaks for himself and carries influence among
+  the five active Rebel Fey, but he makes no binding pledges on their behalf. He volunteered
+  to travel with the party as an envoy after they slew Egedzoo — a gesture of goodwill, not
+  a sworn oath. Fey are immortal and do not make unbreakable promises.
+
+  Understands that without Milicent's drastic measures, the Estarans would never have been
+  driven away. Concerned about the Feywild's weakened state since both Ozevriel (dead) and
+  Milicent (departed to Shadowfell) are absent.
 
   After the party slew Egedzoo: provided safe passage back to the Material Plane, gifted a
-  Feywild Compass, and pledged alliance when the Estarans return.
+  Feywild Compass, and volunteered to accompany them to Aris as an envoy of the Rebel Fey.
+  First Fey lord to travel to the mortal capital. While in Aris he hopes to build a network
+  of useful contacts for the future.
 relationships:
   - target: faction-rebel-fey
     rel: member_of
   - target: npc-twi-xu
     rel: employs
-    notes: Twi'Xu is his lieutenant and Animal Lord
+    notes: Twi'Xu is his lieutenant, Lieutenant of Bluebirds
   - target: npc-milicent
     rel: former_ally
     notes: Complex relationship; respects her past role but she is now the Shadowdame
@@ -29,6 +38,9 @@ relationships:
     rel: enemy_of
   - target: location-feywild
     rel: located_in
+  - target: location-aris
+    rel: visiting
+    notes: First Fey lord to visit the mortal capital; building contacts
 sources:
-  - chapters/chapter-6a-into-the-wild.md
-  - assets/ode-to-seven-lords.md
+  - archive/chapters/chapter-6a-into-the-wild.md
+  - archive/assets/ode-to-seven-lords.md
