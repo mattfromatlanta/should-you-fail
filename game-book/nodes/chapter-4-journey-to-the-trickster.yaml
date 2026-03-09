@@ -1,6 +1,6 @@
 id: chapter-4-journey-to-the-trickster
 type: chapter
-name: Chapter 4: Journey to the Trickster
+name: "Chapter 4: Journey to the Trickster"
 tags: [chapter, drekklands, yrk, tricksters-blessing, underwet, aboleth, bullywugs]
 status: complete
 summary: Party travels the Underwet by submarine, reunites the Gulpfen Brood, discovers the Sunken Fortress (Estaran ruin), and receives the Trickster's Blessing from Yrk.
@@ -61,5 +61,21 @@ relationships:
     rel: preceded_by
   - target: chapter-5-return-to-oechenfor
     rel: followed_by
+  - target: enc-ch4-01-the-underwet-journey
+    rel: contains
+  - target: enc-ch4-02-the-aboleth
+    rel: contains
+  - target: enc-ch4-03-bullhome-reunion
+    rel: contains
+  - target: enc-ch4-04-drekklands-travel
+    rel: contains
+  - target: enc-ch4-05-the-sunken-fortress
+    rel: contains
+  - target: enc-ch4-06-krivs-territory
+    rel: contains
+  - target: enc-ch4-07-the-tricksters-test
+    rel: contains
+  - target: enc-ch4-08-audience-with-yrk
+    rel: contains
 sources:
   - archive/chapters/chapter-4-journey-to-trickster.md

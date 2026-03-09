@@ -1,17 +1,17 @@
 id: chapter-7-aris-the-fracturing-capital
 type: chapter
-name: Chapter 7: Aris - The Fracturing Capital
+name: "Chapter 7: Aris - The Fracturing Capital"
 tags: [chapter, aris, maelric, political-crisis, veterans, young-bastards, in-progress]
 status: in-progress
-summary: Party arrives in Aris after a month on the road to find the city politically fractured. Maelric is catatonic, Veterans have dominated politics for 150 years due to unnatural longevity, and the Young Bastards demand change.
+summary: Party arrives in Aris after a month on the road to find the city politically fractured. Maelric is catatonic for unknown reasons, Veterans have dominated politics for 150 years due to unnatural longevity, and the Young Bastards demand change.
 content: |
   The party arrived in Aris after a month on the road, having stopped in Naeliste and Oechenfor
   along the way. Twi'Xu was sent ahead to make arrangements and met them at the city gate,
   leading them to the High Ward where dignitaries are housed.
 
-  The city is in crisis. Chief Exarch Maelric fell into a catatonic trance ~2 months ago after
-  triggering an Estaran psychic trap. Gallifax keeps strict vigil over him in the Hall of Allies,
-  trusting no one.
+  The city is in crisis. Chief Exarch Maelric fell into an unexplained catatonic trance ~2
+  months ago. The cause is unknown to any character. Gallifax keeps strict vigil over him in
+  the Hall of Allies, trusting no one.
 
   The political conflict: Veterans have held dominant power in the Allied Cities for 150 years,
   sustained by unnatural longevity granted by Estaran magic. Whole generations of mortal citizens
@@ -49,10 +49,10 @@ relationships:
     rel: features
   - target: npc-yrk-the-trickster
     rel: features
-    notes: En route; not yet arrived
+    notes: Arrived in Aris with Felicity; couldn't find the party during the waterfront events
   - target: npc-felicity
     rel: features
-    notes: Arriving with Yrk
+    notes: Arrived with Yrk; carrying the world-crossing device
   - target: npc-twi-xu
     rel: features
     notes: Sent ahead; met party at gate
@@ -63,6 +63,28 @@ relationships:
     rel: set_in
   - target: chapter-6b-death-to-egedzoo
     rel: preceded_by
+  - target: enc-ch7-01-arrival-in-aris
+    rel: contains
+  - target: enc-ch7-02-aldrin-and-ardo
+    rel: contains
+  - target: enc-ch7-03-erols-perspective
+    rel: contains
+  - target: enc-ch7-04-street-intelligence
+    rel: contains
+  - target: enc-ch7-05-the-estaran-descent
+    rel: contains
+  - target: enc-ch7-06-the-riot-and-the-dragon
+    rel: contains
+  - target: enc-ch7-07-the-attempt-on-maelric
+    rel: contains
+  - target: enc-ch7-08-the-aftermath
+    rel: contains
+  - target: npc-ardo-manessi
+    rel: features
+  - target: npc-nava-kurn
+    rel: features
+  - target: npc-ekert-shae
+    rel: features
 sources:
   - archive/chapters/chapter 7/chapter-7-synopsis.md
   - chapters/chapter 7/chapter-7-recap.md

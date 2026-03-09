@@ -2,7 +2,7 @@
   "name": "syf-campaign-mcp",
   "version": "0.1.0",
   "type": "module",
-  "description": "MCP server for the Should You Fail D&D campaign knowledge graph",
+  "description": "MCP server for the Should You Fail D&D campaign game book",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",

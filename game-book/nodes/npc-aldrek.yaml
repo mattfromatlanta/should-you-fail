@@ -1,0 +1,33 @@
+id: npc-aldrek
+type: npc
+name: Aldrek
+summary: >-
+  Physically imposing Young Bastard militant; the muscle of the trio plotting Maelric's assassination, recruited and
+  pushed toward action by Ekert Shae.
+status: alive
+tags:
+  - human
+  - aris
+  - young-bastards
+  - assassin
+  - chapter-7
+content: >-
+  Aldrek is large, aggressive, and impatient — exactly the kind of person Ekert needed for the wet work. He has fewer
+  political convictions than Corven; his anger is more personal and less ideological. Ekert stoked that anger carefully,
+  feeding him stories of Veterans who got rich while people like Aldrek struggled.
+
+
+  He follows Corven's lead but is the most likely to act rashly if the plan goes sideways. The biggest risk in the trio
+  is Aldrek deciding to move early or alone.
+
+
+  In a confrontation, he is the most dangerous physically and the least useful as an information source.
+relationships:
+  - target: npc-ekert-shae
+    rel: manipulated_by
+    notes: Ekert exploited personal grievances to recruit him
+  - target: npc-maelric-sturmwald
+    rel: targets
+    notes: Plans to assassinate when Gallifax abandons his vigil
+  - target: npc-corven
+    rel: follows

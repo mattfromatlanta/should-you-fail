@@ -1,0 +1,36 @@
+id: npc-breva
+type: npc
+name: Breva
+summary: >-
+  The youngest of the trio Ekert Shae has maneuvered into plotting Maelric's assassination; the most volatile and the
+  most likely to crack under pressure.
+status: alive
+tags:
+  - human
+  - aris
+  - young-bastards
+  - assassin
+  - chapter-7
+content: >-
+  Breva is the most recently radicalized of the three and still harbors doubts she hasn't voiced to Corven or Aldrek.
+  Ekert recruited her last, partly because her youth and apparent loyalty to Nava made her useful cover — if anyone in
+  the group looks like a true believer, it's her.
+
+
+  She is the weak point. Under real pressure — arrest, confrontation, a direct appeal — she is the most likely to break
+  and give up Ekert's name. She doesn't fully understand how thoroughly she's been used.
+
+
+  If the party reaches her before the assassination attempt, she is the most reachable.
+relationships:
+  - target: npc-ekert-shae
+    rel: manipulated_by
+    notes: Most recently recruited; still has doubts; the weakest link
+  - target: npc-maelric-sturmwald
+    rel: targets
+    notes: Plans to assassinate when Gallifax abandons his vigil
+  - target: npc-corven
+    rel: follows
+  - target: npc-nava-kurn
+    rel: follows
+    notes: Genuine Young Bastard loyalist; Nava is unaware of her role in the plot

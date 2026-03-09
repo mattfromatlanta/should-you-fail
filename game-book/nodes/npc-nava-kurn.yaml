@@ -1,0 +1,55 @@
+id: npc-nava-kurn
+type: npc
+name: Nava Kurn
+tags:
+  - dwarf
+  - aris
+  - counselor
+  - young-bastards
+  - faction-leader
+status: alive
+summary: >-
+  Dwarf woman, 45; charismatic and idealistic leader of the Young Bastards; genuinely believes generations since the
+  Rebellion have gotten a raw deal and that the Veterans are a broken class who should have stepped aside a century ago.
+content: >-
+  Charismatic leader of the Young Bastards, the reform-minded political faction in Aris. Sharp-tongued and pragmatic on
+  the surface, but underneath a genuine idealist. Nava truly believes that the generations born since the Rebellion have
+  been cheated — that the Veterans' unnatural longevity has calcified power into a permanent aristocracy that was never
+  supposed to exist. She does not hate the Veterans personally. She thinks they are a broken class: people who outlived
+  their moment and cannot see it, hoarding positions and resources that should have turned over a century ago.
+
+
+  Her theory of change is confrontation through exposure. She organized the waterfront illusion because she believed —
+  sincerely — that showing Aris how utterly unprepared the Veteran leadership is for any real new threat might finally
+  shame them into yielding. She miscalculated badly. The illusion sparked a riot, hardened Veterans against the Young
+  Bastards, and handed her enemies exactly the crisis they needed.
+
+
+  What she does not know: the plan she thought was hers was shaped and executed by Ekert Shae, who designed the illusion
+  and cast the amplification spell. And she does not know that Ekert and Ardo Manessi have been quietly stoking Veteran
+  resentment of the Young Bastards for months — feeding small provocations and manufactured slights to the right ears,
+  ensuring that any attempt at reconciliation finds poisoned ground. Every step Nava takes toward her goals, she takes
+  on a floor Ekert has been quietly tilting against her.
+relationships:
+  - target: location-aris
+    rel: located_in
+  - target: npc-ekert-shae
+    rel: works_with
+    notes: Believes Ekert is an ally in her orbit; unaware he is secretly Ardo's agent
+  - target: npc-corven
+    rel: knows
+    notes: >-
+      Recognizes him as a militant Young Bastard; would name him as most likely to commit violence if not constrained.
+      Has no idea he is plotting murder.
+  - target: npc-aldrek
+    rel: knows
+    notes: >-
+      Recognizes him as a militant Young Bastard; would name him as most likely to commit violence if not constrained.
+      Has no idea he is plotting murder.
+  - target: npc-breva
+    rel: knows
+    notes: >-
+      Recognizes her as a militant Young Bastard; would name her as most likely to commit violence if not constrained.
+      Has no idea she is plotting murder.
+sources:
+  - chapters/chapter 7/chapter-7-npcs.txt

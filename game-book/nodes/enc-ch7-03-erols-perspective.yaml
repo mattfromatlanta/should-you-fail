@@ -1,0 +1,34 @@
+id: enc-ch7-03-erols-perspective
+type: encounter
+name: "Ch7 E03: Erol's Perspective"
+tags: [chapter-7, roleplay, aris, erol, political-crisis, veterans, young-bastards]
+status: complete
+summary: The party visits Erol the Faed, who gives her honest read on Aris: the Young Bastards have a valid complaint, the Veterans are too hidebound, and loss is hard for long-lived creatures like Gallifax.
+content: |
+  The party sought out Erol the Faed, also staying in the High Ward with Lamat. Unlike
+  Aldrin, Erol is not trying to hold the line — she is sympathetic to the Young Bastards
+  and skeptical that the current political stalemate can hold much longer.
+
+  Her perspective:
+  - The Young Bastards' core complaint is valid. Mortals have lived entire lives and died
+    without ever inheriting political power from the Veterans who outlive them all.
+  - The Veterans are too rigid. Their identity is built around a war that ended over a
+    century ago; they cannot imagine ceding what they believe they earned.
+  - Gallifax is not simply being obstructionist. He is grieving in advance and struggling
+    with the possibility of losing Maelric. Loss is different for creatures who live as
+    long as dragons — and Gallifax has already outlived so much.
+
+  Erol was once Milicent's warlock. She is now bound to Xilo. The party's alliance with
+  Milicent has complicated her situation, though she has not addressed this directly.
+relationships:
+  - target: chapter-7-aris-the-fracturing-capital
+    rel: part_of
+  - target: npc-erol
+    rel: features
+  - target: npc-gallifax
+    rel: features
+    notes: Discussed; Erol frames his vigil as grief, not politics
+  - target: location-aris
+    rel: set_in
+sources:
+  - chapters/chapter 7/chapter-7-recap.md

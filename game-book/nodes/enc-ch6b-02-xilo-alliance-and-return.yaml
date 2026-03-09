@@ -3,7 +3,7 @@ type: encounter
 name: "Ch6b E02: Xilo's Alliance and Return to the Material Plane"
 tags: [chapter-6b, roleplay, xilo, alliance, feywild-compass, material-plane-return, aris-plan]
 status: complete
-summary: Xilo arrives thrilled by the party's success; gifts them a Feywild Compass; pledges the Rebel Fey's alliance; agrees to travel to Aris with the party as an envoy; Hootini joins the delegation; the party returns through a Fey crossing.
+summary: Xilo arrives thrilled by the party's success; gifts them a Feywild Compass; volunteers to travel to Aris with the party as an envoy of the Rebel Fey; the party returns through a Fey crossing.
 content: |
   Xilo arrives within the hour, his forces having scattered the hobgoblin army. He is thrilled
   by the efficiency of the assault—grateful the dragon is destroyed and eager to keep his word.
@@ -18,21 +18,17 @@ content: |
   Rebel Fey, having coordinated correspondence with the other lords. This is a significant
   development—the Rebel Fey sending a formal representative to the mortal capital.
 
-  Hootini will accompany Xilo and the party to Aris as part of the Fey delegation.
   Captain Marvo, now recovered, returns to his business in Qu.
 
   Cetyri and Bronik accompany the party. The group emerges back in the Faedwood, not far from
   where they entered. The party is returning to the Material Plane with:
   - Cetyri's commitment to the cause
   - Xilo as a traveling Fey envoy
-  - Hootini as a permanent companion
   - Milicent's observatory research documents
   - Egedzoo's substantial hoard
   - Freedom to move on the Material Plane
 relationships:
   - target: npc-xilo-lord-of-robins
-    rel: features
-  - target: npc-hootini
     rel: features
   - target: npc-cetyri
     rel: features

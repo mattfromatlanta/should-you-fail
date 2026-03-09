@@ -7,10 +7,10 @@ import * as yaml from "js-yaml";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const GRAPH_DIR = path.resolve(__dirname, "../../graph");
-const NODES_DIR = path.join(GRAPH_DIR, "nodes");
-const INDEX_PATH = path.join(GRAPH_DIR, "_index.yaml");
-const SCHEMA_PATH = path.join(GRAPH_DIR, "_schema.yaml");
+const GAME_BOOK_DIR = path.resolve(__dirname, "../../game-book");
+const NODES_DIR = path.join(GAME_BOOK_DIR, "nodes");
+const INDEX_PATH = path.join(GAME_BOOK_DIR, "_index.yaml");
+const SCHEMA_PATH = path.join(GAME_BOOK_DIR, "_schema.yaml");
 
 // ─────────────────────────────────────────────────────────────
 // Types
@@ -40,7 +40,7 @@ const NODE_TYPES = ["npc", "location", "chapter", "event", "artifact", "faction"
 type NodeType = typeof NODE_TYPES[number];
 
 // ─────────────────────────────────────────────────────────────
-// Graph helpers
+// Game book helpers
 // ─────────────────────────────────────────────────────────────
 
 function loadNode(id: string): GraphNode | null {
@@ -95,7 +95,7 @@ const server = new McpServer({
 
 server.tool(
   "get_node",
-  "Get a single campaign graph node by its ID (e.g. 'npc-gallifax', 'location-aris')",
+  "Get a single game book node by its ID (e.g. 'npc-gallifax', 'location-aris')",
   { id: z.string().describe("Node ID in <type>-<slug> format") },
   async ({ id }) => {
     const node = loadNode(id);
@@ -110,7 +110,7 @@ server.tool(
 
 server.tool(
   "list_nodes",
-  "List all campaign nodes, optionally filtered by type. Returns lightweight headers (id, name, summary, status).",
+  "List all game book nodes, optionally filtered by type. Returns lightweight headers (id, name, summary, status).",
   {
     type: z
       .enum(NODE_TYPES)
@@ -129,7 +129,7 @@ server.tool(
 
 server.tool(
   "search_nodes",
-  "Search campaign nodes by text query, type, tag, or status. Returns matching node headers.",
+  "Search game book nodes by text query, type, tag, or status. Returns matching node headers.",
   {
     query: z.string().optional().describe("Text to match against name, summary, and content (case-insensitive)"),
     type: z.enum(NODE_TYPES).optional().describe("Filter by node type"),
@@ -256,7 +256,7 @@ server.tool(
 
 server.tool(
   "get_schema",
-  "Get the campaign graph node schema: types, status values, and valid relationship verbs.",
+  "Get the game book node schema: types, status values, and valid relationship verbs.",
   {},
   async () => {
     const raw = fs.readFileSync(SCHEMA_PATH, "utf8");
@@ -268,7 +268,7 @@ server.tool(
 
 server.tool(
   "create_node",
-  "Create a new campaign graph node. Writes the node file and registers it in the index.",
+  "Create a new game book node. Writes the node file and registers it in the index.",
   {
     id: z.string().describe("Node ID in <type>-<slug> format (e.g. 'npc-new-character')"),
     type: z.enum(NODE_TYPES).describe("Node type"),

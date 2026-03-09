@@ -1,0 +1,28 @@
+id: enc-ch7-05-the-estaran-descent
+type: encounter
+name: "Ch7 E05: The Estaran Descent"
+tags: [chapter-7, cliffhanger, aris, estarans, waterfront, illusion, session-end]
+status: complete
+summary: The party hides at the waterfront amphitheater to observe in secret. No activists appear. Instead, at sunset, a hundred radiant beams descend from the sky — each carrying an Estaran warrior with a flaming sword. Alarm bells ring across Aris. Session ends here.
+content: |
+  The party made their way to Aris's enormous waterfront amphitheater and positioned
+  themselves to observe without being seen. They expected a political demonstration.
+  No crowd of activists gathered.
+
+  At sunset, the sky opened.
+
+  A hundred radiant beams descended from the heavens, each carrying an Estaran warrior —
+  sword aflame, descending in perfect formation on Aris. Alarm bells
+  rang out across every district of the city.
+
+  Whether this is a real Estaran incursion or a coordinated illusion (as foreshadowed by
+  the street intelligence warning) is not yet resolved. The session ended here.
+relationships:
+  - target: chapter-7-aris-the-fracturing-capital
+    rel: part_of
+  - target: location-aris
+    rel: set_in
+  - target: concept-estarans
+    rel: features
+sources:
+  - chapters/chapter 7/chapter-7-recap.md

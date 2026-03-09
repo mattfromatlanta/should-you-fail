@@ -2,7 +2,7 @@
 
 ## Overview
 
-A TypeScript MCP server that gives Claude (or any MCP client) structured, graph-aware access to the Should You Fail campaign knowledge base. The server reads and writes **only** from `graph/` — no other campaign documents are touched.
+A TypeScript MCP server that gives Claude (or any MCP client) structured, graph-aware access to the Should You Fail campaign knowledge base. The server reads and writes **only** from `game-book/` — no other campaign documents are touched.
 
 Pattern follows `~/Repos/audio_dev_mcp`: single `src/index.ts`, TypeScript, `@modelcontextprotocol/sdk`, `js-yaml`, `zod`.
 
@@ -22,14 +22,14 @@ should-you-fail/
     dist/          (built output, gitignored)
 ```
 
-The server resolves `graph/` relative to the repo root at runtime using `path.resolve(__dirname, "../../graph")`.
+The server resolves `game-book/` relative to the repo root at runtime using `path.resolve(__dirname, "../../game-book")`.
 
 ---
 
 ## Data Access Rules
 
-- **Read from:** `graph/nodes/*.yaml`, `graph/_index.yaml`, `graph/_schema.yaml`
-- **Write to:** `graph/nodes/*.yaml`, `graph/_index.yaml` (new node registration)
+- **Read from:** `game-book/nodes/*.yaml`, `game-book/_index.yaml`, `game-book/_schema.yaml`
+- **Write to:** `game-book/nodes/*.yaml`, `game-book/_index.yaml` (new node registration)
 - **Never touch:** `chapters/`, `npcs/`, `instructions.txt`, or any other `.md`/`.txt` source files
 
 ---
@@ -71,7 +71,7 @@ Full-text and structured search across all nodes.
 ---
 
 #### `get_relationships`
-Get all nodes directly related to a given node (1-hop graph traversal).
+Get all nodes directly related to a given node (1-hop traversal).
 
 **Input:** `{ id: string, rel?: string }` — optionally filter by relationship verb (e.g. `"ally"`, `"founded"`)
 **Returns:** The source node plus an array of resolved target nodes (full content), each annotated with `rel` and `notes`.
@@ -110,13 +110,13 @@ Return the node schema and valid relationship types, so an agent knows how to cr
 ### Write Tools
 
 #### `create_node`
-Create a new node file in `graph/nodes/` and register it in `_index.yaml`.
+Create a new node file in `game-book/nodes/` and register it in `_index.yaml`.
 
 **Input:** Full node object (all schema fields). Validated against schema before write.
 **Behavior:**
 - Validates `id` follows `<type>-<slug>` convention
 - Checks for ID collision
-- Writes `graph/nodes/<id>.yaml`
+- Writes `game-book/nodes/<id>.yaml`
 - Appends entry to appropriate section of `_index.yaml`
 - Returns the written node
 
@@ -129,7 +129,7 @@ Update fields on an existing node. Merges provided fields; does not overwrite fi
 **Behavior:**
 - Reads existing node
 - Deep-merges provided fields (relationships are appended, not replaced, unless `replace_relationships: true` is passed)
-- Writes updated YAML back to `graph/nodes/<id>.yaml`
+- Writes updated YAML back to `game-book/nodes/<id>.yaml`
 - Returns the updated node
 
 ---
@@ -153,7 +153,7 @@ mcp/
   .gitignore        # ignores dist/ and node_modules/
 ```
 
-No separate config file needed — all data lives in `graph/`.
+No separate config file needed — all data lives in `game-book/`.
 
 ---
 
@@ -214,7 +214,7 @@ Add to `~/.claude/claude_desktop_config.json`:
 3. **Read tools** — `get_node`, `list_nodes`, `search_nodes`, `get_relationships`, `get_schema`
 4. **Bundle tool** — `get_context_bundle` (depends on read tools working)
 5. **Write tools** — `create_node`, `update_node`, `add_relationship`
-6. **Register & test** — wire up Claude Desktop, run a few queries against existing graph
+6. **Register & test** — wire up Claude Desktop, run a few queries against the game book
 
 ---
 

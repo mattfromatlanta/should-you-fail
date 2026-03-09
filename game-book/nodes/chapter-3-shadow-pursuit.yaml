@@ -1,6 +1,6 @@
 id: chapter-3-shadow-pursuit
 type: chapter
-name: Chapter 3: The Shadow Pursuit
+name: "Chapter 3: The Shadow Pursuit"
 tags: [chapter, naeliste, trickster, rebel-fey, milicent-lore, cetyri-potential]
 status: complete
 summary: Party reaches Naeliste, discovers key historical documents in the library, learns of Cetyri's potential as Dragon Singularity, and plans the journey to find Yrk the Trickster.
@@ -62,5 +62,13 @@ relationships:
     rel: preceded_by
   - target: chapter-4-journey-to-the-trickster
     rel: followed_by
+  - target: enc-ch3-01-pursuit-to-naeliste
+    rel: contains
+  - target: enc-ch3-02-library-research
+    rel: contains
+  - target: enc-ch3-03-lomani-examines-cetyri
+    rel: contains
+  - target: enc-ch3-04-eigitch-and-the-plan
+    rel: contains
 sources:
   - archive/chapters/chapter-3-shadow-pursuit.md

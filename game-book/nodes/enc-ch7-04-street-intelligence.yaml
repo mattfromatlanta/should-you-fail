@@ -1,0 +1,37 @@
+id: enc-ch7-04-street-intelligence
+type: encounter
+name: "Ch7 E04: Afternoon in Aris"
+tags: [chapter-7, roleplay, aris, young-bastards, investigation, cormin, gallifax]
+status: complete
+summary: The party's afternoon of social exploration — a rebuffed attempt to reach Gallifax at the Hall of Allies, then Cormin leading street intelligence that surfaces the waterfront rumor.
+content: |
+  After meeting with Erol, the party made their way to the Hall of Allies to seek an
+  audience with Gallifax. The great doors were ajar. They announced themselves. Gallifax
+  told them to go away. They tried a few more times and were refused each time. They left.
+
+  Cormin then took the lead in tracking down the protesters the party had saved from the
+  Veterans on the road into Aris. Making contact with them, the party gathered a clearer
+  picture of the city's mood: tensions are at a breaking point, Young Bastard organizing
+  has been intensifying, and something is being planned.
+
+  A key piece of intelligence surfaced: something significant is happening at the
+  waterfront that evening. The source was clear on one thing — whatever it is, the
+  party should not believe their worst fears when they see it.
+
+  Armed with this warning, the party resolved to go to the waterfront and observe.
+relationships:
+  - target: chapter-7-aris-the-fracturing-capital
+    rel: part_of
+  - target: npc-gallifax
+    rel: features
+    notes: Refused to see the party at the Hall of Allies
+  - target: npc-cormin
+    rel: features
+    notes: Led the street intelligence effort
+  - target: npc-nava-kurn
+    rel: features
+    notes: Discussed; party learning more about Young Bastards without yet meeting her
+  - target: location-aris
+    rel: set_in
+sources:
+  - chapters/chapter 7/chapter-7-recap.md

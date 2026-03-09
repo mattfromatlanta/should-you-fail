@@ -1,6 +1,6 @@
 id: chapter-5-return-to-oechenfor
 type: chapter
-name: Chapter 5: Return to Oechenfor
+name: "Chapter 5: Return to Oechenfor"
 tags: [chapter, oechenfor, milicent-alliance, quicklings, felicity, dragon-singularity, pivotal]
 status: complete
 summary: Party investigates quickling kidnappings, meets Milicent face-to-face, learns the truth of 54 apocalypses and the Dragon Singularity plan, forges alliance on condition Milicent stops enslaving mortals.
@@ -54,5 +54,21 @@ relationships:
     rel: preceded_by
   - target: chapter-6a-into-the-wild
     rel: followed_by
+  - target: enc-ch5-01-return-through-faedwood
+    rel: contains
+  - target: enc-ch5-02-the-missing-children
+    rel: contains
+  - target: enc-ch5-03-gords-betrayal
+    rel: contains
+  - target: enc-ch5-04-the-quickling-safehouse
+    rel: contains
+  - target: enc-ch5-05-the-fire-trap
+    rel: contains
+  - target: enc-ch5-06-milicents-fortress
+    rel: contains
+  - target: enc-ch5-07-the-imprisoned-estaran
+    rel: contains
+  - target: enc-ch5-08-the-alliance
+    rel: contains
 sources:
   - archive/chapters/chapter-5-return-to-oechenfor.md

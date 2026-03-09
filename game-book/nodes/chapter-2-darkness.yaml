@@ -1,6 +1,6 @@
 id: chapter-2-darkness
 type: chapter
-name: Chapter 2: Darkness
+name: "Chapter 2: Darkness"
 tags: [chapter, underdark, beholders, cetyri, bronik, torma, milicent]
 status: complete
 summary: Party escapes Torma's wrath via the Underdark, encounters beholders, discovers Cetyri in the underground lake, meets Milicent's shadow space again, and Erol/Lamat return to slay Torma.
@@ -45,5 +45,19 @@ relationships:
     rel: preceded_by
   - target: chapter-3-shadow-pursuit
     rel: followed_by
+  - target: enc-ch2-01-what-lome-needs
+    rel: contains
+  - target: enc-ch2-02-wary-hippogriffs
+    rel: contains
+  - target: enc-ch2-03-whats-in-a-hole
+    rel: contains
+  - target: enc-ch2-04-beholders-realm
+    rel: contains
+  - target: enc-ch2-05-the-revenant
+    rel: contains
+  - target: enc-ch2-06-back-to-the-shadow
+    rel: contains
+  - target: enc-ch2-07-come-with-me
+    rel: contains
 sources:
   - archive/chapters/chapter-2-darkness.md

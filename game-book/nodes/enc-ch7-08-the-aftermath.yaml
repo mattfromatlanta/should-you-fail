@@ -1,0 +1,151 @@
+id: enc-ch7-08-the-aftermath
+type: encounter
+name: "Ch7 E08: The Aftermath"
+tags:
+  - chapter-7
+  - roleplay
+  - aris
+  - gallifax
+  - ardo-manessi
+  - nava-kurn
+  - maelric
+  - aftermath
+status: planned
+summary: >-
+  Maelric's fate is settled and Gallifax responds. If Maelric died, Gallifax kills Nava Kurn and leaves Aris forever.
+  Ardo moves toward power — but the evidence to expose him exists if the party looks.
+content: >-
+  ### If Maelric Survived
+
+
+  Gallifax returns to the Hall of Allies and stands over Maelric for a long moment without speaking. His relief and
+  shame are both plain. He will carry the weight of having left.
+
+
+  The assassins — Corven, Aldrek, and Breva — are likely in custody or fled. If captured, they will not deny their
+  actions but will defend themselves loudly as having done what everyone wanted anyway. They will surface Ekert Shae as
+  someone who was sympathetic — "Nava's chum," the one who kept reminding them that bold men were needed and that the
+  throne was being squatted by people who had no right to it.
+
+
+  Ekert will try to avoid being interviewed. He will not succeed under real scrutiny — his role cannot be concealed if
+  the party pulls on this thread directly. If cornered, he will throw Ardo under the bus without hesitation to save
+  himself. This may be the party's only chance to block Ardo's ascension before leaving the city. Whether a city without
+  Gallifax's presence, without Maelric's authority, and still smoldering from the riot can act on that information is
+  another matter — but Aldrin and Erol are still here.
+
+
+  Ardo remains in Aris, still dangerous, still positioned as the moderate voice of stability. He is not yet beaten.
+
+
+  ---
+
+
+  ### If Maelric Died
+
+
+  Gallifax returns to find Maelric cold. No roar — something lower, a sound that shakes the crystal in the walls and the
+  bones in the chest. He does not move for several minutes. Then he asks, very quietly, who did this. No one can give
+  him a name.
+
+
+  Gallifax does not investigate. He has watched Nava Kurn for weeks. He knows what she lit. He finds her in the square.
+
+
+  Nava sees him coming and does not run. She faces him. Gallifax does not speak. He pins her to the ground under a
+  massive claw and electrocutes her at point blank range with his breath. It is not a warning. It is not a performance.
+  It takes less than a breath to decide. Hundreds of people are watching. Nava Kurn has no chance of surviving.
+
+
+  Gallifax will fight anyone who stands in his way before or after. He is fast enough and strong enough that it is
+  unlikely anyone could seriously slow him down, even the party. He is not interested in killing them, but he will not
+  hold back if they try to stop him. Erol, Lamat, and Aldrin are too far or too spent. Xilo could not get there in time
+  unless he is already near Nava. Felicity and Yrk could conceivably intervene if they are with or close to Nava when
+  events move — they are the only realistic check on him in this scenario.
+
+
+  When it is over, Gallifax looks at the stunned crowd around her, then lifts from the square and does not come back. He
+  leaves Aris. He leaves Maelric's body. He leaves the city he has guarded for a century.
+
+
+  ---
+
+
+  ### Ardo's Path to Power
+
+
+  With Maelric dead and Nava killed, Ardo moves quickly into the vacuum — the grieving, reasonable voice of stability
+  the city needs. He will be chosen as the next Citizen Exarch and it will seem like other people's ideas.
+
+
+  The evidence to expose him still exists:
+
+  - The dead-drop the assassins used traces back to Ardo.
+
+  - The Underworks route was his provision, delivered through Ekert.
+
+  - Ekert Shae knows the whole plan and will give Ardo up under pressure.
+
+
+  If the party investigates before departing — or gives Aldrin or Erol sufficient reason to dig — Ardo's plot can be
+  named and proven. What Aris does with that information, without Gallifax and without Maelric, is uncertain. But it is
+  not nothing.
+
+
+  ---
+
+
+  ### The Party's Choice
+
+
+  Felicity and Yrk tell the party what they've been trying to say since they arrived: they have the world-crossing
+  device ready and they believe they know where to go. Chapter 8 will take the party to Metgal.
+
+
+  Whatever remains unfinished in Aris — Ardo, the city's political wreckage, the people they've come to care about here
+  — the clock has run out. Stay and pursue it, or go.
+relationships:
+  - target: chapter-7-aris-the-fracturing-capital
+    rel: part_of
+  - target: npc-maelric-sturmwald
+    rel: centers_on
+  - target: npc-gallifax
+    rel: features
+    notes: Kills Nava if Maelric died; leaves Aris permanently
+  - target: npc-nava-kurn
+    rel: features
+    notes: Killed by Gallifax if Maelric died; innocent of ordering the assassination
+  - target: npc-ardo-manessi
+    rel: features
+    notes: Moves into power vacuum if Maelric dies; can still be exposed
+  - target: npc-ekert-shae
+    rel: features
+    notes: Will throw Ardo under the bus if cornered; key thread to Ardo's exposure
+  - target: npc-corven
+    rel: features
+    notes: Will surface Ekert under pressure
+  - target: npc-aldrek
+    rel: features
+    notes: Will surface Ekert under pressure
+  - target: npc-breva
+    rel: features
+    notes: Most likely to break; fastest route to naming Ekert
+  - target: npc-aldrin-stoneward
+    rel: features
+    notes: Can act on Ardo evidence if given reason to
+  - target: npc-erol
+    rel: features
+    notes: Can act on Ardo evidence if given reason to
+  - target: npc-yrk-the-trickster
+    rel: features
+    notes: Delivers news about the world-crossing device and Metgal
+  - target: npc-felicity
+    rel: features
+    notes: With Yrk; can intervene with Gallifax if positioned near Nava
+  - target: npc-xilo-lord-of-robins
+    rel: features
+    notes: Can intervene with Gallifax if already near Nava
+  - target: location-aris
+    rel: set_in
+  - target: enc-ch7-07-the-attempt-on-maelric
+    rel: preceded_by

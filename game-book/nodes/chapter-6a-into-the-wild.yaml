@@ -1,6 +1,6 @@
 id: chapter-6a-into-the-wild
 type: chapter
-name: Chapter 6a: Into the Wild
+name: "Chapter 6a: Into the Wild"
 tags: [chapter, feywild, cetyri, xilo, egedzoo, ozevriel, milicent-research]
 status: complete
 summary: Party pursues Cetyri into the Feywild, convinces him to commit to the cause, discovers Ozevriel's memorial and Milicent's observatory, meets Xilo and agrees to slay Egedzoo.
@@ -51,5 +51,23 @@ relationships:
     rel: preceded_by
   - target: chapter-6b-death-to-egedzoo
     rel: followed_by
+  - target: enc-ch6a-01-cetyris-flight
+    rel: contains
+  - target: enc-ch6a-02-feywild-entry
+    rel: contains
+  - target: enc-ch6a-03-rincks-diner
+    rel: contains
+  - target: enc-ch6a-04-confronting-cetyri
+    rel: contains
+  - target: enc-ch6a-05-aerial-attack
+    rel: contains
+  - target: enc-ch6a-06-ozevriel-memorial
+    rel: contains
+  - target: enc-ch6a-07-trapped-demons
+    rel: contains
+  - target: enc-ch6a-08-milicents-observatory
+    rel: contains
+  - target: enc-ch6a-09-meeting-xilo
+    rel: contains
 sources:
   - archive/chapters/chapter-6a-into-the-wild.md

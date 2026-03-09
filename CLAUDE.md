@@ -16,17 +16,17 @@ Key campaign elements:
 - The Gold Dragon Singularity, a weapon to defeat the Estarans. Cetyri's destiny?
 - Travel between worlds and planes (Material, Shadowfell, Feywild)
 
-## Source of Truth: The Graph
+## Source of Truth: The Game Book
 
-**The graph is the authoritative source of truth for all campaign information.**
+**The game book is the authoritative source of truth for all campaign information.**
 
-All campaign data lives in `graph/nodes/` as individual YAML files. The graph is served by an MCP server (`mcp/`) and is the primary interface for reading and writing campaign content.
+All campaign data lives in `game-book/nodes/` as individual YAML files. The game book is served by an MCP server (`mcp/`) and is the primary interface for reading and writing campaign content.
 
-- `graph/_schema.yaml` — full node schema and field documentation
-- `graph/_index.yaml` — index of all nodes by type
-- `graph/nodes/` — individual YAML files for every NPC, location, chapter, event, artifact, faction, concept, and encounter
+- `game-book/_schema.yaml` — full node schema and field documentation
+- `game-book/_index.yaml` — index of all nodes by type
+- `game-book/nodes/` — individual YAML files for every NPC, location, chapter, event, artifact, faction, concept, and encounter
 
-When assisting with this campaign, **read from and write to the graph nodes**. Do not treat `.md` files as authoritative — they are either archived originals or working drafts.
+When assisting with this campaign, **read from and write to the game book nodes**. Do not treat `.md` files as authoritative — they are either archived originals or working drafts.
 
 ## The Archive
 
@@ -41,7 +41,7 @@ Archive structure mirrors the original layout:
 ## Project Goals
 
 ### 1. Document Organization & Preservation
-The graph captures all established campaign information. The graph nodes are the canonical record going forward — new sessions, NPCs, locations, and events should be added as graph nodes.
+The game book captures all established campaign information. The game book nodes are the canonical record going forward — new sessions, NPCs, locations, and events should be added as game book nodes.
 
 ### 2. Monster Data Tool
 Build a browser plugin to capture monster data from D&D Beyond pages. This tool will:
@@ -72,7 +72,7 @@ Build outlines and encounters for the remaining campaign arc, including:
 ## Repository Structure
 
 ```
-graph/           ← SOURCE OF TRUTH
+game-book/       ← SOURCE OF TRUTH
   _schema.yaml
   _index.yaml
   nodes/
@@ -83,14 +83,14 @@ archive/         ← READ-ONLY HISTORICAL REFERENCE
   planning/
   world/
 
-mcp/             ← MCP server for graph access
+mcp/             ← MCP server for game book access
 instructions.txt ← DM working notes
 ```
 
 ## Notes for AI Assistance
 
 When assisting with this campaign:
-- **Consult graph nodes first** — they are the source of truth
+- **Consult game book nodes first** — they are the source of truth
 - Maintain consistency with established lore and characters
 - Follow D&D 5th Edition 2024 rules unless otherwise specified
 - Preserve the epic scope and stakes of the story

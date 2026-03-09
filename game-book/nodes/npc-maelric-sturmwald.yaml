@@ -1,15 +1,14 @@
 id: npc-maelric-sturmwald
 type: npc
 name: Maelric Sturmwald
-tags: [human, veteran, exarch, aris, catatonic, rebellion, psychic-trap]
+tags: [human, veteran, exarch, aris, catatonic, rebellion]
 status: alive
-summary: Chief Exarch of the Allied Cities; fell into a catatonic trance ~2 months ago after triggering an Estaran psychic trap while trying to recover lost memories.
+summary: Chief Exarch of the Allied Cities; fell into an unexplained catatonic trance ~2 months ago while meditating. The cause is unknown to any character in the game.
 content: |
   Citizen Exarch based in Aris. Veteran of the Rebellion. Two months ago (mid-February) he
-  entered a meditative trance to explore his subconscious and recover lost memories of fighting
-  in Estaran wars on other worlds. He triggered an Estaran psychic trap—a snare laid in the
-  minds of all veterans to prevent exactly this kind of investigation. He is alive but unreachable,
-  lost in his own trapped consciousness.
+  entered a meditative trance to explore his subconscious. He did not wake. He is alive but
+  unreachable, lost in his own consciousness. No character in the game understands what caused
+  the trance or how to reverse it.
 
   His catatonic state has thrown the Allied Cities into political crisis. Gallifax keeps strict
   vigil. Rumors spread: that he is dead, imprisoned, or assassinated. His throne in the Hall of
@@ -27,9 +26,6 @@ relationships:
     rel: participated_in
   - target: location-aris
     rel: located_in
-  - target: concept-estarans
-    rel: trapped_by
-    notes: Estaran psychic trap triggered while trying to recover lost memories
 sources:
   - npcs/mortals/maelric-sturmwald.md
   - chapters/chapter 7/chapter-7-synopsis.md

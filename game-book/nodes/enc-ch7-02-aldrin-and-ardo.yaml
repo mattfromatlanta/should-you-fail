@@ -1,0 +1,43 @@
+id: enc-ch7-02-aldrin-and-ardo
+type: encounter
+name: "Ch7 E02: Aldrin and Ardo"
+tags: [chapter-7, roleplay, aris, aldrin, ardo-manessi, political-crisis]
+status: complete
+summary: First morning in Aris — the party meets with Aldrin Stoneward, who briefs them on the crisis, and is introduced to Ardo Manessi. They learn about Gallifax's vigil over Maelric and first hear of Nava Kurn.
+content: |
+  The morning after arriving in the High Ward, the party met with Aldrin Stoneward. He
+  was exhausted from two months of trying to hold the peace between Veterans and Young
+  Bastards but relieved to see the party. He filled them in on the situation:
+
+  - Chief Exarch Maelric fell into a catatonic trance roughly two months ago while
+    meditating. The cause is not understood. He remains alive but unreachable.
+  - Gallifax is keeping strict vigil over him in the Hall of Allies, permitting no one
+    near Maelric and physically obstructing the Citizen Conference from formally convening.
+  - The Veterans want to maintain the status quo and wait for Maelric to recover.
+  - The Young Bastards — a political movement of citizens denied power by Veterans'
+    unnatural longevity — are pushing for immediate change.
+  - A woman named Nava Kurn leads the Young Bastards. The party has not met her yet.
+
+  Aldrin introduced the party to Ardo Manessi, a city councilor he trusts as a moderate
+  voice. Ardo presents as thoughtful and conciliatory. In truth he is playing both sides
+  of the conflict, stoking chaos in hopes of positioning himself as Maelric's successor.
+relationships:
+  - target: chapter-7-aris-the-fracturing-capital
+    rel: part_of
+  - target: npc-aldrin-stoneward
+    rel: features
+  - target: npc-ardo-manessi
+    rel: features
+  - target: npc-maelric-sturmwald
+    rel: features
+    notes: Discussed; still catatonic
+  - target: npc-gallifax
+    rel: features
+    notes: Discussed; keeping vigil at Hall of Allies
+  - target: npc-nava-kurn
+    rel: features
+    notes: First mention; party has not yet met her
+  - target: location-aris
+    rel: set_in
+sources:
+  - chapters/chapter 7/chapter-7-recap.md

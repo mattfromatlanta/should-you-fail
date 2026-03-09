@@ -1,0 +1,103 @@
+id: enc-ch7-07-the-attempt-on-maelric
+type: encounter
+name: "Ch7 E07: The Attempt on Maelric"
+tags:
+  - chapter-7
+  - combat
+  - aris
+  - maelric
+  - ardo-manessi
+  - assassins
+  - hall-of-allies
+  - underworks
+status: planned
+summary: >-
+  The moment Gallifax takes to the air, Ardo's three assassins move through the Underworks toward Maelric. The party can
+  only stop them by going immediately to the Hall of Allies when they see the dragon fly.
+content: >-
+  The moment Gallifax leaves the Hall of Allies, a signal is sent. Three assassins — Corven, Aldrek, and Breva,
+  radicalized Young Bastards manipulated into action over days by Ekert Shae — enter the Hall through sealed Estaran
+  tunnels in the Underworks. Their target is Maelric, alone in his trance-throne.
+
+
+  ### The Trigger
+
+
+  There are no hints. The party must decide on their own to go to Maelric when they see Gallifax take to the air. Any
+  other priority — the riot, their contacts, Nava, Aldrin — means the assassins complete their work. The moment is brief
+  and the window is real.
+
+
+  ### The Assassins
+
+
+  Corven is the ringleader — steady, knows the Underworks, and believes the plan is his own. Aldrek is the muscle —
+  aggressive, impatient, the most likely to act rashly. Breva is the youngest and most recently radicalized — she still
+  has doubts and is the weakest point in the group.
+
+
+  None of the three know who ultimately set this in motion. They know Ekert; they do not know Ardo.
+
+
+  ### If the Party Arrives in Time
+
+
+  The party encounters the three inside the Hall before the deed is done. The party is substantially more powerful —
+  this is not a balanced fight. Corven and Aldrek will attempt to withdraw through the Underworks entrance while buying
+  time. Breva is the most likely to surrender immediately under real pressure.
+
+
+  **Capture and questioning:**
+
+  - The three will not deny what they intended. They will defend themselves by stridently claiming they did what
+  everybody wanted anyway.
+
+  - Under sufficient pressure, they will surface "Nava's chum" — Ekert — as someone who was deeply sympathetic to their
+  ideas and who, frankly, seemed to think it was time for bold men to act.
+
+  - Corven is the hardest to break but holds the most information. Breva will give up Ekert's name fastest.
+
+  - The dead-drop location for their payment and the Underworks route are both traceable back to Ardo if the party
+  investigates further.
+
+
+  Maelric survives. He remains in his trance, undisturbed. Gallifax, returning to find him alive, is grim and silent.
+  The weight of having left is plain on his face. He will carry it.
+
+
+  ### If the Party Does Not Arrive
+
+
+  The three reach Maelric. Corven and Aldrek are efficient. Maelric does not suffer. By the time anyone raises the alarm
+  the assassins are back in the Underworks and gone. No body left behind. No sign of entry. The Hall's guards — those
+  not drawn out by the riot — find Maelric cold in his trance-throne. The wound is small and precise.
+
+
+  Ardo Manessi will be among the first to arrive on the scene, looking shaken and grief-stricken. Move to E08.
+relationships:
+  - target: chapter-7-aris-the-fracturing-capital
+    rel: part_of
+  - target: npc-maelric-sturmwald
+    rel: centers_on
+  - target: npc-corven
+    rel: features
+    notes: Ringleader; knows the Underworks; hardest to break
+  - target: npc-aldrek
+    rel: features
+    notes: Muscle; aggressive; most likely to act rashly
+  - target: npc-breva
+    rel: features
+    notes: Youngest; weakest link; most likely to surrender and name Ekert
+  - target: npc-ekert-shae
+    rel: features
+    notes: Set the assassins in motion through rhetoric; they know him as 'Nava's chum'
+  - target: npc-ardo-manessi
+    rel: features
+    notes: Mastermind; unknown to the assassins; first on scene if Maelric dies
+  - target: npc-gallifax
+    rel: features
+    notes: Absent; this is the window his absence creates
+  - target: location-aris
+    rel: set_in
+  - target: enc-ch7-06-the-riot-and-the-dragon
+    rel: preceded_by

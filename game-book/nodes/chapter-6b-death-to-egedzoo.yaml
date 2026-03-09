@@ -1,6 +1,6 @@
 id: chapter-6b-death-to-egedzoo
 type: chapter
-name: Chapter 6b: Death to Egedzoo
+name: "Chapter 6b: Death to Egedzoo"
 tags: [chapter, egedzoo, feywild, xilo, dragon-fight, treasure]
 status: complete
 summary: Party assaults Egedzoo's canyon lair while Xilo draws off the hobgoblin army; Egedzoo slain; Xilo volunteers to travel with the party; they return to Material Plane.
@@ -12,7 +12,7 @@ content: |
 
   Xilo volunteered to travel with them to Aris as an envoy of the Rebel Fey — the first Fey
   lord to visit the mortal capital. The party returns to the Material Plane with Cetyri, Bronik,
-  Xilo, and Hootini — ready to journey to Aris and then to Metgal, where they hope to find the
+  Xilo — ready to journey to Aris and then to Metgal, where they hope to find the
   means to travel beyond this world.
 relationships:
   - target: npc-egedzoo
@@ -25,5 +25,9 @@ relationships:
     rel: preceded_by
   - target: chapter-7-aris-the-fracturing-capital
     rel: followed_by
+  - target: enc-ch6b-01-egedzoo-assault
+    rel: contains
+  - target: enc-ch6b-02-xilo-alliance-and-return
+    rel: contains
 sources:
   - archive/chapters/chapter-6b-death-to-egedzoo.md

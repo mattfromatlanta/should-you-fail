@@ -1,0 +1,49 @@
+id: npc-ardo-manessi
+type: npc
+name: Ardo Manessi
+tags:
+  - human
+  - aris
+  - counselor
+  - ambitious
+  - double-agent
+  - antagonist
+status: alive
+summary: >-
+  Human city councilor, 47; ambitious political operator publicly backing Veterans while secretly courting Young
+  Bastards; secretly plotting to kill or have killed Chief Exarch Maelric to seize power.
+content: >-
+  Human city councilor in Aris, age 47. An ambitious operator publicly supporting the Veterans faction while privately
+  courting Young Bastard allies. Plays both sides to position himself as Maelric's successor.
+
+
+  Ardo is charismatic where his agent Ekert is not — he moves rooms, builds alliances, and projects the image of a
+  pragmatic statesman. The dirty work goes to Ekert, whom he has employed in secret for several years. Ardo views Ekert
+  as the knife he needs to kill his rivals: the instrument for things Ardo cannot do himself or be seen near. The
+  relationship is transactional; Ardo would cut Ekert loose without hesitation if it served him.
+
+
+  Secret: Looking for an opportunity to kill or have Maelric killed. Hopes to maneuver the current crisis into personal
+  power.
+relationships:
+  - target: npc-maelric-sturmwald
+    rel: enemy
+    notes: Secretly plotting to kill or have killed; wants to succeed him
+  - target: location-aris
+    rel: located_in
+  - target: npc-ekert-shae
+    rel: employs
+    notes: >-
+      Secret: Shae is his covert operative nudging assassins and engineering the Gallifax distraction. Connection
+      unknown to Nava and the public.
+  - target: npc-corven
+    rel: knows_of
+    notes: Knows his name as one of Ekert's trio. Corven does not know Ardo exists in this scheme.
+  - target: npc-aldrek
+    rel: knows_of
+    notes: Knows his name as one of Ekert's trio. Aldrek does not know Ardo exists in this scheme.
+  - target: npc-breva
+    rel: knows_of
+    notes: Knows her name as one of Ekert's trio. Breva does not know Ardo exists in this scheme.
+sources:
+  - chapters/chapter 7/chapter-7-npcs.txt

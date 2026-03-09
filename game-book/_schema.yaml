@@ -1,9 +1,9 @@
-# Should You Fail - Graph Node Schema
+# Should You Fail - Game Book Node Schema
 # Version 1.0
 #
-# Graph nodes are the source of truth for campaign knowledge.
+# Game book nodes are the source of truth for campaign knowledge.
 # Source files (.md, .txt) are inputs that inform and update nodes.
-# Nodes are stored in graph/nodes/ as individual YAML files.
+# Nodes are stored in game-book/nodes/ as individual YAML files.
 #
 # ─────────────────────────────────────────────────────────────
 # NODE TYPES

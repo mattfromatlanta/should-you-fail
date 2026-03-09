@@ -1,6 +1,6 @@
 id: chapter-1-invaders
 type: chapter
-name: Chapter 1: Invaders
+name: "Chapter 1: Invaders"
 tags: [chapter, gullux, lome, dragonborn, milicent-first-contact, uplands]
 status: complete
 summary: The party investigates Lome's silence, discovers Dragonborn invaders led by Gullux, defeats him in Milicent's shadow space, and finds stolen dragon eggs.
@@ -41,5 +41,25 @@ relationships:
     rel: set_in
   - target: chapter-2-darkness
     rel: followed_by
+  - target: enc-ch1-01-the-meeting
+    rel: contains
+  - target: enc-ch1-02-faeries-are-angry
+    rel: contains
+  - target: enc-ch1-03-a-carcass-a-mess
+    rel: contains
+  - target: enc-ch1-04-a-glimpse-of-the-enemy
+    rel: contains
+  - target: enc-ch1-05-the-stair-is-held
+    rel: contains
+  - target: enc-ch1-06-the-missing-heroes
+    rel: contains
+  - target: enc-ch1-07-a-town-under-siege
+    rel: contains
+  - target: enc-ch1-08-we-drive-them-out
+    rel: contains
+  - target: enc-ch1-09-the-dream
+    rel: contains
+  - target: enc-ch1-10-waking
+    rel: contains
 sources:
   - archive/chapters/chapter-1-invaders.md
