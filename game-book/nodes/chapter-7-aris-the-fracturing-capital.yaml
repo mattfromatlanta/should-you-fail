@@ -1,9 +1,19 @@
 id: chapter-7-aris-the-fracturing-capital
 type: chapter
 name: "Chapter 7: Aris - The Fracturing Capital"
-tags: [chapter, aris, maelric, political-crisis, veterans, young-bastards, in-progress]
+tags:
+  - chapter
+  - aris
+  - maelric
+  - political-crisis
+  - veterans
+  - young-bastards
+  - in-progress
 status: in-progress
-summary: Party arrives in Aris after a month on the road to find the city politically fractured. Maelric is catatonic for unknown reasons, Veterans have dominated politics for 150 years due to unnatural longevity, and the Young Bastards demand change.
+summary: >-
+  Party arrives in Aris after a month on the road to find the city politically fractured. Maelric is catatonic for
+  unknown reasons, Veterans have dominated politics for 150 years due to unnatural longevity, and the Young Bastards
+  demand change.
 content: |
   The party arrived in Aris after a month on the road, having stopped in Naeliste and Oechenfor
   along the way. Twi'Xu was sent ahead to make arrangements and met them at the city gate,
@@ -87,4 +97,4 @@ relationships:
     rel: features
 sources:
   - archive/chapters/chapter 7/chapter-7-synopsis.md
-  - chapters/chapter 7/chapter-7-recap.md
+  - archive/chapters/chapter 7/chapter-7-recap.md

@@ -12,9 +12,10 @@ Key campaign elements:
 - The Allied Cities governed by the Counsel of Citizens
 - Gallifax, an ancient and powerful dragon ally
 - Milicent, a powerful figure raising an army in the Shadowfell
-- Cetyri, a lost dragon who is key to the final plan
-- The Gold Dragon Singularity, a weapon to defeat the Estarans. Cetyri's destiny?
-- Travel between worlds and planes (Material, Shadowfell, Feywild)
+- Cetyri, a lost dragon who has accepted his role in the final plan
+- The Gold Dragon Singularity, a weapon to defeat the Estarans — Cetyri's destiny
+- Travel between worlds and planes (Material, Shadowfell, Feywild, and beyond)
+- Currently in Chapter 7: the party is in Aris as the city fractures politically
 
 ## Source of Truth: The Game Book
 
@@ -32,16 +33,18 @@ When assisting with this campaign, **read from and write to the game book nodes*
 
 All original `.md` source files (chapters, NPCs, planning docs, world notes) have been moved to the `archive/` folder. These files are **read-only historical reference** — do not modify them. Reference archive content only when explicitly asked by the user.
 
-Archive structure mirrors the original layout:
-- `archive/chapters/` — original chapter write-ups
+Archive structure:
+- `archive/chapters/` — original chapter write-ups and recaps
 - `archive/npcs/` — original NPC documents
 - `archive/planning/` — original planning notes
 - `archive/world/` — original world-building documents
+- `archive/assets/` — in-world artifacts (letters, odes, etc.)
+- `archive/project/` — completed project planning documents (e.g. MCP dev plan)
 
 ## Project Goals
 
-### 1. Document Organization & Preservation
-The game book captures all established campaign information. The game book nodes are the canonical record going forward — new sessions, NPCs, locations, and events should be added as game book nodes.
+### 1. Document Organization & Preservation ✓
+The game book captures all established campaign information. The game book nodes are the canonical record — new sessions, NPCs, locations, and events are added as game book nodes. The MCP server is built and operational.
 
 ### 2. Monster Data Tool
 Build a browser plugin to capture monster data from D&D Beyond pages. This tool will:
@@ -82,6 +85,8 @@ archive/         ← READ-ONLY HISTORICAL REFERENCE
   npcs/
   planning/
   world/
+  assets/
+  project/
 
 mcp/             ← MCP server for game book access
 instructions.txt ← DM working notes
