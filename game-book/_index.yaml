@@ -61,6 +61,7 @@ npcs:
   - npc-breva
 locations:
   - location-aris
+  - location-hall-of-allies
   - location-oechenfor
   - location-lome
   - location-faedwood

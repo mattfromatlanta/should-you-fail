@@ -1,0 +1,46 @@
+id: location-hall-of-allies
+type: location
+name: The Hall of Allies
+tags:
+  - aris
+  - government
+  - estaran-architecture
+  - gallifax
+  - maelric
+  - underworks
+status: active
+summary: >-
+  The seat of government for the Allied Cities; formerly an Estaran command nexus; the highest structure in Aris;
+  home to Gallifax's lair and Maelric's trance-throne.
+content: |
+  The Hall of Allies occupies the highest of Aris's seven hills. It was the original Estaran command nexus
+  for the region — a structure of alien geometry and radiant materials, now partially reclaimed and
+  repurposed by the Allied Cities as the seat of government for the Counsel of Citizens.
+
+  Its vast central chamber is large enough to house Gallifax comfortably. His lair is here, and here
+  Maelric Sturmwald sits in his trance-throne, held in his unresponsive state since before the party arrived.
+
+  The Hall is physically continuous with the Underworks — the sealed Estaran tunnel network beneath Aris.
+  There are entry points from the Underworks into the Hall's lower levels, normally sealed. Corven knows
+  at least one of these routes, provided by Ardo through Ekert Shae, as the assassins' path to Maelric.
+
+  Guards are normally posted but many were drawn out during the riot. When Gallifax leaves the Hall to
+  stop the violence, Maelric is left alone and the Hall is effectively unguarded.
+relationships:
+  - target: location-aris
+    rel: located_in
+    notes: Occupies the highest hill in the city
+  - target: npc-gallifax
+    rel: houses
+    notes: Gallifax's lair is in the central chamber
+  - target: npc-maelric-sturmwald
+    rel: houses
+    notes: Maelric's trance-throne is here; he has been catatonic throughout Chapter 7
+  - target: faction-counsel-of-citizens
+    rel: seat_of
+  - target: npc-lamat
+    rel: associated_with
+    notes: Went ahead to warn Gallifax here at the start of E06; couldn't get the dragon to emerge
+  - target: enc-ch7-07-the-attempt-on-maelric
+    rel: setting_for
+    notes: The assassins enter through sealed Underworks tunnels when Gallifax leaves

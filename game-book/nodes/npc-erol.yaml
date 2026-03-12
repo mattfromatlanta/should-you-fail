@@ -52,12 +52,20 @@ content: |
   the Upland Stair, before leading the Lome refugees south to Oechenfor, she told the party
   to travel to Naeliste and then seek the Trickster (Yrk).
 
-  CURRENT STATUS (CHAPTER 7):
-  In Aris, arrived shortly after Aldrin. Has been providing moral support to Aldrin and
-  acting as envoy to local leaders and other Citizen Counselors when his attention is split.
-  Not especially focused on Fey political issues despite her role with Xilo.
-  Xilo's arrival will be a significant moment. Her history with Milicent is unresolved—the
-  party now works alongside Milicent, a fact Erol is likely to have strong feelings about.
+  CURRENT STATUS (CHAPTER 7 — END OF E06):
+  In Aris, arrived shortly after Aldrin. Was acting as envoy to local leaders and Citizen Counselors.
+
+  During the E05/E06 illusion event, Erol was struck by the Estaran descent and suffered an intense psychic
+  episode — crippled by pain, falling to her knees, completely drained. Aldrin abandoned the Veterans' rally
+  to protect her. Babas approached and offered aid; Erol accepted. She and Babas together theorized that this
+  may be deliberate Estaran tampering — a mechanism to prevent Veterans from mounting effective resistance
+  should they ever rebel. Erol said this was the only explanation she could see.
+
+  She is now recovering at the waterfront plaza with Aldrin. She is in no state to join the riot. She is
+  resolving to leave Aris and return home. This is a significant shift — Erol withdrawing signals real
+  damage, not merely exhaustion.
+
+  Xilo's eventual arrival will still be a significant moment. Her history with Milicent is unresolved.
 relationships:
   - target: npc-lamat
     rel: partner

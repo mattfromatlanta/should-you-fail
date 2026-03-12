@@ -30,6 +30,15 @@ content: >-
   resentment of the Young Bastards for months — feeding small provocations and manufactured slights to the right ears,
   ensuring that any attempt at reconciliation finds poisoned ground. Every step Nava takes toward her goals, she takes
   on a floor Ekert has been quietly tilting against her.
+
+  CURRENT STATUS (END OF E06):
+  Found by the party in a safehouse during the riot. She was pacing, failing to stay calm, unable to convince
+  herself that she had meant well. The party persuaded her to come with them to find Aldrin and Erol — believing
+  that together they could present a united front and calm the city. Nava agreed and is now with the party.
+  Ekert Shae is also with her.
+
+  She is despondent but cooperative. She still believes she had the right idea; she cannot accept that her
+  judgment caused all of this. She will do whatever seems constructive and she genuinely wants this to stop.
 relationships:
   - target: location-aris
     rel: located_in

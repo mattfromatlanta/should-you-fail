@@ -49,6 +49,18 @@ content: >-
 
   Shae is a loose end. If the party investigates after the assassination attempt, he is a thread that leads back to Ardo
   — but unwinding it requires getting one of the trio to name him, or catching Shae himself.
+
+
+  CURRENT STATUS (END OF E06):
+  Ekert accompanied Nava when the party convinced her to come with them. He is now with the party and with Nava.
+  He knows the assassins are in motion and is waiting quietly for events to unfold. He will not volunteer anything.
+
+  He has two active defenses against magical scrutiny:
+  - Ring of Mind Shielding: standard protection against telepathic detection and mind-reading.
+  - Ekert's Obfuscating Daydream: a custom spell of his own creation that projects a false surface mind to
+    any telepathic reader. The illusory mind is programmed to appear preoccupied with Nava's safety and
+    searching for ways to save the city — convincingly sympathetic and on-theme for his cover.
+    A reader must first overcome or see through this psychic fake before accessing his true thoughts.
 relationships:
   - target: npc-ardo-manessi
     rel: serves
