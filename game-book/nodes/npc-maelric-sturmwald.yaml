@@ -1,19 +1,30 @@
 id: npc-maelric-sturmwald
 type: npc
 name: Maelric Sturmwald
-tags: [human, veteran, exarch, aris, catatonic, rebellion]
+tags:
+  - human
+  - veteran
+  - exarch
+  - aris
+  - catatonic
+  - rebellion
 status: alive
-summary: Chief Exarch of the Allied Cities; fell into an unexplained catatonic trance ~2 months ago while meditating. The cause is unknown to any character in the game.
-content: |
-  Citizen Exarch based in Aris. Veteran of the Rebellion. Two months ago (mid-February) he
-  entered a meditative trance to explore his subconscious. He did not wake. He is alive but
-  unreachable, lost in his own consciousness. No character in the game understands what caused
-  the trance or how to reverse it.
+summary: >-
+  Chief Exarch of the Allied Cities; restored from a two-month catatonic trance at the end of Chapter 7 by Cormin,
+  Babas, and Beacon; now traveling with the party to Metgal.
+content: >-
+  Citizen Exarch based in Aris. Veteran of the Rebellion. Two months ago he entered a meditative trance to explore his
+  subconscious and did not wake. Gallifax kept strict vigil throughout. His catatonic state threw the Allied Cities into
+  political crisis.
 
-  His catatonic state has thrown the Allied Cities into political crisis. Gallifax keeps strict
-  vigil. Rumors spread: that he is dead, imprisoned, or assassinated. His throne in the Hall of
-  Allies in Aris sits empty. The Veterans faction wants a Council of Regency in his name; the
-  Young Bastards see his collapse as evidence the Veteran-dominated system must change.
+
+  At the end of Chapter 7, Cormin, Babas, and Beacon worked together to reach him in the trance. Babas's magic restored
+  him. He woke. The party briefed him on the events of the riot, the assassination attempt, and the Estaran cosmological
+  threat. He took it all in. The party made the case for political change and suggested (with some irony) that Ardo
+  Manessi could be given a more prominent role in the Council. Ardo's deeper conspiracy was not exposed.
+
+
+  Maelric has agreed to travel with the party to Metgal.
 relationships:
   - target: npc-gallifax
     rel: guarded_by

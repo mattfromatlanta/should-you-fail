@@ -9,45 +9,53 @@ tags:
   - veterans
   - young-bastards
   - in-progress
-status: in-progress
+status: complete
 summary: >-
   Party arrives in Aris after a month on the road to find the city politically fractured. Maelric is catatonic for
   unknown reasons, Veterans have dominated politics for 150 years due to unnatural longevity, and the Young Bastards
   demand change.
-content: |
-  The party arrived in Aris after a month on the road, having stopped in Naeliste and Oechenfor
-  along the way. Twi'Xu was sent ahead to make arrangements and met them at the city gate,
-  leading them to the High Ward where dignitaries are housed.
+content: >-
+  The party arrived in Aris after a month on the road, having stopped in Naeliste and Oechenfor along the way. Twi'Xu
+  was sent ahead to make arrangements and met them at the city gate, leading them to the High Ward where dignitaries are
+  housed.
 
-  The city is in crisis. Chief Exarch Maelric fell into an unexplained catatonic trance ~2
-  months ago. The cause is unknown to any character. Gallifax keeps strict vigil over him in
-  the Hall of Allies, trusting no one.
 
-  The political conflict: Veterans have held dominant power in the Allied Cities for 150 years,
-  sustained by unnatural longevity granted by Estaran magic. Whole generations of mortal citizens
-  have lived and died without inheriting political power. The Young Bastards are a loosely
-  affiliated movement of activists and leaders — many quite old by mortal standards, but young
-  compared to Veterans — who argue this has to change. They want veteran retirements, new public
-  offices, and redistribution of resources away from permanent war posture. The name is somewhat
-  ironic; they are not literally young.
+  The city was in crisis. Chief Exarch Maelric had fallen into an unexplained catatonic trance ~2 months prior. Gallifax
+  kept strict vigil. The political conflict — Veterans holding dominant power for 150 years through Estaran-granted
+  longevity, the Young Bastards demanding change — had reached a breaking point.
 
-  Aldrin and Erol arrived two months ago hoping to stabilize things. Aldrin is trying to hold
-  the peace as a moderate voice, increasingly exhausted. Ardo Manessi plays both sides, secretly
-  hoping to engineer chaos that will position him as Maelric's successor.
 
-  What has happened in session:
-  - On the way into town, the party intervened in a near-fight between Young Bastard protesters
-    and a trio of Veterans. The Veterans would likely have killed protesters. The party de-escalated.
-  - First morning: met Aldrin and were introduced to Ardo Manessi. Learned the situation with
-    Gallifax and Maelric. First heard of Nava Kurn (haven't met her yet).
-  - Visited Erol, who gave her perspective: Young Bastards have a valid complaint; Veterans are
-    too hidebound; loss is hard for long-lived creatures like Gallifax.
-  - Cormin led the party to find the protesters they saved and gather intelligence on the city's
-    mood. Picked up a rumor: something big is planned at the waterfront that evening, and not to
-    believe their worst fears.
-  - The party went to the waterfront amphitheater and hid to observe. As the sun set, a hundred
-    radiant beams descended from the heavens — each carrying an Estaran warrior, sword aflame,
-    descending on Aris. Alarm bells rang across the city. [Session ended here.]
+  Ardo Manessi was secretly engineering chaos to position himself as Maelric's successor. His operative Ekert Shae had
+  joined the Young Bastards, won Nava Kurn's trust as an advisor, and shaped her instinct to expose Veteran
+  unpreparedness into a full operation: a waterfront illusion of a hundred Estaran warriors descending on the city at
+  sunset. Nava organized the crowd and the message; Ekert built the weapon she held.
+
+
+  The illusion worked and failed simultaneously. Veterans were crippled by psychic anguish — a mechanism of Estaran
+  tampering, as Erol and Babas eventually theorized. The illusion collapsed. The Young Bastards' citywide demonstration
+  began. The riot followed.
+
+
+  The party navigated the chaos, de-escalated what violence they could, and found Nava Kurn in a safehouse with Ekert
+  Shae at her side. They convinced Nava to come with them. When Gallifax took to the air to suppress the worst of the
+  fighting, the party recognized what that meant and went directly to the Hall of Allies.
+
+
+  They foiled the assassination attempt. Corven and Aldrek were killed. Breva surrendered and named Ekert Shae under
+  interrogation. Ekert fled during the fight and did not answer Cormin's Message spell. He is at large in Aris.
+  The party knows he escaped; they do not know his destination. (DM: he intends to wait out the heat
+  and slip away to Oechenfor — see npc-ekert-shae.)
+
+
+  The following morning, Gallifax and Nava worked together to calm the city. Felicity and Yrk found the party and
+  presented the Radiant Vessel — a portable device that can follow Estaran rift lines. The strongest concentration on
+  this world is Metgal. Cormin, Babas, and Beacon reached Maelric in his trance and Babas restored him. Maelric woke.
+  The party briefed him on everything and suggested (with some irony) that Ardo Manessi might play a more prominent role
+  in the Council. Ardo's deeper conspiracy was not uncovered.
+
+
+  Chapter 7 concluded with Aris calming and the party preparing to depart for Metgal, accompanied by Gallifax, Maelric,
+  Felicity, Yrk, Xilo, Twi'Xu, and Cetyri.
 relationships:
   - target: npc-maelric-sturmwald
     rel: centers_on

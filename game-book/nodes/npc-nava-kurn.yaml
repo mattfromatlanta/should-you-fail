@@ -9,14 +9,14 @@ tags:
   - faction-leader
 status: alive
 summary: >-
-  Dwarf woman, 45; charismatic and idealistic leader of the Young Bastards; genuinely believes generations since the
-  Rebellion have gotten a raw deal and that the Veterans are a broken class who should have stepped aside a century ago.
+  Dwarf woman, 45; charismatic idealist and leader of the Young Bastards; survived Chapter 7 and teamed with Gallifax
+  the morning after the riot to calm the city.
 content: >-
   Charismatic leader of the Young Bastards, the reform-minded political faction in Aris. Sharp-tongued and pragmatic on
   the surface, but underneath a genuine idealist. Nava truly believes that the generations born since the Rebellion have
   been cheated — that the Veterans' unnatural longevity has calcified power into a permanent aristocracy that was never
   supposed to exist. She does not hate the Veterans personally. She thinks they are a broken class: people who outlived
-  their moment and cannot see it, hoarding positions and resources that should have turned over a century ago.
+  their moment and cannot see it.
 
 
   Her theory of change is confrontation through exposure. She organized the waterfront illusion because she believed —
@@ -25,20 +25,15 @@ content: >-
   Bastards, and handed her enemies exactly the crisis they needed.
 
 
-  What she does not know: the plan she thought was hers was shaped and executed by Ekert Shae, who designed the illusion
-  and cast the amplification spell. And she does not know that Ekert and Ardo Manessi have been quietly stoking Veteran
-  resentment of the Young Bastards for months — feeding small provocations and manufactured slights to the right ears,
-  ensuring that any attempt at reconciliation finds poisoned ground. Every step Nava takes toward her goals, she takes
-  on a floor Ekert has been quietly tilting against her.
+  What she did not know: the plan she thought was hers was shaped and executed by Ekert Shae, who designed the illusion
+  and cast the amplification spell. Ekert and Ardo Manessi had been quietly stoking Veteran resentment for months —
+  ensuring that any attempt at reconciliation found poisoned ground.
 
-  CURRENT STATUS (END OF E06):
-  Found by the party in a safehouse during the riot. She was pacing, failing to stay calm, unable to convince
-  herself that she had meant well. The party persuaded her to come with them to find Aldrin and Erol — believing
-  that together they could present a united front and calm the city. Nava agreed and is now with the party.
-  Ekert Shae is also with her.
 
-  She is despondent but cooperative. She still believes she had the right idea; she cannot accept that her
-  judgment caused all of this. She will do whatever seems constructive and she genuinely wants this to stop.
+  CURRENT STATUS (END OF CHAPTER 7): Survived. The morning after the riot, Nava and Gallifax worked together to calm the
+  city — an unlikely pair that proved effective. She carries the weight of what her demonstration caused, but she is not
+  broken. Ekert's betrayal is known to the party and she has been informed. Ardo's deeper involvement is not yet
+  exposed. She remains in Aris.
 relationships:
   - target: location-aris
     rel: located_in

@@ -2,9 +2,9 @@ id: npc-breva
 type: npc
 name: Breva
 summary: >-
-  The youngest of the trio Ekert Shae has maneuvered into plotting Maelric's assassination; the most volatile and the
-  most likely to crack under pressure.
-status: alive
+  Youngest of Ekert's three assassins; surrendered quickly in the Hall of Allies when the attempt was foiled; named
+  Ekert Shae under interrogation.
+status: imprisoned
 tags:
   - human
   - aris

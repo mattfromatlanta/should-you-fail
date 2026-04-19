@@ -14,9 +14,9 @@ summary: >-
   trust as an advisor; the illusion of Estaran descent was his plan and his spell.
 content: >-
   Ekert Shae has been Ardo Manessi's secret agent for a few years, operating quietly inside Aris's political scene. He
-  joined the Young Bastards at Ardo's direct command, and over the last months has climbed quickly into Nava Kurn's
-  inner circle as a trusted advisor — a position he cultivated deliberately and holds through genuine usefulness. He is
-  good at reading what people need to hear.
+  joined the Young Bastards at Ardo's direct command, and over the last months climbed into Nava Kurn's inner circle as
+  a trusted advisor — a position he cultivated deliberately and held through genuine usefulness. He is good at reading
+  what people need to hear.
 
 
   He lacks Ardo's charisma entirely — he does not move rooms or win people over through force of personality — but he
@@ -28,39 +28,18 @@ content: >-
   The waterfront illusion was his plan from the start. Nava genuinely believed that staging a false Estaran descent
   would expose how unprepared the Veterans are for any real new threat — she thought the spectacle might shame them into
   yielding power. Ekert shaped that instinct into an operation. He designed the illusion, provided the magical
-  execution, and amplified Nava's voice so the demonstration would land with full force. Nava organized the crowd and
-  the message; Ekert built the weapon she held.
-
-
-  Beyond the assassination plot, Ekert and Ardo have been running a quieter long game: stoking Veteran resentment of the
-  Young Bastards wherever they can without leaving fingerprints. Small provocations, whispered slights, manufactured
-  grievances fed to the right ears. The goal is a city so polarized that when Maelric falls, there is no coalition
-  capable of challenging Ardo's claim.
+  execution, and amplified Nava's voice so the demonstration would land with full force.
 
 
   His motivation is uncomplicated. He sees Ardo's rise as his own best path to wealth and luxury. He has no ideology.
-  Veterans and Young Bastards alike are terrain. If Ardo becomes Exarch, Ekert expects to be rewarded handsomely and
-  permanently. That expectation keeps him careful and committed.
+  Veterans and Young Bastards alike are terrain.
 
 
-  Ardo, for his part, views Ekert as the knife he needs to kill his rivals. The relationship is transactional. Ardo
-  would cut Ekert loose without hesitation if it served him.
-
-
-  Shae is a loose end. If the party investigates after the assassination attempt, he is a thread that leads back to Ardo
-  — but unwinding it requires getting one of the trio to name him, or catching Shae himself.
-
-
-  CURRENT STATUS (END OF E06):
-  Ekert accompanied Nava when the party convinced her to come with them. He is now with the party and with Nava.
-  He knows the assassins are in motion and is waiting quietly for events to unfold. He will not volunteer anything.
-
-  He has two active defenses against magical scrutiny:
-  - Ring of Mind Shielding: standard protection against telepathic detection and mind-reading.
-  - Ekert's Obfuscating Daydream: a custom spell of his own creation that projects a false surface mind to
-    any telepathic reader. The illusory mind is programmed to appear preoccupied with Nava's safety and
-    searching for ways to save the city — convincingly sympathetic and on-theme for his cover.
-    A reader must first overcome or see through this psychic fake before accessing his true thoughts.
+  CURRENT STATUS (END OF CHAPTER 7): Fled during the fight in the Hall of Allies when it became clear the assassination
+  attempt had failed and Breva was captured. He did not answer Cormin's Message spell. He is currently hiding somewhere
+  in Aris, keeping still. His plan is to wait until the heat passes, then quietly make his way to Oechenfor — where he
+  believes he can disappear into a city big enough to swallow him. He is at large. His role in the plot is known to the
+  party and to Breva. Ardo himself has not been exposed.
 relationships:
   - target: npc-ardo-manessi
     rel: serves
