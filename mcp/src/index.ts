@@ -291,9 +291,11 @@ server.tool(
   },
   async ({ id, type, name, summary, status, tags, content, relationships, sources }) => {
     // Validate ID convention
-    if (!id.startsWith(`${type}-`)) {
+    // Encounters use the established 'enc-' shorthand rather than 'encounter-'
+    const expectedPrefix = type === "encounter" ? "enc-" : `${type}-`;
+    if (!id.startsWith(expectedPrefix)) {
       return {
-        content: [{ type: "text", text: `ID '${id}' must start with '${type}-'` }],
+        content: [{ type: "text", text: `ID '${id}' must start with '${expectedPrefix}'` }],
         isError: true,
       };
     }

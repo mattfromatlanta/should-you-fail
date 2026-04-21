@@ -1,0 +1,76 @@
+id: enc-ch8-05-the-giant-tribe
+type: encounter
+name: "Ch8 E05: The Giant Tribe"
+tags:
+  - chapter-8
+  - combat
+  - frost-giants
+  - gullux
+  - bronik
+  - ice-world
+status: planned
+summary: >-
+  A series of battles to break Torma's grip on the valley; Gullux and Bronik serve as dragon lieutenants at CR12;
+  defeating the tribe opens access to the dead Feywild.
+content: >-
+  To reach Torma the party must break the giant tribe's hold on the valley. This is a small campaign within the chapter
+  — not a single fight but a series of engagements that depletes and dismantles the raiding force.
+
+
+  Gullux and Bronik lead as lieutenants — young white dragons, each CR12. They know the terrain after months of raiding.
+  Gullux is the steadier and more dangerous; Bronik is more erratic and the potential weak point.
+
+
+  Defeating the tribe — or driving it back decisively — is what opens the path to the dead Feywild. Torma will not
+  receive the party while her forces are intact.
+
+
+  ### The Tribe
+
+
+  Roughly 20 Frost Giants total. Not a standing army — a raiding confederation loyal to Torma by fear and kin. They are
+  camped in the valley approaches north of Farthim, spread across two or three positions rather than a single camp. They
+  do not assault the village directly; they ambush hunting parties and take the meat. Attrition is the strategy.
+
+
+  Most are warriors. A few are scouts — the ones who range ahead of raids and who spotted the party on the glacier.
+  Torma commands through Gullux, Bronik, and two or three senior giants who lead the individual raiding groups.
+
+
+  They have been at this for months. They are not desperate. They can wait.
+
+
+  ### Cetyri's Sense
+
+
+  Cetyri can give the party a general sense of the hatchling's direction, but his read is confused — the hatchling is
+  not on the mortal plane. He knows something is close and gold. He cannot place it clearly until the party crosses into
+  the dead Feywild.
+
+
+  ### Notes
+
+
+  - The sequence of individual engagements and how Gullux and Bronik are introduced are TBD.
+
+  - Gullux and Bronik are mirrors of characters the party knows from home — but younger here, and loyal to a very living
+  mother. That uncanniness is worth playing.
+
+  - Breaking the tribe should feel earned.
+relationships:
+  - target: chapter-8-across-the-void
+    rel: part_of
+  - target: npc-gullux-ice-world
+    rel: features
+  - target: npc-bronik-ice-world
+    rel: features
+  - target: npc-torma-ice-world
+    rel: features
+  - target: location-ice-world
+    rel: set_in
+  - target: enc-ch8-04-the-settlement
+    rel: preceded_by
+  - target: enc-ch8-06-tormas-realm
+    rel: leads_to
+sources:
+  - chapter-8-planning.md

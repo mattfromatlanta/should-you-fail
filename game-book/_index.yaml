@@ -9,6 +9,7 @@ concepts:
   - concept-dragon-singularity
   - concept-shadow-projector
   - concept-tricksters-blessing
+  - concept-ch8-todo
 npcs:
   - npc-cormin
   - npc-aelira
@@ -59,6 +60,13 @@ npcs:
   - npc-corven
   - npc-aldrek
   - npc-breva
+  - npc-torma-ice-world
+  - npc-gullux-ice-world
+  - npc-bronik-ice-world
+  - npc-cetyri-hatchling
+  - npc-gorven-farthim
+  - npc-amalia-farthim
+  - npc-marx-farthim
 locations:
   - location-aris
   - location-hall-of-allies
@@ -80,6 +88,9 @@ locations:
   - location-memorial-of-ozevriel
   - location-shadowfell
   - location-milicents-fortress
+  - location-ice-world
+  - location-farthim
+  - location-dead-feywild
 events:
   - event-first-war
   - event-rebellion
@@ -94,11 +105,13 @@ chapters:
   - chapter-6a-into-the-wild
   - chapter-6b-death-to-egedzoo
   - chapter-7-aris-the-fracturing-capital
+  - chapter-8-across-the-void
 artifacts:
   - artifact-testament-of-embers
   - artifact-letter-from-grib
   - artifact-ode-to-seven-lords
   - artifact-letter-from-caera
+  - artifact-radiant-lance
 encounters:
   - enc-ch1-01-the-meeting
   - enc-ch1-02-faeries-are-angry
@@ -156,3 +169,9 @@ encounters:
   - enc-ch7-06-the-riot-and-the-dragon
   - enc-ch7-07-the-attempt-on-maelric
   - enc-ch7-08-the-aftermath
+  - enc-ch8-01-a-word-with-xilo
+  - enc-ch8-02-the-radiant-lance
+  - enc-ch8-03-shock-of-cold
+  - enc-ch8-04-the-settlement
+  - enc-ch8-05-the-giant-tribe
+  - enc-ch8-06-tormas-realm

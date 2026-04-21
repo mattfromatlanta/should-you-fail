@@ -1,0 +1,44 @@
+id: npc-torma-ice-world
+type: npc
+name: Torma the Unforgiving (Ice World)
+summary: >-
+  Adult Frost Giant chieftain commanding the giant tribe that besieges Farthim; mother of Gullux and Bronik; has made
+  her lair in the dead Feywild.
+status: alive
+tags:
+  - frost-giant
+  - ice-world
+  - antagonist
+  - chapter-8
+  - multiworld
+content: >-
+  The ice world's iteration of Torma the Unforgiving. On the party's home world, Torma was slain by Erol at the end of
+  Chapter 2. Here she is very much alive — an adult Frost Giant chieftain of real power who expanded her confederation
+  aggressively into the power vacuum left by the Estaran withdrawal one year ago.
+
+
+  Her two children, young white dragons Gullux and Bronik, lead her raiding forces in the valley. She directs from her
+  lair in the dead Feywild — the collapsed remnant of the world's Feywild, which the Estarans destroyed. That she has
+  chosen to make her home in that ruin says something about her.
+
+
+  Her forces prey on Farthim's hunting parties, taking the meat and leaving the dead. She has held a hatchling gold
+  dragon — the ice world's Cetyri — as a prize in her lair.
+relationships:
+  - target: npc-gullux-ice-world
+    rel: parent_of
+  - target: npc-bronik-ice-world
+    rel: parent_of
+  - target: location-dead-feywild
+    rel: located_in
+  - target: location-farthim
+    rel: besieges
+  - target: npc-cetyri-hatchling
+    rel: imprisons
+  - target: enc-ch8-05-the-giant-tribe
+    rel: featured_in
+    notes: Her tribe; Gullux and Bronik lead raids as her lieutenants
+  - target: enc-ch8-06-tormas-realm
+    rel: featured_in
+sources:
+  - chapter-8-planning.md

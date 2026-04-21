@@ -1,0 +1,70 @@
+id: concept-ch8-todo
+type: concept
+name: "Chapter 8: Outstanding Work"
+summary: Unresolved TBDs for Chapter 8 that need DM decisions before or during session prep.
+tags:
+  - chapter-8
+  - planning
+  - todo
+content: >-
+  ## ~~Farthim Local Leaders~~ ✓ RESOLVED
+
+  Gorven (elder), Amalia (hunt master + lore keeper), Marx (quartermaster). NPC nodes created.
+
+
+  ## Torma: Stat Block and Tactics
+
+  Torma the Unforgiving is the chapter boss. Her stat block and combat tactics are TBD. Key questions:
+
+  - Does she use a standard Frost Giant stat block with modifications, or a custom one?
+
+  - Does she use the hatchling as leverage before or during the fight?
+
+  - Does she have any magical abilities tied to the dead Feywild?
+
+
+  ## E05: Engagement Sequence
+
+  The giant tribe battle (E05) is described as a small campaign — not a single fight. The sequence of individual
+  engagements and how Gullux and Bronik are introduced are TBD. Questions:
+
+  - Do they appear together or separately?
+
+  - Is there a parley opportunity with either dragon?
+
+  - How many discrete fights does the tribe sequence involve?
+
+
+  ## Dead Feywild: Dungeon Layout
+
+  Torma's lair in the dead Feywild (E06) has no map or layout. The aesthetic is established (cold, grey, frost on a
+  corpse), but the actual dungeon rooms, hazards, and encounter flow are TBD.
+
+
+  ## The Merge: Visual and Mechanical Description
+
+  What the Cetyri merge looks and feels like from the outside has not been decided. It should be significant and
+  strange. Questions:
+
+  - Is it an action the party takes, or something Cetyri does alone?
+
+  - Is there any risk or cost, even if small?
+
+  - What does Cetyri look/feel like after?
+relationships:
+  - target: chapter-8-across-the-void
+    rel: related_to
+  - target: location-farthim
+    rel: related_to
+    notes: Leaders TBD
+  - target: npc-torma-ice-world
+    rel: related_to
+    notes: Stat block and tactics TBD
+  - target: enc-ch8-05-the-giant-tribe
+    rel: related_to
+    notes: Engagement sequence TBD
+  - target: enc-ch8-06-tormas-realm
+    rel: related_to
+    notes: Dungeon layout and merge scene TBD
+sources:
+  - chapter-8-planning.md

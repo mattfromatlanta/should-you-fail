@@ -1,0 +1,65 @@
+id: enc-ch8-04-the-settlement
+type: encounter
+name: "Ch8 E04: The Settlement"
+tags:
+  - chapter-8
+  - roleplay
+  - farthim
+  - ice-world
+  - feywild
+  - investigation
+status: planned
+summary: >-
+  The party descends to Farthim; the village assumes the Estarans sent them; Fey party members are met with wonder; the
+  elders begin to reveal the history of the dead Feywild.
+content: >-
+  After getting their bearings on the glacier, the party spots a settlement down slope in the valley adjacent to a
+  frozen river — Farthim. The village is in desperate shape. Torma's giants have been raiding their hunting parties for
+  months.
+
+
+  When the party arrives, the village responds with cautious, exhausted hope. Their first question: "Did the Estarans
+  send you?" They do not know whether to be hopeful or terrified by the answer.
+
+
+  ### The Fey Reaction
+
+
+  If any Fey party members are visible, the village reaction shifts. To the people of Farthim, Fey are things out of
+  legend — creatures from a world that no longer exists. They will marvel, ask questions in hushed voices, reach out
+  carefully if allowed. This is the opening: why are Fey legend here? The party will have to ask the right questions.
+  The village elders can tell the history of the Feywild and the ice age, though much of it is myth by now. The core
+  truth is buried in the legend: something happened to the Fey long ago, the sky changed, and the cold came and never
+  left.
+
+
+  ### Language
+
+
+  Locals speak the common tongue — strange accents, but understandable. The Estarans spread it throughout the cosmos.
+  Fey languages are completely undecipherable here.
+
+
+  ### Notes
+
+
+  - Torma already knows the party is here — the scout's report arrived ahead of them. The giants may probe the village
+  before the party is ready to move.
+
+  - Give players time to learn the situation and build investment before the fighting starts.
+
+  - The Estaran structures in town (Generator Hall and Projector Hall) are worth exploring. The Projector Hall contains
+  wall diagrams pointing to three other Estaran worlds — names in inscrutable runes that can be copied.
+
+  - Local leaders: Gorven (elder), Amalia (hunt master and lore keeper), Marx (quartermaster).
+relationships:
+  - target: chapter-8-across-the-void
+    rel: part_of
+  - target: location-farthim
+    rel: set_in
+  - target: enc-ch8-03-shock-of-cold
+    rel: preceded_by
+  - target: enc-ch8-05-the-giant-tribe
+    rel: leads_to
+sources:
+  - chapter-8-planning.md

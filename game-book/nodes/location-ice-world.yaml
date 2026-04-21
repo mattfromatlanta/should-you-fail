@@ -1,0 +1,50 @@
+id: location-ice-world
+type: location
+name: The Ice World
+summary: >-
+  An alien world gripped by a centuries-long ice age caused by the Estarans' destruction of its Feywild; the party's
+  first destination beyond their home world.
+status: active
+tags:
+  - multiworld
+  - ice-age
+  - estaran
+  - dead-feywild
+  - chapter-8
+content: >-
+  A world in the grip of a centuries-long ice age, the long consequence of the Estarans' deliberate destruction of its
+  Feywild. The growing season is near nothing. Large fauna — mammoths, wooly rhinoceroses, giant elk — have moved into
+  lowland valleys, followed by the predators that hunt them.
+
+
+  The Estarans withdrew approximately one year ago, recalled by central authority with no explanation given to the
+  mortals who had organized their lives around Estaran presence. Many mortals had been granted extended lifespans and
+  are now aging at a pace that confuses and terrifies them.
+
+
+  The Estaran administrative code for this world is unknown to the party. Their home world's code is 03b-11.
+
+
+  The wrongness of the sky is felt on arrival but not immediately named. Something that should be there isn't. The world
+  feels thinner than it should. To Fey or those with Fey sensitivity, the absence is more acute — the Feywild is not
+  simply absent, it was killed, and the wound remains.
+
+
+  The dead Feywild can still be reached as a collapsed hollow plane. Torma the Unforgiving has made her lair there.
+
+
+  Settlements: Farthim (human and goliath village, valley adjacent to a frozen river).
+relationships:
+  - target: location-farthim
+    rel: contains
+  - target: location-dead-feywild
+    rel: contains
+  - target: npc-torma-ice-world
+    rel: contains
+  - target: chapter-8-across-the-void
+    rel: setting_for
+  - target: concept-estarans
+    rel: controlled_by
+    notes: Formerly; withdrew one year ago
+sources:
+  - chapter-8-planning.md

@@ -1,0 +1,45 @@
+id: location-dead-feywild
+type: location
+name: The Dead Feywild
+summary: >-
+  The collapsed remnant of the ice world's Feywild, deliberately destroyed by the Estarans; now a cold, hollow plane
+  where Torma has made her lair.
+status: active
+tags:
+  - ice-world
+  - feywild
+  - estaran
+  - torma
+  - dungeon
+  - chapter-8
+content: >-
+  The Feywild of the ice world was killed deliberately by the Estarans as part of their campaign to control and reshape
+  the world. It did not disappear entirely — it exists now as a hollow ruin of a plane, collapsed but reachable. Cold.
+  Grey. Still. Beautiful in a ruined way, like frost on a corpse.
+
+
+  What was once Feywild is now Torma's domain. She has made her lair here, in the ruin of what the Estarans destroyed.
+  The hatchling Cetyri is imprisoned somewhere within.
+
+
+  Access to the dead Feywild becomes possible after the party breaks Torma's hold on the mortal valley — while her
+  forces are intact she does not receive visitors in her realm.
+
+
+  The dead Feywild as a setting should feel unlike anywhere the party has been. Even the Shadowfell had life in it. This
+  is a place where something was killed and the wound has gone cold. The Feywild's death here is a recurring Estaran
+  pattern — suppression, exploitation, or outright destruction on every world they touch.
+relationships:
+  - target: location-ice-world
+    rel: located_in
+  - target: npc-torma-ice-world
+    rel: lair_of
+  - target: npc-cetyri-hatchling
+    rel: contains
+    notes: Hatchling is imprisoned here
+  - target: enc-ch8-06-tormas-realm
+    rel: setting_for
+  - target: concept-estarans
+    rel: destroyed_by
+sources:
+  - chapter-8-planning.md

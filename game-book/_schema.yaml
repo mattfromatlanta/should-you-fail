@@ -23,6 +23,8 @@
 #   <type>-<slug>
 #   Examples: npc-gallifax, location-naeliste, chapter-1-invaders
 #   Slugs use lowercase kebab-case.
+#   Exception: encounter nodes use the shorthand prefix 'enc-' rather than 'encounter-'
+#   Examples: enc-ch1-01-the-meeting, enc-ch7-06-the-riot-and-the-dragon
 #
 # ─────────────────────────────────────────────────────────────
 # STATUS VALUES (by type)

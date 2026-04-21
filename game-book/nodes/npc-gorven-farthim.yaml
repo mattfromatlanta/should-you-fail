@@ -1,0 +1,22 @@
+id: npc-gorven-farthim
+type: npc
+name: Gorven
+summary: Village elder of Farthim; the party's first point of contact and primary authority figure in the settlement.
+status: alive
+tags:
+  - ice-world
+  - farthim
+  - chapter-8
+  - leader
+content: >-
+  The elder of Farthim. Gorven is the settlement's primary authority — the one who greets strangers, decides whether to
+  trust them, and speaks for the village. When the party arrives, it is Gorven who asks: "Did the Estarans send you?"
+
+
+  Holds the weight of a village under siege. The giants have been grinding them down, and Gorven has watched the
+  community shrink. Not a warrior — a leader who has survived by making hard calls.
+relationships:
+  - target: location-farthim
+    rel: leads
+  - target: enc-ch8-04-the-settlement
+    rel: appears_in

@@ -1,0 +1,76 @@
+id: enc-ch8-03-shock-of-cold
+type: encounter
+name: "Ch8 E03: Shock of Cold"
+tags:
+  - chapter-8
+  - combat
+  - survival
+  - ice-world
+  - dire-sabretooths
+  - frost-giant
+status: planned
+summary: >-
+  The party arrives on a glacier in a blizzard, must find shelter, then fights four Dire Sabretooths while a Frost Giant
+  scout observes and withdraws.
+content: >-
+  The party arrives on a glacier in the middle of a blizzard. Visibility is near zero. The cold is immediately
+  dangerous. They must find shelter before they can do anything else.
+
+
+  When the storm breaks, they are attacked by four Dire Sabretooths — large, hungry predators that have learned the
+  glacier is a place where disoriented prey appears. In the middle of or shortly after the fight, a Frost Giant scout
+  spots them from a ridge and withdraws. His report reaches Torma before the party reaches Farthim.
+
+
+  ### DM Prose — Arrival
+
+
+  > Cold arrives all at once, from every direction, so immediate and total that the first breath you draw feels like
+  swallowing ice. Your feet find ground — dark stone beneath a skin of wind-packed snow. The light is gone.
+
+  >
+
+  > The blizzard hits you before you can orient yourselves. Wind screams across the glacier. You can see perhaps ten
+  feet in any direction, and what you see is white.
+
+  >
+
+  > The sky, in the gaps between gusts, is wrong. You cannot immediately say how. The color is right — grey, overcast —
+  but something that should be there isn't. The world feels thinner than it should. Quieter in a way that has nothing to
+  do with sound.
+
+
+  ### Environmental Hazards (Dire Sabretooth fight)
+
+
+  The Dire Sabretooths do not suffer these conditions. The party does.
+
+
+  - **Weak ice:** Sections of the glacier are unstable. Failed Perception or movement on marked sections risks breaking
+  through — DC 13 Dexterity save or fall prone and take cold damage.
+
+  - **Wind:** Strong gusts impose disadvantage on ranged attacks. DC 12 Strength save when moving more than half speed
+  or be knocked prone.
+
+  - **Visibility:** Even after the blizzard, wind and snow reduce visibility. Creatures beyond 30 feet have half cover.
+
+
+  ### Notes
+
+
+  The wrongness of the sky is felt, not named. Do not explain it in the read-aloud — it is an absence, and absences are
+  hard to see. The Frost Giant scout does not engage; he watches and withdraws.
+relationships:
+  - target: chapter-8-across-the-void
+    rel: part_of
+  - target: location-ice-world
+    rel: set_in
+  - target: npc-torma-ice-world
+    rel: features
+    notes: Scout reports to Torma; she knows the party is here before they reach Farthim
+  - target: enc-ch8-02-the-radiant-lance
+    rel: preceded_by
+  - target: enc-ch8-04-the-settlement
+    rel: leads_to
+sources:
+  - chapter-8-planning.md

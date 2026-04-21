@@ -1,0 +1,113 @@
+id: location-farthim
+type: location
+name: Farthim
+summary: >-
+  Human and goliath village of ~150-200 people in a valley on the ice world, under siege from Torma's Frost Giants; the
+  party's first contact point on arrival.
+status: active
+tags:
+  - ice-world
+  - village
+  - human
+  - goliath
+  - chapter-8
+  - siege
+content: >-
+  A settlement of approximately 150-200 people — humans and goliaths — in a valley adjacent to a frozen river on the ice
+  world. Once larger; the cold and the giants have reduced them. They survive by hunting large game (mammoths, wooly
+  rhinoceroses, giant elk), but their hunting parties have been repeatedly ambushed by Frost Giants, who take the meat
+  and leave the dead.
+
+
+  When the party arrives, the village's first question: "Did the Estarans send you?" They do not know whether to be
+  hopeful or terrified by the answer. The town's deep hope — spoken or unspoken — is that the party has come to restore
+  the Shield. Expect that hope to attach itself to the party immediately.
+
+
+  Any Fey party members will be met with wonder. To the people of Farthim, Fey are myth — creatures from a world that no
+  longer exists. Their reaction is the first thread toward learning what happened to the Feywild and why the world has
+  been cold for centuries. The village elders can tell the history, though much of it is legend now.
+
+
+  The common tongue is spoken here — strange accents, but understandable. The Estarans spread it throughout the cosmos.
+  Fey languages are completely undecipherable; the Estarans and Fey never got along, and Fey languages never traveled.
+
+
+  ## The Shield and Its Collapse
+
+
+  When the ice age began, the Estarans erected a magical force barrier — called the Shield — roughly one mile in radius
+  around the town center. Inside the Shield, the climate remained hospitable — warm enough for farms, for green, for
+  ordinary life while the world outside froze solid. Farthim thrived within it, fed and protected.
+
+
+  When the Estarans left, the Shield failed. The cold came in immediately. The farms died. A ring of ruined farmland
+  still marks the old boundary — frozen furrows, dead orchards, collapsed outbuildings — visible evidence of what was
+  lost. The current residents of Farthim lived through that transition; they remember the green, the soil, the warmth.
+  That memory is still fresh and raw. A third of the population has died in the year since the Shield collapsed, and
+  many of the survivors are weak and malnourished.
+
+
+  ## The Estaran Disappearance
+
+
+  The Estarans did not leave gradually. One day they were there; the next they were gone. The strange detail everyone
+  remembers: the entire village awoke simultaneously in the middle of the day — not from sleep, but as if returning to
+  awareness — and the Estarans had simply vanished. No warning. No farewell. No sign of struggle.
+
+
+  There is no consensus on what happened. Three camps exist in Farthim:
+
+  - **They left.** The Estarans finished whatever they came to do and departed. This is the coldest reading — they were
+  never invested in Farthim, only in their own work.
+
+  - **They were taken.** Something powerful enough to remove an Estaran presence overnight came and took them. This
+  reading frightens people.
+
+  - **They were driven away.** Some force or event caused them to flee. This reading raises the question: what drove
+  them, and is it still out there?
+
+
+  > **DM NOTE:** The Estarans left because they were recalled by Central Command. Outposts across multiple worlds are
+  being pulled back to fortify core Estaran positions. Preparations are underway for an existential reset in the Estaran
+  core — the outpost withdrawals are part of that mobilization. This was an ordered withdrawal, not a flight or an
+  abduction — the village's fear and speculation are based on incomplete information. What this signals about the state
+  of the Estarans at large is for the party to eventually piece together.
+
+
+  ## Estaran Structures
+
+
+  Two notable Estaran buildings remain in town, abandoned and intact:
+
+
+  - **The Generator Hall** — the structure that housed the mechanism powering the Shield. The machinery is still present
+  but inert. Nobody in Farthim understands how it worked.
+
+  - **The Projector Hall** — housed the Estarans' radiant projector. Inside, diagrams cover the walls depicting three
+  other Estaran worlds — destinations or counterparts to this installation. The townsfolk have lived with these images
+  for years without understanding what they represent; to the party, the connection to the Radiant Lance and the broader
+  Estaran network should become clear. The world names are written in Estaran runes, inscrutable to anyone in Farthim,
+  but the diagrams are detailed enough that the runes can be copied for later reference or translation.
+
+
+  Both structures are treated with a mixture of reverence and unease. They are not looted — partly out of respect,
+  partly out of fear of what might happen if something is disturbed.
+
+
+  Local leaders: Gorven (elder), Amalia (hunt master and lore keeper), Marx (quartermaster).
+relationships:
+  - target: location-ice-world
+    rel: located_in
+  - target: npc-torma-ice-world
+    rel: besieged_by
+  - target: enc-ch8-04-the-settlement
+    rel: setting_for
+  - target: npc-gorven-farthim
+    rel: led_by
+  - target: npc-amalia-farthim
+    rel: led_by
+  - target: npc-marx-farthim
+    rel: led_by
+sources:
+  - chapter-8-planning.md

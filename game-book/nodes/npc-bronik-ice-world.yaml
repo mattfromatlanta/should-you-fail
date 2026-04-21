@@ -1,0 +1,32 @@
+id: npc-bronik-ice-world
+type: npc
+name: Bronik (Ice World)
+summary: Young white dragon, CR12; Torma's younger and more erratic child; the weaker link of the two dragon lieutenants.
+status: alive
+tags:
+  - white-dragon
+  - ice-world
+  - antagonist
+  - chapter-8
+  - multiworld
+content: >-
+  The ice world's iteration of Bronik — on the party's home world, Bronik has been a companion since Chapter 2. Here he
+  is a young white dragon and Torma's younger child, serving as a raiding lieutenant alongside Gullux.
+
+
+  More erratic and reckless than his brother. Can be impulsive in a fight. The potential weak point among Torma's forces
+  — his rashness may be exploitable.
+
+
+  CR12.
+relationships:
+  - target: npc-torma-ice-world
+    rel: child_of
+  - target: npc-gullux-ice-world
+    rel: sibling_of
+  - target: location-farthim
+    rel: raids
+  - target: enc-ch8-05-the-giant-tribe
+    rel: featured_in
+sources:
+  - chapter-8-planning.md

@@ -1,0 +1,47 @@
+id: artifact-radiant-lance
+type: artifact
+name: The Radiant Lance
+summary: >-
+  Portable Estaran star metal device that opens paths between worlds along rift lines; built by Yrk and Felicity under
+  Milicent's direction for the party's cross-world journey.
+status: present
+tags:
+  - estaran
+  - artifact
+  - world-crossing
+  - star-metal
+  - radiant-projector
+content: >-
+  Perpendicular shafts of Estaran star metal mounted on a folding tripod. The lance attaches to the tripod via an
+  intricate set of adjustable gears controlling elevation, attitude, and cardinal direction.
+
+
+  When idle or unaligned, a faint internal glow runs along its length — like dust caught in sunlight. As it comes into
+  alignment with a path to another world, a beam comes into focus in the direction of the target. When not in use, it
+  folds magically into a nondescript metal cylinder approximately 2 feet long and 3 inches in diameter.
+
+
+  Felicity demonstrates its use and alignment. Cetyri is the one who actually aims it — he meditates in silence, turns
+  his consciousness inward, and lets instinct guide the alignment. He will want space and quiet to do so. His preference
+  is for the path that is shortest, strongest, and cleanest; not all connections between worlds are of equal quality.
+
+
+  The device is a portable version of an Estaran Radiant Projector — the same fundamental technology that created the
+  rifts it now follows. It cannot create new paths, only find and open existing ones.
+relationships:
+  - target: npc-yrk-the-trickster
+    rel: created_by
+    notes: Built with Felicity under Milicent's direction
+  - target: npc-felicity
+    rel: created_by
+    notes: Built with Yrk under Milicent's direction
+  - target: npc-milicent
+    rel: commissioned_by
+  - target: npc-cetyri
+    rel: operated_by
+    notes: Cetyri meditates to aim it; Felicity demonstrates use
+  - target: concept-estarans
+    rel: derived_from
+    notes: Portable version of an Estaran Radiant Projector
+sources:
+  - chapter-8-planning.md

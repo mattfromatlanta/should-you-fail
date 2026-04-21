@@ -1,0 +1,25 @@
+id: npc-marx-farthim
+type: npc
+name: Marx
+summary: Farthim's quartermaster; manages the village's provisions, stores, and survival resources under siege conditions.
+status: alive
+tags:
+  - ice-world
+  - farthim
+  - chapter-8
+  - leader
+  - quartermaster
+content: >-
+  Marx keeps count of everything — food stores, firewood, tools, materials. In a village under giant siege with hunting
+  parties being ambushed, the quartermaster's job is an exercise in controlled desperation. Marx knows exactly how long
+  Farthim can hold before the numbers stop working.
+
+
+  A practical, unsentimental presence. Less concerned with the party's origins than with what they can do and what
+  they'll cost. If the party needs supplies or wants to understand the village's situation in concrete terms, Marx is
+  the one to talk to.
+relationships:
+  - target: location-farthim
+    rel: leads
+  - target: enc-ch8-04-the-settlement
+    rel: appears_in

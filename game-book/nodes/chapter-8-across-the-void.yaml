@@ -1,0 +1,81 @@
+id: chapter-8-across-the-void
+type: chapter
+name: "Chapter 8: Across The Void"
+summary: >-
+  The party crosses to an alien ice world for the first time using the Radiant Lance, confronts Torma and her dragon
+  children, and frees a hatchling Cetyri imprisoned in the dead Feywild.
+status: planned
+tags:
+  - chapter
+  - ice-world
+  - metgal
+  - radiant-lance
+  - torma
+  - farthim
+  - cetyri
+  - multiworld
+content: >-
+  After a farewell with Xilo on the road to Metgal, the party activates the Radiant Lance at the crater's heart and
+  crosses to another world for the first time. Only Felicity and Cetyri make the crossing with them — no Feywild Fey can
+  safely enter Metgal; Xilo, Yrk, Gallifax, and Maelric remain behind.
+
+
+  The destination is an ice world gripped by a centuries-long winter, triggered by the Estarans' deliberate destruction
+  of its Feywild. The Estarans withdrew approximately one year ago, recalled by central authority, leaving mortals
+  without support or explanation. The party arrives on a glacier in a blizzard.
+
+
+  The village of Farthim — a human and goliath settlement of ~150-200 people — has been under siege from Torma's Frost
+  Giants for months. The villagers assume the Estarans sent the party as champions. Any Fey party members will be met
+  with wonder: to these people, Fey are myth. The village elders can tell the history of the Feywild's death and the ice
+  age, though much of it is legend now.
+
+
+  To reach Torma, the party must break the giant tribe's hold on the valley. Torma's children — young white dragons
+  Gullux and Bronik — lead the raids as lieutenants. Defeating the tribe opens access to the dead Feywild, where Torma
+  has made her lair and where a hatchling version of Cetyri is imprisoned.
+
+
+  The merge is safe: the party's Cetyri is the stronger dragon and the hatchling has no world attachment. After the
+  merge, Cetyri grows in power.
+relationships:
+  - target: chapter-7-aris-the-fracturing-capital
+    rel: preceded_by
+  - target: artifact-radiant-lance
+    rel: features
+  - target: location-ice-world
+    rel: set_in
+  - target: location-farthim
+    rel: features
+  - target: location-dead-feywild
+    rel: features
+  - target: npc-cetyri
+    rel: centers_on
+  - target: npc-cetyri-hatchling
+    rel: features
+  - target: npc-torma-ice-world
+    rel: features
+  - target: npc-gullux-ice-world
+    rel: features
+  - target: npc-bronik-ice-world
+    rel: features
+  - target: npc-felicity
+    rel: features
+    notes: Crosses with the party; demonstrates Radiant Lance use
+  - target: npc-xilo-lord-of-robins
+    rel: features
+    notes: Farewell scene; stops at Metgal border
+  - target: enc-ch8-01-a-word-with-xilo
+    rel: contains
+  - target: enc-ch8-02-the-radiant-lance
+    rel: contains
+  - target: enc-ch8-03-shock-of-cold
+    rel: contains
+  - target: enc-ch8-04-the-settlement
+    rel: contains
+  - target: enc-ch8-05-the-giant-tribe
+    rel: contains
+  - target: enc-ch8-06-tormas-realm
+    rel: contains
+sources:
+  - chapter-8-planning.md
