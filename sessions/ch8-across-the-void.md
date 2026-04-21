@@ -39,7 +39,7 @@ Xilo pauses the group. He has something to say before they reach the moment of d
 >
 > The ruins extend in every direction beyond the crater's rim. Metgal was a great city once. It no longer resembles one. Buildings fused together into masses. Streets that end in sheer drops. Passages that lead somewhere else. The demons that the Estarans left behind — or that grew in the Estarans' absence — have drawn back from the path your allies cleared, but they have not left. You can hear them in the dark corridors beyond the light.
 >
-> Gallifax circles overhead, broad and slow. Maelric stands at the ridge with Aldrin, looking down into the crater. Neither speaks. They gave you this — the silence, the cleared path, the moment. Whatever happens next belongs to you.
+> Gallifax circles overhead, broad and slow. Maelric stands at the ridge with Felicity, looking down into the crater. Neither speaks. They gave you this — the silence, the cleared path, the moment. Whatever happens next belongs to you.
 >
 > At the center of the crater, the Radiant Lance stands ready. Felicity stands beside it, waiting. Cetyri crouches nearby, eyes closed, head low. His breath mists in the dead air. He is reading the paths.
 
