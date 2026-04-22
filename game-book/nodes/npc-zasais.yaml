@@ -1,0 +1,25 @@
+id: npc-zasais
+type: npc
+name: Zasais
+summary: >-
+  Teacher of the Twelve; shared history, geography, and lore of other worlds with willing residents — some found her
+  inspiring, others found her patronizing.
+status: unknown
+tags:
+  - estaran
+  - farthim
+  - twelve-of-farthim
+  - teacher
+content: >-
+  Spent time with willing Farthim residents, teaching history, geography, and lore of other worlds. Some of Farthim's
+  most educated citizens trace their knowledge to time spent with Zasais.
+
+
+  She had opinions about mortal governance and was not shy about sharing them. Some residents found her inspiring;
+  others found her patronizing — she had the manner of someone who had watched civilizations rise and collapse enough
+  times to have stopped being surprised by any of it.
+relationships:
+  - target: location-farthim
+    rel: stationed_at
+  - target: npc-cresael
+    rel: served_under

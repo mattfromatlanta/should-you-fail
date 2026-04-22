@@ -1,0 +1,27 @@
+id: npc-casius
+type: npc
+name: Casius
+summary: >-
+  Engineer of the Twelve; designed and maintained Farthim's Estaran artifacts, including the ring — some of his
+  techniques survive in local building practices.
+status: unknown
+tags:
+  - estaran
+  - farthim
+  - twelve-of-farthim
+  - engineer
+content: >-
+  Designed and maintained the Estaran artifacts in and around Farthim, including the ring one mile from the town center.
+  Collaborated with Farthim craftspeople; some of his techniques have been absorbed into local building practices
+  without residents fully understanding their origin.
+
+
+  Less warm than Tarliel but generous with practical knowledge. He seemed to find mortals most interesting when they
+  were solving problems.
+relationships:
+  - target: location-farthim
+    rel: stationed_at
+  - target: npc-cresael
+    rel: served_under
+  - target: artifact-estaran-ring
+    rel: built_and_maintained

@@ -1,0 +1,30 @@
+id: npc-kemiel
+type: npc
+name: Kemiel
+summary: >-
+  Scholar and historian of the Twelve; collaborated closely with Amalia over generations, exchanging Farthim's oral
+  history for context about the war that shaped this world.
+status: unknown
+tags:
+  - estaran
+  - farthim
+  - twelve-of-farthim
+  - scholar
+content: >-
+  Maintained records of Farthim's history alongside his own observations. Collaborated closely with Amalia, Farthim's
+  lore keeper, exchanging knowledge over generations — she would share oral histories; he would share context about the
+  wider world and the Fey war that shaped this place.
+
+
+  Some of his written records remain in Farthim's possession. These documents are among the most prized objects in the
+  settlement.
+relationships:
+  - target: location-farthim
+    rel: stationed_at
+  - target: npc-cresael
+    rel: served_under
+  - target: npc-amalia
+    rel: collaborated_with
+    notes: >-
+      Exchanged historical knowledge across generations; Kemiel provided wider-world context, Amalia provided oral
+      history

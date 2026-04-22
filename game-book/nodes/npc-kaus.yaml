@@ -1,0 +1,25 @@
+id: npc-kaus
+type: npc
+name: Kaus
+summary: >-
+  Craftsman of the Twelve; made small strange gifts for Farthim residents over the centuries — a lantern that needs no
+  oil, a compass that points toward safety — several still in use.
+status: unknown
+tags:
+  - estaran
+  - farthim
+  - twelve-of-farthim
+  - craftsman
+content: >-
+  Made objects as gifts for Farthim residents over the centuries — small things, precise and strange: a lantern that
+  never needs oil, a compass that points toward safety rather than north, a mirror that shows the room as it was a
+  moment ago. None of these are powerful artifacts; they are more like keepsakes, the kind of thing you make when you
+  have watched a family across seven generations.
+
+
+  Several are still in use in Farthim homes. Their owners treat them with quiet reverence.
+relationships:
+  - target: location-farthim
+    rel: stationed_at
+  - target: npc-cresael
+    rel: served_under

@@ -1,0 +1,24 @@
+id: npc-verael
+type: npc
+name: Verael
+summary: >-
+  Guardian of Farthim's perimeter; patrolled the ridgelines and kept the frost giants at distance — her absence is one
+  reason the giants have grown bolder.
+status: unknown
+tags:
+  - estaran
+  - farthim
+  - twelve-of-farthim
+  - guardian
+content: >-
+  The warrior of the Twelve. Patrolled Farthim's perimeter and held the frost giants at distance. Rarely spoke to
+  residents but was a constant visible presence on the ridgelines.
+
+
+  Children grew up knowing that if you could see Verael's silhouette against the sky, the town was safe. Her absence is
+  one reason the frost giants have grown bolder in the past year.
+relationships:
+  - target: location-farthim
+    rel: stationed_at
+  - target: npc-cresael
+    rel: served_under

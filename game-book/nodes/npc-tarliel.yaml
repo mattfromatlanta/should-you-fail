@@ -1,0 +1,25 @@
+id: npc-tarliel
+type: npc
+name: Tarliel
+summary: >-
+  Liaison between the Twelve and Farthim's people; the most approachable Estaran, and the primary source of what Farthim
+  knows about the wider world.
+status: unknown
+tags:
+  - estaran
+  - farthim
+  - twelve-of-farthim
+  - diplomat
+content: >-
+  Primary point of contact between the Twelve and Farthim's people. Where Cresael was distant, Tarliel was approachable
+  — patient with mortal questions, willing to sit at fires and share meals. He attended every significant community
+  gathering for three centuries.
+
+
+  Most of what Farthim knows about the Estarans' purpose and history came through him. His departure left the most
+  visible gap in daily life. Gorven the elder knew him personally and speaks of him with something close to grief.
+relationships:
+  - target: location-farthim
+    rel: stationed_at
+  - target: npc-cresael
+    rel: served_under

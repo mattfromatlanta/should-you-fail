@@ -1,0 +1,41 @@
+id: concept-name-generator-todo
+type: concept
+name: "Name Generator: Outstanding Work"
+summary: Remaining name generator YAML rule files to build; Estaran and Mortal are complete and operational.
+tags:
+  - mcp
+  - tools
+  - names
+  - todo
+content: >-
+  The name generator MCP tool (`generate_name`) is live. Rule files live in `mcp/name-rules/`. Each file defines
+  first_parts, second_parts, second_part_probability, weighted endings, optional name_pool, and forbidden list.
+
+
+  ## ✓ Complete
+
+  - **Estaran** (`mcp/name-rules/estaran.yaml`) — angel/Roman phonology; approved list has all 12 Farthim Estarans
+
+  - **Mortal** (`mcp/name-rules/mortal.yaml`) — Germanic core, Romance inflection, Celtic traces, Estaran influence
+
+
+  ## Fey Names
+
+  Feel: fluid, vowel-heavy, doubled sounds, nature-adjacent. Reference phonology: Welsh/Old Irish with Elvish influence.
+  Should feel ancient but light — nothing hard or Germanic. Examples from established lore: Xilo, Lomani Nae. Consider
+  ae/oe/io vowel clusters; soft consonants (l, r, n, v, s); endings that trail off (-ae, -on, -in, -ia, -iel borrowed
+  from Estaran influence).
+
+
+  ## Dragon Names
+
+  Feel: grand, deep, two or three syllables, consonant weight at the front, resonant endings. Reference: Gallifax,
+  Cetyri, Gullux, Torma. Patterns: hard onset (G, K, T, V), medial vowel, closing consonant cluster or -ix/-ax/-ux
+  suffix. Dragons often go by shortened names (Gull, Cet) among allies.
+
+
+  ## Aberration Names
+
+  Feel: wrong. Phonemes that don't belong together. Broken or backwards syllable patterns. No established lore names yet
+  — design from scratch. Consider glottal stops, consonant clusters that are hard to pronounce, vowels in unexpected
+  places.

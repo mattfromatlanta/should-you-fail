@@ -1,0 +1,25 @@
+id: npc-rael
+type: npc
+name: Rael
+summary: >-
+  The youngest of the Twelve; the most openly curious about mortal life — and the last to leave, standing at the edge of
+  town watching before finally departing north.
+status: unknown
+tags:
+  - estaran
+  - farthim
+  - twelve-of-farthim
+content: >-
+  The most recently assigned of the Twelve, and the one who seemed most genuinely curious about mortal life. Spent time
+  in the tavern, asked questions about families and trades and what people hoped for. Other Estarans tolerated this with
+  varying degrees of patience.
+
+
+  Some residents found Rael's interest warm; others found it slightly unnerving — the feeling of being studied by
+  something that would still be alive long after your grandchildren were gone. Rael was the last to leave, standing at
+  the edge of town after the others had gone, watching, before finally departing north.
+relationships:
+  - target: location-farthim
+    rel: stationed_at
+  - target: npc-cresael
+    rel: served_under

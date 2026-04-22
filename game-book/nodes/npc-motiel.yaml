@@ -1,0 +1,25 @@
+id: npc-motiel
+type: npc
+name: Motiel
+summary: >-
+  Healer of the Twelve; the most beloved Estaran among ordinary Farthim residents — nearly every family has a story
+  about him.
+status: unknown
+tags:
+  - estaran
+  - farthim
+  - twelve-of-farthim
+  - healer
+content: >-
+  Tended to the sick and injured. The most beloved of the Twelve among ordinary residents. Over three centuries, nearly
+  every family in Farthim has a story about Motiel — a fever broken, a wound closed, a difficult birth attended. He
+  never made a spectacle of his healing; he simply appeared when needed.
+
+
+  His absence is felt most acutely in winter, when illness runs through the settlement and there is no longer anyone to
+  come quietly to the door.
+relationships:
+  - target: location-farthim
+    rel: stationed_at
+  - target: npc-cresael
+    rel: served_under

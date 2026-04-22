@@ -1,0 +1,25 @@
+id: npc-vasor
+type: npc
+name: Vasor
+summary: >-
+  Scout of the Twelve; ranged far from Farthim watching frost giant movements — hunters who crossed his path on the
+  outer ridgelines describe him as eerie and utterly still.
+status: unknown
+tags:
+  - estaran
+  - farthim
+  - twelve-of-farthim
+  - scout
+content: >-
+  Ranged far from Farthim, keeping watch on the frost giant camps to the north and east. Rarely seen in town. Hunters
+  who traveled the outer ridgelines occasionally crossed his path and describe him as eerie and still — capable of
+  moving through the blizzard as though it were not there.
+
+
+  His long-range presence was likely the main reason the giants never pressed further south. Without him, Farthim's
+  hunters now refuse to range past the second ridge.
+relationships:
+  - target: location-farthim
+    rel: stationed_at
+  - target: npc-cresael
+    rel: served_under

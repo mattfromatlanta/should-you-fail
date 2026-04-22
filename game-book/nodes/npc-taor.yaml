@@ -1,0 +1,26 @@
+id: npc-taor
+type: npc
+name: Taor
+summary: >-
+  Warrior of the Twelve; fought alongside Farthim hunters when giants pressed close — silent, imposing, and the reason
+  the frost giants still fear the memory of the Twelve.
+status: unknown
+tags:
+  - estaran
+  - farthim
+  - twelve-of-farthim
+  - warrior
+content: >-
+  Silent and imposing. Fought alongside Farthim hunters when the giants pressed close enough to threaten the outer
+  farms. Offered no small talk and asked for none.
+
+
+  Hunters who served beside him describe watching him hold a mountain pass alone for an afternoon while they regrouped.
+  The stories have grown in the retelling, but the core fact — that the frost giants fear the memory of him — appears to
+  be true. The giants' reluctance to push into Farthim proper is partly Cresael's authority and partly Taor's
+  reputation.
+relationships:
+  - target: location-farthim
+    rel: stationed_at
+  - target: npc-cresael
+    rel: served_under

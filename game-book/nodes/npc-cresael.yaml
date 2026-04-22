@@ -1,0 +1,26 @@
+id: npc-cresael
+type: npc
+name: Cresael
+summary: >-
+  Commander of the Twelve Estarans of Farthim; calm, deliberate, and rarely present among residents — his absence is the
+  most deeply felt.
+status: unknown
+tags:
+  - estaran
+  - farthim
+  - twelve-of-farthim
+  - leader
+content: >-
+  Commander of the Twelve. The eldest and most authoritative of the Estarans stationed at Farthim. Calm and deliberate
+  in speech; rarely engaged with residents directly, but his presence defined the character of the group. When he did
+  speak to mortals, it was with unusual care — as though he understood the weight of what mortals could not remember
+  between generations.
+
+
+  Farthim residents describe him as distant but fair, never cruel. He attended no celebrations and sought no warmth, but
+  he was always where he needed to be. His departure was the one most felt. Some residents still leave small offerings
+  at the Estaran ring, half-hoping he will notice.
+relationships:
+  - target: location-farthim
+    rel: stationed_at
+    notes: Commander of the Twelve for the duration of their posting; departed ~1 year ago

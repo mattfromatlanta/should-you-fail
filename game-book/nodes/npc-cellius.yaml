@@ -1,0 +1,24 @@
+id: npc-cellius
+type: npc
+name: Cellius
+summary: >-
+  Record-keeper of the Twelve; maintained administrative logs of the Estaran presence and had little interest in mortal
+  contact — he may have been the first to know the Twelve were leaving.
+status: unknown
+tags:
+  - estaran
+  - farthim
+  - twelve-of-farthim
+  - record-keeper
+content: >-
+  Maintained the administrative records of the Estaran presence — logs, dispatches, census-like observations of Farthim
+  across the centuries. Rarely interacted with residents directly.
+
+
+  Farthim's people found him cold; he gave the impression of seeing them as data points rather than people. He took
+  everything with him when the Twelve departed. He may have been the first among them to know they were leaving.
+relationships:
+  - target: location-farthim
+    rel: stationed_at
+  - target: npc-cresael
+    rel: served_under
