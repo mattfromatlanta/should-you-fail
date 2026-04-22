@@ -11,6 +11,7 @@ concepts:
   - concept-tricksters-blessing
   - concept-ch8-todo
   - concept-fey-law-philosophy
+  - concept-name-generator-todo
 npcs:
   - npc-cormin
   - npc-aelira
@@ -68,6 +69,18 @@ npcs:
   - npc-gorven-farthim
   - npc-amalia-farthim
   - npc-marx-farthim
+  - npc-cresael
+  - npc-tarliel
+  - npc-verael
+  - npc-kemiel
+  - npc-motiel
+  - npc-casius
+  - npc-cellius
+  - npc-vasor
+  - npc-zasais
+  - npc-taor
+  - npc-kaus
+  - npc-rael
 locations:
   - location-aris
   - location-hall-of-allies

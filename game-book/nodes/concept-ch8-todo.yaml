@@ -12,33 +12,22 @@ content: >-
   Gorven (elder), Amalia (hunt master + lore keeper), Marx (quartermaster). NPC nodes created.
 
 
-  ## Torma: Stat Block and Tactics
+  ## ~~E05: Engagement Sequence~~ ✓ RESOLVED
 
-  Torma the Unforgiving is the chapter boss. Her stat block and combat tactics are TBD. Key questions:
-
-  - Does she use a standard Frost Giant stat block with modifications, or a custom one?
-
-  - Does she use the hatchling as leverage before or during the fight?
-
-  - Does she have any magical abilities tied to the dead Feywild?
+  Three-part chain created: enc-ch8-05a (hunting party), enc-ch8-05b (old garrison), enc-ch8-05c (Gullux comes down).
+  Bronik commands the garrison; Gullux retaliates in 05c. Each leads to the next.
 
 
-  ## E05: Engagement Sequence
+  ## ~~Farthim Estarans~~ ✓ RESOLVED
 
-  The giant tribe battle (E05) is described as a small campaign — not a single fight. The sequence of individual
-  engagements and how Gullux and Bronik are introduced are TBD. Questions:
-
-  - Do they appear together or separately?
-
-  - Is there a parley opportunity with either dragon?
-
-  - How many discrete fights does the tribe sequence involve?
+  All twelve named and written: Cresael (leader), Tarliel, Verael, Kemiel, Motiel, Casius, Cellius, Vasor, Zasais, Taor,
+  Kaus, Rael. NPC nodes created.
 
 
   ## Dead Feywild: Dungeon Layout
 
-  Torma's lair in the dead Feywild (E06) has no map or layout. The aesthetic is established (cold, grey, frost on a
-  corpse), but the actual dungeon rooms, hazards, and encounter flow are TBD.
+  Torma's lair in the dead Feywild (enc-ch8-06) has no map or layout. The aesthetic is established (cold, grey, frost on
+  a corpse), but the actual rooms, hazards, and encounter flow are TBD.
 
 
   ## The Merge: Visual and Mechanical Description
@@ -50,7 +39,20 @@ content: >-
 
   - Is there any risk or cost, even if small?
 
-  - What does Cetyri look/feel like after?
+  - What does Cetyri look and feel like after?
+
+
+  ## E04: The Town — Farthim Scene
+
+  The party has arrived and met a few residents. The next session will involve deeper engagement with Farthim: meeting
+  Gorven, Amalia, and Marx; learning what happened with the Twelve; hearing about the giant siege. This scene needs to
+  be written up as an encounter node.
+
+
+  ## E06: Torma's Realm — Full Write-Up
+
+  The dungeon encounter node exists as a placeholder. Needs the full layout, room descriptions, hazards, and climax once
+  the dungeon design is decided.
 relationships:
   - target: chapter-8-across-the-void
     rel: related_to
