@@ -1,76 +1,80 @@
 id: enc-ch8-05-the-giant-tribe
 type: encounter
-name: "Ch8 E05: The Giant Tribe"
+name: "Ch8 E05a: The Hunting Party"
 tags:
   - chapter-8
   - combat
   - frost-giants
-  - gullux
-  - bronik
   - ice-world
+  - farthim
+  - hunting-party
 status: planned
 summary: >-
-  A series of battles to break Torma's grip on the valley; Gullux and Bronik serve as dragon lieutenants at CR12;
-  defeating the tribe opens access to the dead Feywild.
+  The party accompanies a Farthim hunting party north of the Shield boundary and hits a frost giant ambush — their first
+  direct engagement with the tribe.
 content: >-
-  To reach Torma the party must break the giant tribe's hold on the valley. This is a small campaign within the chapter
-  — not a single fight but a series of engagements that depletes and dismantles the raiding force.
+  The first direct engagement with the giant tribe. The party accompanies a Farthim hunting party — or intercepts one
+  already in trouble — in the terrain north of the old Shield boundary ring.
 
 
-  Gullux and Bronik lead as lieutenants — young white dragons, each CR12. They know the terrain after months of raiding.
-  Gullux is the steadier and more dangerous; Bronik is more erratic and the potential weak point.
+  ### The Setup
 
 
-  Defeating the tribe — or driving it back decisively — is what opens the path to the dead Feywild. Torma will not
-  receive the party while her forces are intact.
+  The Farthim hunters are few and worn. The best of them died in earlier ambushes. Marx (the quartermaster) can brief
+  the party on the pattern: giants come from the north, hit fast, take the kill and sometimes the hunters too. They do
+  not push far south. Nobody in Farthim knows why. The why: fear of returning Estarans. The ring is the Estaran
+  boundary, and the giants have not crossed it in a year. They are patient, not merciful.
 
 
-  ### The Tribe
+  ### The Ambush
 
 
-  Roughly 20 Frost Giants total. Not a standing army — a raiding confederation loyal to Torma by fear and kin. They are
-  camped in the valley approaches north of Farthim, spread across two or three positions rather than a single camp. They
-  do not assault the village directly; they ambush hunting parties and take the meat. Attrition is the strategy.
+  4–5 frost giants, coordinated but not subtle. They have been watching the hunting party from a ridgeline and hit in a
+  gully or ravine north of the ring — deep snow, poor footing for smaller creatures.
 
 
-  Most are warriors. A few are scouts — the ones who range ahead of raids and who spotted the party on the glacier.
-  Torma commands through Gullux, Bronik, and two or three senior giants who lead the individual raiding groups.
+  Giants' tactics:
+
+  - Spread wide to cut off retreat south
+
+  - Take the game animals first if possible (resource denial is the strategy)
+
+  - Disengage if the fight turns — they are not desperate yet
 
 
-  They have been at this for months. They are not desperate. They can wait.
+  ### What the Giants Know and Feel
 
 
-  ### Cetyri's Sense
+  The frost giants despise the Estarans with a ferocity that goes beyond territorial grudge. If a giant is captured or
+  dying and the party presses, something surfaces: fragments of old rage, grief that does not fit the body, hatred that
+  sounds like it belongs to someone who remembers the thing that was lost. The giants may not be able to articulate it.
+  But it is there.
 
 
-  Cetyri can give the party a general sense of the hatchling's direction, but his read is confused — the hatchling is
-  not on the mortal plane. He knows something is close and gold. He cannot place it clearly until the party crosses into
-  the dead Feywild.
+  > **DM NOTE:** The frost giants are cursed survivors of the Fey who lost the war here approximately 300 years ago. The
+  Estarans destroyed the Feywild and won the war; the surviving Fey were bound into these bodies — trapped in the cold
+  they helped sustain, in a world their own nature once warmed. Their hatred of the Estarans is the hatred of the
+  conquered who cannot die and cannot leave. They do not consciously remember this history. It lives in them as
+  instinct, rage, and grief they cannot name.
 
 
   ### Notes
 
 
-  - The sequence of individual engagements and how Gullux and Bronik are introduced are TBD.
+  - Cetyri (pseudodragon) observes from a hood or pack. He is still and watchful. He does not engage.
 
-  - Gullux and Bronik are mirrors of characters the party knows from home — but younger here, and loyal to a very living
-  mother. That uncanniness is worth playing.
+  - Gullux and Bronik are not here — they are north at the old Estaran garrison.
 
-  - Breaking the tribe should feel earned.
+  - The party should leave this fight understanding that the giants are not mindless. Something in them goes deeper than
+  territory. And the ring holds them for reasons beyond cowardice.
 relationships:
   - target: chapter-8-across-the-void
     rel: part_of
-  - target: npc-gullux-ice-world
-    rel: features
-  - target: npc-bronik-ice-world
-    rel: features
-  - target: npc-torma-ice-world
-    rel: features
   - target: location-ice-world
     rel: set_in
   - target: enc-ch8-04-the-settlement
     rel: preceded_by
-  - target: enc-ch8-06-tormas-realm
+  - target: enc-ch8-05b-the-old-garrison
     rel: leads_to
 sources:
   - chapter-8-planning.md

@@ -1,0 +1,113 @@
+id: enc-ch8-05c-gullux-comes-down
+type: encounter
+name: "Ch8 E05c: Gullux Comes Down"
+summary: >-
+  Gullux retaliates with a direct strike; the climactic fight that ends the tribe's grip on the valley; afterward,
+  Cetyri locks onto the dead Feywild and leads the party to the threshold.
+status: planned
+tags:
+  - chapter-8
+  - combat
+  - gullux
+  - bronik
+  - frost-giants
+  - ice-world
+  - dead-feywild
+content: >-
+  With Bronik beaten and the garrison taken, Gullux stops waiting. He is the patient one — he has been watching the
+  party since the glacier, calculating. Now he acts.
+
+
+  ### The Strike
+
+
+  Two options depending on pacing and what serves the session:
+
+
+  **Option A — Open terrain:** Gullux intercepts the party between the garrison and Farthim on their return. He has
+  chosen the ground — a wide flat stretch where he has room and his breath weapon reaches full effect. No cover. He has
+  been here before.
+
+
+  **Option B — Strike on Farthim:** Gullux comes for the village itself — not to destroy it, but to punish the party for
+  what they have taken. This puts villagers at risk, forces a defensive fight, and raises the stakes considerably.
+  Harder for the party; more memorable.
+
+
+  Gullux's preference is B if he believes the party can be separated or exhausted protecting civilians. A if he wants a
+  clean engagement.
+
+
+  ### Bronik
+
+
+  If Bronik survived E05b, he rejoins here — wounded and angrier for it. His recklessness is more dangerous now; he does
+  not care about taking damage.
+
+
+  If Bronik was slain in E05b, Gullux fights alone. He is the harder opponent — CR12 with the patience and tactics to
+  match his stats. A wounded Bronik alongside him is a different kind of threat: erratic, hard to predict, willing to
+  make the fight ugly.
+
+
+  ### Gullux
+
+
+  Methodical. He has been watching. He knows the party used magic in the blizzard, knows someone can fly (Babas's aerial
+  survey did not go unnoticed), knows they fight together well. He uses terrain and weather to neutralize advantages. He
+  is not trying to win a fair fight.
+
+
+  > **DM NOTE:** Gullux is a mirror of the Gullux the party knew from Chapter 1 — the same dragon, a different world, a
+  living mother and a reason to serve her. The uncanniness of that is worth holding in the air. He is not a villain in
+  his own understanding. He is defending his mother's claim and his tribe's survival. The party will probably kill him
+  anyway.
+
+
+  ### After Gullux Falls
+
+
+  When Gullux breaks — flees, is brought down, or yields — it is over. The remaining giants have no leader and no base.
+  They scatter or withdraw north.
+
+
+  The valley goes quiet for the first time in months.
+
+
+  ### The Pull
+
+
+  Cetyri has been increasingly restless since the garrison — something in the old Fey spaces disturbed him, a resonance
+  he could not name. Now, with the valley quiet and the tribe broken, he goes still. Then he is off Felicity's shoulder.
+
+
+  He is oriented north-northwest — not toward the glacier, not toward the garrison. Somewhere else. His golden eyes are
+  fixed on a point the party cannot locate. He does not speak for a moment. Then:
+
+
+  *"He's close. He's been close the whole time. I just couldn't hear him through all the noise."*
+
+
+  The path to the dead Feywild is open.
+relationships:
+  - target: chapter-8-across-the-void
+    rel: part_of
+  - target: location-ice-world
+    rel: set_in
+  - target: npc-gullux-ice-world
+    rel: features
+    notes: Primary threat; patient and methodical
+  - target: npc-bronik-ice-world
+    rel: features
+    notes: Rejoins if survived E05b; more dangerous wounded
+  - target: npc-cetyri
+    rel: features
+    notes: Locks onto dead Feywild after battle; pulls the party to the threshold
+  - target: location-dead-feywild
+    rel: leads_to
+  - target: enc-ch8-05b-the-old-garrison
+    rel: preceded_by
+  - target: enc-ch8-06-tormas-realm
+    rel: leads_to
+sources:
+  - sessions/brainstorms.txt

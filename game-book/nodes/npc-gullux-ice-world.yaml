@@ -12,15 +12,19 @@ tags:
   - chapter-8
   - multiworld
 content: >-
-  The ice world's iteration of Gullux — on the party's home world, Gullux was slain in Chapter 1. Here he is a young
-  white dragon and Torma's older child, serving as her most dangerous mobile asset.
+  Young white dragon, CR12. Torma's older child and the steadier of the two dragon lieutenants. Leads raids on Farthim's
+  hunting parties, using the glaciers and blizzards to ambush hunters who venture too far from the Shield boundary.
 
 
-  Steady and disciplined compared to his brother. Flies point on the raids. The village of Farthim has learned to dread
-  him. He knows the valley terrain well after months of raiding and will use it against the party.
+  Gullux is large enough to blend into the snowscape at distance — he is almost impossible to distinguish from the
+  terrain when he is still. He is patient and calculating in a way his younger sibling Bronik is not.
 
 
-  CR12.
+  ## Session 1 — Sighting
+
+
+  Babas spotted something vast move briefly in the far distance from the air, then blend back into the snow. The party
+  does not yet know this was Gullux.
 relationships:
   - target: npc-torma-ice-world
     rel: child_of

@@ -8,32 +8,65 @@ tags:
   - radiant-lance
   - crossing
   - cetyri
-status: planned
+status: complete
 summary: >-
-  At the heart of Metgal, Felicity demonstrates the Radiant Lance, Cetyri meditates and reads the paths, and the party crosses to the ice world.
-content: |
-  The allied forces have cleared a path to the crater at Metgal's heart. Only Felicity and Cetyri cross with the party — no Feywild Fey can safely enter Metgal; Xilo and Yrk stopped at the border. This is the final goodbye for Gallifax and Maelric.
+  At the heart of Metgal, Felicity demonstrates the Radiant Lance, Cetyri meditates and reads the paths, and the party
+  crosses to the ice world.
+content: >-
+  The allied forces have cleared a path to the crater at Metgal's heart. Only Felicity and Cetyri cross with the party —
+  no Feywild Fey can safely enter Metgal; Xilo and Yrk stopped at the border. This is the final goodbye for Gallifax and
+  Maelric.
+
 
   ### DM Prose — The Heart of Metgal
 
-  > The center of Metgal is a wound that has never closed. A crater a quarter mile across marks where the Estaran stronghold once stood — the tallest towers, the deepest vaults, the greatest concentration of their power on this world. What remains is scorched stone that melted and re-hardened into shapes no mason intended, and air that is wrong in a way you feel before you can name it. Too still. Too dry. Charged.
+
+  > The center of Metgal is a wound that has never closed. A crater a quarter mile across marks where the Estaran
+  stronghold once stood — the tallest towers, the deepest vaults, the greatest concentration of their power on this
+  world. What remains is scorched stone that melted and re-hardened into shapes no mason intended, and air that is wrong
+  in a way you feel before you can name it. Too still. Too dry. Charged.
+
   >
-  > The ruins extend in every direction beyond the crater's rim. Metgal was a great city once. It no longer resembles one. Buildings fused together into masses. Streets that end in sheer drops. Passages that lead somewhere else. The demons that the Estarans left behind — or that grew in the Estarans' absence — have drawn back from the path your allies cleared, but they have not left. You can hear them in the dark corridors beyond the light.
+
+  > The ruins extend in every direction beyond the crater's rim. Metgal was a great city once. It no longer resembles
+  one. Buildings fused together into masses. Streets that end in sheer drops. Passages that lead somewhere else. The
+  demons that the Estarans left behind — or that grew in the Estarans' absence — have drawn back from the path your
+  allies cleared, but they have not left. You can hear them in the dark corridors beyond the light.
+
   >
-  > Gallifax circles overhead, broad and slow. Maelric stands at the ridge with Aldrin, looking down into the crater. Neither speaks. They gave you this — the silence, the cleared path, the moment. Whatever happens next belongs to you.
+
+  > Gallifax circles overhead, broad and slow. Maelric stands at the ridge, looking down into the crater. He does not
+  speak. He gave you this — the silence, the cleared path, the moment. Whatever happens next belongs to you.
+
   >
-  > At the center of the crater, the Radiant Lance stands ready. Felicity stands beside it, waiting. Cetyri crouches nearby, eyes closed, head low. His breath mists in the dead air. He is reading the paths.
+
+  > At the center of the crater, the Radiant Lance stands ready. Felicity stands beside it, waiting. Cetyri crouches
+  nearby, eyes closed, head low. His breath mists in the dead air. He is reading the paths.
+
 
   ### Notes
 
-  Felicity demonstrates the Lance's alignment first. Then Cetyri takes over — he will ask for quiet. Give the meditation moment room. His preference is the path that is shortest, strongest, and cleanest. The party can debate or defer; he will have an opinion.
+
+  Felicity demonstrates the Lance's alignment first. Then Cetyri takes over — he will ask for quiet. Give the meditation
+  moment room. His preference is the path that is shortest, strongest, and cleanest. The party can debate or defer; he
+  will have an opinion.
+
 
   ### DM Prose — The Crossing
 
-  > The Radiant Lance hums at a frequency you feel in your jaw and behind your eyes. The light it produces is the same radiance you've seen before — Estaran light — but here it expands outward until there is nothing else. No crater. No ruins. No sky.
+
+  > The Radiant Lance hums at a frequency you feel in your jaw and behind your eyes. The light it produces is the same
+  radiance you've seen before — Estaran light — but here it expands outward until there is nothing else. No crater. No
+  ruins. No sky.
+
   >
-  > You are nowhere, briefly. The sensation is not painful, but it is deeply strange — as if the self that you are is held in suspension while something vast and indifferent considers whether to accept it. Cetyri's voice reaches you, low and steady, though you cannot see him. You have the impression of a road, but the road is not made of anything.
+
+  > You are nowhere, briefly. The sensation is not painful, but it is deeply strange — as if the self that you are is
+  held in suspension while something vast and indifferent considers whether to accept it. Cetyri's voice reaches you,
+  low and steady, though you cannot see him. You have the impression of a road, but the road is not made of anything.
+
   >
+
   > Then: cold.
 relationships:
   - target: chapter-8-across-the-void

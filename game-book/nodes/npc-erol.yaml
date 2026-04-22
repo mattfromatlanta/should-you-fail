@@ -1,78 +1,66 @@
 id: npc-erol
 type: npc
 name: Erol the Faed
-tags: [eladrin, veteran, founder, oechenfor, lome, warlock, rebellion]
+tags:
+  - eladrin
+  - veteran
+  - founder
+  - oechenfor
+  - lome
+  - warlock
+  - rebellion
 status: alive
-summary: Eladrin veteran warlock, co-Founder of Oechenfor and Lome; was Milicent's warlock until Estaran conscription changed everything; now serves Xilo; returned to slay Torma at end of Chapter 2; currently in Aris supporting Aldrin.
-content: |
-  Erol is an Eladrin Fey, perhaps the greatest of the Founders of Oechenfor. Female.
-  Warlock. Stunning and wild to behold—beautiful, certainly, but her presence is defined
-  more by obvious supernatural power than beauty. Only a Fey Lord such as Milicent or Xilo,
-  or an ancient dragon, would cast a shadow over her.
-
-  Like all Eladrin, her aspect (Spring, Summer, Fall, Winter) reflects her mood—but Erol is
-  unusual. She possesses such natural talent and magical depth that she often appears as a
-  blend of aspects, or takes on aspects other Eladrin do not: an Indian Summer, a False
-  Spring in January, a morning thunderstorm, a drought in March. Other Eladrin do not
-  generally do this.
-
-  HISTORY WITH MILICENT:
-  Erol was once Milicent's warlock—the earliest known bond between them. She was conscripted
-  by the Estarans before the 2nd Rebellion, taken away to do unknown work for them. This
-  conscription renewed Milicent's drive to fight the Estarans; it was while Erol was absent
-  that Milicent resolved to found the Dread Legion.
-
-  When Erol returned, she was shocked by what Milicent had become. She surrendered her
-  warlock powers and severed the bond. Milicent was heartbroken but let her go. Erol then
-  lived a quiet life for a time.
-
-  When the Rebellion began again in earnest, Erol went to Xilo and asked to join his service
-  so she could fight the Estarans with her full power. She now serves him as his warlock.
-
-  Later, fearing Milicent would come to conscript her back into service, Erol and Lamat
-  disappeared into the Feywild and Shadowfell, moving between refuges.
-
-  VETERAN STATUS:
-  Erol is a veteran of Estaran conscription but is far less affected by the lingering Estaran
-  magic that mortal veterans experience. She doesn't know exactly why—it may be her Fey
-  nature, or something different about the nature of her conscription. Like all veterans, she
-  has no distinguishable memory of her service away from this world.
-
-  RELATIONSHIP WITH ALDRIN:
-  Erol and Aldrin Stoneward were once partners before she and Lamat grew close. There is
-  still deep affection between them. To Aldrin, Erol is the one who got away. Erol admires
-  him deeply but always felt constrained in his orbit—he is ultimately a soldier and a
-  servant, and his world is structured accordingly. Erol, as a Fey, requires a less
-  structured way of life. Aldrin knows this and regrets it, but he is who he is, and Erol
-  will not accept him changing himself for her. Lamat has a similarly ordered mind, but
-  for Lamat the order is an internal exercise rather than an external one.
-
-  CHAPTER 2 END:
-  Returned dramatically to slay Torma the Unforgiving, saving the party. At the bottom of
-  the Upland Stair, before leading the Lome refugees south to Oechenfor, she told the party
-  to travel to Naeliste and then seek the Trickster (Yrk).
-
-  CURRENT STATUS (CHAPTER 7 — END OF E06):
-  In Aris, arrived shortly after Aldrin. Was acting as envoy to local leaders and Citizen Counselors.
-
-  During the E05/E06 illusion event, Erol was struck by the Estaran descent and suffered an intense psychic
-  episode — crippled by pain, falling to her knees, completely drained. Aldrin abandoned the Veterans' rally
-  to protect her. Babas approached and offered aid; Erol accepted. She and Babas together theorized that this
-  may be deliberate Estaran tampering — a mechanism to prevent Veterans from mounting effective resistance
-  should they ever rebel. Erol said this was the only explanation she could see.
-
-  She is now recovering at the waterfront plaza with Aldrin. She is in no state to join the riot. She is
-  resolving to leave Aris and return home. This is a significant shift — Erol withdrawing signals real
-  damage, not merely exhaustion.
-
-  Xilo's eventual arrival will still be a significant moment. Her history with Milicent is unresolved.
+summary: >-
+  Eladrin veteran warlock, co-Founder of Oechenfor and Lome; was Milicent's warlock until Estaran conscription changed
+  everything; now serves Xilo; departed Aris for Oechenfor after Chapter 7 ended.
+content: >-
+  Erol is an Eladrin Fey, perhaps the greatest of the Founders of Oechenfor. Female.\nWarlock. Stunning and wild to
+  behold—beautiful, certainly, but her presence is defined\nmore by obvious supernatural power than beauty. Only a Fey
+  Lord such as Milicent or Xilo,\nor an ancient dragon, would cast a shadow over her.\n\nLike all Eladrin, her aspect
+  (Spring, Summer, Fall, Winter) reflects her mood—but Erol is\nunusual. She possesses such natural talent and magical
+  depth that she often appears as a\nblend of aspects, or takes on aspects other Eladrin do not: an Indian Summer, a
+  False\nSpring in January, a morning thunderstorm, a drought in March. Other Eladrin do not\ngenerally do
+  this.\n\nHISTORY WITH MILICENT:\nErol was once Milicent's warlock—the earliest known bond between them. She was
+  conscripted\nby the Estarans before the 2nd Rebellion, taken away to do unknown work for them. This\nconscription
+  renewed Milicent's drive to fight the Estarans; it was while Erol was absent\nthat Milicent resolved to found the
+  Dread Legion.\n\nWhen Erol returned, she was shocked by what Milicent had become. She surrendered her\nwarlock powers
+  and severed the bond. Milicent was heartbroken but let her go. Erol then\nlived a quiet life for a time.\n\nWhen the
+  Rebellion began again in earnest, Erol went to Xilo and asked to join his service\nso she could fight the Estarans
+  with her full power. She now serves him as his warlock.\n\nLater, fearing Milicent would come to conscript her back
+  into service, Erol and Lamat\ndisappeared into the Feywild and Shadowfell, moving between refuges.\n\nVETERAN
+  STATUS:\nErol is a veteran of Estaran conscription but is far less affected by the lingering Estaran\nmagic that
+  mortal veterans experience. She doesn't know exactly why—it may be her Fey\nnature, or something different about the
+  nature of her conscription. Like all veterans, she\nhas no distinguishable memory of her service away from this
+  world.\n\nRELATIONSHIP WITH ALDRIN:\nErol and Aldrin Stoneward were once partners before she and Lamat grew close.
+  There is\nstill deep affection between them. To Aldrin, Erol is the one who got away. Erol admires\nhim deeply but
+  always felt constrained in his orbit—he is ultimately a soldier and a\nservant, and his world is structured
+  accordingly. Erol, as a Fey, requires a less\nstructured way of life. Aldrin knows this and regrets it, but he is who
+  he is, and Erol\nwill not accept him changing himself for her. Lamat has a similarly ordered mind, but\nfor Lamat the
+  order is an internal exercise rather than an external one.\n\nA specific expression of this tension: Erol shared with
+  the party (shortly before the\nwaterfront events in Ch7) her view that Fey have no need for written laws. Fey
+  remember\ntheir agreements and renegotiate when needed — a system that works because they do not\ndie between
+  generations. Aldrin's identity is built around the opposite: duty, institution,\nand the structures mortals build to
+  carry meaning across the gap of death. Erol does not\ndismiss his world, but she cannot fully feel it. See
+  concept-fey-law-philosophy.\n\nCHAPTER 2 END:\nReturned dramatically to slay Torma the Unforgiving, saving the party.
+  At the bottom of\nthe Upland Stair, before leading the Lome refugees south to Oechenfor, she told the party\nto travel
+  to Naeliste and then seek the Trickster (Yrk).\n\nCHAPTER 7 — WATERFRONT EVENT (E05/E06):\nIn Aris, acting as envoy to
+  local leaders and Citizen Counselors. During the Estaran\npsychic event at the waterfront illusion, Erol was struck
+  and suffered an intense psychic\nepisode — crippled by pain, falling to her knees, completely drained. Aldrin
+  abandoned the\nVeterans' rally to protect her. Babas approached and offered aid; Erol accepted. She and\nBabas
+  together theorized that this may be deliberate Estaran tampering — a mechanism to\nprevent Veterans from mounting
+  effective resistance should they ever rebel. Erol said this\nwas the only explanation she could see.\n\nShe resolved
+  to leave Aris and return home. This was a significant shift — Erol withdrawing\nsignals real damage, not merely
+  exhaustion.\n\n## Current Status\n\nErol and Aldrin left Aris for Oechenfor after Chapter 7 concluded. They did not
+  travel to Metgal.\n\n> **DM NOTE:** They are heading to Oechenfor. The party does not know where they went.
 relationships:
   - target: npc-lamat
     rel: partner
     notes: Life partner; co-founded Lome and Oechenfor together
   - target: npc-aldrin-stoneward
     rel: ally
-    notes: Co-founded Oechenfor; former romantic partners—deep affection remains; Aldrin is the one who got away from Erol's perspective, though she knows she cannot live constrained in his structured orbit
+    notes: >-
+      Co-founded Oechenfor; former romantic partners—deep affection remains; Aldrin is the one who got away from Erol's
+      perspective, though she knows she cannot live constrained in his structured orbit
   - target: npc-milicent
     rel: former_servant_of
     notes: Erol was Milicent's warlock; bond broke; Erol fled when Milicent came to conscript her
@@ -91,8 +79,12 @@ relationships:
     rel: founded
   - target: event-rebellion
     rel: participated_in
-  - target: location-aris
+  - target: location-oechenfor
     rel: currently_in
+    notes: Departed Aris after Ch7; heading home
+  - target: concept-fey-law-philosophy
+    rel: articulated
+    notes: Shared this philosophy with the party before the waterfront events in Ch7
 sources:
   - npcs/heroes/erol-and-lamat.md
   - chapters/chapter-2-darkness.md

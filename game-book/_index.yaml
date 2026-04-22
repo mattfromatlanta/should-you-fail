@@ -10,6 +10,7 @@ concepts:
   - concept-shadow-projector
   - concept-tricksters-blessing
   - concept-ch8-todo
+  - concept-fey-law-philosophy
 npcs:
   - npc-cormin
   - npc-aelira
@@ -175,3 +176,5 @@ encounters:
   - enc-ch8-04-the-settlement
   - enc-ch8-05-the-giant-tribe
   - enc-ch8-06-tormas-realm
+  - enc-ch8-05b-the-old-garrison
+  - enc-ch8-05c-gullux-comes-down

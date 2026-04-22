@@ -1,33 +1,56 @@
 id: npc-aldrin-stoneward
 type: npc
 name: Aldrin Stoneward
-tags: [human, veteran, founder, oechenfor, allied-cities, rebellion, ageless]
+tags:
+  - human
+  - veteran
+  - founder
+  - oechenfor
+  - allied-cities
+  - rebellion
+  - ageless
 status: alive
-summary: Chief Citizen and Founder of Oechenfor; veteran gifted with ageless life by the Estara; currently in Aris navigating the political crisis.
-content: |
-  A middle-aged human man with dark skin and a bald head. Tall and regal with a seeming radiance.
-  Carries the legendary longsword Valor on his back. Gifted by the Estara with ageless, enduring
-  life before the First Rebellion. Fought alongside Maelric Sturmwald and Gallifax in the
-  Rebellion. Survived the burning of Metgal. Co-founded Oechenfor ~20 years ago with Erol the
-  Faed and other Founders.
-
-  Currently in Aris: arrived hoping to help the catatonic Maelric and stabilize the alliance.
-  Instead caught in an escalating political crisis between the Veterans and Young Bastards.
-  His reputation as a fair-minded moderate makes him valuable—and trapped—in the middle.
+summary: >-
+  Chief Citizen and Founder of Oechenfor; veteran gifted with ageless life by the Estara; departed Aris for Oechenfor
+  after Chapter 7 ended.
+content: >-
+  A middle-aged human man with dark skin and a bald head. Tall and regal with a seeming radiance.\nCarries the legendary
+  longsword Valor on his back. Gifted by the Estara with ageless, enduring\nlife before the First Rebellion. Fought
+  alongside Maelric Sturmwald and Gallifax in the\nRebellion. Survived the burning of Metgal. Co-founded Oechenfor ~20
+  years ago with Erol the\nFaed and other Founders.\n\nWas in Aris during Chapter 7: arrived hoping to help the
+  catatonic Maelric and stabilize the alliance.\nInstead caught in an escalating political crisis between the Veterans
+  and Young Bastards.\nHis reputation as a fair-minded moderate made him valuable—and trapped—in the middle.\n\nWhen the
+  Estaran psychic event struck during the waterfront illusion (Ch7 E05/E06), Aldrin abandoned the Veterans' rally to
+  protect Erol, who was crippled by a psychic episode. He stayed with her through the aftermath.\n\nIDENTITY AND
+  LAW:\nAldrin is a creature of duty and service. The grand cultural constructs of mortal civilization —\nlaw, oath,
+  rank, institution — are not merely tools to him; they are part of his core identity.\nHe is who he is because of the
+  structures he has chosen to serve. This puts him in quiet\ntension with Erol, whose Fey nature makes written laws feel
+  unnecessary to her — Fey were\npresent when decisions were made and remember them; they do not have the mortal problem
+  of\nhanding rules to generations who were not there. Erol shared this view with the party before\nthe waterfront
+  events in Ch7. Aldrin does not argue the point, but it touches something\nfundamental in him. See
+  concept-fey-law-philosophy.\n\n## Current Status\n\nAldrin and Erol left Aris for Oechenfor after Chapter 7 concluded.
+  They did not travel to Metgal.\n\n> **DM NOTE:** They are heading to Oechenfor. The party does not know where they
+  went.
 relationships:
   - target: npc-maelric-sturmwald
     rel: ally
   - target: npc-erol
     rel: ally
-    notes: Co-founded Oechenfor with her; former romantic partners—she is the one who got away; deep mutual affection remains but Erol cannot live in his structured orbit
+    notes: >-
+      Co-founded Oechenfor with her; former romantic partners—she is the one who got away; deep mutual affection remains
+      but Erol cannot live in his structured orbit
   - target: faction-allied-cities
     rel: member_of
   - target: event-rebellion
     rel: participated_in
   - target: location-oechenfor
     rel: founded
-  - target: location-aris
+  - target: location-oechenfor
     rel: currently_in
+    notes: Departed Aris after Ch7; heading home
+  - target: concept-fey-law-philosophy
+    rel: in_tension_with
+    notes: Aldrin's identity is built around mortal institutions; this concept is a source of quiet friction with Erol
 sources:
   - npcs/heroes/aldrin-stoneward.md
   - chapters/chapter-1-invaders.md

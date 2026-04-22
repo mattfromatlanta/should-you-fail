@@ -1,0 +1,82 @@
+# Estaran name rules
+# Feel: between biblical angels and ancient Romans
+# Reference phonology: Latin morphology + Hebrew/Aramaic angel names
+# Structure: [first_part] + (optional [second_part]) + [ending]
+
+description: "Ancient, ordered, cosmic. Hard consonant onsets, fluid medials, angel or Roman endings."
+
+# First syllable — consonant onset + vowel nucleus
+# Latin-flavored (harder, clustered): mar, var, cas, cor, ter, sem, vas, mor, tar, kem, ser, cal, vec, cres, sol, ver, sev, luc
+# Semitic-flavored (opener, vowel-forward): sa, za, ra, ka, ma, az, ta
+first_parts:
+  - mar
+  - var
+  - cas
+  - cor
+  - ter
+  - sem
+  - vas
+  - mor
+  - tar
+  - kem
+  - ser
+  - cal
+  - vec
+  - cres
+  - sol
+  - ver
+  - sev
+  - luc
+  - sa
+  - za
+  - ra
+  - ka
+  - ma
+  - az
+  - ta
+  - mot
+  - res
+  - cel
+
+# Optional middle syllable — inserted 45% of the time to produce 3-syllable names
+# Prefer liquids (r, l) and sibilants (s) for flow
+second_parts:
+  - ri
+  - ti
+  - ra
+  - li
+  - sa
+  - te
+  - ca
+
+# Probability of including a second_part (0.0–1.0)
+second_part_probability: 0.45
+
+# Confirmed names — the 12 Estarans of Farthim
+approved:
+  - Cresael
+  - Tarliel
+  - Verael
+  - Kemiel
+  - Motiel
+  - Casius
+  - Cellius
+  - Vasor
+  - Zasais
+  - Taor
+  - Kaus
+  - Rael
+
+# Names blocked from generation (real-world associations, etc.)
+forbidden:
+  - motel
+  - cascais
+
+# Endings: weighted groups (angel-style, Roman-style, hybrid)
+endings:
+  - weight: 5
+    values: [iel, ael, el, riel]
+  - weight: 4
+    values: [or, us, ax, on, is, rix]
+  - weight: 2
+    values: [ion, ius]

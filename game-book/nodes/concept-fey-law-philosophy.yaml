@@ -1,0 +1,52 @@
+id: concept-fey-law-philosophy
+type: concept
+name: Fey Law Philosophy
+summary: >-
+  Fey do not codify laws; they remember decisions and live by them, renegotiating through direct council when needed — a
+  system that works because Fey do not die between generations.
+tags:
+  - fey
+  - culture
+  - philosophy
+  - law
+  - erol
+content: >-
+  Shared with the party by Erol the Faed, shortly before the waterfront events in Aris (Chapter 7).
+
+
+  Fey do not have laws in the mortal sense. When a decision is made among the Fey — how to share a territory, what is
+  owed to a lord, how a wrong is to be addressed — everyone present simply remembers it. They carry it forward and live
+  by it. There is no need to write it down.
+
+
+  When circumstances change or a party wishes to renegotiate, they come together and talk it through again. The
+  agreement is remade in the room, with the people it concerns. This is not to say the Fey are more harmonious than
+  mortals — they argue, they scheme, they hold grudges for centuries. But they do not need proclamations, edicts, or
+  codes, because they are not handing rules down to generations who were not there when the rules were made.
+
+
+  Mortality creates the codification problem. Mortals die. Their children were not present for the original agreement.
+  Their grandchildren weren't either. So mortals write things down and build institutions — courts, traditions, oaths,
+  contracts — to carry meaning across the gap between generations. These are not weaknesses. They are engineering
+  solutions to the problem of death.
+
+
+  Fey do not have that problem. The Fey who made the agreement are still alive. The agreement is still in the room.
+
+
+  FRICTION WITH ALDRIN:
+
+  This philosophical gap is a source of quiet tension between Erol and Aldrin Stoneward. Aldrin is a creature of duty
+  and service. The grand cultural constructs of mortal civilization — law, oath, rank, institution — are not merely
+  tools to him; they are part of his core identity. He is who he is *because* of the structures he has chosen to serve.
+  Erol does not naturally understand this. She does not dismiss it, but she cannot fully feel it. To her, those
+  structures are elegant workarounds for a problem she has never had. To Aldrin, they are the shape of a good life.
+relationships:
+  - target: npc-erol
+    rel: articulated_by
+    notes: Erol shared this with the party before the waterfront events in Ch7
+  - target: npc-aldrin-stoneward
+    rel: illustrates_friction_with
+    notes: Aldrin's identity is built around mortal institutions; Erol's Fey nature makes her naturally indifferent to them
+sources:
+  - sessions/brainstorms.txt

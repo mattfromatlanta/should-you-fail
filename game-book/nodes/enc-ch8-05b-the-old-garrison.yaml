@@ -1,0 +1,98 @@
+id: enc-ch8-05b-the-old-garrison
+type: encounter
+name: "Ch8 E05b: The Old Garrison"
+summary: >-
+  The party pushes north to the old Estaran garrison — built for a thousand, now occupied by the remnant frost giants
+  and Bronik; taking it breaks the tribe's operational base and surfaces the history of the Fey war.
+status: planned
+tags:
+  - chapter-8
+  - combat
+  - frost-giants
+  - bronik
+  - estaran
+  - ice-world
+  - garrison
+  - fey-war
+content: >-
+  A structure built for a thousand occupies the high ground north of the valley — the Estaran garrison from the time of
+  the Fey war, approximately 300 years ago. The wartime force departed after the Fey were defeated; what remains is
+  enormous, cold, and mostly empty. The surviving frost giants of the tribe — roughly 15 by this point — use it as a
+  camp.
+
+
+  ### The Scale of It
+
+
+  The garrison is Estaran architecture at military scale: barracks for a thousand, training grounds, command halls,
+  storage infrastructure that dwarfs anything the party has encountered in Estaran buildings before. Most of it is
+  intact — Estaran construction does not deteriorate easily. It simply sits, cold and purposeless, the furniture of an
+  occupation that ended three centuries ago.
+
+
+  The frost giants occupy a fraction of it. They have made camp in the command wing — fires in the central hall,
+  sleeping areas in the nearest barracks. The rest of the structure echoes with wind.
+
+
+  ### What's In There
+
+
+  Somewhere in the garrison — perhaps a high-ceilinged chamber, perhaps a courtyard open to the sky — there are traces
+  of what was here before the Estarans repurposed it. The structure incorporated rather than demolished what stood on
+  this ground. Shapes that are not Estaran. A threshold that feels different underfoot. Imagery the Estarans recorded as
+  part of their campaign documentation, showing who they were fighting and what they were destroying. Something that
+  makes the question form in the party's mind: what were the Fey here, before the war?
+
+
+  The frost giants' camp is set up in this space — used now as a stockroom or latrine. Whether this is deliberate
+  desecration or obliviousness is ambiguous. Either way, a Fey party member or someone with Fey sensitivity may react to
+  the residual presence.
+
+
+  > **DM NOTE:** This is the site of a Fey sanctuary that predates the Estaran arrival. The Estarans converted it into a
+  command center because controlling the high ground required taking the sacred space. The giants now occupy it without
+  understanding what it is — they have no memory of what they were. If the party has begun to suspect the giants'
+  origins from E05a, this space should deepen that suspicion without answering it yet. The answer comes in E06, in
+  Torma's realm.
+
+
+  ### Bronik
+
+
+  Gullux assigned Bronik to hold the garrison. Bronik is restless — he is a raider, not a garrison commander, and months
+  of static duty have made him volatile. He can be baited. A visible challenger, a direct insult, something that wounds
+  his pride — he will engage before the giants have rallied.
+
+
+  CR12. Reckless. Fights with cold breath and raw aggression. His impulsiveness can be turned against both him and the
+  giants around him — he does not care much about collateral.
+
+
+  Defeating or driving off Bronik here is the decisive blow. Without the garrison and without Bronik, the tribe has no
+  operational center.
+
+
+  ### Notes
+
+
+  - Taking the garrison should feel significant. It is not just a combat encounter — it is a history lesson. Give the
+  party time to look around if they want it.
+
+  - The question of what the frost giants actually are need not be answered here. It should be forming.
+
+  - After this encounter, the party controls the high ground. The giant threat is reduced to scattered remnants and
+  Gullux.
+relationships:
+  - target: chapter-8-across-the-void
+    rel: part_of
+  - target: location-ice-world
+    rel: set_in
+  - target: npc-bronik-ice-world
+    rel: features
+    notes: Holds the garrison; primary combat threat
+  - target: enc-ch8-05-the-giant-tribe
+    rel: preceded_by
+  - target: enc-ch8-05c-gullux-comes-down
+    rel: leads_to
+sources:
+  - sessions/brainstorms.txt

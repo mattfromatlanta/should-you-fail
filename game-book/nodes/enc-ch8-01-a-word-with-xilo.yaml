@@ -7,25 +7,35 @@ tags:
   - farewell
   - xilo
   - metgal
-status: planned
-summary: >-
-  On the road to Metgal, the evening before arrival, Xilo pauses the group for a farewell and his thoughts on heroism.
-content: |
-  On the road to Metgal, the evening before the party arrives at the crater. Xilo pauses the group. He has something to say before they reach the moment of departure. He does not expect to see any of them again.
+status: complete
+summary: On the road to Metgal, the evening before arrival, Xilo pauses the group for a farewell and his thoughts on heroism.
+content: >
+  On the road to Metgal, the evening before the party arrives at the crater. Xilo pauses the group. He has something to
+  say before they reach the moment of departure. He does not expect to see any of them again.
+
 
   ### Xilo's Words
 
-  "None of us except the dragon have any idea where you'll go. And he doesn't know what waits for you. I expect we'll never meet again.
+
+  "None of us except the dragon have any idea where you'll go. And he doesn't know what waits for you. I expect we'll
+  never meet again.
+
 
   But hear this: heroism requires no recognition. You can save the world whether you'll be known for it or not.
 
+
   We don't take wing for the first time expecting to soar. We leave the nest hoping for a soft landing."
+
 
   ### Notes
 
-  Give players time to respond. This is a genuine farewell from a character they fought for. Xilo is not being grim — he is being honest in his whimsical way. The soft landing line is his version of encouragement.
 
-  This is also the last night with Yrk, Gallifax, and Maelric on the road. If players want other goodbye scenes, give them room.
+  Give players time to respond. This is a genuine farewell from a character they fought for. Xilo is not being grim — he
+  is being honest in his whimsical way. The soft landing line is his version of encouragement.
+
+
+  This is also the last night with Yrk, Gallifax, and Maelric on the road. If players want other goodbye scenes, give
+  them room.
 relationships:
   - target: chapter-8-across-the-void
     rel: part_of

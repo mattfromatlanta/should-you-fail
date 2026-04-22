@@ -8,7 +8,7 @@ tags:
   - ice-world
   - dire-sabretooths
   - frost-giant
-status: planned
+status: complete
 summary: >-
   The party arrives on a glacier in a blizzard, must find shelter, then fights four Dire Sabretooths while a Frost Giant
   scout observes and withdraws.
@@ -60,6 +60,33 @@ content: >-
 
   The wrongness of the sky is felt, not named. Do not explain it in the read-aloud — it is an absence, and absences are
   hard to see. The Frost Giant scout does not engage; he watches and withdraws.
+
+
+  ## Session 1 — What Happened
+
+
+  The party deployed their magic fortress immediately on arrival to shelter from the blizzard. They noticed the
+  "something missing" sensation and investigated — confirmed fire still works, magic still works. The absence remained
+  unresolved (mystery left open for later).
+
+
+  Druidic magic was used to read the storm; the party learned it would pass soon, and it did.
+
+
+  When the blizzard broke and the party emerged from the fortress to assess the terrain, Cetyri shifted. Without
+  ceremony, his form collapsed inward — compact and fast — until what remained was a pseudodragon no larger than a cat,
+  copper-gold in color, with unmistakably golden eyes. He told the party this was the safest shape. Whatever version of
+  him exists on this world, he cannot predict how it will react to encountering him, and he has no intention of making
+  that contact without some control over the situation. He will stay small until they understand what they are dealing
+  with.
+
+
+  After the storm cleared they could see the frozen mountain ridge, valley below, frozen river running to the sea, and a
+  settlement in the distance.
+
+
+  A pride of sabretooth cats attacked as the party descended. One was slain; the others were driven off. The frost giant
+  scout was spotted watching from a ridge above, then retreating north. Session continued into E04.
 relationships:
   - target: chapter-8-across-the-void
     rel: part_of

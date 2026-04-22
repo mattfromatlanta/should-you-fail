@@ -11,25 +11,40 @@ tags:
   - merge
 status: planned
 summary: >-
-  The party enters the dead Feywild, confronts Torma in her lair, frees the hatchling Cetyri, and completes the first merge.
-content: |
-  With the mortal tribe broken, access to the dead Feywild opens. The party crosses into the collapsed remnant of the world's Feywild — cold, grey, still. Beautiful in a ruined way, like frost on a corpse. Unlike the Shadowfell, this place has no life in it. Something was killed here and the wound has gone cold.
+  The party enters the dead Feywild, confronts Torma in her lair, frees the hatchling Cetyri, and completes the first
+  merge.
+content: >
+  With the mortal tribe broken, access to the dead Feywild opens. The party crosses into the collapsed remnant of the
+  world's Feywild — cold, grey, still. Beautiful in a ruined way, like frost on a corpse. Unlike the Shadowfell, this
+  place has no life in it. Something was killed here and the wound has gone cold.
+
 
   Torma's lair is somewhere within. The hatchling is imprisoned there.
 
+
   ### The Setting
 
-  The dead Feywild should feel unlike anywhere the party has been. Dungeon layout and what remains of Feywild architecture under centuries of cold and collapse are TBD.
+
+  The dead Feywild should feel unlike anywhere the party has been. Dungeon layout and what remains of Feywild
+  architecture under centuries of cold and collapse are TBD.
+
 
   ### Torma
 
-  The boss of this encounter. She has chosen to live in the ruin of what the Estarans destroyed — that choice is worth exploring in how she fights and speaks. She may use the hatchling as leverage. Stat block and tactics TBD.
+
+  The boss of this encounter. She has chosen to live in the ruin of what the Estarans destroyed — that choice is worth
+  exploring in how she fights and speaks. She may use the hatchling as leverage. Stat block and tactics TBD.
+
 
   ### The Merge
 
-  Once the hatchling is freed, the merge can proceed. The party's Cetyri is the stronger dragon; the hatchling has no world attachment — it has known nothing but captivity. The merge is safe.
 
-  What the merge looks and feels like from the outside is TBD — it should be significant and strange. After it, Cetyri grows in power.
+  Once the hatchling is freed, the merge can proceed. The party's Cetyri is the stronger dragon; the hatchling has no
+  world attachment — it has known nothing but captivity. The merge is safe.
+
+
+  What the merge looks and feels like from the outside is TBD — it should be significant and strange. After it, Cetyri
+  grows in power.
 relationships:
   - target: chapter-8-across-the-void
     rel: part_of
@@ -42,7 +57,7 @@ relationships:
   - target: npc-cetyri
     rel: features
     notes: Completes the merge; grows in power
-  - target: enc-ch8-05-the-giant-tribe
+  - target: enc-ch8-05c-gullux-comes-down
     rel: preceded_by
 sources:
   - chapter-8-planning.md

@@ -1,0 +1,150 @@
+# Mortal name rules
+# Feel: Germanic core, Romance inflection, Celtic traces, Estaran undertone
+# Reference phonology:
+#   Primary — Old English / Old High German (Maelric, Aldrin, Ekert, Gorven, Voerth)
+#   Secondary — Italian / Romanian (Lamat, Ardo, Amalia, Nava, Lugara)
+#   Traces — Old Irish / Welsh (Caera, Aelira, Lome, Atha)
+#   Influence — Estaran (-aris, -iel) from centuries of occupation (Vaenaris, Sylvaris)
+#
+# Validation: these rules reconstruct ald+r+in=Aldrin, ek+ert=Ekert, gor+ven=Gorven,
+#   cae+ra=Caera, nav+a=Nava, ael+ira=Aelira, lam+at=Lamat, hest+ar=Hestar, lug+ara=Lugara
+#
+# Modesty: lower second_part_probability than Estaran; endings kept short
+
+description: "Mortal names: Germanic core, Romance inflection, Celtic traces. Modest in length; some carry Estaran influence from centuries of occupation."
+
+# First syllable — stems drawn from all four influences
+# Expanded for consonant variety and I/O/U initial coverage
+first_parts:
+  # Germanic-flavor (hard consonants, compound-ready)
+  - ald
+  - maer
+  - ek
+  - gor
+  - cor
+  - bren
+  - helm
+  - arn
+  - kur
+  - vor
+  - hest
+  - vel
+  - dar
+  - ren
+  - tam
+  - bram
+  - dag
+  - wal
+  - win
+  - sig
+  - wulf
+  # Romance-flavor (softer, vowel-forward)
+  - lam
+  - ard
+  - nav
+  - sil
+  - am
+  - lug
+  - man
+  - rom
+  - cam
+  - al
+  - fer
+  - pel
+  - par
+  - fen
+  # Celtic-flavor (ae vowels, liquid consonants, terse)
+  - cae
+  - ael
+  - nae
+  - lom
+  - ath
+  - fae
+  - fin
+  # I-initial (vowel onset, underrepresented)
+  - il
+  - in
+  - ir
+  - ith
+  # O-initial
+  - or
+  - os
+  - ol
+  # U-initial
+  - ul
+  - um
+  - ur
+  # Varied consonant onsets (b, d, f, g, j, z)
+  - ban
+  - den
+  - dav
+  - gar
+  - jen
+  - jor
+  - zon
+  - zar
+
+# Optional middle syllable — no bare consonants; always vowel-bearing to prevent clusters
+second_parts:
+  - ra
+  - la
+  - ri
+  - el
+  - er
+  - al
+  - in
+
+# Lower probability than Estaran — mortal names tend toward brevity
+second_part_probability: 0.30
+
+# Endings: weighted groups
+endings:
+  # Germanic-flavor: consonant-final, compound-suffix feel
+  # Includes short options (am, ed, im) to allow single/two-syllable outputs
+  - weight: 5
+    values: [ric, ert, in, en, ar, on, ald, vin, am, ed, im]
+  # Romance-flavor: vowel-final, softer
+  - weight: 4
+    values: [a, o, at, is, ara, ira, an]
+  # Estaran-influenced: borrowed from centuries of occupation
+  - weight: 2
+    values: [aris, iel, or]
+
+# Pre-crafted name pool — single-syllable and uncommon real-world names
+# Sampled at pool_probability per generation slot; "sprinkled in" rather than dominant
+# Sources: Norse/Germanic (Bram, Dag, Viggo, Udo, Edda), Celtic (Finn, Rhys, Cait, Orin),
+#   Romance/Slavic (Vera, Nora, Mira, Zora, Kira, Lena), terse invented (Zhed, Brix, Ren)
+name_pool:
+  - Jon
+  - Sam
+  - Zhed
+  - Bram
+  - Dag
+  - Vera
+  - Nora
+  - Finn
+  - Mira
+  - Petra
+  - Tobias
+  - Rhys
+  - Soren
+  - Viggo
+  - Kira
+  - Lena
+  - Cait
+  - Ren
+  - Sol
+  - Edda
+  - Brix
+  - Zora
+  - Ilka
+  - Orin
+  - Udo
+
+# Probability of drawing from name_pool instead of constructing a name
+pool_probability: 0.15
+
+approved: []
+
+forbidden:
+  - uriel

@@ -4,7 +4,7 @@ name: "Chapter 8: Across The Void"
 summary: >-
   The party crosses to an alien ice world for the first time using the Radiant Lance, confronts Torma and her dragon
   children, and frees a hatchling Cetyri imprisoned in the dead Feywild.
-status: planned
+status: in_progress
 tags:
   - chapter
   - ice-world
@@ -36,8 +36,16 @@ content: >-
   has made her lair and where a hatchling version of Cetyri is imprisoned.
 
 
-  The merge is safe: the party's Cetyri is the stronger dragon and the hatchling has no world attachment. After the
-  merge, Cetyri grows in power.
+  The merge is safe: the party's Cetyri is the stronger, older version, and it is his younger self being freed. Both
+  sides of the merge know this instinctively. The scene should feel like a homecoming, not a collision.
+
+
+  ## Session 1 — Played
+
+
+  E01, E02, and E03 completed. E04 in progress. Party crossed the void, survived arrival, defeated sabretooth cats,
+  scouted the ring (Estaran artifact at the Shield boundary), and Sylvaris reconnoitered the town center. Session ended
+  with the party withdrawing to plan their approach to Farthim.
 relationships:
   - target: chapter-7-aris-the-fracturing-capital
     rel: preceded_by
