@@ -1,9 +1,12 @@
 id: npc-gullux
 type: npc
 name: Gullux the Iceflesh Grafter
-tags: [dragonborn, white-dragonborn, half-dragon, foe, chapter-1, defeated]
+tags: [dragonborn, white-dragonborn, half-dragon, foe, chapter-1, defeated, world-aerus, multiworld]
 status: dead
-summary: White half-dragon son of Torma; grafted dragon parts onto himself; led the Dragonborn invasion of the Uplands; defeated in Milicent's shadow space in Chapter 1.
+summary: >-
+  White half-dragon son of Torma the Unforgiving on Aerus; grafted dragon parts onto himself; led the Dragonborn
+  invasion of the Uplands; defeated in Chapter 1. An iteration of the same soul as Gullux (Ice World), a true Adult
+  white dragon on Ikellor.
 content: |
   White half-dragon, son of Torma the Unforgiving and brother to Bronik. Transformed himself
   into something monstrous by grafting true dragon parts onto his already half-dragon form.

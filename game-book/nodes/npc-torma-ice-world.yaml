@@ -1,29 +1,35 @@
 id: npc-torma-ice-world
 type: npc
-name: Torma the Unforgiving (Ice World)
+name: Torma the Ancient
 summary: >-
-  Adult Frost Giant chieftain commanding the giant tribe that besieges Farthim; mother of Gullux and Bronik; has made
-  her lair in the dead Feywild.
+  Ancient White Dragon; lair in the dead Feywild; mother of Gullux and Bronik; holds the ice world's Cetyri hatchling
+  in suspended animation; a distinct iteration of the same dragon the party knew on their home world.
 status: alive
 tags:
-  - frost-giant
+  - white-dragon
+  - ancient-dragon
   - ice-world
   - antagonist
   - chapter-8
   - multiworld
+  - world-ikellor
 content: >-
   The ice world's iteration of Torma the Unforgiving. On the party's home world, Torma was slain by Erol at the end of
-  Chapter 2. Here she is very much alive — an adult Frost Giant chieftain of real power who expanded her confederation
-  aggressively into the power vacuum left by the Estaran withdrawal one year ago.
+  Chapter 2. Here she is very much alive — an Ancient White Dragon of immense power, with a lair deep in the dead
+  Feywild.
 
 
-  Her two children, young white dragons Gullux and Bronik, lead her raiding forces in the valley. She directs from her
-  lair in the dead Feywild — the collapsed remnant of the world's Feywild, which the Estarans destroyed. That she has
-  chosen to make her home in that ruin says something about her.
+  She is hateful and cruel, with a will to dominate all life. She will not hesitate to slay any who stand against her.
+  She entered the dead Feywild through the Dead Forest thirty years ago and has claimed the ruin as her domain.
 
 
-  Her forces prey on Farthim's hunting parties, taking the meat and leaving the dead. She has held a hatchling gold
-  dragon — the ice world's Cetyri — as a prize in her lair.
+  Her sons Gullux and Bronik — both Adult white dragons — enforce her will in the valley. The Frost Giants attempted
+  to enter the Feywild and encountered Torma. She threatened their existence and they submitted. They now pay her
+  tribute. The giants answer to her sons, and her sons answer to her. There is no arrangement — only coerced fealty.
+
+
+  She holds the ice world's hatchling Cetyri imprisoned in the deepest part of her lair, frozen in suspended animation
+  inside a block of ice.
 relationships:
   - target: npc-gullux-ice-world
     rel: parent_of
@@ -33,12 +39,16 @@ relationships:
     rel: located_in
   - target: location-farthim
     rel: besieges
+    notes: Through her sons and the frost giants
   - target: npc-cetyri-hatchling
     rel: imprisons
+  - target: npc-torma-the-unforgiving
+    rel: iteration_of
+    notes: Same dragon, different world; Torma the Unforgiving was slain Ch2
   - target: enc-ch8-05-the-giant-tribe
     rel: featured_in
-    notes: Her tribe; Gullux and Bronik lead raids as her lieutenants
+    notes: Her forces; directed through Gullux and Bronik
   - target: enc-ch8-06-tormas-realm
     rel: featured_in
 sources:
-  - chapter-8-planning.md
+  - session-docs/ch8-ice-world-history.txt

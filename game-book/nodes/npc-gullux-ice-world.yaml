@@ -2,22 +2,21 @@ id: npc-gullux-ice-world
 type: npc
 name: Gullux (Ice World)
 summary: >-
-  Young white dragon, CR12; Torma's older child and the steadier of the two dragon lieutenants; leads the raids on
-  Farthim's hunting parties.
+  Adult white dragon; Torma's older son; a bully and a sadist like his mother; the more dangerous of the two brothers
+  in the valley.
 status: alive
 tags:
   - white-dragon
+  - adult-dragon
   - ice-world
   - antagonist
   - chapter-8
   - multiworld
+  - world-ikellor
 content: >-
-  Young white dragon, CR12. Torma's older child and the steadier of the two dragon lieutenants. Leads raids on Farthim's
-  hunting parties, using the glaciers and blizzards to ambush hunters who venture too far from the Shield boundary.
-
-
-  Gullux is large enough to blend into the snowscape at distance — he is almost impossible to distinguish from the
-  terrain when he is still. He is patient and calculating in a way his younger sibling Bronik is not.
+  Adult white dragon. Torma's older son, older than Bronik by a matter of hours. He is the monster between the two
+  brothers — cruel and sadistic, a bully in his mother's image. He likes to be feared for his strength and sees smaller
+  creatures as playthings. He will not bother with conversation beyond taunting his prey.
 
 
   ## Session 1 — Sighting
@@ -35,4 +34,4 @@ relationships:
   - target: enc-ch8-05-the-giant-tribe
     rel: featured_in
 sources:
-  - chapter-8-planning.md
+  - session-docs/ch8-ice-world-history.txt

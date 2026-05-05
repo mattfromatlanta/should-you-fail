@@ -23,6 +23,37 @@ content: |
   - Laid psychic traps in veterans' minds to prevent recovering lost memories
   - Fear Dragon Singularities (Unary Great Wyrms) above all else
   - Incursions follow an escalating pattern before permanent presence is established
+
+  ## The Cosmological Project
+
+  Across the cosmos and across time, the Estarans regularly move mortals from world to world,
+  seeking an ideal ordered balance. In the natural order of the cosmos — with no Estaran influence
+  — a world suited for mortals will have a native mortal population and a living Feywild with
+  native Fey. Aerus (the party's home world, whose major city gave the name Aris) is a world like
+  this: native mortals, native Fey, and a Feywild that predates Estaran arrival.
+
+  Fey are fully incompatible with Estaran magic and Estaran ideology throughout the cosmos. The
+  Estarans see Fey as a nuisance to manage or exterminate when necessary. In their own minds, they
+  believe they prefer to do no harm. In practice, they are brutal oppressors who justify atrocity
+  in the name of order. They are not evil in any simple sense — their ordered, rule-bound nature
+  narrows their choices to the point they can burn universes with a clean conscience. Every world
+  with an Estaran footprint sees conflict with the Fey.
+
+  Some worlds the Estarans colonize have no native mortals. Settlers are relocated there from other
+  worlds. These settlers have no recorded history or cultural memory of their previous home; they
+  know only the world they have been given. Ikellor (the ice world) was one such world: no native
+  mortals, settlers drawn from Aerus and elsewhere, a Feywild that once made it a green paradise.
+  The Estarans destroyed that Feywild deliberately as a strategic act during the Fey War there,
+  triggering the ice age that has killed the world slowly ever since.
+
+  There is a single Estaran home world that has been preserved across time. Details are not yet
+  known to the party.
+
+  ## World Names
+
+  The Estarans assign administrative names to every world they have touched:
+  - Aerus — the party's home world (the city of Aris takes its name from this)
+  - Ikellor (eye-KELL-or) — the ice world
 relationships:
   - target: concept-dragon-singularity
     rel: fears

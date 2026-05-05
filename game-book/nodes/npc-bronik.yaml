@@ -1,9 +1,12 @@
 id: npc-bronik
 type: npc
 name: Bronik
-tags: [half-dragon, white-dragon, son-of-torma, party-ally, wyvern]
+tags: [half-dragon, white-dragon, son-of-torma, party-ally, wyvern, world-aerus, multiworld]
 status: alive
-summary: White half-dragon son of Torma the Unforgiving; captured in Chapter 2; became a trusted party companion; accompanying the party back to the Material Plane.
+summary: >-
+  White half-dragon son of Torma the Unforgiving on Aerus; captured in Chapter 2; became a trusted party companion;
+  stayed with Xilo when the party crossed to Ikellor. An iteration of the same soul as Bronik (Ice World), a true Adult
+  white dragon on Ikellor.
 content: |
   White half-dragon who rides a wyvern named Dirge. Son of Torma the Unforgiving and brother
   to the traitorous Gullux. Came searching for Gullux and the stolen treasure after Gullux
@@ -15,8 +18,9 @@ content: |
   the party sought the Trickster. Later accompanied Cetyri into the Feywild when the dragon
   fled—out of simple friendship and loyalty.
 
-  Stays out of combat but provides support to Cetyri. Returning to the Material Plane with the
-  party at end of Chapter 6.
+  Stays out of combat but provides support to Cetyri. Returned to the Material Plane with the
+  party at end of Chapter 6. When the party crossed to Ikellor using the Radiant Lance at the
+  start of Chapter 8, Bronik stayed behind with Xilo.
 relationships:
   - target: npc-torma-the-unforgiving
     rel: family

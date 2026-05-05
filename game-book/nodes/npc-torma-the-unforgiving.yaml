@@ -1,9 +1,11 @@
 id: npc-torma-the-unforgiving
 type: npc
 name: Torma the Unforgiving
-tags: [dragon, white-dragon, adult, foe, chapter-2, deceased]
+tags: [dragon, white-dragon, adult, foe, chapter-2, deceased, world-aerus, multiworld]
 status: dead
-summary: Adult white dragon, mother of Gullux and Bronik; came to the Uplands seeking her stolen eggs; slain by Erol and Lamat at the end of Chapter 2.
+summary: >-
+  Adult white dragon on Aerus; mother of Gullux and Bronik; came to the Uplands seeking her stolen eggs; slain by Erol
+  and Lamat at the end of Chapter 2. An iteration of the same dragon as Torma the Ancient on Ikellor.
 content: |
   Adult white dragon. Mother of both Gullux (traitorous) and Bronik (loyal). Gullux betrayed her
   by stealing dragon eggs from her clutch. Sent Bronik to find the stolen treasure and eggs.
@@ -22,6 +24,9 @@ relationships:
     rel: slain_by
   - target: npc-lamat
     rel: slain_by
+  - target: npc-torma-ice-world
+    rel: iteration_of
+    notes: Same dragon on Ikellor; alive there as Torma the Ancient, an Ancient White Dragon
 sources:
   - npcs/foes/torma-the-unforgiving.md
   - chapters/chapter-2-darkness.md

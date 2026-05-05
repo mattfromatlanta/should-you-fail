@@ -1,32 +1,48 @@
 id: npc-bronik-ice-world
 type: npc
 name: Bronik (Ice World)
-summary: Young white dragon, CR12; Torma's younger and more erratic child; the weaker link of the two dragon lieutenants.
+summary: >-
+  Adult white dragon; Torma's younger son; the more cunning of the two brothers; despises Gullux and resents his mother
+  but knows he cannot challenge her; a distinct iteration of the party's half-dragon companion.
 status: alive
 tags:
   - white-dragon
+  - adult-dragon
   - ice-world
   - antagonist
   - chapter-8
   - multiworld
+  - world-ikellor
 content: >-
-  The ice world's iteration of Bronik — on the party's home world, Bronik has been a companion since Chapter 2. Here he
-  is a young white dragon and Torma's younger child, serving as a raiding lieutenant alongside Gullux.
+  The ice world's iteration of Bronik. The party's Bronik is a half-dragon companion who has travelled with them since
+  Chapter 2 — he stayed behind with Xilo rather than crossing with the party. Here, the same soul exists as a true
+  Adult white dragon. The difference is jarring: the companion the party know is a half-mortal ally; this one is a
+  dragon in full, serving his mother's coerced empire.
 
 
-  More erratic and reckless than his brother. Can be impulsive in a fight. The potential weak point among Torma's forces
-  — his rashness may be exploitable.
+  Torma's younger son, slightly smaller than Gullux. Between the two brothers he is the cunning one. He despises
+  Gullux and resents Torma — he yearns for his mother's death but knows he is no match for her. More inclined to
+  consider angles than Gullux, though he is not much of a strategist.
 
 
-  CR12.
+  He occupies the more remote part of the Estaran garrison, apart from Gullux. If the party faces Gullux there and
+  wins, Bronik is likely watching from a distance. He will not intervene to save his brother. Afterward, he may
+  approach — not as an enemy, and not as a friend, but as someone who has just seen something useful happen. He might
+  suggest he can help them if they want.
 relationships:
   - target: npc-torma-ice-world
     rel: child_of
   - target: npc-gullux-ice-world
     rel: sibling_of
+  - target: npc-bronik
+    rel: iteration_of
+    notes: Party's Bronik is a half-dragon companion; this one is a true dragon
   - target: location-farthim
     rel: raids
+  - target: enc-ch8-05b-the-old-garrison
+    rel: located_in
+    notes: Occupies the remote section; observes if Gullux is killed there
   - target: enc-ch8-05-the-giant-tribe
     rel: featured_in
 sources:
-  - chapter-8-planning.md
+  - session-docs/ch8-ice-world-history.txt

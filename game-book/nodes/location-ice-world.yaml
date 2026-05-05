@@ -1,9 +1,9 @@
 id: location-ice-world
 type: location
-name: The Ice World
+name: The Ice World (Ikellor)
 summary: >-
-  An alien world gripped by a centuries-long ice age caused by the Estarans' destruction of its Feywild; the party's
-  first destination beyond their home world.
+  An alien world gripped by a centuries-long ice age caused by the Estarans' destruction of its Feywild; Estaran name
+  Ikellor; the party's first destination beyond their home world.
 status: active
 tags:
   - multiworld
@@ -11,29 +11,32 @@ tags:
   - estaran
   - dead-feywild
   - chapter-8
+  - world-ikellor
 content: >-
   A world in the grip of a centuries-long ice age, the long consequence of the Estarans' deliberate destruction of its
-  Feywild. The growing season is near nothing. Large fauna — mammoths, wooly rhinoceroses, giant elk — have moved into
+  Feywild. The growing season is near nothing. Large fauna — mammoths, woolly rhinoceroses, giant elk — have moved into
   lowland valleys, followed by the predators that hunt them.
 
 
+  The Estaran name for this world is Ikellor (eye-KELL-or). Farthim residents know the name but don't use it much —
+  they think of themselves as Farthimers before all else, and feel themselves to be natives even though they know they
+  are not. This world had no native mortals; the original settlers came from Aerus (the party's home world) and from
+  other worlds, relocated by the Estarans. They have no recorded history or cultural memory of a previous home.
+
+
   The Estarans withdrew approximately one year ago, recalled by central authority with no explanation given to the
-  mortals who had organized their lives around Estaran presence. Many mortals had been granted extended lifespans and
-  are now aging at a pace that confuses and terrifies them.
-
-
-  The Estaran administrative code for this world is unknown to the party. Their home world's code is 03b-11.
+  mortals who had organized their lives around Estaran presence.
 
 
   The wrongness of the sky is felt on arrival but not immediately named. Something that should be there isn't. The world
-  feels thinner than it should. To Fey or those with Fey sensitivity, the absence is more acute — the Feywild is not
-  simply absent, it was killed, and the wound remains.
+  feels thinner than it should. The party will not be able to name what is absent until they learn the local history.
 
 
-  The dead Feywild can still be reached as a collapsed hollow plane. Torma the Unforgiving has made her lair there.
+  The dead Feywild can still be reached as a collapsed hollow plane. Torma the Ancient has made her lair there.
 
 
-  Settlements: Farthim (human and goliath village, valley adjacent to a frozen river).
+  Settlements: Farthim (human, dwarf, and goliath village, valley adjacent to a frozen river). The only remaining
+  mortal settlement — there were many, but they have been abandoned or died out since the ice age began.
 relationships:
   - target: location-farthim
     rel: contains
@@ -41,6 +44,7 @@ relationships:
     rel: contains
   - target: npc-torma-ice-world
     rel: contains
+    notes: Torma the Ancient; Ancient White Dragon; lair in dead Feywild
   - target: chapter-8-across-the-void
     rel: setting_for
   - target: concept-estarans
