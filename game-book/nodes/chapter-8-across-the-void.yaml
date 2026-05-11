@@ -32,13 +32,26 @@ content: >-
 
 
   To reach Torma the Ancient, the party must break the giant tribe's hold on the valley. Torma's sons — Adult white
-  dragons Gullux and Bronik — command the frost giants from the old Estaran garrison north of the valley. Defeating the
-  tribe opens access to the dead Feywild, where Torma has made her lair and where a hatchling version of Cetyri is
-  imprisoned in suspended animation.
+  dragons Gullux and Bronik — command the frost giants from the old Estaran garrison north-east of the valley.
+  Defeating the tribe opens access to the Dead Forest east of the garrison, and from there to the dead Feywild, where
+  Torma has made her lair and where a hatchling version of Cetyri is imprisoned in suspended animation.
 
 
   The merge is safe: the party's Cetyri is the stronger, older version, and it is his younger self being freed. Both
   sides of the merge know this instinctively. The scene should feel like a homecoming, not a collision.
+
+
+  ## Encounter Outline
+
+
+  - **E01: A Word with Xilo** — Farewell on the road to Metgal. [complete]
+  - **E02: The Radiant Lance** — Crossing to Ikellor. [complete]
+  - **E03: Shock of Cold** — Arrival, blizzard, sabretooths, scout. [complete]
+  - **E04: The Settlement** — First contact with Farthim; the two perils; Estaran halls; star chart (Aerus / Maydor /
+    Ozarrid). [in progress, resumes Session 2]
+  - **E05: Field Encounter — Frost Giants** — Eastward foray draws a patrol; giants fight to the death from terror.
+  - **E05b: The Old Garrison** — Four sub-areas; both dragons; Bronik bargains if Gullux falls.
+  - **E06: Torma's Realm** — Through the Dead Forest to the dead Feywild; Torma; first merge. [later session]
 
 
   ## Session 1 — Played
@@ -47,6 +60,13 @@ content: >-
   E01, E02, and E03 completed. E04 in progress. Party crossed the void, survived arrival, defeated sabretooth cats,
   scouted the ring (Estaran artifact at the Shield boundary), and Sylvaris reconnoitered the town center. Session ended
   with the party withdrawing to plan their approach to Farthim.
+
+
+  ## Session 2 — Planned Scope
+
+
+  Resume E04 at first contact; play through E05 in the field. Dead Forest, garrison interior, and Torma's realm are
+  held for later sessions.
 relationships:
   - target: chapter-7-aris-the-fracturing-capital
     rel: preceded_by
