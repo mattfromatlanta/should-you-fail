@@ -6,82 +6,151 @@ tags:
   - roleplay
   - farthim
   - ice-world
-  - feywild
   - investigation
 status: in_progress
 summary: >-
-  The party descends to Farthim; the village assumes the Estarans sent them; Fey party members are met with wonder; the
-  elders begin to reveal the history of the dead Feywild.
-content: >-
-  After getting their bearings on the glacier, the party spots a settlement down slope in the valley adjacent to a
-  frozen river — Farthim. The village is in desperate shape. Torma's giants have been raiding their hunting parties for
-  months.
+  The party makes contact with Farthim — shock, then the assumption that the Estarans sent them; learns the village's
+  two perils (food and frost giants), explores the empty Generator and Projector Halls, and gathers the rumors that
+  will push them east toward the garrison.
+content: |
+  Picking up where Session 1 left off: the party has scouted Farthim and pulled back to plan. Now they make contact.
 
+  ## First Contact
 
-  When the party arrives, the village responds with cautious, exhausted hope. Their first question: "Did the Estarans
-  send you?" They do not know whether to be hopeful or terrified by the answer.
+  When the party enters the town center, the Farthimers' reaction comes in two waves.
 
+  **Wave 1 — Shock.** Strangers do not arrive in Farthim. They haven't in living memory. People come outside cautiously,
+  staring. The presence of Fey (Sylvaris, Aelira) deepens the shock to something closer to disbelief — Fey are
+  legendary creatures here, things from a world that no longer exists. Children point. Adults go quiet. Someone
+  fetches Gorven.
 
-  ### The Fey Reaction
+  **Wave 2 — The conclusion.** Within minutes, the shock resolves into a single conviction: *the Estarans sent them.*
+  This is not phrased as a question. It is stated as relief. Faces change. Tears, embraces, an old hunter dropping to
+  one knee. Gorven himself will speak it carefully, but the rest of the village will treat it as obvious. **The party
+  cannot easily deny this.** Denial sounds like a lie or a quitter's talk — and the Farthimers have already buried a
+  hundred people in the past year. They need this to be true.
 
+  Let the party feel the weight of being mistaken for saviors. They can correct the record, but it will not stick on
+  the first try.
 
-  If any Fey party members are visible, the village reaction shifts. To the people of Farthim, Fey are things out of
-  legend — creatures from a world that no longer exists. They will marvel, ask questions in hushed voices, reach out
-  carefully if allowed. This is the opening: why are Fey legend here? The party will have to ask the right questions.
-  The village elders can tell the history of the Feywild and the ice age, though much of it is myth by now. The core
-  truth is buried in the legend: something happened to the Fey long ago, the sky changed, and the cold came and never
-  left.
+  ## The Two Perils
 
+  Once contact is made, Gorven, Amalia, and Marx will lay out Farthim's situation. There are two threats and they
+  compound on each other:
 
-  ### Language
+  - **Food.** The Shield collapsed a year ago. The farms are gone. The village survives on hunting and on what
+    little they've coaxed from the whaling camp. Neither is working. Hunting parties are ambushed by frost giants
+    before they can land game. Whaling on a frozen sea requires skills they don't have and tools they barely
+    understand. Marx can give the precise count: at current rates, Farthim has weeks, not months.
 
+  - **Frost Giants.** Hunting parties driven off or killed. The giants have not crossed into the ring boundary in the
+    year since the Shield fell — but they patrol the valley east of town and intercept anything that ventures out.
 
-  Locals speak the common tongue — strange accents, but understandable. The Estarans spread it throughout the cosmos.
-  Fey languages are completely undecipherable here.
+  The village's plea will be specific: break the giant siege so they can hunt. They are not asking the party to feed
+  them — they are asking for the chance to feed themselves.
 
+  ## What Farthim Knows and Suspects
 
-  ### Notes
+  Through Amalia (the lore keeper) and Gorven (the elder), the party can learn:
 
+  - The history of the Fey War (mythologized) and the death of the Feywild (only half-remembered; see
+    location-ice-world and location-farthim for what the village believes vs. what is true).
+  - The Farthim Estarans (Cersael's Section) who maintained the Shield. The withdrawal a year ago. The three camps of belief about what
+    happened (they left / they were taken / they were driven away).
+  - **The Garrison.** Five centuries ago Farthim used to supply the wartime garrison north-east of town. No
+    Farthimer has been there in generations, but the collective memory persists: it is a structure of incredible
+    architecture, built for a thousand, abandoned after the Fey War. The townsfolk now suspect the giants have taken
+    it over — the patrols come from that direction.
+  - **A white dragon.** Some Farthimers claim to have seen a white dragon working with the giants. They speak of one
+    dragon, singular. (DM: there are two — Gullux and Bronik. The village has only ever glimpsed one of them from a
+    distance.)
+  - **Fey are legend.** They have no working memory of Fey beyond stories. Meeting Sylvaris and Aelira is the first
+    thread that pulls toward the real history.
 
-  - Torma already knows the party is here — the scout's report arrived ahead of them. The giants may probe the village
-  before the party is ready to move.
+  ## The Estaran Structures
 
-  - Give players time to learn the situation and build investment before the fighting starts.
+  Both Estaran buildings are abandoned and intact. Both are treated with reverence. Neither is locked — the Farthimers
+  simply do not enter them. The party can.
 
-  - The Estaran structures in town (Generator Hall and Projector Hall) are worth exploring. The Projector Hall contains
-  wall diagrams pointing to three other Estaran worlds — names in inscrutable runes that can be copied.
+  - **The Generator Hall.** The barracks and operations of Cersael's Section. Truly empty. No notes, no logs, no personal
+    effects, no working machinery. The Estarans took everything portable. What remains is the architecture itself —
+    austere, disciplined, the negative space of twelve lives that left no trace. The Shield mechanism is gone or
+    inert; there is nothing here for the party to operate.
 
-  - Local leaders: Gorven (elder), Amalia (hunt master and lore keeper), Marx (quartermaster).
+  - **The Projector Hall.** Empty of equipment as well — but the **star chart** is embossed into the walls. Three
+    Estaran worlds are named in Estaran runes, with route lines connecting them:
 
+      - **Aerus** — which the party should recognize
+      - **Maydor** — unknown
+      - **Ozarrid** — unknown
 
-  ## Session 1 — Where Things Stand
+    Estaran is the formal ancestor of the common tongue; a common speaker can decipher the runes with a DC 10
+    Intelligence (study) check. The party can read the names off the wall and copy what they need. This is the first
+    visual sense they get of the Estaran network they have stepped into.
 
+  Neither structure offers technology or weapons. The Estarans were deliberate about leaving nothing portable behind.
 
-  Babas took an aerial survey before the party descended and spotted:
+  ## Where This Leads
 
-  - The ring — an Estaran artifact marking the old Shield boundary, approximately one mile from the town center. The
-  party immediately recognized it as Estaran.
+  Two natural threads pull the party forward:
 
-  - The frost giant scout continuing north along the ridge.
+  1. **East toward the garrison** (via the valley). Any foray east of Farthim risks contact with frost giant patrols.
+     Hunting parties end this way; the party will end this way if they head for the garrison. This is the trigger for
+     enc-ch8-05.
 
-  - Far in the distance, something vast moved briefly then vanished back into the snow. (DM: this is Gullux; the party
-  does not yet know what they saw.)
+  2. **West to the whaling camp** (optional). If the party would rather try to feed the village than break the siege,
+     they can travel west to where the river meets the sea. Tools and small craft are there. This is a side path; not
+     the main thread.
 
+  ## DM Notes
 
-  Sylvaris scouted ahead through the abandoned farmsteads surrounding the town — stripped of supplies, very quiet. At
-  the town center she found three humans and a goliath clearing snow from the blizzard, and glimpsed a family huddled
-  around a fire inside. No guards, no warriors visible. Roughly a third of the town appears deserted.
+  - The Farthimers' conviction that the party are Estaran emissaries should be played gently but firmly. The party
+    can disabuse them, but it will take effort, and even then the village will look for any sign that they're being
+    lied to for kindness.
 
+  - Don't rush the lore. Amalia is the bridge between the party and the real history of the world. Let her tell what
+    she knows; let the party find the gaps.
 
-  Sylvaris withdrew and the party pulled back to plan. Session ended here — E04 continues next session.
+  - The white dragon rumor sets up the Gullux/Bronik reveal at the garrison. Let it stay singular here — the party
+    will be surprised to find two.
+
+  - The Radiant Lance must not be openly displayed. If a townsfolk recognizes it as Estaran (which they will if it
+    is shown), it will deepen the "you were sent by the Estarans" conviction and could become awkward to walk back.
+    DM judgment on whether to plant this beat.
+
+  ## Session 1 — Where Things Stand (recap)
+
+  Babas's aerial survey identified the ring (Shield boundary, one mile from town center), the frost giant scout
+  retreating north, and something vast in the distance (Gullux). Sylvaris scouted ahead, saw three humans and a
+  goliath clearing snow and a family huddled around a fire. The party pulled back to plan. Session ended there —
+  E04 continues next session at first contact.
 relationships:
   - target: chapter-8-across-the-void
     rel: part_of
   - target: location-farthim
     rel: set_in
+  - target: npc-gorven-farthim
+    rel: features
+  - target: npc-amalia-farthim
+    rel: features
+  - target: npc-marx-farthim
+    rel: features
+  - target: npc-farthim-estaran-garrison
+    rel: related_to
+    notes: Cersael's Section — left a year ago; their structures are now empty
+  - target: location-maydor
+    rel: related_to
+    notes: Named on the Projector Hall star chart
+  - target: location-ozarrid
+    rel: related_to
+    notes: Named on the Projector Hall star chart
+  - target: location-farthim-whaling-camp
+    rel: leads_to
+    notes: Optional side path
   - target: enc-ch8-03-shock-of-cold
     rel: preceded_by
   - target: enc-ch8-05-the-giant-tribe
     rel: leads_to
 sources:
   - chapter-8-planning.md
+  - session-docs/ch8-open-questions.txt

@@ -25,10 +25,13 @@ content: >-
   consider angles than Gullux, though he is not much of a strategist.
 
 
-  He occupies the more remote part of the Estaran garrison, apart from Gullux. If the party faces Gullux there and
-  wins, Bronik is likely watching from a distance. He will not intervene to save his brother. Afterward, he may
-  approach — not as an enemy, and not as a friend, but as someone who has just seen something useful happen. He might
-  suggest he can help them if they want.
+  He occupies the control tower east of the great hall — the old Estaran nerve center, 200 feet up, where he has
+  knocked a hole in the west wall for his own use. From there he watches.
+
+  If the party reaches him after Gullux has fallen, he will bargain for his life. He will offer to tell them where to
+  find a great treasure — specifically, the Dead Forest and Torma's lair — in exchange for being let go. If the party
+  reaches him before Gullux, he will try to fight but will flee quickly if things turn against him. He is not a
+  strategist and is not committed to dying for the position.
 relationships:
   - target: npc-torma-ice-world
     rel: child_of
@@ -40,9 +43,7 @@ relationships:
   - target: location-farthim
     rel: raids
   - target: enc-ch8-05b-the-old-garrison
-    rel: located_in
-    notes: Occupies the remote section; observes if Gullux is killed there
-  - target: enc-ch8-05-the-giant-tribe
     rel: featured_in
+    notes: Nest in the control tower; bargains if Gullux is dead, flees otherwise
 sources:
   - session-docs/ch8-ice-world-history.txt

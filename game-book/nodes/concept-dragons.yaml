@@ -1,0 +1,55 @@
+id: concept-dragons
+type: concept
+name: Dragons — The Truest Expression of Existence
+tags:
+  - dragons
+  - cosmos
+  - cosmology
+  - lore
+  - foundational
+  - estarans
+summary: >-
+  Foundational facts about the nature of dragons across the cosmos — why they can destroy Estarans and why their
+  qualities do not change across time or worlds.
+content: |
+  Dragons are the truest expression of existence in the cosmos. Their innate qualities — their language, their souls,
+  their basic nature — do not change across time or across worlds. This is the source of their power and the basis
+  of the Estarans' deepest fear.
+
+  ## Cosmic Constants
+
+  - **Draconic is universal.** It is the same language across time and across every world. Where mortal languages
+    drift, where Fey languages fracture from world to world, Draconic does not.
+  - **A dragon is a dragon, anywhere.** The dragon known on one world is the same soul-pattern as the dragon of that
+    line on another world. Different lives, different histories, but the same fundamental being. This is why the
+    party encountered Torma the Unforgiving on Aerus and Torma the Ancient on Ikellor — different worlds, different
+    fates, but the same dragon.
+  - **Dragon souls reach across realities.** A dragon's soul exists in many instances across parallel worlds. This is
+    the foundation of the Dragon Singularity (see concept-dragon-singularity).
+
+  ## Why the Estarans Fear Dragons
+
+  The Estarans reshape worlds, manage Feywilds, relocate mortals, and reset the cosmos. They do not, and cannot,
+  change dragons. Dragons exist outside the Estarans' capacity to reorder. A Unary Great Wyrm — a Dragon Singularity —
+  is the one being capable of permanently ending an Estaran. This has happened once: Varkhasia, before Rebellion 44.
+
+  ## Implications for the Campaign
+
+  - Different-world iterations of dragons the party has known are not coincidences. They are the same dragon.
+  - Cetyri is the centerpiece of this: his dispersed soul is the basis of Milicent's plan to forge a Dragon
+    Singularity that can destroy the Estarans for good.
+relationships:
+  - target: concept-dragon-singularity
+    rel: related_to
+  - target: concept-estarans
+    rel: feared_by
+  - target: concept-cosmos
+    rel: part_of
+  - target: npc-cetyri
+    rel: example_of
+  - target: npc-torma-ice-world
+    rel: example_of
+    notes: Same dragon as Torma the Unforgiving on Aerus
+sources:
+  - session-docs/ch8-ice-world-history.txt
+  - session-docs/ch8-open-questions.txt

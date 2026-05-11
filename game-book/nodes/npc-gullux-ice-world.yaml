@@ -19,6 +19,14 @@ content: >-
   creatures as playthings. He will not bother with conversation beyond taunting his prey.
 
 
+  He has made his nest in the rafters of the old Estaran garrison's great hall, 100 feet above the floor, using the
+  Estarans' high western entrance to come and go.
+
+
+  If the party meets him there he will fight ferociously, likely to his death, taunting them in Draconic — frequently
+  announcing himself: "I am Gullux the Terror; I will freeze you and eat your icy guts."
+
+
   ## Session 1 — Sighting
 
 
@@ -31,7 +39,8 @@ relationships:
     rel: sibling_of
   - target: location-farthim
     rel: raids
-  - target: enc-ch8-05-the-giant-tribe
+  - target: enc-ch8-05b-the-old-garrison
     rel: featured_in
+    notes: Nest in the rafters; fights to the death
 sources:
   - session-docs/ch8-ice-world-history.txt

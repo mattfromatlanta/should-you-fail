@@ -10,7 +10,7 @@ content: |
   Rebellion ~150 years ago.
 
   Their most terrifying secret: when a rebellion or Dragon Singularity threatens their empire,
-  they enact their "Last Resort"—the complete annihilation of the Material Plane, followed by
+  they enact their "Last Resort"—the complete annihilation of the cosmos, followed by
   reconstruction under their control. They have done this 54 times. The current world is the 55th
   iteration. They are preparing to do it again.
 
@@ -54,6 +54,34 @@ content: |
   The Estarans assign administrative names to every world they have touched:
   - Aerus — the party's home world (the city of Aris takes its name from this)
   - Ikellor (eye-KELL-or) — the ice world
+
+  ## What They Leave Behind
+
+  The Estarans are deliberately careful not to leave technology or records on worlds they occupy. They do not want
+  mortals to learn their magic or techniques. Withdrawals from worlds leave no documents, no caches, no notes — only
+  what is built directly into structures and cannot be removed (e.g. the embossed star chart in Farthim's Projector
+  Hall).
+
+  If Estarans learn that mortals have crossed worlds carrying a Radiant Lance (a stolen Estaran artifact), they will
+  treat it as a grave transgression and a dire warning that the universe is slipping away from their control.
+
+  ## Language and the Estarans
+
+  The common tongue spoken across every world derives from Estaran and was spread by Estaran colonization. Estaran
+  itself is more formal, with a more complex alphabet — a common speaker can decipher it with a DC 10 Intelligence
+  study check. See concept-languages for details.
+
+  ## Fey as Natural Enemies
+
+  Fey and Estarans are natural enemies throughout the cosmos. This is not a contingent political conflict but a
+  structural incompatibility — Fey existence is fundamentally at odds with Estaran magic and ideology. Every world
+  with an Estaran footprint sees conflict with the Fey.
+
+  ## Dragons as Existential Threat
+
+  Dragons are the truest expression of existence. Their innate qualities do not change across worlds or across time.
+  This is why dragons — particularly Unary Great Wyrms — can destroy Estarans permanently, and why the Estarans fear
+  them above all else. See concept-dragons.
 relationships:
   - target: concept-dragon-singularity
     rel: fears
@@ -66,6 +94,12 @@ relationships:
     rel: caused
   - target: npc-milicent
     rel: enemy_of
+  - target: concept-cosmos
+    rel: part_of
+  - target: concept-dragons
+    rel: feared_by
+  - target: concept-languages
+    rel: related_to
 sources:
   - world/cosmology.md
   - world/history.md

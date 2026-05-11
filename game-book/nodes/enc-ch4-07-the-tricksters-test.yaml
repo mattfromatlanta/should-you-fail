@@ -12,7 +12,7 @@ content: |
   The "death" is not what it appears to be: the party wakes in a strange space that resembles
   a shadow projection but is calmer, quieter. Yrk is present and apologizes. He explains:
   this is how the Trickster's Blessing works. Through their deaths in his calm shadow space,
-  they have been severed from their mortal attachments and the Material Plane.
+  they have been severed from their mortal attachments and the mortal world.
 relationships:
   - target: npc-yrk-the-trickster
     rel: features

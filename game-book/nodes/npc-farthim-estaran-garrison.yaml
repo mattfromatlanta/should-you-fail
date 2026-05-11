@@ -1,0 +1,69 @@
+id: npc-farthim-estaran-garrison
+type: npc
+name: The Farthim Estarans (Cersael's Section)
+summary: >-
+  The last permanent Estaran posting on Ikellor — the Farthim Estarans, also known as Cersael's Section; the twelve
+  soldiers who maintained the Shield and the Projector Hall for three centuries before being recalled to the Estaran
+  core approximately one year ago.
+status: gone
+tags:
+  - estaran
+  - ice-world
+  - farthim
+  - chapter-8
+  - withdrawn
+  - world-ikellor
+content: >-
+  Also known as **Cersael's Section** — the two names are interchangeable. After the Fey War, the Estarans reduced
+  their presence on Ikellor from the wartime force of a thousand to a permanent section of twelve. The Farthim
+  Estarans maintained the Shield around Farthim, the Generator Hall that powered it, and the Projector Hall with its
+  embossed star chart. For three centuries they kept the climate hospitable, kept the giants and dragons at bay, and
+  kept the few remaining mortal colonists alive.
+
+
+  They were an organized military unit, not a community. They conducted drills, kept logistics reports, and produced
+  strategy documents on the long maintenance of this station. They were respectful to the colonists and would
+  occasionally grant requests for aid, but they were not integrated into Farthim's daily life. Like all Estarans, they
+  tended to talk past the mortal in front of them; they identified the station as their first and foremost duty and
+  protection of the "colonists" as secondary.
+
+
+  Estaran hierarchy is rigid. Formal requests went to Tarliel, the Chief Aid, for consideration by Cersael, the
+  Commander — whose name the section bears. Kemiel was the Arcanist. The remaining nine were simple soldiers —
+  Motiel, Casius, Taor, Verael, Vasor, Zasais, Cellius, Kaus, Rael. Names are recorded here in case they come up;
+  none of the section need to appear as individual characters.
+
+
+  ## What They Left Behind
+
+
+  Almost nothing. Estarans are deliberately careful not to leave technology or records on worlds they occupy — they do
+  not want mortals to learn their magic or techniques. There are no logs, no notes, no caches. The one exception is
+  what is built into the structures themselves: the star chart embossed into the walls of the Projector Hall, which
+  could not be removed.
+
+
+  If an Estaran were to learn that the party crossed worlds carrying a Radiant Lance, they would treat it as a grave
+  transgression and a dire warning that this universe is slipping away from their control.
+
+
+  ## The Withdrawal
+
+
+  Approximately one year ago, the section vanished overnight. The entire village awoke simultaneously in the middle of
+  the day — not from sleep, but as if returning to awareness — and the Estarans were gone. No warning, no farewell, no
+  sign of struggle. The Shield collapsed within hours. The cold came in. The farms died.
+
+
+  > **DM NOTE:** They were recalled by Estaran Central Command. Outposts across multiple worlds are being pulled back
+  to fortify core Estaran positions ahead of an existential reset. The Farthim withdrawal is one of many.
+relationships:
+  - target: concept-estarans
+    rel: part_of
+  - target: location-farthim
+    rel: located_in
+  - target: location-ice-world
+    rel: located_in
+sources:
+  - session-docs/ch8-ice-world-history.txt
+  - session-docs/ch8-open-questions.txt

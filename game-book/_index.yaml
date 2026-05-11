@@ -5,11 +5,15 @@ factions:
   - faction-rebel-fey
   - faction-lome-monastery
 concepts:
+  - concept-cosmos
+  - concept-dragons
+  - concept-languages
   - concept-estarans
   - concept-dragon-singularity
   - concept-shadow-projector
   - concept-tricksters-blessing
   - concept-ch8-todo
+  - concept-estaran-lore-gaps
   - concept-fey-law-philosophy
   - concept-name-generator-todo
 npcs:
@@ -69,18 +73,7 @@ npcs:
   - npc-gorven-farthim
   - npc-amalia-farthim
   - npc-marx-farthim
-  - npc-cresael
-  - npc-tarliel
-  - npc-verael
-  - npc-kemiel
-  - npc-motiel
-  - npc-casius
-  - npc-cellius
-  - npc-vasor
-  - npc-zasais
-  - npc-taor
-  - npc-kaus
-  - npc-rael
+  - npc-farthim-estaran-garrison
 locations:
   - location-aris
   - location-hall-of-allies
@@ -104,7 +97,11 @@ locations:
   - location-milicents-fortress
   - location-ice-world
   - location-farthim
+  - location-farthim-whaling-camp
+  - location-maydor
+  - location-ozarrid
   - location-dead-feywild
+  - location-dead-forest
 events:
   - event-first-war
   - event-rebellion
@@ -190,4 +187,3 @@ encounters:
   - enc-ch8-05-the-giant-tribe
   - enc-ch8-06-tormas-realm
   - enc-ch8-05b-the-old-garrison
-  - enc-ch8-05c-gullux-comes-down

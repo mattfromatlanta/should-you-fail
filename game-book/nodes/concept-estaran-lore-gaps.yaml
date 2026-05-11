@@ -1,0 +1,80 @@
+id: concept-estaran-lore-gaps
+type: concept
+name: "Estaran Lore: Open Gaps for Review"
+summary: Identified gaps and inconsistencies in the game book's Estaran/cosmos lore, surfaced during the Chapter 8 lore pass.
+tags:
+  - estarans
+  - lore
+  - todo
+  - planning
+content: |
+  After the Chapter 8 cosmos/Estaran lore pass (2026-05-10), the following gaps in the canonical
+  game book emerged. None block Chapter 8 play. Most are worth a separate review session.
+
+  ## 1. The Estaran Homeworld
+
+  Referenced in concept-estarans as "a single Estaran homeworld preserved across time, across every
+  reset of the cosmos." Never named, never described, no node. Worth at least a stub so it has an
+  identity when the party first asks about it.
+
+  ## 2. Estaran Central Command
+
+  The mechanism that recalled the Farthim Estarans (Cersael's Section) and is pulling outposts back across worlds
+  ahead of an existential reset. Mentioned in DM notes; not a node. Likely deserves its own
+  concept node — the recall apparatus is a story driver for Chapter 8 and beyond.
+
+  ## 3. Why Necrotic Energy Damages Estarans
+
+  Stated as a fact across multiple nodes: necrotic energy uniquely damages Estaran materials and
+  "fundamentally opposes their ordered nature." The mechanism is unexplained. Is it canon-deep
+  (a cosmic law about order and entropy) or a player-discoverable specific?
+
+  ## 4. The "Last Resort" Reset Process
+
+  54 prior cosmos resets, the 55th approaching. How the reset is enacted, what the empire
+  experiences during one, who survives, what carries over (the Estaran homeworld? records?
+  veterans' memories?) — all unspecified. Big question with story implications.
+
+  ## 5. Rebellion 44 / Varkhasia
+
+  Referenced in concept-dragon-singularity and artifact-testament-of-embers — the red Unary Great
+  Wyrm who nearly destroyed the empire and forced the 44th reset. No dedicated event or NPC node.
+  Worth one or both, since Varkhasia is the only canonical precedent for what Cetyri is meant to
+  become.
+
+  ## 6. The Two Unnamed Worlds on Farthim's Star Chart
+
+  Farthim's Projector Hall star chart depicts three other Estaran worlds. As of 2026-05-10:
+  Aerus, Maydor, and Ozarrid. Only Aerus has lore. Maydor and Ozarrid need at least stub location
+  nodes — the party may copy these names off the wall in Session 2 and ask about them.
+
+  ## 7. Veterans' Psychic Traps
+
+  Mentioned in concept-estarans as part of the Estarans' isolation strategy — psychic traps in
+  Aerus veterans' minds to prevent recovery of lost memories. Not tied to any specific veteran
+  NPC node or to event-first-war. If this is going to surface in play, it needs anchoring.
+
+  ## 8. Pre-existing Chapter Files Consistency Check
+
+  enc-ch5-07-the-imprisoned-estaran is the encounter where the party learns the truth from a
+  captive Estaran. Its content predates the cosmos/dragons/languages additions and the Material
+  Plane rename. Worth a read-through to ensure what the Estaran says is still consistent with
+  current canon.
+relationships:
+  - target: concept-estarans
+    rel: related_to
+  - target: concept-cosmos
+    rel: related_to
+  - target: concept-dragons
+    rel: related_to
+  - target: concept-dragon-singularity
+    rel: related_to
+    notes: Varkhasia gap (item 5)
+  - target: artifact-testament-of-embers
+    rel: related_to
+    notes: Varkhasia source
+  - target: enc-ch5-07-the-imprisoned-estaran
+    rel: related_to
+    notes: Consistency-check candidate (item 8)
+sources:
+  - session-docs/ch8-open-questions.txt

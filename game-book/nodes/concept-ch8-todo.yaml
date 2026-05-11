@@ -7,33 +7,32 @@ tags:
   - planning
   - todo
 content: >-
-  ## ~~Farthim Local Leaders~~ ✓ RESOLVED
-
-  Gorven (elder), Amalia (hunt master + lore keeper), Marx (quartermaster). NPC nodes created.
+  ## The Dead Forest
 
 
-  ## ~~E05: Engagement Sequence~~ ✓ RESOLVED
+  location-dead-forest exists as a stub. Specific hazards, the rift the party uses to enter the dead Feywild, and any
+  set-piece encounter inside the forest are TBD. This is also the path on which the party encounters this world's
+  Cetyri.
 
-  Three-part chain created: enc-ch8-05a (hunting party), enc-ch8-05b (old garrison), enc-ch8-05c (Gullux comes down).
-  Bronik commands the garrison; Gullux retaliates in 05c. Each leads to the next.
+
+  ## Torma — Stat Block and Tactics
 
 
-  ## ~~Farthim Estarans~~ ✓ RESOLVED
-
-  All twelve named and written: Cresael (leader), Tarliel, Verael, Kemiel, Motiel, Casius, Cellius, Vasor, Zasais, Taor,
-  Kaus, Rael. NPC nodes created.
+  Torma the Ancient (Ancient White Dragon) needs a stat block and combat plan. She may use the hatchling Cetyri as
+  leverage. How she fights, speaks, and uses the dead Feywild around her is TBD.
 
 
   ## Dead Feywild: Dungeon Layout
 
-  Torma's lair in the dead Feywild (enc-ch8-06) has no map or layout. The aesthetic is established (cold, grey, frost on
-  a corpse), but the actual rooms, hazards, and encounter flow are TBD.
+
+  Torma's lair in the dead Feywild (enc-ch8-06) has no map or layout. The aesthetic is established (cold, grey, frost
+  on a corpse). Rooms, hazards, and encounter flow are TBD.
 
 
-  ## The Merge: Visual and Mechanical Description
+  ## Cetyri's Merges
 
-  What the Cetyri merge looks and feels like from the outside has not been decided. It should be significant and
-  strange. Questions:
+
+  What the Cetyri merge looks and feels like from the outside has not been decided. Questions:
 
   - Is it an action the party takes, or something Cetyri does alone?
 
@@ -41,32 +40,44 @@ content: >-
 
   - What does Cetyri look and feel like after?
 
+  - This is the first of multiple merges across the campaign — establish a pattern here.
 
-  ## E04: The Town — Farthim Scene
 
-  The party has arrived and met a few residents. The next session will involve deeper engagement with Farthim: meeting
-  Gorven, Amalia, and Marx; learning what happened with the Twelve; hearing about the giant siege. This scene needs to
-  be written up as an encounter node.
+  ## Frost Giant Leader / Shaman
+
+
+  Garrison ground floor (enc-ch8-05b, sub-area B) calls for a frost giant leader and possibly a shaman to anchor the
+  great-hall fight. Stat blocks TBD.
+
+
+  ## E04: Farthim Scene
+
+
+  The party has arrived and met a few residents. The next session involves deeper engagement: meeting Gorven, Amalia,
+  and Marx; learning what happened with the Farthim Estarans; hearing about the giant siege; potentially recognizing the Aerus
+  glyph in the Projector Hall. The encounter node needs to be fleshed out for this beat.
 
 
   ## E06: Torma's Realm — Full Write-Up
 
-  The dungeon encounter node exists as a placeholder. Needs the full layout, room descriptions, hazards, and climax once
-  the dungeon design is decided.
+
+  The encounter node exists as a placeholder. Needs the full layout, room descriptions, hazards, and climax once the
+  dungeon design is decided.
 relationships:
   - target: chapter-8-across-the-void
     rel: related_to
-  - target: location-farthim
+  - target: location-dead-forest
     rel: related_to
-    notes: Leaders TBD
+    notes: Layout and hazards TBD
   - target: npc-torma-ice-world
     rel: related_to
     notes: Stat block and tactics TBD
-  - target: enc-ch8-05-the-giant-tribe
+  - target: enc-ch8-05b-the-old-garrison
     rel: related_to
-    notes: Engagement sequence TBD
+    notes: Frost giant leader/shaman stat blocks TBD
   - target: enc-ch8-06-tormas-realm
     rel: related_to
     notes: Dungeon layout and merge scene TBD
 sources:
   - chapter-8-planning.md
+  - session-docs/ch8-open-questions.txt

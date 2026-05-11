@@ -1,72 +1,83 @@
 id: enc-ch8-05-the-giant-tribe
 type: encounter
-name: "Ch8 E05a: The Hunting Party"
+name: "Ch8 E05: Field Encounter — Frost Giants"
 tags:
   - chapter-8
   - combat
   - frost-giants
   - ice-world
   - farthim
-  - hunting-party
 status: planned
 summary: >-
-  The party accompanies a Farthim hunting party north of the Shield boundary and hits a frost giant ambush — their first
-  direct engagement with the tribe.
-content: >-
-  The first direct engagement with the giant tribe. The party accompanies a Farthim hunting party — or intercepts one
-  already in trouble — in the terrain north of the old Shield boundary ring.
+  Any foray east of Farthim — hunting or marching toward the garrison — draws a frost giant patrol; the giants react to
+  the party with horror and fight to the death rather than risk word reaching the Estarans they assume have returned.
+content: |
+  The first direct engagement with the giant tribe. The trigger is geographic: any foray east of Farthim, toward the
+  valley the giants patrol, will be intercepted. Whether the party is escorting a Farthim hunting party or marching
+  on their own toward the garrison, the result is the same — a patrol finds them in the open.
 
+  ## The Setup
 
-  ### The Setup
+  East of the ring, the valley opens into rolling snowfields and frozen game trails — mammoths, woolly rhinoceroses,
+  giant elk, and the predators that hunt them. This is the territory the Farthimers used to hunt freely under Shield
+  protection. The giants have controlled it for a year.
 
+  If a Farthim hunting party is along, Amalia or Marx can brief the party on the pattern: giants come fast, hit hard,
+  and do not negotiate. Hunters who survive say the giants seem more afraid than vengeful — but the result is the
+  same: people die.
 
-  The Farthim hunters are few and worn. The best of them died in earlier ambushes. Marx (the quartermaster) can brief
-  the party on the pattern: giants come from the north, hit fast, take the kill and sometimes the hunters too. They do
-  not push far south. Nobody in Farthim knows why. The why: fear of returning Estarans. The ring is the Estaran
-  boundary, and the giants have not crossed it in a year. They are patient, not merciful.
+  ## The Patrol
 
+  4–5 frost giants on patrol. They have likely been tracking the party for some time before contact (Gullux's scouts
+  have been watching since arrival). The terrain is open — deep snow, no real cover, poor footing for smaller
+  creatures, room for giants to use reach.
 
-  ### The Ambush
+  Tactics:
+  - Spread wide to cut off retreat west toward Farthim
+  - Press the engagement aggressively; do not preserve themselves
+  - Take game animals only incidentally — the priority is the party
 
+  ## How the Giants React
 
-  4–5 frost giants, coordinated but not subtle. They have been watching the hunting party from a ridgeline and hit in a
-  gully or ravine north of the ring — deep snow, poor footing for smaller creatures.
+  When they get close enough to see the party clearly, the giants react with **horror, not rage.** The party has
+  weapons, magic, organized fighting — to the giants this is the unmistakable signature of an Estaran return. They
+  assume the party were sent by the Estarans, the same way the Farthimers do, but from the opposite side: the
+  Estarans killed giants in great numbers, and even the Farthim Estarans maintained the cull for centuries.
 
+  Their fear is total. They will not flee, will not parley, will not surrender — fleeing or yielding gets word back
+  to the Estarans about where the tribe is, and that is the one thing they cannot allow. **They fight to the death.**
+  A pressed or dying giant may scream in Giant or Elvish — fragments of the old grief, rage that does not fit the
+  body, hatred of "the angels" that no living giant should remember but every giant feels.
 
-  Giants' tactics:
+  ## What the Party Can Learn
 
-  - Spread wide to cut off retreat south
+  - The giants are terrified, not territorial.
+  - They believe the Estarans sent the party — the same conviction Farthim holds, mirrored.
+  - Something in them remembers Fey grief. They do not consciously know what they are.
+  - The patrol came from the east — pointing toward the garrison.
 
-  - Take the game animals first if possible (resource denial is the strategy)
+  > **DM NOTE:** The frost giants are cursed surviving Forest Giants — the last Fey of this world, though their Fey
+  > nature has faded. The Estarans destroyed the Feywild and won the war 300 years ago; the surviving Forest Giants
+  > were forced to adapt to the cold. None alive remember that time, but the hatred and fear of the Estarans has
+  > been carried in their surviving culture. Hatred of the Estarans' mortal wards — Farthim — is a natural byproduct.
+  > A giant pressed will share this rage with anyone who asks; they just cannot place where it comes from. Answers
+  > about their origin come in Torma's realm, not here.
 
-  - Disengage if the fight turns — they are not desperate yet
+  ## After the Fight
 
+  - If a Farthim hunting party came along, survivors will be shaken but grateful. Land game is now available; the
+    villagers can carry meat back. This is the first material win Farthim has had in a year.
+  - The party can continue east toward the garrison if they choose. The patrol's origin makes the connection: the
+    giants are based at the old Estaran structure in the mountains where the river flows down.
+  - Gullux will know about this fight quickly. Word will not reach Farthim before the party returns, but the giants
+    at the garrison will be ready.
 
-  ### What the Giants Know and Feel
-
-
-  The frost giants despise the Estarans with a ferocity that goes beyond territorial grudge. If a giant is captured or
-  dying and the party presses, something surfaces: fragments of old rage, grief that does not fit the body, hatred that
-  sounds like it belongs to someone who remembers the thing that was lost. The giants may not be able to articulate it.
-  But it is there.
-
-
-  > **DM NOTE:** The frost giants are cursed survivors of the Fey who lost the war here approximately 300 years ago. The
-  Estarans destroyed the Feywild and won the war; the surviving Fey were bound into these bodies — trapped in the cold
-  they helped sustain, in a world their own nature once warmed. Their hatred of the Estarans is the hatred of the
-  conquered who cannot die and cannot leave. They do not consciously remember this history. It lives in them as
-  instinct, rage, and grief they cannot name.
-
-
-  ### Notes
-
+  ## Notes
 
   - Cetyri (pseudodragon) observes from a hood or pack. He is still and watchful. He does not engage.
-
-  - Gullux and Bronik are not here — they are north at the old Estaran garrison.
-
-  - The party should leave this fight understanding that the giants are not mindless. Something in them goes deeper than
-  territory. And the ring holds them for reasons beyond cowardice.
+  - Gullux and Bronik are not here — they are at the garrison.
+  - The party should leave this fight with two pieces of new understanding: the giants are not mindless, and the
+    garrison is where the giant power lives.
 relationships:
   - target: chapter-8-across-the-void
     rel: part_of
@@ -78,3 +89,4 @@ relationships:
     rel: leads_to
 sources:
   - chapter-8-planning.md
+  - session-docs/ch8-open-questions.txt

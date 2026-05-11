@@ -1,0 +1,106 @@
+CHAPTER 8: ACROSS THE VOID — ENCOUNTER LIST
+===========================================
+
+
+E01: A Word with Xilo
+Status: COMPLETE
+
+On the road to Metgal, the evening before arrival. Xilo paused the group for a
+farewell and his thoughts on heroism. Last night with Yrk, Gallifax, and Maelric
+on the road.
+
+
+---
+
+
+E02: The Radiant Lance
+Status: COMPLETE
+
+At the heart of Metgal crater. Felicity demonstrated the Lance's alignment;
+Cetyri meditated and read the paths; the party crossed. Final goodbyes to
+Gallifax and Maelric, who remained behind.
+
+
+---
+
+
+E03: Shock of Cold
+Status: COMPLETE
+
+What happened:
+- Party deployed the magic fortress immediately on arrival to shelter from the
+  blizzard
+- Investigated the "something missing" sensation — confirmed fire works, magic
+  works; the absence remained unresolved and unexplained (mystery still open)
+- Druidic magic used to read the storm; learned it would pass soon, and it did
+- When the blizzard broke, Cetyri shifted to pseudodragon form without ceremony
+  — compact and fast, copper-gold, golden eyes. Told the party this was the
+  safest shape. He cannot predict how his ice world counterpart will react to
+  encountering him; intends to stay small until they understand what they're
+  dealing with
+- Storm cleared; they could see the frozen mountain ridge, the valley below,
+  the frozen river running to the sea, and a settlement in the distance
+- A pride of sabretooth cats attacked as the party descended the glacier —
+  one slain, the others driven off
+- A frost giant scout was spotted watching from a ridge above, then retreating
+  north — his report reaches Torma before the party reaches Farthim
+
+
+---
+
+
+E04: The Settlement
+Status: IN PROGRESS — resumes next session
+
+What happened (Session 1):
+- Babas flew an aerial survey before the party descended and spotted:
+    - The ring — an Estaran artifact marking the old Shield boundary,
+      approximately one mile from the town center [edit: exactly one mile from town center, which reflects Estaran precision]. Party immediately
+      recognized it as Estaran.
+    - The frost giant scout continuing north along the ridge.
+    - Something vast moved briefly in the far distance, then vanished back
+      into the snow. [DM: this is Gullux; party does not yet know what
+      they saw]
+- Sylvaris scouted ahead through the abandoned farmsteads surrounding the
+  town — stripped of supplies, very quiet. At the town center she [edit: Sylvaris is 'he', an Eladrin Ranger] found
+  three humans and a goliath clearing snow from the blizzard, and glimpsed
+  a family huddled around a fire inside. No guards, no warriors visible.
+  Roughly a third of the town appears deserted.
+- Sylvaris withdrew and the party pulled back to plan.
+- Session ended here.
+
+Picking up next session:
+The party has not yet entered Farthim or made contact. Torma already knows
+they are here [ edit: Gullux and some Frost Giants know. Torma does not. She wouldn't be immediately interested. More on her later ]. The giants may probe the village before the party is ready to
+move. The village's first question, when contact happens: "Did the Estarans
+send you?"
+
+Key things available to discover in town:
+- The elders (Gorven, Amalia, Marx) and the history they hold
+- The Generator Hall and the Projector Hall — the two intact Estaran structures
+- The Projector Hall has wall diagrams pointing to three other Estaran worlds,
+  names in Estaran runes that can be copied
+
+
+---
+
+[ edit: MAJOR CHANGES COMING TO PLANNED ENCOUNTERS BASED ON UPDATES TO LOCAL HISTORIES AND POLITICS. I will revise in a later step. ]
+
+E05a: Frost Giants in the field
+Status: PLANNED
+
+Eventually the party will strike out, either on their own or with a hunting party from Farthim. When they do, they will be directly attacked by a small band of Frost Giants. This will be an escalation of the stand-off tactics described to the party by the people of Farthim.
+
+---
+
+E05b: The Old Garrison
+Status: PLANNED
+
+The old Estaran garrison from the time of the Fey war, built for a thousand, on the high ground north of the valley. Roughly 15 frost giants live hear under the oppression of Gullux and Bronik.
+
+---
+
+E06: Torma's Realm
+Status: PLANNED
+
+Torma keeps the wyrmling Cetyri in her lair in the dead feywild. Details to be added.

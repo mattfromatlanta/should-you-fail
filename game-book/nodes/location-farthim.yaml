@@ -48,20 +48,21 @@ content: >-
   Several landmarks outside the town are known to Farthimers:
 
 
-  - **The River** — A frozen river runs through the valley. Farthim sits close to it; it passes through the old Shield
-  boundary and leads south to a sea roughly twelve miles away.
+  - **The River** — A frozen river flows from the mountains north of Farthim, passes through the valley, and bends west
+  toward the sea. Farthim sits in the middle of the valley along the river's course.
 
-  - **The Whaling Camp** — At the river mouth on the sea is an ancient whaling camp, in regular use before the ice age.
-  The Farthimers have tried to work it in the last year but lack the skill. Whaling on a frozen sea is dangerous and
-  they have not solved it.
+  - **The Whaling Camp** — Where the river meets the sea, west of Farthim, is an ancient whaling camp. It was in
+  regular use before the ice age. The Farthimers have tried to work it in the last year but lack the skill. Whaling on
+  a frozen sea is dangerous and they have not solved it. Tools and small craft remain on site for any party with the
+  skill to use them.
 
-  - **The Garrison** — Five miles north and west, in the mountains, is an ancient Estaran garrison built for a thousand
-  soldiers. Abandoned after the Fey War and empty for a century until the last month, when Gullux and Bronik forced the
-  frost giants to occupy it.
+  - **The Garrison** — North-east of Farthim, in the mountains where the river flows down from, is an ancient Estaran
+  garrison built for a thousand soldiers. Abandoned after the Fey War and empty for a century until the last month,
+  when Gullux and Bronik forced the frost giants to occupy it.
 
-  - **The Dead Forest** — Adjacent to the garrison. A vast forest that died when the Feywild collapsed. Many rifts to
-  the dead Feywild remain open here. Torma entered the dead Feywild through this forest thirty years ago. It is
-  extremely dangerous — full of monsters and demons of the cold.
+  - **The Dead Forest** — East of the garrison. A vast forest that died when the Feywild collapsed. Many rifts to the
+  dead Feywild remain open here. Torma entered the dead Feywild through this forest thirty years ago. It is extremely
+  dangerous — full of monsters and demons of the cold.
 
 
   ## The Shield and Its Collapse
@@ -106,19 +107,44 @@ content: >-
   Two notable Estaran buildings remain in town, abandoned and intact:
 
 
-  - **The Generator Hall** — housed the mechanism powering the Shield. The machinery is present but inert. Nobody in
-  Farthim understands how it worked.
+  - **The Generator Hall** — the barracks and operations hall for Cersael's Section (the Farthim Estarans) and the mechanism that powered the
+  Shield. Truly empty now — the Estarans took everything portable with them and left no records, no caches, no
+  personal effects, no working machinery. The space tells the party nothing except that twelve disciplined people once
+  lived a tight, orderly life here and left no trace.
 
-  - **The Projector Hall** — housed a radiant projector. Diagrams on the walls depict three other Estaran worlds. The
-  townsfolk have lived with these images for years without understanding them; to the party, the connection to the
-  Radiant Lance and the broader Estaran network should become clear. World names are written in Estaran runes, but the
-  diagrams are detailed enough that the runes can be copied for later translation.
+  - **The Projector Hall** — housed a radiant projector. Empty now of any portable equipment. The star chart on the
+  walls is embossed directly into the structure (which is why the Estarans did not strip it on withdrawal). It depicts
+  routes to three other Estaran worlds:
+
+    - **Aerus** — the party's home world
+    - **Maydor** — unknown to the party
+    - **Ozarrid** — unknown to the party
+
+  The townsfolk have lived with these images for years without understanding them. World names are written in Estaran
+  runes — readable with a DC 10 Intelligence study check by anyone who speaks common, since Estaran is the formal
+  ancestor of the common tongue. The party should be able to recognize the Aerus glyph and copy the others for later
+  reference. Tracing the routes between worlds gives the party the first visual sense of the Estaran network they have
+  stepped into.
+
+
+  > **DM NOTE:** The Estarans deliberately leave nothing portable behind on worlds they occupy — no documents, no
+  technology, no records — because they do not want mortals to learn their magic or techniques. The embossed star
+  chart is the rare exception, preserved only because it could not be removed.
 
 
   Both structures are treated with reverence and unease. They are not looted.
 
 
   Local leaders: Gorven (elder), Amalia (hunt master and lore keeper), Marx (quartermaster).
+
+
+  ## Settler Origin
+
+
+  The original mortal settlers of Ikellor were relocated here by the Estarans from the world of Aris and Oechenfor —
+  **Aerus, the party's home world** — and from other worlds. The Farthimers have no cultural memory of this. A sharp
+  party member could connect the threads: the Estaran name for this world (Ikellor), the Aerus glyph on the Projector
+  Hall star chart, and the common tongue spoken here. The Farthimers' ancestors came from the party's own home.
 relationships:
   - target: location-ice-world
     rel: located_in
@@ -132,5 +158,19 @@ relationships:
     rel: led_by
   - target: npc-marx-farthim
     rel: led_by
+  - target: npc-farthim-estaran-garrison
+    rel: related_to
+    notes: The twelve who maintained the Shield until the withdrawal one year ago
+  - target: location-farthim-whaling-camp
+    rel: near
+  - target: location-aris
+    rel: related_to
+    notes: Ancestors of Farthim's mortals were relocated from Aerus (the party's home world)
+  - target: location-maydor
+    rel: related_to
+    notes: Named on the Projector Hall star chart
+  - target: location-ozarrid
+    rel: related_to
+    notes: Named on the Projector Hall star chart
 sources:
   - chapter-8-planning.md

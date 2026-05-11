@@ -1,6 +1,6 @@
 id: enc-ch6b-02-xilo-alliance-and-return
 type: encounter
-name: "Ch6b E02: Xilo's Alliance and Return to the Material Plane"
+name: "Ch6b E02: Xilo's Alliance and Return to the mortal world"
 tags: [chapter-6b, roleplay, xilo, alliance, feywild-compass, material-plane-return, aris-plan]
 status: complete
 summary: Xilo arrives thrilled by the party's success; gifts them a Feywild Compass; volunteers to travel to Aris with the party as an envoy of the Rebel Fey; the party returns through a Fey crossing.
@@ -21,12 +21,12 @@ content: |
   Captain Marvo, now recovered, returns to his business in Qu.
 
   Cetyri and Bronik accompany the party. The group emerges back in the Faedwood, not far from
-  where they entered. The party is returning to the Material Plane with:
+  where they entered. The party is returning to the mortal world with:
   - Cetyri's commitment to the cause
   - Xilo as a traveling Fey envoy
   - Milicent's observatory research documents
   - Egedzoo's substantial hoard
-  - Freedom to move on the Material Plane
+  - Freedom to move on the mortal world
 relationships:
   - target: npc-xilo-lord-of-robins
     rel: features

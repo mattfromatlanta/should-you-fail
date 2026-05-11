@@ -57,7 +57,9 @@ relationships:
   - target: npc-cetyri
     rel: features
     notes: Completes the merge; grows in power
-  - target: enc-ch8-05c-gullux-comes-down
+  - target: enc-ch8-05b-the-old-garrison
+    rel: preceded_by
+  - target: location-dead-forest
     rel: preceded_by
 sources:
   - chapter-8-planning.md

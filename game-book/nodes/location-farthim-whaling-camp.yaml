@@ -1,0 +1,29 @@
+id: location-farthim-whaling-camp
+type: location
+name: The Whaling Camp
+summary: >-
+  Ancient whaling camp at the river mouth on the southern sea; in regular use before the ice age, now mostly idle; tools
+  and small craft remain for any party with the skill or desperation to use them.
+status: active
+tags:
+  - ice-world
+  - farthim
+  - landmark
+  - chapter-8
+content: >-
+  An ancient whaling camp at the mouth of the river on the southern sea, roughly twelve miles south of Farthim. It
+  was in regular use before the ice age. Since the Shield collapsed a year ago, the Farthimers have tried to work it
+  again but lack the skill, and whaling on a frozen sea is enormously dangerous.
+
+
+  Tools and small craft for ice-whaling remain on site. A party that goes here will find what they need to attempt a
+  hunt themselves. This is not a main thread of the story, but the people of Farthim are desperate enough that they
+  may suggest it as an alternative to confronting the frost giants — even with the party present.
+relationships:
+  - target: location-ice-world
+    rel: located_in
+  - target: location-farthim
+    rel: near
+sources:
+  - session-docs/ch8-ice-world-history.txt
+  - session-docs/ch8-open-questions.txt

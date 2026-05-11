@@ -1,0 +1,60 @@
+id: concept-languages
+type: concept
+name: Languages of the Cosmos
+tags:
+  - languages
+  - cosmos
+  - lore
+  - estaran
+  - draconic
+  - fey
+  - common-tongue
+summary: >-
+  How language works across worlds — what is universal, what is fragmented, and how the common tongue connects to the
+  Estarans.
+content: |
+  Language across the cosmos follows three different rules depending on origin.
+
+  ## Draconic — Universal
+
+  Draconic is the same language across time and across every world in the cosmos. Dragons are the truest expression
+  of existence; their qualities do not change. Their language does not either.
+
+  ## Common Tongue — Universal, Derived from Estaran
+
+  A single common tongue is spoken across all worlds the campaign touches. It derives from Estaran and was spread by
+  Estaran colonization. Accents and regional usage vary between worlds, but speakers from Aerus and Ikellor
+  understand each other without difficulty.
+
+  ## Estaran — Formal Ancestor of Common
+
+  Estaran is more formal than the common tongue, with a more complex alphabet. A common speaker can decipher a text
+  in original Estaran with a **DC 10 Intelligence (study) check**. It is not unlearnable — it just takes effort.
+
+  Estaran runes appear in lasting Estaran constructions (e.g. the star chart embossed in Farthim's Projector Hall).
+  Estarans rarely leave portable writing behind on worlds they occupy.
+
+  ## Fey Languages — Fractured
+
+  Sylvan, Goblin, Eladrin, Bullywug, and other Fey tongues are wildly different on different worlds. There has been
+  no cross-pollination of Fey languages across the cosmos. A Sylvan speaker from Aerus cannot expect to be understood
+  by Fey on another world.
+
+  This is because Fey are bound to their world's Feywild, and Feywilds do not connect to each other the way worlds
+  in the cosmos do. The Feywild of Ikellor is dead and isolated; the Feywild of Aerus is its own thing.
+
+  ## Implication for Farthim
+
+  Farthim speaks the common tongue with a strange accent. Sylvaris and Aelira (both Eladrin) will understand and be
+  understood there in common, but Eladrin and Sylvan on Aerus are not the same as anything spoken on Ikellor.
+  Whatever Fey languages Ikellor once had died with its Feywild.
+relationships:
+  - target: concept-cosmos
+    rel: part_of
+  - target: concept-estarans
+    rel: related_to
+  - target: concept-dragons
+    rel: related_to
+sources:
+  - session-docs/ch8-ice-world-history.txt
+  - session-docs/ch8-open-questions.txt

@@ -1,0 +1,174 @@
+CHAPTER 8: THE ICE WORLD — A HISTORY
+=====================================
+
+This document contains only what the game book says. Nothing is invented.
+Use this to inform Amalia's lore, fill in what Gorven knows, or frame what
+the party finds in the garrison.
+
+NOTE: THIS DOCUMENT HAS BEEN MAJORLY REVISED AND SHOULD NOW BE CONSIDERED THE SOURCE OF TRUTH
+
+USE IT TO UPDATE THE GAME BOOK AND CHAPTER 8 DOCUMENTS
+
+entries on the Ice World and Chapter 8 background should be rewritten with content replaced. If a fact is mentioned in a node but not here, ask for a correction. If a contradiction is found, ask for a correction. This will include signifcant reduction in detail for certain nodes. That is fine. Prompt a user review of the node after updating each node.
+
+Entries on the broader Estaran civilization and the nature of the cosmos should be updated to include what is written here. Those details should be considered an expansion of the game world. However, there may still be contradictions in the game book. Prompt for resolution.
+
+
+---
+
+
+WHAT THIS WORLD IS
+------------------
+
+This world is gripped by a centuries-long ice age. There is no growing season. Large fauna — mammoths, woolly rhinoceroses, giant elk — have moved into the lowland valleys, followed by the predators that hunt them.
+
+The sky feels wrong on arrival — thinner than it should. Something that should be there isn't. To Fey or those with Fey sensitivity, the absence is more acute: the Feywild is not simply absent. It was killed. The wound remains. [ edit: Fey are not more sensitive to this. The party should not be able to intuit the difference. I want them to discover it by learning the local history. ]
+
+The Estaran name for this world is Ikellor (pronounced eye-KELL-or). Farthim citizens know this name but don't use it much. They know the Estarans called them 'colonists' and they know that they are. But they think of themselves as 'Farthimers' before all else. They feel that they are natives.
+
+[ edit: Farthim is the only remaining mortal settlement. There were many but they have been abondoned or died out since the Ice Age began. Farthim was once a town of 800 before the ice age. A year ago, a hundred were left. Now there are 65. ]
+
+---
+
+
+THE FEY WAR (~300 YEARS AGO)
+-----------------------------
+
+[ edit: Details on the broader Estaran civilizational project follow -- 
+
+Across the cosmos and across time, the Estarans have regularly moveed mortals from world to world, seeking an ideal ordered balance. 
+
+In the natural order of the cosmos -- with no Estaran influnce -- a world may be created that is suited for mortal species and a mortal populace will be created with the world. The world of Aris and Oechenfor is a world like this. All worlds have a Feywild, and all worlds have Fey. Feywild Fey are fully incompatable with Estaran magic and Estaran ideology throughout the Cosmos. 
+
+The Estarans see Fey as a nuisance to manage or exterminate when necessary. In their minds, the Estarans believe they prefer to do no harm. In practice, they are brutal opressors who justify atrocity in the name of order. They are not evil, per se, but their ordered, rule-bound nature narrows their choices to the point they can burn universes with a clean conscience. Every world of the Cosmos with an Estaran footprint sees conflict with the Fey.
+
+There is a single Estaran home world that has been preserved across time. This concept will be expanded later.
+
+The Ice World was a green paradise when the Feywild survived but had no native mortals. The original settlers of the Ice World came from the world of Aris and Oechenfor and from other worlds. They have no recorded history or cultural memory of their previous home but they do know on this world that they are not native. The few survivors still see the Estarans as benefactors who tried to give them a better life. ]
+
+Approximately 300 years ago, the Estarans came to this world with military
+force. They fought and won a war against the Fey here.
+
+When they had won, they did not simply occupy — they destroyed the Feywild.
+Deliberately. As a strategic act, to reshape and control the world. The
+Feywild of this world did not disappear; it collapsed into a hollow ruin of
+a plane, reachable but dead. Cold, grey, still. The destruction of the Feywild
+caused the ice age: without it, the world's warmth failed. The ice age has
+been going on ever since.
+
+[ edit: this Garrison was built to support the war against the Fey ] The Estarans built a garrison on the high ground north of the valley — built
+for a thousand, wartime scale. When the Fey were defeated, the wartime force
+departed. The garrison was left behind, empty except for what it contained.
+
+What Farthim knows or think they know: 
+
+There were many mortals here in many villages but the haven't known of any others for many generations. They think they might be the last survivors.
+
+The Fey were destroyed in a war with the Estarans. They believe the Fey caused the Ice Age to beat the Estarans, but lost anyway. DM Note: This is not true. The Estarans slaughtered the Fey and burned the Feywild. The Ice Age is a result of that.
+
+There were 1,000 Estaran warriors here once but that number has been reduced by redeployments until there were only 12.
+
+The Estarans had built a dome to protect the town and keep things warm and green. That is the ring around town. It collapsed a year ago when the Estarans were suddenly gone.
+
+The Estarans were keeping the Frost Giants at bay until they vanished. The townsfolk here have tried hunting for large game and are sometimes successful. There are mammoths, buffalo, and wooly rhinos in the area. Sometimes they are attacked by a family of big cats and sometimes Frost Giants will force them to flee. The cats are more deadly but they don't dare try the frost giants. They know there are at least a dozen, maybe more.
+
+There have been local rumors of one or two adult dragons for some time. Those who think they have seen dragons think they are  working with the Giants.
+
+They don't know why they haven't been wiped out yet. They expect it to happen. They think it might be that the Giants don't want to provoke the Estarans when they return.
+
+Most townsfolk will argue that anyone who says the Estarans aren't coming back is a liar or a quitter who wants to die.
+
+---
+
+THE VALLEY
+----------------
+
+There are a few major landmarks in Farthim Valley outside the town itself:
+
+1. The River - A frozne river runs through this valley. Farthim sits close to it and it runs through the the Shield Ring. It leads to a sea in the south a dozen miles from Farthim.
+2. The whaling camp - At the mouth of the river on the sea is an ancient whaling camp which was in regular use before the ice age. The Farthimers have tried to make use of it in the last year, but they lack the skill to solve their problems by hunting whales on a frozen sea.
+3. The Garrison - in the mountain to the north and west, five miles from Farthim, is an ancient Estaran garrison which once held a thousand Estaran soldiers. It was abandoned after the war and has been empty for a century. In the last month, Gullux and Bronik have forced the Frost Giants to take it over.
+4. The Dead Forest - adjacent to the Garrison is a vast forest that died along with the feywild. Many rifts to the Feywild are still open. Torma entered the Feywild through the Dead Forest thirty years ago. It is an extremely dangerous place, full of monsters and demons of the cold.
+
+
+THE FROST GIANTS
+----------------
+
+The frost giants are cursed surviving Forest Giants -- the last Fey on this world, though their Fey nature has fade.
+
+The Estarans destroyed the Feywild and won the war. The forest giants were forced to adapt to the cold. None live from that time but the hatred and fear of the Estarans has been carried in their surviving culture. Hatred of mortal wards of the Estarans --the village of Farthim--is a natural biproduct.
+
+A giant pressed will share this rage with anyone who asks.
+
+In recent months, the Giants have come into the service of Gullux and Bronik. They attepted to enter the Feywild and encountered Torma. She threatened their existence and they agreed to pay her tribute instead. The giants answer to her sons, and the sons answer to Torma. Their first command has been to claim the abandoned Estaran garrison.
+
+What the giants fear: The Estarans' return. They have no inkling of where they have gone and it took them most of the time they have been away to believe they really left. They have moved into the old Estaran garrison in the last month at the insistance of Gullux and Bronik. They are not comfortable here but dare not oppose the dragons.
+
+---
+
+
+THE ESTARANS AT FARTHIM
+-------------------------------------
+
+For three centuries following the Fey war, a posting of twelve Estarans maintained a permanent presence at Farthim. They built the Shield — a magical force barrier one mile in radius around the town center that kept the climate hospitable inside while the world froze outside. This climate zone allowed the few people of Farthim to grow food. These few Estarans were enough to keep the Giants and the dragons at bay as well.
+
+They maintained the Generator Hall (the mechanism powering the Shield) and the Projector Hall (housing a radiant projector with wall diagrams pointing to three other Estaran worlds).
+
+They were not exactly integrated into Farthim's daily life but they were respectful and would occasionally grant requests for aid:
+
+These 12 estarans were an organzed military unit. They would conduct drills, complete logistics reports, and create strategy documents while stationed here.
+
+The leaders:
+Cersael (Commander), Tarliel (Chief Aid), Kemiel (Arcanist). 
+
+The remaining 9 are simple soldiers: Motiel, Casius, Taor, Verael, Vasor, Zasais, Cellius, Kaus, Rael
+
+All Estarans are somewhat distant, tending to talk beyond the mortal person they are speaking with. They recognized maintenance of this station as their first and foremost duty, with protection of the locals (who they called 'colonists') as their secondary concern. They would not complain about their duty. Estarans embrace rigid heirarchy and ordered existence. Formal requests would go to Tarliel for consideration by Cersael.
+
+
+---
+
+
+THE WITHDRAWAL (~1 YEAR AGO)
+------------------------------
+
+The Estarans did not leave gradually. One day they were there. The next they were gone. The entire village awoke simultaneously in the morning of the day — not from sleep, but as if returning to awareness — and the Estarans had vanished. No warning. No farewell. No sign of struggle.
+
+The Shield failed immediately. The cold came in at once. The farms died. A third of Farthim's population has died in the year since. Many survivors are weak and malnourished. The ring of ruined farmland — frozen furrows, dead orchards, collapsed outbuildings — marks the old boundary. Every living Farthim resident remembers what was inside it.
+
+The villagers have been trying to subsist on whaling and hunting, but they are not experts in these areas. Whaling is extremely dangerous in and of itself. Hunting parties for land game are frequently stalked, harrassed, or killed by Frost Giants.
+
+Three camps exist on what happened:
+
+  They left — finished their work and departed; they were never invested in Farthim, only in their own mission.
+
+  They were taken — something powerful enough to remove an Estaran presence overnight came for them. This is the most popular theory.
+
+  They were driven away — some force caused them to flee; Perhaps it was the Giants and the Dragons? Do they have the power to take a party of 12 Estarans? If not, the question being: what drove them, and is it still out there?
+
+DM: The Estarans were recalled by Central Command. Outposts across multiple worlds are being pulled back to fortify core Estaran positions. Preparations are underway for an existential reset in the Estaran core — the outpost withdrawals are part of that mobilization. The villager's don't know this and have allowed their hopes to get the better of them.
+
+
+---
+
+
+ICE-WORLD TORMA
+------
+
+[ THIS SECTION HAS BEEN MAJORLY EDITED ]
+
+Torma the Ancient is an Ancient White Dragon with a lair in the dead Feywild. Her sons are Gullux and Bronik. On this world, they are true dragons.
+
+She is hateful and cruel, and has a will to dominate all life. She will not hesitate to slay any who stand against her. She is the major threat of this world. Fighting her may be a deadly challenge for the party.
+
+She holds a hatchling gold dragon in the deepest part of her lair — This is the ice world's iteration of Cetyri, taken as a prize. He is in suspended animation inside a block of ice. He must be freed in order to join the party's Cetyri and finish their quest here.
+
+[ EDIT: MAJOR REDUCTION IN DETAIL for Gullux + Bronik. This is intentional and notes on these two should be simplified accordingly ]
+
+Gullux: Adult white dragon
+Bronik: Adult white dragon
+
+These two are twins, clutchmates of Torma. Gullux is the older by several hours. He is cruel and sadistic. He likes to play with his food and he likes to be feared for his strength. Gullux sees smaller creatures as his playthings and will not bother even having a conversation beyond taunting his prey. Bronik is the more cunning. He is slightly smaller than Gullux and despises his brother. He resents his mother as well and yearns for her death. He knows he is no match for her, however. He is more inclined to consider mutually beneficial plots, but he is not much of a strategist.
+
+NOTE: Torma the Ancient is distinct from Torma the Unforgiving from the party's own world. She should be managed in her own entry with explicit connections to Torma the Unforgiving (who was killed by Erol in chapter 2) as another instance of the same dragon. Gullux and Bronik are true dragons in this world, again distinct from the Gullux and Bronik that the party knows. They should have their own entries, distinct from the entries about the party's home, with their relationship to Torma the Ancient made clear. It is likely that agents will trip over multiple characters with the same name so we must be explicit. The same applies to the wyrmling Cetyri of this world.
+

@@ -84,6 +84,8 @@ relationships:
     rel: contains
   - target: enc-ch8-05-the-giant-tribe
     rel: contains
+  - target: enc-ch8-05b-the-old-garrison
+    rel: contains
   - target: enc-ch8-06-tormas-realm
     rel: contains
 sources:
