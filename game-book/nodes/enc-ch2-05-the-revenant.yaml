@@ -1,23 +1,35 @@
 id: enc-ch2-05-the-revenant
 type: encounter
 name: "Ch2 E05: The Revenant"
-tags: [chapter-2, roleplay, cetyri, underdark, lake, gold-dragon, revenant]
+audience: player-available
+tags:
+  - chapter-2
+  - roleplay
+  - cetyri
+  - underdark
+  - lake
+  - gold-dragon
+  - revenant
 status: complete
-summary: The party discovers Cetyri—a blind gold dragon revenant—in the cold underground lake; he believes he is still in Milicent's dungeon.
-content: |
-  At the underground lake in the middle of the beholder canyon, the party finds Cetyri. He is
-  blind and in deep confusion—he knows he died but cannot reconcile this with what he is
-  experiencing. He believes he is still in Milicent's dungeon. His body was apparently carried
-  to this lake by underground water currents after being discarded by Milicent's forces.
+summary: >-
+  The party discovers Cetyri—a blind gold dragon revenant—in the cold underground lake; he believes he is still in
+  Milicent's dungeon.
+player_content: ""
+dm_content: >
+  On an island in the middle of the great underground lake at the heart of the beholder canyon, the party finds Cetyri.
+  He is blind and in deep confusion — he knows he died but cannot reconcile this with what he is experiencing, and
+  believes he is still in Milicent's dungeon. His body was discarded by Milicent's forces after his death and carried
+  here along an underground river.
 
-  Cetyri was Milicent's prisoner for a century. She used him to train her Death Knights.
-  Discovering he is free—and learning where he actually is—is news to him. He is traumatized,
-  driven by vengeance against Milicent.
 
-  The party must also clear the deep dragons (young pair) in the neutral territory as part of
-  their deal with Maxxa'Valien. Two young black dragons—actually the same dragon in two bodies
-  (a hint at multiverse), though the party likely doesn't realize this yet.
-relationships:
+  Cetyri was Milicent's prisoner for a century. She used him to train her Death Knights. Discovering he is free — and
+  learning where he actually is — is news to him. He is traumatized and possessed by vengeance against Milicent.
+
+
+  The party must also clear the deep dragons (young pair) in the neutral territory as part of their deal with
+  Maxxa'Valien. Two young black dragons — actually the same dragon in two bodies (a hint at multiverse), though the
+  party likely doesn't realize this yet.
+dm_links:
   - target: npc-cetyri
     rel: introduces
   - target: chapter-2-darkness

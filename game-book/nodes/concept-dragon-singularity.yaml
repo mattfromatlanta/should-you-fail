@@ -1,9 +1,19 @@
 id: concept-dragon-singularity
 type: concept
 name: Dragon Singularity (Unary Great Wyrm)
-tags: [dragon, singularity, cosmic, cetyri, milicents-plan, multiverse]
-summary: A dragon who unifies all versions of their soul across realities into one impossibly powerful being—the Estarans' greatest fear.
-content: |
+audience: player-available
+tags:
+  - dragon
+  - singularity
+  - cosmic
+  - cetyri
+  - milicents-plan
+  - multiverse
+summary: >-
+  A dragon who unifies all versions of their soul across realities into one impossibly powerful being—the Estarans'
+  greatest fear.
+player_content: ""
+dm_content: |
   Dragon souls reach across space to other versions of themselves on other worlds. A dragon
   who binds all versions of their soul becomes a Unary Great Wyrm—a Dragon Singularity. These
   beings are among the most powerful cosmic forces in existence and are the only things the
@@ -18,7 +28,7 @@ content: |
   uniquely able to safely unify with his other selves—this is the basis of Milicent's plan.
   Milicent spent a century keeping Cetyri prisoner, intentionally damaging his soul in precisely the
   way needed for the singularity process.
-relationships:
+dm_links:
   - target: npc-cetyri
     rel: destined_for
     notes: Cetyri is the intended Dragon Singularity in Milicent's plan

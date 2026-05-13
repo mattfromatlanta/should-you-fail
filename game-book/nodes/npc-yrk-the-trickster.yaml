@@ -1,10 +1,21 @@
 id: npc-yrk-the-trickster
 type: npc
 name: Yrk the Trickster (Ar'gix)
-tags: [goblin, ancient, trickster, ally, shadow-projector, drekklands, blessing]
+audience: player-available
+tags:
+  - goblin
+  - ancient
+  - trickster
+  - ally
+  - shadow-projector
+  - drekklands
+  - blessing
 status: alive
-summary: Nearly 2000-year-old goblin survivor of the First War; co-creator of the Shadow Projector; grants the Trickster's Blessing; now allied with the party.
-content: |
+summary: >-
+  Nearly 2000-year-old goblin survivor of the First War; co-creator of the Shadow Projector; grants the Trickster's
+  Blessing; now allied with the party.
+player_content: ""
+dm_content: |
   An ancient goblin who has survived nearly two millennia through cunning, misdirection, and
   refusal to be found. Fought in the First War against the Estara, surviving by avoiding direct
   confrontation. Was close to Milicent for decades and helped build the Shadow Projector's core
@@ -20,7 +31,7 @@ content: |
   Current status (end of Ch6): Working with Milicent on a portable Radiant Projector and star
   model for the party's cross-world journey. Traveling the mortal world with Felicity. Will
   arrive in Aris a few days after the party.
-relationships:
+dm_links:
   - target: npc-milicent
     rel: former_partner
     notes: Co-built Shadow Projector; fled when she began enslaving mortals

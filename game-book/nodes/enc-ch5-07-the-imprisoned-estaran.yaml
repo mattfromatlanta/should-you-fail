@@ -1,10 +1,20 @@
 id: enc-ch5-07-the-imprisoned-estaran
 type: encounter
 name: "Ch5 E07: The Imprisoned Estaran"
-tags: [chapter-5, roleplay, milicent, estaran-prisoner, 54-apocalypses, revelation]
+audience: player-available
+tags:
+  - chapter-5
+  - roleplay
+  - milicent
+  - estaran-prisoner
+  - 54-apocalypses
+  - revelation
 status: complete
-summary: Milicent brings the party to a sealed chamber containing a captive Estaran; through this prisoner, they learn the truth: the Estarans have destroyed the cosmos 54 times before.
-content: |
+summary: >-
+  Milicent brings the party to a sealed chamber containing a captive Estaran; through this prisoner, they learn the
+  truth — the Estarans have destroyed the cosmos 54 times before.
+player_content: ""
+dm_content: |
   Milicent leads the party to a sealed chamber deep in her fortress. Inside: an imprisoned
   Estaran—the first any of them have seen in person. Through this captive, the full horror
   of the Estaran threat is revealed:
@@ -19,7 +29,7 @@ content: |
   This revelation explains: the Aboleth's question about "how many moments," the fragmented
   memories of veterans like Aldrin, the Testament of Embers, and why Milicent has spent
   centuries building an army.
-relationships:
+dm_links:
   - target: npc-milicent
     rel: features
   - target: concept-estarans

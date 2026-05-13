@@ -1,10 +1,21 @@
 id: enc-ch6b-02-xilo-alliance-and-return
 type: encounter
 name: "Ch6b E02: Xilo's Alliance and Return to the mortal world"
-tags: [chapter-6b, roleplay, xilo, alliance, feywild-compass, material-plane-return, aris-plan]
+audience: player-available
+tags:
+  - chapter-6b
+  - roleplay
+  - xilo
+  - alliance
+  - feywild-compass
+  - material-plane-return
+  - aris-plan
 status: complete
-summary: Xilo arrives thrilled by the party's success; gifts them a Feywild Compass; volunteers to travel to Aris with the party as an envoy of the Rebel Fey; the party returns through a Fey crossing.
-content: |
+summary: >-
+  Xilo arrives thrilled by the party's success; gifts them a Feywild Compass; volunteers to travel to Aris with the
+  party as an envoy of the Rebel Fey; the party returns through a Fey crossing.
+player_content: ""
+dm_content: |
   Xilo arrives within the hour, his forces having scattered the hobgoblin army. He is thrilled
   by the efficiency of the assault—grateful the dragon is destroyed and eager to keep his word.
 
@@ -27,7 +38,7 @@ content: |
   - Milicent's observatory research documents
   - Egedzoo's substantial hoard
   - Freedom to move on the mortal world
-relationships:
+dm_links:
   - target: npc-xilo-lord-of-robins
     rel: features
   - target: npc-cetyri

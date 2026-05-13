@@ -1,43 +1,63 @@
 id: enc-ch8-04-the-settlement
 type: encounter
 name: "Ch8 E04: The Settlement"
+audience: player-available
 tags:
   - chapter-8
   - roleplay
   - farthim
   - ice-world
   - investigation
-status: in_progress
+status: complete
 summary: >-
   The party makes contact with Farthim — shock, then the assumption that the Estarans sent them; learns the village's
-  two perils (food and frost giants), explores the empty Generator and Projector Halls, and gathers the rumors that
-  will push them east toward the garrison.
-content: |
+  two perils (food and frost giants), explores the empty Generator and Projector Halls, and gathers the rumors that will
+  push them east toward the garrison.
+player_content: ""
+dm_content: >
   Picking up where Session 1 left off: the party has scouted Farthim and pulled back to plan. Now they make contact.
+
 
   ## First Contact
 
+
   When the party enters the town center, the Farthimers' reaction comes in two waves.
 
+
   **Wave 1 — Shock.** Strangers do not arrive in Farthim. They haven't in living memory. People come outside cautiously,
+
   staring. The presence of Fey (Sylvaris, Aelira) deepens the shock to something more uneasy — Fey are remembered
+
   here as the destroyed enemy of the Estarans, dangerous creatures who supposedly brought the ice age on themselves
+
   three centuries ago. Seeing them alive, and apparently allied to the Estarans' messengers, does not compute.
+
   Children point. Adults go quiet. Someone fetches Gorven.
 
+
   **Wave 2 — The conclusion.** Within minutes, the shock resolves into a single conviction: *the Estarans sent them.*
+
   This is not phrased as a question. It is stated as relief. Faces change. Tears, embraces, an old hunter dropping to
+
   one knee. Gorven himself will speak it carefully, but the rest of the village will treat it as obvious. **The party
+
   cannot easily deny this.** Denial sounds like a lie or a quitter's talk — and the Farthimers have already buried a
+
   hundred people in the past year. They need this to be true.
 
+
   Let the party feel the weight of being mistaken for saviors. They can correct the record, but it will not stick on
+
   the first try.
+
 
   ## The Two Perils
 
+
   Once contact is made, Gorven, Amalia, and Marx will lay out Farthim's situation. There are two threats and they
+
   compound on each other:
+
 
   - **Food.** The Shield collapsed a year ago. The farms are gone. The village survives on hunting and on what
     little they've coaxed from the whaling camp. Neither is working. Hunting parties are ambushed by frost giants
@@ -48,15 +68,20 @@ content: |
     year since the Shield fell — but they patrol the valley east of town and intercept anything that ventures out.
 
   The village's plea will be specific: break the giant siege so they can hunt. They are not asking the party to feed
+
   them — they are asking for the chance to feed themselves.
+
 
   ## What Farthim Knows and Suspects
 
+
   Through Amalia (the lore keeper) and Gorven (the elder), the party can learn:
+
 
   - The history of the Fey War (mythologized) and the death of the Feywild (only half-remembered; see
     location-ice-world and location-farthim for what the village believes vs. what is true).
-  - The Farthim Estarans (Cersael's Section) who maintained the Shield. The withdrawal a year ago. The three camps of belief about what
+  - The Farthim Estarans (Cersael's Section) who maintained the Shield. The withdrawal a year ago. The three camps of
+  belief about what
     happened (they left / they were taken / they were driven away).
   - **The Garrison.** Five centuries ago Farthim used to supply the wartime garrison north-east of town. No
     Farthimer has been there in generations, but the collective memory persists: it is a structure of incredible
@@ -72,10 +97,14 @@ content: |
 
   ## The Estaran Structures
 
+
   Both Estaran buildings are abandoned and intact. Both are treated with reverence. Neither is locked — the Farthimers
+
   simply do not enter them. The party can.
 
-  - **The Generator Hall.** The barracks and operations of Cersael's Section. Truly empty. No notes, no logs, no personal
+
+  - **The Generator Hall.** The barracks and operations of Cersael's Section. Truly empty. No notes, no logs, no
+  personal
     effects, no working machinery. The Estarans took everything portable. What remains is the architecture itself —
     austere, disciplined, the negative space of twelve lives that left no trace. The Shield mechanism is gone or
     inert; there is nothing here for the party to operate.
@@ -93,9 +122,12 @@ content: |
 
   Neither structure offers technology or weapons. The Estarans were deliberate about leaving nothing portable behind.
 
+
   ## Where This Leads
 
+
   Two natural threads pull the party forward:
+
 
   1. **East toward the garrison** (via the valley). Any foray east of Farthim risks contact with frost giant patrols.
      Hunting parties end this way; the party will end this way if they head for the garrison. This is the trigger for
@@ -106,6 +138,7 @@ content: |
      the main thread.
 
   ## DM Notes
+
 
   - The Farthimers' conviction that the party are Estaran emissaries should be played gently but firmly. The party
     can disabuse them, but it will take effort, and even then the village will look for any sign that they're being
@@ -123,11 +156,72 @@ content: |
 
   ## Session 1 — Where Things Stand (recap)
 
+
   Babas's aerial survey identified the ring (Shield boundary, one mile from town center), the frost giant scout
+
   retreating north, and something vast in the distance (Gullux). Sylvaris scouted ahead, saw three humans and a
+
   goliath clearing snow and a family huddled around a fire. The party pulled back to plan. Session ended there —
+
   E04 continues next session at first contact.
-relationships:
+
+
+  ## Session 2 — Played
+
+
+  Sylvaris silently approached Amalia and Marx in a town square as they shoveled snow from the recent blizzard and
+
+  listened in. He didn't know who they were yet. They were discussing how long supplies would hold: Amalia thought
+
+  longer, Marx said weeks. Neither saw a way out. Sylvaris returned to the party and reported.
+
+
+  The party decided to approach plainly and in the open. Amalia and Marx were shocked to see strangers and
+
+  immediately asked if the Estarans had sent them. The party answered honestly — no, they had come on their own,
+
+  presenting themselves as researchers who had unraveled the secret of the Radiant Projector and were exploring the
+
+  cosmos. Seeing the town's situation, they conjured a feast and invited Amalia and Marx to follow them out to where
+
+  they had killed several large sabre cats. The Farthimers agreed.
+
+
+  On the trek, the party learned local history. The last Estarans had left a year ago; the locals had hoped they
+
+  would return but there has been no sign. The frost giants have grown bolder. On realizing some of the party were
+
+  Fey, the Farthimers told them the Fey were believed to have caused the ice age. There was some fear, but the party
+
+  shared their own world's experience with the Estarans. Cormin and Aelira came to believe the Farthimers don't have
+
+  the real history — the Estarans had withheld things on Aerus, and on Aerus their mere presence in the Feywild
+
+  caused devastation and ecological ruin. The Farthimers became inclined to agree there was more to the story.
+
+
+  The party were warned about the frost giants and the possibility of a dragon. They were told there was a war 300
+
+  years ago and that the garrison once held 1,000 Estaran soldiers. They were told this world used to be a paradise.
+
+
+  They were given a map of the valley with Farthim, the Garrison, and the Dead Forest clearly marked. Returning to
+
+  town, the party explored the Generator/Barracks of the last Estarans and the Projector Hall. They worked out that
+
+  the ring around town was a Shield boundary but the core machinery is gone. They found the embossed star chart and
+
+  heard the Estaran name for this world — **Aerus** — for the first time, and found the routes to two other worlds
+
+  (Maydor, Ozarrid).
+
+
+  At the end of the day the party found lodgings. Cetyri (pseudodragon) took a private moment to tell Cormin that he
+
+  feels the pull of this world's Cetyri in the direction of the garrison. The party started making plans to
+
+  investigate.
+dm_links:
   - target: chapter-8-across-the-void
     rel: part_of
   - target: location-farthim

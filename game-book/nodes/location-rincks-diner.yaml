@@ -1,14 +1,23 @@
 id: location-rincks-diner
 type: location
 name: Rinick's Diner
-tags: [feywild, wasteland, neutral-ground, rinick, chapter-6]
+audience: player-available
+tags:
+  - feywild
+  - wasteland
+  - neutral-ground
+  - rinick
+  - chapter-6
 status: active
-summary: Neutral-ground roadside establishment in the Feywild wasteland where violence is forbidden; site of the Twi'Xu/Egedzoo standoff.
-content: |
+summary: >-
+  Neutral-ground roadside establishment in the Feywild wasteland where violence is forbidden; site of the Twi'Xu/Egedzoo
+  standoff.
+player_content: ""
+dm_content: |
   A roadside watering hole in the Feywild wasteland. Run by Rinick, a human originally from the
   Allied Cities who built a thriving business that all factions respect as violence-free. Site of
   the tense standoff between Twi'Xu and Egedzoo in Chapter 6a. The party encountered both here.
-relationships:
+dm_links:
   - target: location-feywild-wasteland
     rel: located_in
   - target: npc-twi-xu

@@ -1,6 +1,7 @@
-id: enc-ch8-06-tormas-realm
+id: enc-ch8-08-tormas-realm
 type: encounter
-name: "Ch8 E06: Torma's Realm"
+name: "Ch8 E08: Torma's Realm"
+audience: dm-only
 tags:
   - chapter-8
   - combat
@@ -11,12 +12,12 @@ tags:
   - merge
 status: planned
 summary: >-
-  The party enters the dead Feywild, confronts Torma in her lair, frees the hatchling Cetyri, and completes the first
-  merge.
-content: >
-  With the mortal tribe broken, access to the dead Feywild opens. The party crosses into the collapsed remnant of the
-  world's Feywild — cold, grey, still. Beautiful in a ruined way, like frost on a corpse. Unlike the Shadowfell, this
-  place has no life in it. Something was killed here and the wound has gone cold.
+  The party enters the dead Feywild via the rift in the Dead Forest, confronts Torma in her lair, frees the hatchling
+  Cetyri, and completes the first merge.
+dm_content: >
+  Having crossed through the Dead Forest (enc-ch8-07) and into the rift, the party arrives in the collapsed remnant of
+  the world's Feywild — cold, grey, still. Beautiful in a ruined way, like frost on a corpse. Unlike the Shadowfell,
+  this place has no life in it. Something was killed here and the wound has gone cold.
 
 
   Torma's lair is somewhere within. The hatchling is imprisoned there.
@@ -45,7 +46,7 @@ content: >
 
   What the merge looks and feels like from the outside is TBD — it should be significant and strange. After it, Cetyri
   grows in power.
-relationships:
+dm_links:
   - target: chapter-8-across-the-void
     rel: part_of
   - target: location-dead-feywild
@@ -57,9 +58,7 @@ relationships:
   - target: npc-cetyri
     rel: features
     notes: Completes the merge; grows in power
-  - target: enc-ch8-05b-the-old-garrison
-    rel: preceded_by
-  - target: location-dead-forest
+  - target: enc-ch8-07-dead-forest
     rel: preceded_by
 sources:
   - chapter-8-planning.md

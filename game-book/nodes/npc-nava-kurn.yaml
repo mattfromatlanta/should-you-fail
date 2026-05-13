@@ -1,6 +1,7 @@
 id: npc-nava-kurn
 type: npc
 name: Nava Kurn
+audience: player-available
 tags:
   - dwarf
   - aris
@@ -11,7 +12,8 @@ status: alive
 summary: >-
   Dwarf woman, 45; charismatic idealist and leader of the Young Bastards; survived Chapter 7 and teamed with Gallifax
   the morning after the riot to calm the city.
-content: >-
+player_content: ""
+dm_content: >
   Charismatic leader of the Young Bastards, the reform-minded political faction in Aris. Sharp-tongued and pragmatic on
   the surface, but underneath a genuine idealist. Nava truly believes that the generations born since the Rebellion have
   been cheated — that the Veterans' unnatural longevity has calcified power into a permanent aristocracy that was never
@@ -34,7 +36,7 @@ content: >-
   city — an unlikely pair that proved effective. She carries the weight of what her demonstration caused, but she is not
   broken. Ekert's betrayal is known to the party and she has been informed. Ardo's deeper involvement is not yet
   exposed. She remains in Aris.
-relationships:
+dm_links:
   - target: location-aris
     rel: located_in
   - target: npc-ekert-shae

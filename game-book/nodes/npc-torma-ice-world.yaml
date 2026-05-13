@@ -1,10 +1,7 @@
 id: npc-torma-ice-world
 type: npc
 name: Torma the Ancient
-summary: >-
-  Ancient White Dragon; lair in the dead Feywild; mother of Gullux and Bronik; holds the ice world's Cetyri hatchling
-  in suspended animation; a distinct iteration of the same dragon the party knew on their home world.
-status: alive
+audience: player-available
 tags:
   - white-dragon
   - ancient-dragon
@@ -13,7 +10,12 @@ tags:
   - chapter-8
   - multiworld
   - world-ikellor
-content: >-
+status: alive
+summary: >-
+  Ancient White Dragon; lair in the dead Feywild; mother of Gullux and Bronik; holds the ice world's Cetyri hatchling in
+  suspended animation; a distinct iteration of the same dragon the party knew on their home world.
+player_content: ""
+dm_content: >
   The ice world's iteration of Torma the Unforgiving. On the party's home world, Torma was slain by Erol at the end of
   Chapter 2. Here she is very much alive — an Ancient White Dragon of immense power, with a lair deep in the dead
   Feywild.
@@ -23,14 +25,14 @@ content: >-
   She entered the dead Feywild through the Dead Forest thirty years ago and has claimed the ruin as her domain.
 
 
-  Her sons Gullux and Bronik — both Adult white dragons — enforce her will in the valley. The Frost Giants attempted
-  to enter the Feywild and encountered Torma. She threatened their existence and they submitted. They now pay her
-  tribute. The giants answer to her sons, and her sons answer to her. There is no arrangement — only coerced fealty.
+  Her sons Gullux and Bronik — both Adult white dragons — enforce her will in the valley. The Frost Giants attempted to
+  enter the Feywild and encountered Torma. She threatened their existence and they submitted. They now pay her tribute.
+  The giants answer to her sons, and her sons answer to her. There is no arrangement — only coerced fealty.
 
 
   She holds the ice world's hatchling Cetyri imprisoned in the deepest part of her lair, frozen in suspended animation
   inside a block of ice.
-relationships:
+dm_links:
   - target: npc-gullux-ice-world
     rel: parent_of
   - target: npc-bronik-ice-world
@@ -48,7 +50,7 @@ relationships:
   - target: enc-ch8-05-the-giant-tribe
     rel: featured_in
     notes: Her forces; directed through Gullux and Bronik
-  - target: enc-ch8-06-tormas-realm
+  - target: enc-ch8-08-tormas-realm
     rel: featured_in
 sources:
   - session-docs/ch8-ice-world-history.txt

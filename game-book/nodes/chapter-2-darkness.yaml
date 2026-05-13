@@ -1,10 +1,21 @@
 id: chapter-2-darkness
 type: chapter
 name: "Chapter 2: Darkness"
-tags: [chapter, underdark, beholders, cetyri, bronik, torma, milicent]
+audience: player-available
+tags:
+  - chapter
+  - underdark
+  - beholders
+  - cetyri
+  - bronik
+  - torma
+  - milicent
 status: complete
-summary: Party escapes Torma's wrath via the Underdark, encounters beholders, discovers Cetyri in the underground lake, meets Milicent's shadow space again, and Erol/Lamat return to slay Torma.
-content: |
+summary: >-
+  Party escapes Torma's wrath via the Underdark, encounters beholders, discovers Cetyri in the underground lake, meets
+  Milicent's shadow space again, and Erol/Lamat return to slay Torma.
+player_content: ""
+dm_content: |
   After a brief celebration, reality set in: a white dragon must be coming for those stolen eggs.
   While scouting the East Hills for potential shelter, the party encountered Bronik—a half-dragon
   on a wyvern, searching for his brother Gullux. Bronik recognized items from his mother's hoard.
@@ -30,7 +41,7 @@ content: |
 
   At the cave mouth, they found their exit collapsed. Torma had attacked from above, sealing them
   in. Then Erol and Lamat arrived, slaying the white dragon and freeing the party from their tomb.
-relationships:
+dm_links:
   - target: npc-cetyri
     rel: introduces
   - target: npc-bronik

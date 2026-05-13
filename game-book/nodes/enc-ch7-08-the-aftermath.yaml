@@ -1,6 +1,7 @@
 id: enc-ch7-08-the-aftermath
 type: encounter
 name: "Ch7 E08: The Aftermath"
+audience: player-available
 tags:
   - chapter-7
   - roleplay
@@ -14,7 +15,8 @@ status: complete
 summary: >-
   Maelric's fate is settled and Gallifax responds. If Maelric died, Gallifax kills Nava Kurn and leaves Aris forever.
   Ardo moves toward power — but the evidence to expose him exists if the party looks.
-content: >-
+player_content: ""
+dm_content: >
   ### If Maelric Survived
 
 
@@ -104,7 +106,7 @@ content: >-
 
   Whatever remains unfinished in Aris — Ardo, the city's political wreckage, the people they've come to care about here
   — the clock has run out. Stay and pursue it, or go.
-relationships:
+dm_links:
   - target: chapter-7-aris-the-fracturing-capital
     rel: part_of
   - target: npc-maelric-sturmwald

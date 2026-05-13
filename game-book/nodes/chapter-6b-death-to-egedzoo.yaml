@@ -1,10 +1,20 @@
 id: chapter-6b-death-to-egedzoo
 type: chapter
 name: "Chapter 6b: Death to Egedzoo"
-tags: [chapter, egedzoo, feywild, xilo, dragon-fight, treasure]
+audience: player-available
+tags:
+  - chapter
+  - egedzoo
+  - feywild
+  - xilo
+  - dragon-fight
+  - treasure
 status: complete
-summary: Party assaults Egedzoo's canyon lair while Xilo draws off the hobgoblin army; Egedzoo slain; Xilo volunteers to travel with the party; they return to the mortal world.
-content: |
+summary: >-
+  Party assaults Egedzoo's canyon lair while Xilo draws off the hobgoblin army; Egedzoo slain; Xilo volunteers to travel
+  with the party; they return to the mortal world.
+player_content: ""
+dm_content: |
   The assault on Egedzoo's lair was decisive. While Xilo's forces drew away the hobgoblin army,
   the party infiltrated the canyon stronghold. Cormin's illusions wasted Egedzoo's ambush,
   Aelira's webs pinned the dragon, and Peno's might finished him. With Egedzoo slain and his
@@ -14,7 +24,7 @@ content: |
   lord to visit the mortal capital. The party returns to the mortal world with Cetyri, Bronik,
   Xilo — ready to journey to Aris and then to Metgal, where they hope to find the
   means to travel beyond this world.
-relationships:
+dm_links:
   - target: npc-egedzoo
     rel: features
   - target: npc-xilo-lord-of-robins

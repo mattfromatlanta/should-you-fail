@@ -1,22 +1,35 @@
 id: enc-ch3-03-lomani-examines-cetyri
 type: encounter
 name: "Ch3 E03: Lomani Examines Cetyri"
-tags: [chapter-3, roleplay, cetyri, lomani, naeliste, dragon-singularity, soul-discovery]
+audience: player-available
+tags:
+  - chapter-3
+  - roleplay
+  - cetyri
+  - lomani
+  - naeliste
+  - dragon-singularity
+  - soul-discovery
 status: complete
-summary: Lomani Nae performs a spiritual examination of Cetyri and discovers his soul reaches across realities—the first in-world confirmation of his Dragon Singularity potential.
-content: |
-  Lomani Nae, the spiritual elder of House Nae and keeper of the teleportation circle, performs
-  a careful spiritual examination of Cetyri. Through this examination she discovers that his
-  spirit exhibits an irregular, dispersed pattern with strands reaching to many worlds
-  simultaneously—his soul exists in multiple realities at once.
+summary: >-
+  Lomani Nae performs a spiritual examination of Cetyri and discovers his soul reaches across realities—the first
+  in-world confirmation of his Dragon Singularity potential.
+player_content: ""
+dm_content: >
+  Lomani Nae (he), the spiritual elder of House Nae and keeper of the teleportation circle, performs a careful spiritual
+  examination of Cetyri. He finds that Cetyri's soul exhibits an irregular, dispersed pattern — beams of soul radiating
+  to many worlds simultaneously, unlike the Eladrin's local cloud. From this, Lomani concludes Cetyri is not properly
+  undead but metaphysically damaged, and the damage is beginning to heal.
 
-  This is the first concrete in-world confirmation of what Milicent has known and planned around
-  for decades. Cetyri himself is present for this discovery; the implications are profound and
-  troubling.
 
-  This examination will later become the trigger for Cetyri's flight to the Feywild (when he
-  realizes Lomani understood what she found).
-relationships:
+  This is the first concrete in-world confirmation of what Milicent has known and planned around for decades. Cetyri
+  himself is present for the discovery; the implications are profound and troubling.
+
+
+  Cetyri stays in Naeliste under Lomani's care while the party travels south with Eigitch. The full reckoning of what
+  this examination revealed — and Lomani's later mistake of asking Cetyri directly about the radiance — plays out in
+  enc-ch6a-01-cetyris-flight.
+dm_links:
   - target: npc-lomani-nae
     rel: features
   - target: npc-cetyri

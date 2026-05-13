@@ -1,6 +1,7 @@
 id: enc-ch8-05-the-giant-tribe
 type: encounter
 name: "Ch8 E05: Field Encounter — Frost Giants"
+audience: dm-only
 tags:
   - chapter-8
   - combat
@@ -11,7 +12,7 @@ status: planned
 summary: >-
   Any foray east of Farthim — hunting or marching toward the garrison — draws a frost giant patrol; the giants react to
   the party with horror and fight to the death rather than risk word reaching the Estarans they assume have returned.
-content: |
+dm_content: |
   The first direct engagement with the giant tribe. The trigger is geographic: any foray east of Farthim, toward the
   valley the giants patrol, will be intercepted. Whether the party is escorting a Farthim hunting party or marching
   on their own toward the garrison, the result is the same — a patrol finds them in the open.
@@ -78,14 +79,14 @@ content: |
   - Gullux and Bronik are not here — they are at the garrison.
   - The party should leave this fight with two pieces of new understanding: the giants are not mindless, and the
     garrison is where the giant power lives.
-relationships:
+dm_links:
   - target: chapter-8-across-the-void
     rel: part_of
   - target: location-ice-world
     rel: set_in
   - target: enc-ch8-04-the-settlement
     rel: preceded_by
-  - target: enc-ch8-05b-the-old-garrison
+  - target: enc-ch8-06-the-old-garrison
     rel: leads_to
 sources:
   - chapter-8-planning.md

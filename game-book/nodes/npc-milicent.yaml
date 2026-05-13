@@ -1,10 +1,21 @@
 id: npc-milicent
 type: npc
 name: Milicent (The Shadowdame)
-tags: [archshade, archfey, shadowfell, rebel-fey, moon-fey, antagonist, ally]
+audience: player-available
+tags:
+  - archshade
+  - archfey
+  - shadowfell
+  - rebel-fey
+  - moon-fey
+  - antagonist
+  - ally
 status: alive
-summary: Former Rebel Fey Lady of the Moon, now the Shadowdame; architect of the Dragon Singularity plan to stop the Estarans; allied with the party since Chapter 5.
-content: |
+summary: >-
+  Former Rebel Fey Lady of the Moon, now the Shadowdame; architect of the Dragon Singularity plan to stop the Estarans;
+  allied with the party since Chapter 5.
+player_content: ""
+dm_content: |
   One of the seven original Rebel Fey who fought the Estarans in the First War. Once the Lady
   of the Moon, a brilliant scholar who studied order and predictability—unusual for a Fey. Her
   methodical research revealed Estaran vulnerabilities, their outworld origin, and the escalating
@@ -23,7 +34,7 @@ content: |
 
   Milicent has an observatory at Ozevriel's memorial tower in the Feywild—a relic of her scholarly
   past. She cannot track the party in Naeliste or after they receive the Trickster's Blessing.
-relationships:
+dm_links:
   - target: npc-cetyri
     rel: former_captor
     notes: Kept him prisoner for a century to train Death Knights; damaged his soul for singularity

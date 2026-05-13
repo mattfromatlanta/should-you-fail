@@ -1,10 +1,20 @@
 id: location-feywild-wasteland
 type: location
 name: Feywild Wasteland (Scorched Outer Regions)
-tags: [feywild, wasteland, estaran-damage, hobgoblin, scorched, qu]
+audience: player-available
+tags:
+  - feywild
+  - wasteland
+  - estaran-damage
+  - hobgoblin
+  - scorched
+  - qu
 status: active
-summary: The outer regions of the Feywild destroyed by Estaran influence; a rocky desert under perpetual twilight with hobgoblin bandit factions.
-content: |
+summary: >-
+  The outer regions of the Feywild destroyed by Estaran influence; a rocky desert under perpetual twilight with
+  hobgoblin bandit factions.
+player_content: ""
+dm_content: |
   Barren, desolate landscape cloaked in perpetual twilight. Scorched when the Estara's intensely
   ordered, geometric nature clashed with the Feywild's wild, chaotic nature. Dominated by
   enormous thorn vines visible on the horizon. Home to hobgoblin bandit factions.
@@ -15,7 +25,7 @@ content: |
   - Egedzoo's Canyon Lair: deep canyon stronghold of the adult blue dragon (now cleared)
 
   One day's travel along a northeast ridge from the Feywild entry point.
-relationships:
+dm_links:
   - target: location-feywild
     rel: part_of
   - target: location-rincks-diner

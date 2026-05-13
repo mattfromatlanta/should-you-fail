@@ -1,9 +1,19 @@
 id: concept-shadow-projector
 type: concept
 name: The Shadow Projector
-tags: [milicent, shadowfell, shadow-space, estaran, radiant-projector, dread-legion]
-summary: A device Milicent and Yrk built ~400 years ago by corrupting Estaran Radiant Projector technology; used to capture and transform mortals.
-content: |
+audience: player-available
+tags:
+  - milicent
+  - shadowfell
+  - shadow-space
+  - estaran
+  - radiant-projector
+  - dread-legion
+summary: >-
+  A device Milicent and Yrk built ~400 years ago by corrupting Estaran Radiant Projector technology; used to capture and
+  transform mortals.
+player_content: ""
+dm_content: |
   The Shadow Projector is a corrupted adaptation of ancient Estaran Radiant Projectors. It uses
   the cosmos as a lens (the "Essential Knot") to project concentrated darkness across
   realities. It captures creatures who pass through its projection and gradually transforms
@@ -21,7 +31,7 @@ content: |
   Following the party's alliance with Milicent, she agreed to stop using it for conscription.
   Yrk is now working with Milicent on a portable version (the Radiant Lance) for the party's
   cross-world travel.
-relationships:
+dm_links:
   - target: npc-milicent
     rel: created_by
   - target: npc-yrk-the-trickster

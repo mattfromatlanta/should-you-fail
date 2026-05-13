@@ -1,15 +1,25 @@
 id: enc-ch1-02-faeries-are-angry
 type: encounter
 name: "Ch1 E02: The Faeries Are Angry"
-tags: [chapter-1, combat, fey, faedwood, faepath, dragonborn]
+audience: player-available
+tags:
+  - chapter-1
+  - combat
+  - fey
+  - faedwood
+  - faepath
+  - dragonborn
 status: complete
-summary: Hostile Fey stalk and harass the party on the Faepath through the Faedwood—a consequence of White Dragonborn hunting them for sport.
-content: |
+summary: >-
+  Hostile Fey stalk and harass the party on the Faepath through the Faedwood—a consequence of White Dragonborn hunting
+  them for sport.
+player_content: ""
+dm_content: |
   The party's first experience of the Faedwood turned hostile. Fey who would normally allow
   safe passage have become aggressive toward any travelers after being hunted by Dragonborn
   for sport. The encounter establishes the tension between Fey and mortals and foreshadows
   the Dragonborn threat in the Uplands.
-relationships:
+dm_links:
   - target: chapter-1-invaders
     rel: part_of
   - target: location-faedwood

@@ -1,10 +1,20 @@
 id: enc-ch6a-09-meeting-xilo
 type: encounter
 name: "Ch6a E09: Meeting Xilo"
-tags: [chapter-6a, roleplay, xilo, rebel-fey, alliance-proposal, egedzoo-quest]
+audience: player-available
+tags:
+  - chapter-6a
+  - roleplay
+  - xilo
+  - rebel-fey
+  - alliance-proposal
+  - egedzoo-quest
 status: complete
-summary: Xilo, Lord of Robins, arrives at the crashed airship; he proposes an exchange—slay Egedzoo and he will give safe passage home plus his alliance in the coming war.
-content: |
+summary: >-
+  Xilo, Lord of Robins, arrives at the crashed airship; he proposes an exchange—slay Egedzoo and he will give safe
+  passage home plus his alliance in the coming war.
+player_content: ""
+dm_content: |
   Hootini senses Xilo's arrival and the party descends from the observatory to meet him at the
   grounded airship. Xilo, Lord of Robins—one of the seven original Rebel Fey—arrives to meet
   anyone working with Milicent. He is quick-witted and pragmatic.
@@ -21,7 +31,7 @@ content: |
 
   (Per session worksheet: "Xilo recognizing the party as Milicent's allies. His pragmatic
   assessment of the Estaran threat. Accepted the dragon-slaying quest to secure his alliance.")
-relationships:
+dm_links:
   - target: npc-xilo-lord-of-robins
     rel: features
   - target: npc-egedzoo

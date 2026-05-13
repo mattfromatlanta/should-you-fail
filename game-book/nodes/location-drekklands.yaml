@@ -1,10 +1,20 @@
 id: location-drekklands
 type: location
 name: The Drekklands
-tags: [swamp, south, yrk, black-dragons, drekklands, underwet]
+audience: player-available
+tags:
+  - swamp
+  - south
+  - yrk
+  - black-dragons
+  - drekklands
+  - underwet
 status: active
-summary: Vast, magically unstable swamp in the far south; home of Yrk the Trickster; full of black dragons, dinosaurs, and reality-bending phenomena.
-content: |
+summary: >-
+  Vast, magically unstable swamp in the far south; home of Yrk the Trickster; full of black dragons, dinosaurs, and
+  reality-bending phenomena.
+player_content: ""
+dm_content: |
   Vast, uncomfortable swamp far south of Oechenfor. Home to black dragons (including the late
   Kriv the Blacktongue), dinosaurs (tyrannosaurus, triceratops, brontosaurus), trolls, giant
   crocodiles, froghemoths, bodaks, ghasts. Populated by Lizardfolk and Svirfneblin hunters.
@@ -17,7 +27,7 @@ content: |
   Fortress (Estaran ruin with impossible spatial properties), and Kriv's former lair.
 
   Yrk the Trickster has lived here for centuries—the magical instability suits him.
-relationships:
+dm_links:
   - target: npc-yrk-the-trickster
     rel: home_of
   - target: location-underwet

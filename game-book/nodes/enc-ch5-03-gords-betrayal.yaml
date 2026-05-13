@@ -1,10 +1,20 @@
 id: enc-ch5-03-gords-betrayal
 type: encounter
 name: "Ch5 E03: Gord's Betrayal"
-tags: [chapter-5, investigation, oechenfor, gord, star-metal, quicklings]
+audience: player-available
+tags:
+  - chapter-5
+  - investigation
+  - oechenfor
+  - gord
+  - star-metal
+  - quicklings
 status: complete
-summary: The investigation traces the kidnappings to Gord Lankenmangled—imprisoned but crafting specialized star metal tools from his cell for Felicity's quickling kidnappers.
-content: |
+summary: >-
+  The investigation traces the kidnappings to Gord Lankenmangled—imprisoned but crafting specialized star metal tools
+  from his cell for Felicity's quickling kidnappers.
+player_content: ""
+dm_content: |
   The party's city-wide investigation of the disappearances leads to an unlikely source:
   Gord Lankenmangled, the dwarf merchant imprisoned for keeping artisans in indentured servitude.
   Despite his incarceration, he has been crafting tools from star metal fragments—the same
@@ -17,7 +27,7 @@ content: |
 
   The Drekklands connection: the star metal links Milicent's operation to scavenged Estaran
   materials, suggesting more ruins may hold useful resources.
-relationships:
+dm_links:
   - target: npc-gord-lankenmangled
     rel: features
   - target: npc-felicity

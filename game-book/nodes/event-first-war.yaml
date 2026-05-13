@@ -1,10 +1,21 @@
 id: event-first-war
 type: event
 name: The First War (First Rebellion)
-tags: [history, ancient, estara, fey, first-war, rebel-fey, 2000-years-ago]
+audience: player-available
+tags:
+  - history
+  - ancient
+  - estara
+  - fey
+  - first-war
+  - rebel-fey
+  - 2000-years-ago
 status: past
-summary: ~2000 years ago; the first conflict against the Estarans led by the seven Rebel Fey and mortals; much history lost to time; Yrk survived; Ozevriel died.
-content: |
+summary: >-
+  ~2000 years ago; the first conflict against the Estarans led by the seven Rebel Fey and mortals; much history lost to
+  time; Yrk survived; Ozevriel died.
+player_content: ""
+dm_content: |
   Approximately 2000 years ago, shortly after the Estarans arrived, the Fey and mortals began
   resisting. Led by the seven Rebel Fey (Itrina, Carris, Xilo, Ozevriel, Thessa, Varuun,
   Milicent). Much of this history is lost to time—barely legends remain. Key events:
@@ -18,7 +29,7 @@ content: |
 
   The war ultimately did not drive the Estara away permanently—they continued ruling for
   ~1850 more years until the more recent Rebellion.
-relationships:
+dm_links:
   - target: faction-rebel-fey
     rel: led_by
   - target: concept-estarans

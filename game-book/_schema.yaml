@@ -1,14 +1,19 @@
 # Should You Fail - Game Book Node Schema
-# Version 1.0
+# Version 2.0
 #
 # Game book nodes are the source of truth for campaign knowledge.
 # Source files (.md, .txt) are inputs that inform and update nodes.
 # Nodes are stored in game-book/nodes/ as individual YAML files.
 #
+# v2.0 introduces a player/DM split so the game book can drive a player-facing
+# Foundry journal export while remaining a working DM tool. See the AUDIENCE,
+# CONTENT FIELDS, and LINKS sections below.
+#
 # ─────────────────────────────────────────────────────────────
 # NODE TYPES
 # ─────────────────────────────────────────────────────────────
-#   npc        - Named characters (heroes, villains, allies, monsters)
+#   pc         - Player characters
+#   npc        - Named non-player characters (allies, villains, monsters)
 #   location   - Places (cities, dungeons, planes, regions)
 #   chapter    - Campaign chapters documenting events
 #   event      - Historical or in-world events
@@ -21,14 +26,104 @@
 # NODE ID CONVENTION
 # ─────────────────────────────────────────────────────────────
 #   <type>-<slug>
-#   Examples: npc-gallifax, location-naeliste, chapter-1-invaders
+#   Examples: pc-aelira, npc-gallifax, location-naeliste, chapter-1-invaders
 #   Slugs use lowercase kebab-case.
 #   Exception: encounter nodes use the shorthand prefix 'enc-' rather than 'encounter-'
 #   Examples: enc-ch1-01-the-meeting, enc-ch7-06-the-riot-and-the-dragon
 #
 # ─────────────────────────────────────────────────────────────
+# AUDIENCE (required, v2)
+# ─────────────────────────────────────────────────────────────
+# Every node carries one of:
+#   audience: player-available   - Has both player-facing and DM-only content.
+#                                  The default for most nodes — including NPCs,
+#                                  since almost every character has some
+#                                  history, motivation, or reaction notes the
+#                                  players haven't discovered.
+#   audience: dm-only            - DM eyes only. Never appears in player export.
+#                                  Reserve for nodes the party has no in-world
+#                                  awareness of (hidden NPCs, undiscovered
+#                                  locations, planning concepts, encounter
+#                                  prep, etc.).
+#
+# Default by type (used as the audit pass's starting hypothesis):
+#   pc          - player-available (always)
+#   npc         - player-available
+#   location    - player-available if visited or commonly known; dm-only otherwise
+#   chapter     - player-available
+#   encounter   - dm-only (player-available only for completed-and-recapped scenes)
+#   event       - player-available if known to the party; dm-only otherwise
+#   artifact    - player-available if encountered; dm-only otherwise
+#   faction     - player-available; dm-only for hidden factions
+#   concept     - player-available for in-world lore; dm-only for planning/lore-gap concepts
+#
+# ─────────────────────────────────────────────────────────────
+# CONTENT FIELDS (v2)
+# ─────────────────────────────────────────────────────────────
+# All nodes:
+#   summary       - One-sentence description. Always present.
+#                   For player-available nodes: must be player-safe (it is
+#                   the entry tooltip in the player export).
+#                   For dm-only nodes: still DM-only.
+#   dm_content    - For player-available nodes: ONLY the delta the DM needs
+#                   that is NOT already in player_content. Hidden motivations,
+#                   private mechanics, planning notes, secret connections,
+#                   instructions on how to run the character/scene, hooks
+#                   the players haven't bitten on. Do not restate facts that
+#                   already appear in player_content — reading both
+#                   together is how an agent reconstructs the full picture.
+#                   For dm-only nodes: the entire body of the node lives
+#                   here.
+#
+# player-available nodes only:
+#   player_content - Notes covering what the party has discovered or could
+#                    plausibly know. Required field; may be empty string
+#                    during the v2 migration's first pass. The Foundry
+#                    journal generator reads this to draft player-facing
+#                    pages. If empty, the node is effectively dm-only for
+#                    export purposes (and is on the writing backlog).
+#
+# CONTENT RULE: For player-available nodes, the full picture =
+# player_content + dm_content. Anything the players know lives in
+# player_content. Anything else lives in dm_content. No duplication.
+#
+# IMPORTANT: Both fields are written for the DM/agents, not for the players.
+# See WRITING VOICE below — the game book is a working tool, never the
+# player-facing artifact.
+#
+# Legacy field `content` is replaced by `dm_content`. Legacy nodes are
+# rewritten by the apply_audience MCP tool.
+#
+# ─────────────────────────────────────────────────────────────
+# LINKS (v2)
+# ─────────────────────────────────────────────────────────────
+# Relationships are split into two arrays:
+#
+#   public_links:           Known to players. Renderable in player export.
+#     - target: <node-id>   Target MUST itself be player-available.
+#       rel: <verb>
+#       notes: <optional>
+#
+#   dm_links:               Secret connections, hidden allegiances, behind-
+#                           the-scenes ties. Never appear in player export.
+#     - target: <node-id>   Target may be any audience.
+#       rel: <verb>
+#       notes: <optional>
+#
+# Rules:
+#   - public_links is forbidden on dm-only nodes.
+#   - Every public_links target must resolve to an existing player-available node.
+#   - Either list may be omitted if empty. Validator does not require both.
+#
+# Legacy field `relationships` is replaced by these two lists. During the v2
+# migration first pass, every legacy relationship is moved into dm_links;
+# promotion into public_links happens as the corresponding player_content
+# sections are written.
+#
+# ─────────────────────────────────────────────────────────────
 # STATUS VALUES (by type)
 # ─────────────────────────────────────────────────────────────
+#   pc:        alive | dead | undead | unknown | imprisoned | missing | retired
 #   npc:       alive | dead | undead | unknown | imprisoned | missing
 #   location:  active | destroyed | abandoned | unknown | planar
 #   chapter:   complete | in-progress | planned
@@ -55,23 +150,66 @@
 #     appears_in, mentioned_in, revealed_by, related_to
 #
 # ─────────────────────────────────────────────────────────────
-# FULL NODE TEMPLATE
+# WRITING VOICE — TWO DISTINCT CONTEXTS
+# ─────────────────────────────────────────────────────────────
+#
+# 1. GAME BOOK NODES (this directory: dm_content AND player_content)
+#
+#    Neutral, factual, third person. Notes to the DM and writing agents.
+#    The game book is a working tool. Nothing in it is read aloud or
+#    rendered to players directly.
+#
+#      Good: "Cetyri is a blind gold dragon revenant. The party found him
+#             in the Underdark lake in Chapter 2. After the Qu conversation
+#             in Chapter 6a he committed to Milicent's plan."
+#
+#      Wrong (do not do this in game book nodes):
+#            "You found Cetyri at the bottom of a lake in the Underdark."
+#
+#    The player_content field is NOT the player's view — it is the DM's
+#    note about what is in the players' view. Stay neutral and factual.
+#
+# 2. FOUNDRY JOURNAL ENTRIES (player-facing artifact, generated downstream)
+#
+#    These are written by agents from each node's player_content. THESE
+#    use the classic Dungeon-Master-addressing-the-party voice:
+#
+#      - 2nd person plural for the party as a whole:
+#          "When you arrived in Oechenfor, you found yourselves each
+#           hungry for adventure."
+#      - 3rd person for individual party members, describing one
+#        character's action to the rest of the party:
+#          "Sylvaris slipped into the square and listened from a doorway."
+#
+#    This voice belongs in the Foundry export tooling and prompts, not in
+#    the game book itself.
+#
+# ─────────────────────────────────────────────────────────────
+# FULL NODE TEMPLATE (v2)
 # ─────────────────────────────────────────────────────────────
 #
 # id: <type>-<slug>
 # type: <npc|location|chapter|event|artifact|faction|concept|encounter>
 # name: Human-readable name
+# audience: <player-available|dm-only>
 # tags:
 #   - tag1
 #   - tag2
 # status: <see status values above>
 # summary: One-sentence description
-# content: |
-#   Extended prose. Free-form. Can include any detail not captured
-#   in structured fields.
-# relationships:
-#   - target: <node-id>
+# player_content: |
+#   (player-available nodes only — may be empty string)
+#   Player-facing prose, in the DM voice described above.
+# dm_content: |
+#   DM-facing prose. Full detail. Hidden motivations, secret history,
+#   reactions, tactics, hooks.
+# public_links:
+#   - target: <node-id>     # must be player-available
 #     rel: <relationship-type>
-#     notes: Optional clarifying note (omit if not needed)
+#     notes: Optional clarifying note
+# dm_links:
+#   - target: <node-id>     # any audience
+#     rel: <relationship-type>
+#     notes: Optional clarifying note
 # sources:
 #   - relative/path/to/source.md

@@ -1,17 +1,26 @@
 id: enc-ch4-06-krivs-territory
 type: encounter
 name: "Ch4 E06: Into Kriv's Territory"
-tags: [chapter-4, exploration, kriv, dead-dragon, yrk-foreshadow]
+audience: player-available
+tags:
+  - chapter-4
+  - exploration
+  - kriv
+  - dead-dragon
+  - yrk-foreshadow
 status: complete
-summary: The party cautiously enters Kriv the Blacktongue's domain only to find the greatest black dragon in the Drekklands already dead—almost certainly slain by Yrk.
-content: |
+summary: >-
+  The party cautiously enters Kriv the Blacktongue's domain only to find the greatest black dragon in the Drekklands
+  already dead—almost certainly slain by Yrk.
+player_content: ""
+dm_content: |
   Realizing they must go east to find the Trickster, the party cautiously enters Kriv the
   Blacktongue's territory by boat and then land. They arrive at Kriv's lair to find the greatest
   black dragon in the Drekklands is already dead. No explanation left behind.
 
   The implication—that the ancient goblin they are seeking was responsible—speaks to Yrk's
   power and the lengths he goes to maintain his safety and privacy in this territory.
-relationships:
+dm_links:
   - target: npc-yrk-the-trickster
     rel: referenced_in
     notes: Almost certainly slew Kriv to clear the way / maintain his territory

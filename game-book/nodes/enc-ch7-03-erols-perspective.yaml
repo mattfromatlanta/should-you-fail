@@ -1,10 +1,21 @@
 id: enc-ch7-03-erols-perspective
 type: encounter
 name: "Ch7 E03: Erol's Perspective"
-tags: [chapter-7, roleplay, aris, erol, political-crisis, veterans, young-bastards]
+audience: player-available
+tags:
+  - chapter-7
+  - roleplay
+  - aris
+  - erol
+  - political-crisis
+  - veterans
+  - young-bastards
 status: complete
-summary: The party visits Erol the Faed, who gives her honest read on Aris: the Young Bastards have a valid complaint, the Veterans are too hidebound, and loss is hard for long-lived creatures like Gallifax.
-content: |
+summary: >-
+  The party visits Erol the Faed, who gives her honest read on Aris — the Young Bastards have a valid complaint, the
+  Veterans are too hidebound, and loss is hard for long-lived creatures like Gallifax.
+player_content: ""
+dm_content: |
   The party sought out Erol the Faed, also staying in the High Ward with Lamat. Unlike
   Aldrin, Erol is not trying to hold the line — she is sympathetic to the Young Bastards
   and skeptical that the current political stalemate can hold much longer.
@@ -20,7 +31,7 @@ content: |
 
   Erol was once Milicent's warlock. She is now bound to Xilo. The party's alliance with
   Milicent has complicated her situation, though she has not addressed this directly.
-relationships:
+dm_links:
   - target: chapter-7-aris-the-fracturing-capital
     rel: part_of
   - target: npc-erol

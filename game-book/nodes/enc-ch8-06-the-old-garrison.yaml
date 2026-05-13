@@ -1,0 +1,148 @@
+id: enc-ch8-06-the-old-garrison
+type: encounter
+name: "Ch8 E06: The Old Garrison"
+audience: dm-only
+tags:
+  - chapter-8
+  - combat
+  - frost-giants
+  - gullux
+  - bronik
+  - estaran
+  - ice-world
+  - garrison
+  - fey-war
+status: planned
+summary: >-
+  The party pushes north to the old Estaran garrison and clears it through four linked sub-areas — basement, great hall,
+  rafters (Gullux's nest), and control tower (Bronik's nest); breaking the dragons' hold on the valley and opening the
+  path to the Dead Forest.
+dm_content: >
+  The Estaran garrison was built to support the war against the Fey, scaled for a thousand soldiers. After the Fey were
+  defeated, the wartime force departed and it sat empty for centuries. In the last month, roughly a dozen frost giants
+  and two Adult white dragons — Gullux and Bronik — have taken residence at the dragons' insistence.
+
+
+  Estarans have great feathered angel wings and fly. The garrison was built around that fact: its main entrance into the
+  great hall is a 100-foot-high opening in the west wall on the rafters level. The only ground-level approach for the
+  party is the small sentry tower at the southwest corner of the compound.
+
+
+  ## Encounter Structure
+
+
+  The garrison breaks into four sub-areas. The party can explore in any order they manage to reach; combat is likely but
+  the areas are large enough that fights can be staged in sequence rather than as one mass engagement.
+
+
+  ### 6a) Sentry Tower, Tunnel, and Basement
+
+
+  The only ground entrance to the compound is a small sentry tower at the southwest corner. A large gate can be opened.
+  On its ground floor, a 20-foot floor hatch slides open by magic and drops to a wide, tall, unlit tunnel that runs a
+  few hundred feet east-north-east into the garrison basement.
+
+
+  The basement has 30-foot ceilings and runs the full footprint of the great hall above — many hundreds of feet north to
+  south, about a third as wide east to west. It holds the decayed remains of the Estaran supply stash, centuries rotted,
+  now being picked through by the frost giants. Nothing of significant value remains.
+
+
+  A handful of frost giants are scattered through the basement when the party arrives. The space is large enough that
+  the party can engage them in rapid succession rather than all at once.
+
+
+  Two large ceiling hatches slide open by magic and lead up into the great hall. A second tunnel exits the northeast
+  corner and runs to the very bottom of the control tower, a few hundred feet east of the great hall's northeast corner.
+  Natural light reaches the bottom of the tower dimly from far above; a flying creature can ascend the full height from
+  here.
+
+
+  ### 6b) Great Hall, Ground Floor
+
+
+  Wide open. Great pillars rise to the roof, about 130 feet above. Rows of bunks and a few tables; few other
+  decorations. Two hatches connect to the basement; a flying creature can reach the rafters platforms unimpeded.
+
+
+  Roughly eight frost giants are gathered here. **TODO:** create a frost giant leader and possibly a shaman to anchor
+  this fight.
+
+
+  ### 6c) Rafters — Gullux's Nest
+
+
+  Broad wooden platforms 100 feet above the great hall floor. A large gap in the west wall (100 feet up) was the
+  Estarans' main entrance. Gullux has made his nest here.
+
+
+  ### 6d) Control Tower — Bronik's Nest
+
+
+  A distinct, much larger tower east of the great hall's northeast corner. 200 feet tall. The room at the top was once
+  the nerve center of Estaran operations on Ikellor. It is now Bronik's nest. He has knocked a hole in the west wall for
+  his own use.
+
+
+  ## Encounter Flow
+
+
+  **Frost giants:** The giants read the party's arrival as a sign of the Estarans' return. They fight as if their lives
+  depend on keeping word from getting back — desperate, not tactical.
+
+
+  **Gullux** (rafters): Fights ferociously and likely to his death. He taunts in Draconic, frequently announcing
+  himself: *"I am Gullux the Terror — I will freeze you and eat your icy guts."* He is the bully and the sadist between
+  the brothers; he sees smaller creatures as playthings and will not parley.
+
+
+  **Bronik** (control tower): The cunning one. His behavior depends on order of encounter:
+
+  - **If the party reaches Bronik after Gullux has fallen:** He bargains for his life. He will offer information in
+  exchange for being let go — specifically, he will tell them about the Dead Forest and Torma's lair. He has no loyalty
+  to his mother; he yearns for her death but knows he cannot challenge her himself.
+
+  - **If the party reaches Bronik before Gullux:** He will try to fight, but flees quickly if things go badly. He is not
+  a strategist and not committed to dying for the position.
+
+
+  ## DM Notes
+
+
+  - The frost giants are cursed survivors of the Fey. They do not consciously remember this. Their hatred of Estarans is
+  the hatred of the conquered who cannot die and cannot leave. This may surface in fragments if a giant is questioned or
+  dying, but no answers are offered here — the answers come in Torma's realm.
+
+  - Estarans left almost nothing behind on this world: no documents, no technology stashes, no records. They are careful
+  not to let mortals learn their magic or techniques. The only Estaran knowledge preserved here is what is embossed into
+  structure itself (the star chart in the Projector Hall at Farthim).
+
+  - If Estarans ever learn the party crossed worlds with a Radiant Lance, they will consider it a grave transgression
+  and a sign that this universe is slipping out of their control. Bronik does not know enough about the Lance to make
+  this connection, but the party should feel that operating the Lance carries a real risk if discovered.
+
+  - Taking the garrison should feel significant — not just a combat sweep but a history lesson about scale and what the
+  Estarans built here. Give the party time to look around if they want it.
+
+  - After the garrison is cleared, the path opens to the Dead Forest adjacent to the north, and from there to the dead
+  Feywild and Torma.
+dm_links:
+  - target: chapter-8-across-the-void
+    rel: part_of
+  - target: location-ice-world
+    rel: set_in
+  - target: npc-gullux-ice-world
+    rel: features
+    notes: Nest on the rafters; fights to the death
+  - target: npc-bronik-ice-world
+    rel: features
+    notes: Nest in the control tower; bargains if Gullux is dead, flees otherwise
+  - target: location-dead-forest
+    rel: leads_to
+  - target: enc-ch8-05-the-giant-tribe
+    rel: preceded_by
+  - target: enc-ch8-07-dead-forest
+    rel: leads_to
+sources:
+  - session-docs/ch8-ice-world-history.txt
+  - session-docs/ch8-open-questions.txt

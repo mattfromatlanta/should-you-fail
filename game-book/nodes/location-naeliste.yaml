@@ -1,10 +1,21 @@
 id: location-naeliste
 type: location
 name: Naeliste
-tags: [feywild, fey-city, eladrin, goblin, bullywug, safe-haven, library]
+audience: player-available
+tags:
+  - feywild
+  - fey-city
+  - eladrin
+  - goblin
+  - bullywug
+  - safe-haven
+  - library
 status: active
-summary: Fey city built at the base of the Teeth cliffs where the West Falls thunder down; home to Eladrin, Goblins, and Bullywugs; safe from Milicent's tracking.
-content: |
+summary: >-
+  Fey city built at the base of the Teeth cliffs where the West Falls thunder down; home to Eladrin, Goblins, and
+  Bullywugs; safe from Milicent's tracking.
+player_content: ""
+dm_content: |
   Lies in the shadow of the Teeth at the base of the cliff face. The West Falls thunder down
   feeding a wide basin of marshland, river delta, and shallow lake. Three peoples:
   - Eladrin: slender towers stretching hundreds of meters, shifting with seasonal moods
@@ -19,7 +30,7 @@ content: |
   guard the approach and require the "joining pact" phrase for entry.
 
   The party used Naeliste as base of operations in Chapters 3 and 6.
-relationships:
+dm_links:
   - target: npc-melbara
     rel: contains
   - target: npc-lomani-nae

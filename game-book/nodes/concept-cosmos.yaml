@@ -1,6 +1,7 @@
 id: concept-cosmos
 type: concept
 name: The Cosmos — Natural Order
+audience: player-available
 tags:
   - cosmos
   - cosmology
@@ -10,49 +11,72 @@ tags:
   - estarans
   - dragons
 summary: >-
-  Foundational facts about the natural order of the cosmos — what worlds, mortals, Fey, and dragons are absent
-  Estaran interference.
-content: |
+  Foundational facts about the natural order of the cosmos — what worlds, mortals, Fey, and dragons are absent Estaran
+  interference.
+player_content: ""
+dm_content: >
   This node collects the foundational facts about the cosmos that underlie all worlds the campaign touches. These
+
   facts are stable across time and place; they constrain what is and is not possible elsewhere in the campaign.
+
 
   ## Natural-Order Worlds
 
+
   In the natural order of the cosmos — with no Estaran influence — a world suited for mortal species will be created
+
   together with its mortal population. Such a world is born whole: native mortals, native Fey, and a living Feywild
+
   that is part of the world's existence from the beginning. **The world of Aris and Oechenfor (Aerus) is a world like
+
   this.**
+
 
   All worlds with mortals have a Feywild. All worlds with mortals have Fey.
 
+
   ## Estaran-Colonized Worlds
 
+
   Some worlds have no native mortals. The Estarans relocate mortals to these worlds from elsewhere, seeking an ideal
+
   ordered balance. Settlers brought to such a world have no recorded history or cultural memory of their previous
+
   home; they know only the world they have been given. **Ikellor (the ice world) is one such world** — settlers were
+
   drawn from Aerus and from other worlds.
 
+
   Even on these worlds, a Feywild and native Fey exist before Estaran arrival. They are managed, suppressed, or
+
   destroyed wherever the Estarans operate.
+
 
   ## The Estaran Homeworld
 
+
   There is a single Estaran homeworld that has been preserved across time and across every reset of the Material
+
   Plane. Details remain unknown to the party.
 
+
   ## Cosmic Constants
+
 
   - **Fey and Estarans are natural enemies.** Fey are fundamentally incompatible with Estaran magic and Estaran
     ideology throughout the cosmos. Every world with an Estaran footprint sees conflict with the Fey.
   - **Dragons are the truest expression of existence.** Their innate qualities do not change across time or worlds.
     This is why they can destroy Estarans and why Estarans fear them.
-  - **Necrotic energy uniquely damages Estaran materials.** It opposes the Estarans' ordered nature and is the opposite of radiance.
+  - **Necrotic energy uniquely damages Estaran materials.** It opposes the Estarans' ordered nature and is the opposite
+  of radiance.
+
   - **Draconic is universal.** The language is the same across time and across all worlds.
+
   - **The common tongue is universal.** A single common tongue is spoken across all worlds — it derives from
     Estaran and was spread by Estaran colonization. There are distinct dialects on each world.
   - **Fey languages are fractured.** Sylvan, Goblin, Eladrin, Bullywug, and other Fey tongues are wildly different on
     different worlds. There has been no cross-pollination of Fey languages across the cosmos.
-relationships:
+dm_links:
   - target: concept-estarans
     rel: related_to
   - target: concept-dragons

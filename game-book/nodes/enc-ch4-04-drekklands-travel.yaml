@@ -1,10 +1,21 @@
 id: enc-ch4-04-drekklands-travel
 type: encounter
 name: "Ch4 E04: The Drekklands"
-tags: [chapter-4, travel, combat, drekklands, dinosaurs, temporal-slippage, magical-instability]
+audience: player-available
+tags:
+  - chapter-4
+  - travel
+  - combat
+  - drekklands
+  - dinosaurs
+  - temporal-slippage
+  - magical-instability
 status: complete
-summary: The party travels southwest through the magically unstable Drekklands, encountering dinosaurs, trolls, and the swamp's reality-bending phenomena.
-content: |
+summary: >-
+  The party travels southwest through the magically unstable Drekklands, encountering dinosaurs, trolls, and the swamp's
+  reality-bending phenomena.
+player_content: ""
+dm_content: |
   The party sets out southwest through the Drekklands to avoid Kriv's eastern territory.
   The Drekklands are profoundly strange: shifting channels (rivers alter overnight), temporal
   slippage (events repeat; echoes arrive before sounds), illusion-rooted flora masking hazards,
@@ -14,7 +25,7 @@ content: |
 
   Day: Tyrannosaurus, Triceratops, Giant Ape, Trolls, Brontosaurus, Giant Crocodiles, Venom Trolls
   Night: Bodaks, Svirfneblin Hunters, Froghemoth, Ghast Gravecallers, Ghasts, Rot Trolls
-relationships:
+dm_links:
   - target: chapter-4-journey-to-the-trickster
     rel: part_of
   - target: location-drekklands

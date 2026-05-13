@@ -1,6 +1,7 @@
 id: npc-aldrin-stoneward
 type: npc
 name: Aldrin Stoneward
+audience: player-available
 tags:
   - human
   - veteran
@@ -13,7 +14,8 @@ status: alive
 summary: >-
   Chief Citizen and Founder of Oechenfor; veteran gifted with ageless life by the Estara; departed Aris for Oechenfor
   after Chapter 7 ended.
-content: >-
+player_content: ""
+dm_content: >
   A middle-aged human man with dark skin and a bald head. Tall and regal with a seeming radiance.\nCarries the legendary
   longsword Valor on his back. Gifted by the Estara with ageless, enduring\nlife before the First Rebellion. Fought
   alongside Maelric Sturmwald and Gallifax in the\nRebellion. Survived the burning of Metgal. Co-founded Oechenfor ~20
@@ -31,7 +33,7 @@ content: >-
   concept-fey-law-philosophy.\n\n## Current Status\n\nAldrin and Erol left Aris for Oechenfor after Chapter 7 concluded.
   They did not travel to Metgal.\n\n> **DM NOTE:** They are heading to Oechenfor. The party does not know where they
   went.
-relationships:
+dm_links:
   - target: npc-maelric-sturmwald
     rel: ally
   - target: npc-erol

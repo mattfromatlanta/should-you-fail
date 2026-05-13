@@ -1,10 +1,19 @@
 id: location-aris
 type: location
 name: Aris
-tags: [allied-cities, capital, political, hall-of-allies, estaran-architecture]
+audience: player-available
+tags:
+  - allied-cities
+  - capital
+  - political
+  - hall-of-allies
+  - estaran-architecture
 status: active
-summary: Largest city and political capital of the Allied Cities; seat of the Counsel of Citizens; built atop the largest known Estaran stronghold complex.
-content: |
+summary: >-
+  Largest city and political capital of the Allied Cities; seat of the Counsel of Citizens; built atop the largest known
+  Estaran stronghold complex.
+player_content: ""
+dm_content: |
   Aris sprawls across seven hills at the confluence of two rivers. Built atop and from the bones
   of an ancient Estaran stronghold—the largest such complex in the known world. Population ~50,000
   souls. The most cosmopolitan settlement in the Allied Cities.
@@ -22,7 +31,7 @@ content: |
   Current situation (Chapter 7): Political crisis following Maelric's catatonic state.
   Veterans faction vs. Young Bastards reform movement. Doppelganger infiltration (per Ch3 lore).
   Aldrin and Erol arrived trying to stabilize things.
-relationships:
+dm_links:
   - target: faction-allied-cities
     rel: capital_of
   - target: faction-counsel-of-citizens

@@ -1,10 +1,20 @@
 id: npc-ozevriel
 type: npc
 name: Ozevriel
-tags: [archfey, rebel-fey, deceased, memorial, first-war, feywild]
+audience: player-available
+tags:
+  - archfey
+  - rebel-fey
+  - deceased
+  - memorial
+  - first-war
+  - feywild
 status: dead
-summary: One of the seven Rebel Fey who sacrificed himself so the other six could escape during the First War; his memorial tower exists in the Feywild.
-content: |
+summary: >-
+  One of the seven Rebel Fey who sacrificed himself so the other six could escape during the First War; his memorial
+  tower exists in the Feywild.
+player_content: ""
+dm_content: |
   From the Ode to Seven Lords—one of the original seven Rebel Fey. Sacrificed himself during the
   First War to let the other six escape. His death weakened the Feywild fundamentally; he was
   one of two pillars giving the realm stability. Milicent's departure to the Shadowfell removed
@@ -16,7 +26,7 @@ content: |
   at its peak.
 
   Verse from the Ode: "Ozevriel—he gave himself so six could walk away."
-relationships:
+dm_links:
   - target: faction-rebel-fey
     rel: member_of
   - target: location-memorial-of-ozevriel

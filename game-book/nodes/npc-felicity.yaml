@@ -1,10 +1,20 @@
 id: npc-felicity
 type: npc
 name: Felicity Roo
-tags: [human, warlock, milicent, quicklings, operative, oechenfor]
+audience: player-available
+tags:
+  - human
+  - warlock
+  - milicent
+  - quicklings
+  - operative
+  - oechenfor
 status: alive
-summary: Human warlock and Milicent's chief mortal operative; led the quickling kidnapping operation in Oechenfor; now traveling with Yrk on the portable Radiant Projector project.
-content: |
+summary: >-
+  Human warlock and Milicent's chief mortal operative; led the quickling kidnapping operation in Oechenfor; now
+  traveling with Yrk on the portable Radiant Projector project.
+player_content: ""
+dm_content: |
   Leader of the quickling team conducting kidnapping operations in Oechenfor for Milicent.
   A powerful warlock. Used specialized star metal tools crafted (unwittingly) by Gord
   Lankenmangled. Set fire to the quickling safehouse to lure the party into the final shadow
@@ -13,7 +23,7 @@ content: |
   Current status (end of Ch6): Traveling the mortal world with Yrk, assisting with the
   portable Radiant Projector and star model project. Will arrive in Aris a few days after
   the party. Directly represents Milicent's interests in the mortal world.
-relationships:
+dm_links:
   - target: npc-milicent
     rel: serves
   - target: npc-erol

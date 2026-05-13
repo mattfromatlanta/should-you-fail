@@ -1,10 +1,20 @@
 id: chapter-1-invaders
 type: chapter
 name: "Chapter 1: Invaders"
-tags: [chapter, gullux, lome, dragonborn, milicent-first-contact, uplands]
+audience: player-available
+tags:
+  - chapter
+  - gullux
+  - lome
+  - dragonborn
+  - milicent-first-contact
+  - uplands
 status: complete
-summary: The party investigates Lome's silence, discovers Dragonborn invaders led by Gullux, defeats him in Milicent's shadow space, and finds stolen dragon eggs.
-content: |
+summary: >-
+  The party investigates Lome's silence, discovers Dragonborn invaders led by Gullux, defeats him in Milicent's shadow
+  space, and finds stolen dragon eggs.
+player_content: ""
+dm_content: |
   When spring thaw arrived and no word came from the highland village of Lome, Chief Citizen
   Aldrin Stoneward called upon the party to investigate. The journey north through the Faedwood
   revealed immediate trouble—a massive carcass discarded unnaturally, and terrified fey who
@@ -28,7 +38,7 @@ content: |
   defeated Gullux in this strange space, they found themselves returned to the natural cave.
   Searching the area, they discovered three white dragon eggs. The party burned them, ensuring
   no more dragons would threaten the region.
-relationships:
+dm_links:
   - target: npc-aldrin-stoneward
     rel: features
   - target: npc-gullux

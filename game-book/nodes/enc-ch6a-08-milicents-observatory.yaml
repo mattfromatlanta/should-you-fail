@@ -1,10 +1,21 @@
 id: enc-ch6a-08-milicents-observatory
 type: encounter
 name: "Ch6a E08: Milicent's Observatory"
-tags: [chapter-6a, exploration, milicent-research, hootini, observatory, estaran-intelligence, four-documents]
+audience: player-available
+tags:
+  - chapter-6a
+  - exploration
+  - milicent-research
+  - hootini
+  - observatory
+  - estaran-intelligence
+  - four-documents
 status: complete
-summary: At the memorial tower's peak, the party discovers Milicent's ancient observatory; Hootini reveals himself as a Moon Fey; the party spends hours studying her research and recovers four key documents.
-content: |
+summary: >-
+  At the memorial tower's peak, the party discovers Milicent's ancient observatory; Hootini reveals himself as a Moon
+  Fey; the party spends hours studying her research and recovers four key documents.
+player_content: ""
+dm_content: |
   At the top of the memorial tower's spiral staircase: Milicent's ancient observatory. Built
   before her transformation into the Shadowdame, when she was a brilliant scholar studying
   order, predictability, and the nature of reality—unusual for a Fey.
@@ -26,7 +37,7 @@ content: |
   2. Letter from Yrk to Milicent (theorizes about Radiant Projectors; mentions Metgal)
   3. "Evidence for Outworld Origin"
   4. "Analysis of Estaran Temporal Patterns"
-relationships:
+dm_links:
   - target: npc-hootini
     rel: features
     notes: Revealed as Moon Fey here; becomes permanent companion

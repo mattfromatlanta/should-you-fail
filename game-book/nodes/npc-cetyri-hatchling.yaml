@@ -1,10 +1,7 @@
 id: npc-cetyri-hatchling
 type: npc
 name: Cetyri (Ice World Hatchling)
-summary: >-
-  The ice world's iteration of Cetyri — a gold dragon hatchling imprisoned in Torma's lair in the dead Feywild; the
-  subject of the merge in Chapter 8.
-status: alive
+audience: dm-only
 tags:
   - gold-dragon
   - ice-world
@@ -13,7 +10,11 @@ tags:
   - chapter-8
   - multiworld
   - world-ikellor
-content: >-
+status: alive
+summary: >-
+  The ice world's iteration of Cetyri — a gold dragon hatchling imprisoned in Torma's lair in the dead Feywild; the
+  subject of the merge in Chapter 8.
+dm_content: >
   The ice world's version of Cetyri — a gold dragon hatchling, imprisoned in the deepest part of Torma's lair in the
   dead Feywild. Taken as a prize. He is held in suspended animation inside a block of ice. Torma keeps him because she
   wants to and she can.
@@ -26,14 +27,14 @@ content: >-
   The merge is safe: the party's Cetyri is the stronger dragon, and the hatchling has no deep attachment to this world —
   he has known nothing but captivity. After the merge, Cetyri grows in power. Not all Cetyris across worlds are the same
   age; the rules for what makes a merge safe versus dangerous will be tested further in later chapters.
-relationships:
+dm_links:
   - target: npc-cetyri
     rel: iteration_of
   - target: npc-torma-ice-world
     rel: imprisoned_by
   - target: location-dead-feywild
     rel: located_in
-  - target: enc-ch8-06-tormas-realm
+  - target: enc-ch8-08-tormas-realm
     rel: featured_in
 sources:
   - chapter-8-planning.md

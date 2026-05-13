@@ -1,10 +1,20 @@
 id: chapter-3-shadow-pursuit
 type: chapter
 name: "Chapter 3: The Shadow Pursuit"
-tags: [chapter, naeliste, trickster, rebel-fey, milicent-lore, cetyri-potential]
+audience: player-available
+tags:
+  - chapter
+  - naeliste
+  - trickster
+  - rebel-fey
+  - milicent-lore
+  - cetyri-potential
 status: complete
-summary: Party reaches Naeliste, discovers key historical documents in the library, learns of Cetyri's potential as Dragon Singularity, and plans the journey to find Yrk the Trickster.
-content: |
+summary: >-
+  Party reaches Naeliste, discovers key historical documents in the library, learns of Cetyri's potential as Dragon
+  Singularity, and plans the journey to find Yrk the Trickster.
+player_content: ""
+dm_content: |
   Erol explained her absence: she and Lamat had discovered they were targets of a kidnapping
   plot by Milicent, Erol's former patron. The Shadowdame had not forgotten their bond. Erol and
   Lamat fled into the Feywild, where they gathered troubling intelligence: Milicent had reactivated
@@ -49,7 +59,7 @@ content: |
   strength to destroy Milicent, but with disastrous effects.
 
   Concerned, Cetyri and Bronik fled together into the Feywild.
-relationships:
+dm_links:
   - target: location-naeliste
     rel: set_in
   - target: npc-melbara

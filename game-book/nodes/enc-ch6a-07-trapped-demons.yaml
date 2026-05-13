@@ -1,10 +1,20 @@
 id: enc-ch6a-07-trapped-demons
 type: encounter
 name: "Ch6a E07: Trapped Demons and Worgs"
-tags: [chapter-6a, combat, memorial, arcanaloths, dire-worgs, arcane-trap]
+audience: player-available
+tags:
+  - chapter-6a
+  - combat
+  - memorial
+  - arcanaloths
+  - dire-worgs
+  - arcane-trap
 status: complete
-summary: The party discovers and releases a 50-year-old arcane trap in the memorial antechamber, then defeats the 2 Arcanaloths and 5 Dire Worgs that had been locked inside.
-content: |
+summary: >-
+  The party discovers and releases a 50-year-old arcane trap in the memorial antechamber, then defeats the 2 Arcanaloths
+  and 5 Dire Worgs that had been locked inside.
+player_content: ""
+dm_content: |
   In the memorial's underground antechamber, the party finds a powerful arcane trap that has
   held 2 Arcanaloths and 5 Dire Worgs for fifty years. Through careful investigation and
   skillful manipulation they release the trap—then must defeat the freed creatures in combat.
@@ -13,7 +23,7 @@ content: |
   The party defeats all of them, clearing the memorial. Their success demonstrates competence
   in handling complex magical traps—an observation the session worksheet notes explicitly.
   (Per session worksheet: "Tactical combat to eliminate threats.")
-relationships:
+dm_links:
   - target: chapter-6a-into-the-wild
     rel: part_of
   - target: location-memorial-of-ozevriel

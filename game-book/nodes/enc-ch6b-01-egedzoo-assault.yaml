@@ -1,10 +1,24 @@
 id: enc-ch6b-01-egedzoo-assault
 type: encounter
 name: "Ch6b E01: Assault on Egedzoo's Canyon Lair"
-tags: [chapter-6b, combat, egedzoo, canyon, hobgoblins, lightning, traps, dragon-fight, actual-play]
+audience: player-available
+tags:
+  - chapter-6b
+  - combat
+  - egedzoo
+  - canyon
+  - hobgoblins
+  - lightning
+  - traps
+  - dragon-fight
+  - actual-play
 status: complete
-summary: Dawn assault on Egedzoo's canyon lair; Xilo's forces drew the hobgoblin army away; the party dispatched skeleton guard crews and faced Egedzoo in his sanctum—Cormin's mind magic exposed the lightning conductor web; Aelira pinned him; the party slew him decisively.
-content: |
+summary: >-
+  Dawn assault on Egedzoo's canyon lair; Xilo's forces drew the hobgoblin army away; the party dispatched skeleton guard
+  crews and faced Egedzoo in his sanctum—Cormin's mind magic exposed the lightning conductor web; Aelira pinned him; the
+  party slew him decisively.
+player_content: ""
+dm_content: |
   Dawn assault, coordinated with Xilo. His forces engaged the bulk of the hobgoblin army,
   drawing them away from the canyon lair.
 
@@ -26,19 +40,19 @@ content: |
 
   The fight was a resounding victory. Treasure claimed: ~25,000gp in coins, gems, art objects,
   trade goods, plus magic items.
-relationships:
+dm_links:
   - target: npc-egedzoo
     rel: features
   - target: npc-xilo-lord-of-robins
     rel: features
     notes: Coordinated the distraction of hobgoblin forces
-  - target: npc-cormin
+  - target: pc-cormin
     rel: features
-  - target: npc-aelira
+  - target: pc-aelira
     rel: features
-  - target: npc-sylvaris
+  - target: pc-sylvaris
     rel: features
-  - target: npc-peno
+  - target: pc-peno
     rel: features
   - target: chapter-6b-death-to-egedzoo
     rel: part_of

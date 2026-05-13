@@ -1,43 +1,47 @@
 id: location-dead-forest
 type: location
 name: The Dead Forest
-summary: >-
-  A vast forest adjacent to the old Estaran garrison that died with the Feywild three centuries ago; full of monsters
-  and demons of the cold, with rifts to the dead Feywild still open within it.
-status: active
+audience: player-available
 tags:
   - ice-world
   - dead-feywild
   - chapter-8
   - dungeon
   - hazard
-content: >-
-  A vast forest immediately adjacent to the old Estaran garrison. It died when the Estarans destroyed the Feywild
-  three centuries ago. What remains is a frozen sprawl of dead trees and ruined undergrowth, riddled with rifts to the
-  dead Feywild that never fully closed.
+status: active
+summary: >-
+  A vast forest adjacent to the old Estaran garrison that died with the Feywild three centuries ago; full of monsters
+  and demons of the cold, with rifts to the dead Feywild still open within it.
+player_content: ""
+dm_content: >
+  A vast forest immediately adjacent to the old Estaran garrison. It died when the Estarans destroyed the Feywild three
+  centuries ago. What remains is a frozen sprawl of dead trees and ruined undergrowth, riddled with rifts to the dead
+  Feywild that never fully closed.
 
 
   It is an extremely dangerous place. Monsters and demons of the cold inhabit it — drawn through the rifts or born of
-  them. Torma entered the dead Feywild through this forest thirty years ago and has not returned. The Frost Giants
-  avoid it.
+  them. Torma entered the dead Feywild through this forest thirty years ago and has not returned. The Frost Giants avoid
+  it.
 
 
   ## Role in Chapter 8
 
 
-  After the garrison is cleared, the party must enter the Dead Forest to find a rift that opens to the dead Feywild
-  and Torma's territory. This is the path to confronting Torma and freeing the hatchling Cetyri. The ice world's
-  Cetyri will be found by following this path.
+  After the garrison is cleared, the party must enter the Dead Forest to find a rift that opens to the dead Feywild and
+  Torma's territory. This is the path to confronting Torma and freeing the hatchling Cetyri. The ice world's Cetyri will
+  be found by following this path.
 
 
   Layout, specific hazards, and the rift the party uses are TBD.
-relationships:
+dm_links:
   - target: location-ice-world
     rel: located_in
   - target: location-dead-feywild
     rel: leads_to
-  - target: enc-ch8-05b-the-old-garrison
+  - target: enc-ch8-06-the-old-garrison
     rel: adjacent_to
+  - target: enc-ch8-07-dead-forest
+    rel: setting_of
   - target: npc-torma-ice-world
     rel: related_to
     notes: Torma entered the dead Feywild through this forest thirty years ago

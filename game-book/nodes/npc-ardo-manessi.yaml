@@ -1,6 +1,7 @@
 id: npc-ardo-manessi
 type: npc
 name: Ardo Manessi
+audience: player-available
 tags:
   - human
   - aris
@@ -12,7 +13,8 @@ status: alive
 summary: >-
   Human city councilor, 47; ambitious political operator publicly backing Veterans while secretly courting Young
   Bastards; secretly plotting to kill or have killed Chief Exarch Maelric to seize power.
-content: >-
+player_content: ""
+dm_content: >
   Human city councilor in Aris, age 47. An ambitious operator publicly supporting the Veterans faction while privately
   courting Young Bastard allies. Plays both sides to position himself as Maelric's successor.
 
@@ -25,7 +27,7 @@ content: >-
 
   Secret: Looking for an opportunity to kill or have Maelric killed. Hopes to maneuver the current crisis into personal
   power.
-relationships:
+dm_links:
   - target: npc-maelric-sturmwald
     rel: enemy
     notes: Secretly plotting to kill or have killed; wants to succeed him

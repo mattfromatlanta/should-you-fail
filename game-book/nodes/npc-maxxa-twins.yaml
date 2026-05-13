@@ -1,10 +1,19 @@
 id: npc-maxxa-twins
 type: npc
 name: Maxxa'Valien and Maxxa'Volien
-tags: [beholder, underdark, chapter-2, twin, shadow-projection]
+audience: player-available
+tags:
+  - beholder
+  - underdark
+  - chapter-2
+  - twin
+  - shadow-projection
 status: unknown
-summary: Rival beholder twins in the Underdark—Maxxa'Valien (perfect and majestic) and Maxxa'Volien (unspeakably deformed)—born when an unknown god's nightmare split in two.
-content: |
+summary: >-
+  Rival beholder twins in the Underdark—Maxxa'Valien (perfect and majestic) and Maxxa'Volien (unspeakably deformed)—born
+  when an unknown god's nightmare split in two.
+player_content: ""
+dm_content: |
   Rival beholders occupying opposite ends of an underground canyon in the Underdark below the
   East Hills. Born when an unknown god's nightmare split in two. Maxxa'Valien is the "perfect
   and majestic" twin; Maxxa'Volien is the "unspeakably deformed" twin. They have identical
@@ -13,7 +22,7 @@ content: |
   The party made a deal with Maxxa'Valien to clear creatures from neutral territory. Milicent
   later pulled the party into a shadow projection to fight a transformed (weakened) Maxxa'Valien.
   His ultimate fate after the encounter is not fully documented.
-relationships:
+dm_links:
   - target: location-underdark
     rel: located_in
   - target: chapter-2-darkness

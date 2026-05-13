@@ -1,10 +1,19 @@
 id: enc-ch3-01-pursuit-to-naeliste
 type: encounter
 name: "Ch3 E01: Pursuit to Naeliste"
-tags: [chapter-3, travel, milicent-agents, naeliste, tricksters-blessing-goal]
+audience: player-available
+tags:
+  - chapter-3
+  - travel
+  - milicent-agents
+  - naeliste
+  - tricksters-blessing-goal
 status: complete
-summary: The party is pursued by Milicent's forces but makes it to Naeliste—one of the few places on the mortal world where she cannot track them.
-content: |
+summary: >-
+  The party is pursued by Milicent's forces but makes it to Naeliste—one of the few places on the mortal world where she
+  cannot track them.
+player_content: ""
+dm_content: |
   After separating from Erol, Lamat, and Lome's citizens (who went south to Oechenfor), the
   party travels east with Cetyri and Bronik toward Naeliste. Milicent's forces pursue them on
   the mortal world. They are vulnerable until they reach the safety of the Fey city.
@@ -14,7 +23,7 @@ content: |
 
   Erol's advice directed them here specifically—she knew about Naeliste's protection and the
   need to seek the Trickster's Blessing.
-relationships:
+dm_links:
   - target: npc-milicent
     rel: features
     notes: Her forces pursue the party

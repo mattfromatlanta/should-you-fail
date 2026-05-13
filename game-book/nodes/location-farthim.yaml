@@ -1,10 +1,7 @@
 id: location-farthim
 type: location
 name: Farthim
-summary: >-
-  Village of humans, dwarves, and goliaths — 65 survivors — in a valley on the ice world; once a town of 800; under
-  threat from Torma's frost giants; the party's first contact point on arrival.
-status: active
+audience: player-available
 tags:
   - ice-world
   - village
@@ -13,7 +10,12 @@ tags:
   - goliath
   - chapter-8
   - siege
-content: >-
+status: active
+summary: >-
+  Village of humans, dwarves, and goliaths — 65 survivors — in a valley on the ice world; once a town of 800; under
+  threat from Torma's frost giants; the party's first contact point on arrival.
+player_content: ""
+dm_content: >
   A settlement of humans, dwarves, and goliaths in a valley adjacent to a frozen river on the ice world. Once a town of
   800. A year ago, a hundred remained. Now there are 65 — the rest lost to cold, starvation, and giant raids. Many of
   the survivors are weak and malnourished. They survive by hunting large game (mammoths, woolly rhinoceroses, giant elk)
@@ -33,10 +35,10 @@ content: >-
 
 
   Sylvaris and Aelira — both Eladrin — will be a shock. Farthimers **know** the Fey existed: the Estarans fought them
-  here in the Fey War three centuries ago and destroyed them, and the Feywild died with them. But Fey have been gone
-  for generations and the village's settled story has hardened into something simpler. The Fey, in Farthim's telling,
-  were dangerous and untrustworthy — *"look what they did to the world"* — and the Estarans were the protectors who
-  ended the threat. The ice age is the proof.
+  here in the Fey War three centuries ago and destroyed them, and the Feywild died with them. But Fey have been gone for
+  generations and the village's settled story has hardened into something simpler. The Fey, in Farthim's telling, were
+  dangerous and untrustworthy — *"look what they did to the world"* — and the Estarans were the protectors who ended the
+  threat. The ice age is the proof.
 
 
   Meeting living Fey, walking into town apparently as allies of the people Farthim believes are their saviors, should
@@ -59,14 +61,14 @@ content: >-
   - **The River** — A frozen river flows from the mountains north of Farthim, passes through the valley, and bends west
   toward the sea. Farthim sits in the middle of the valley along the river's course.
 
-  - **The Whaling Camp** — Where the river meets the sea, west of Farthim, is an ancient whaling camp. It was in
-  regular use before the ice age. The Farthimers have tried to work it in the last year but lack the skill. Whaling on
-  a frozen sea is dangerous and they have not solved it. Tools and small craft remain on site for any party with the
-  skill to use them.
+  - **The Whaling Camp** — Where the river meets the sea, west of Farthim, is an ancient whaling camp. It was in regular
+  use before the ice age. The Farthimers have tried to work it in the last year but lack the skill. Whaling on a frozen
+  sea is dangerous and they have not solved it. Tools and small craft remain on site for any party with the skill to use
+  them.
 
   - **The Garrison** — North-east of Farthim, in the mountains where the river flows down from, is an ancient Estaran
-  garrison built for a thousand soldiers. Abandoned after the Fey War and empty for a century until the last month,
-  when Gullux and Bronik forced the frost giants to occupy it.
+  garrison built for a thousand soldiers. Abandoned after the Fey War and empty for a century until the last month, when
+  Gullux and Bronik forced the frost giants to occupy it.
 
   - **The Dead Forest** — East of the garrison. A vast forest that died when the Feywild collapsed. Many rifts to the
   dead Feywild remain open here. Torma entered the dead Feywild through this forest thirty years ago. It is extremely
@@ -115,10 +117,10 @@ content: >-
   Two notable Estaran buildings remain in town, abandoned and intact:
 
 
-  - **The Generator Hall** — the barracks and operations hall for Cersael's Section (the Farthim Estarans) and the mechanism that powered the
-  Shield. Truly empty now — the Estarans took everything portable with them and left no records, no caches, no
-  personal effects, no working machinery. The space tells the party nothing except that twelve disciplined people once
-  lived a tight, orderly life here and left no trace.
+  - **The Generator Hall** — the barracks and operations hall for Cersael's Section (the Farthim Estarans) and the
+  mechanism that powered the Shield. Truly empty now — the Estarans took everything portable with them and left no
+  records, no caches, no personal effects, no working machinery. The space tells the party nothing except that twelve
+  disciplined people once lived a tight, orderly life here and left no trace.
 
   - **The Projector Hall** — housed a radiant projector. Empty now of any portable equipment. The star chart on the
   walls is embossed directly into the structure (which is why the Estarans did not strip it on withdrawal). It depicts
@@ -136,8 +138,8 @@ content: >-
 
 
   > **DM NOTE:** The Estarans deliberately leave nothing portable behind on worlds they occupy — no documents, no
-  technology, no records — because they do not want mortals to learn their magic or techniques. The embossed star
-  chart is the rare exception, preserved only because it could not be removed.
+  technology, no records — because they do not want mortals to learn their magic or techniques. The embossed star chart
+  is the rare exception, preserved only because it could not be removed.
 
 
   Both structures are treated with reverence and unease. They are not looted.
@@ -153,7 +155,7 @@ content: >-
   **Aerus, the party's home world** — and from other worlds. The Farthimers have no cultural memory of this. A sharp
   party member could connect the threads: the Estaran name for this world (Ikellor), the Aerus glyph on the Projector
   Hall star chart, and the common tongue spoken here. The Farthimers' ancestors came from the party's own home.
-relationships:
+dm_links:
   - target: location-ice-world
     rel: located_in
   - target: npc-torma-ice-world

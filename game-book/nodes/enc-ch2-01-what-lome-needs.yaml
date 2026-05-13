@@ -1,10 +1,19 @@
 id: enc-ch2-01-what-lome-needs
 type: encounter
 name: "Ch2 E01: What Lome Needs"
-tags: [chapter-2, roleplay, lome, recovery, caera]
+audience: player-available
+tags:
+  - chapter-2
+  - roleplay
+  - lome
+  - recovery
+  - caera
 status: complete
-summary: The party helps Lome begin recovery after the siege; Caera arrives with news; the town leaders articulate what they need to rebuild.
-content: |
+summary: >-
+  The party helps Lome begin recovery after the siege; Caera arrives with news; the town leaders articulate what they
+  need to rebuild.
+player_content: ""
+dm_content: |
   Post-victory recovery scene. The party assists Lome with celebrating and beginning to plan
   recovery. Caera (Aelira's mother, a druid from Naeliste) arrives with news—she has not seen
   Erol in Naeliste either, confirming her continued disappearance. She notes Erol is female.
@@ -15,7 +24,7 @@ content: |
   - Midge (Transport): road, elevator, flying couriers—proposes hippogriff breeding program
 
   Midge's hippogriff plan is discussed but interrupted before it can go anywhere.
-relationships:
+dm_links:
   - target: npc-caera
     rel: features
   - target: npc-kruftus-unter

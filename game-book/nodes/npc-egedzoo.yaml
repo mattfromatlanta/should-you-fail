@@ -1,10 +1,21 @@
 id: npc-egedzoo
 type: npc
 name: Egedzoo
-tags: [dragon, blue-dragon, adult, foe, feywild, chapter-6, deceased]
+audience: player-available
+tags:
+  - dragon
+  - blue-dragon
+  - adult
+  - foe
+  - feywild
+  - chapter-6
+  - deceased
 status: dead
-summary: Adult blue dragon who sought to dominate the Feywild wasteland by uniting hobgoblin factions; slain by the party in Chapter 6b.
-content: |
+summary: >-
+  Adult blue dragon who sought to dominate the Feywild wasteland by uniting hobgoblin factions; slain by the party in
+  Chapter 6b.
+player_content: ""
+dm_content: |
   Sought to carve out a kingdom in the Feywild's scorched wasteland by uniting hobgoblin bandit
   factions. Cunning and territorial; contemptuous of Xilo's influence. First encountered at
   Rinick's Diner in a standoff with Twi'Xu. Later attacked the party's airship with hobgoblin
@@ -19,7 +30,7 @@ content: |
   Possessed intelligence about Estaran ruins in the wasteland—a dormant Radiant Projector
   partially buried there. Whether the party learned this before his death is a matter of session
   record.
-relationships:
+dm_links:
   - target: npc-xilo-lord-of-robins
     rel: enemy_of
   - target: npc-twi-xu

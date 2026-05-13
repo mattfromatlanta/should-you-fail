@@ -1,10 +1,20 @@
 id: enc-ch7-01-arrival-in-aris
 type: encounter
 name: "Ch7 E01: Arrival in Aris"
-tags: [chapter-7, roleplay, aris, young-bastards, veterans, de-escalation]
+audience: player-available
+tags:
+  - chapter-7
+  - roleplay
+  - aris
+  - young-bastards
+  - veterans
+  - de-escalation
 status: complete
-summary: The party arrives in Aris with their entourage, de-escalates a near-lethal confrontation between Veterans and Young Bastard protesters on the road in, and is met at the gate by Twi'Xu who leads them to the High Ward.
-content: |
+summary: >-
+  The party arrives in Aris with their entourage, de-escalates a near-lethal confrontation between Veterans and Young
+  Bastard protesters on the road in, and is met at the gate by Twi'Xu who leads them to the High Ward.
+player_content: ""
+dm_content: |
   The party made their way into Aris after a month on the road, stopping in Naeliste and
   Oechenfor along the way. Traveling with them: Xilo, Bronik, and Cetyri.
 
@@ -16,7 +26,7 @@ content: |
   Twi'Xu was waiting at the gate. He had been sent ahead to make arrangements and had
   secured guest accommodations in the High Ward, where dignitaries are typically housed.
   He led the party in.
-relationships:
+dm_links:
   - target: chapter-7-aris-the-fracturing-capital
     rel: part_of
   - target: npc-twi-xu

@@ -1,10 +1,21 @@
 id: chapter-5-return-to-oechenfor
 type: chapter
 name: "Chapter 5: Return to Oechenfor"
-tags: [chapter, oechenfor, milicent-alliance, quicklings, felicity, dragon-singularity, pivotal]
+audience: player-available
+tags:
+  - chapter
+  - oechenfor
+  - milicent-alliance
+  - quicklings
+  - felicity
+  - dragon-singularity
+  - pivotal
 status: complete
-summary: Party investigates quickling kidnappings, meets Milicent face-to-face, learns the truth of 54 apocalypses and the Dragon Singularity plan, forges alliance on condition Milicent stops enslaving mortals.
-content: |
+summary: >-
+  Party investigates quickling kidnappings, meets Milicent face-to-face, learns the truth of 54 apocalypses and the
+  Dragon Singularity plan, forges alliance on condition Milicent stops enslaving mortals.
+player_content: ""
+dm_content: |
   Protected by the Trickster's Blessing, the party returned from Naeliste to Oechenfor, where
   they discovered a disturbing pattern: promising young citizens had been vanishing since they
   left. Centaurs in the Faedwood warned of dark omens over the city.
@@ -37,7 +48,7 @@ content: |
   accepted. She returned them safely to Oechenfor.
 
   Now the party must return to Naeliste and have a conversation with Cetyri...
-relationships:
+dm_links:
   - target: event-milicent-alliance
     rel: covers
   - target: npc-felicity

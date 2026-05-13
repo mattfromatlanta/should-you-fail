@@ -1,14 +1,21 @@
 id: npc-fzuga
 type: npc
 name: F'zuga
-tags: [orc, monk, lome, monastery, ascetic]
+audience: player-available
+tags:
+  - orc
+  - monk
+  - lome
+  - monastery
+  - ascetic
 status: alive
 summary: Solemn orc ascetic who leads the Orchard Path Monastery in Lome; mentored by Lamat; now in Oechenfor.
-content: |
+player_content: ""
+dm_content: |
   Orc monk and leader of the Orchard Path Monastery in Lome. Trained by Lamat Velu. Focused on
   rebuilding—prioritized settlers, tradesmen, miners, and stonecutters for Lome's recovery.
   Leads warrior-monks who support village safety. Now in Oechenfor following the evacuation.
-relationships:
+dm_links:
   - target: npc-lamat
     rel: student
   - target: faction-lome-monastery

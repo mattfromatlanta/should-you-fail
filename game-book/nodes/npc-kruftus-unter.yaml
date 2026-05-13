@@ -1,14 +1,20 @@
 id: npc-kruftus-unter
 type: npc
 name: Kruftus Unter
-tags: [werebear, mayor, lome, mortal]
+audience: player-available
+tags:
+  - werebear
+  - mayor
+  - lome
+  - mortal
 status: alive
 summary: Werebear mayor of Lome; now in Oechenfor following the town's evacuation.
-content: |
+player_content: ""
+dm_content: |
   Werebear and mayor of Lome. Led security concerns for the town. Prioritized protection,
   fortified shelter, food and supplies for Lome's recovery after the Dragonborn siege. Followed
   Erol and Lamat's lead when the town evacuated to Oechenfor.
-relationships:
+dm_links:
   - target: location-lome
     rel: led
   - target: location-oechenfor

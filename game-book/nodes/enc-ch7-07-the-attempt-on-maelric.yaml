@@ -1,6 +1,7 @@
 id: enc-ch7-07-the-attempt-on-maelric
 type: encounter
 name: "Ch7 E07: The Attempt on Maelric"
+audience: player-available
 tags:
   - chapter-7
   - combat
@@ -13,7 +14,8 @@ status: complete
 summary: >-
   The moment Gallifax takes to the air, Ardo's three assassins move on Maelric. The party can only stop them by going
   immediately to the Hall of Allies when they see the dragon fly.
-content: >-
+player_content: ""
+dm_content: >
   The moment Gallifax leaves the Hall of Allies, a signal is sent. Three assassins — Corven, Aldrek, and Breva,
   radicalized Young Bastards manipulated into action over days by Ekert Shae — enter through the Hall's main entrance.
   With guards drawn away by the riot and Gallifax in the air, no one stops them. Their target is Maelric, alone in his
@@ -85,7 +87,7 @@ content: >-
 
 
   Ardo Manessi will be among the first to arrive on the scene, looking shaken and grief-stricken. Move to E08.
-relationships:
+dm_links:
   - target: chapter-7-aris-the-fracturing-capital
     rel: part_of
   - target: npc-maelric-sturmwald

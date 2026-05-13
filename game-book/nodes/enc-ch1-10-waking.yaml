@@ -1,10 +1,19 @@
 id: enc-ch1-10-waking
 type: encounter
 name: "Ch1 E10: Waking"
-tags: [chapter-1, exploration, dragon-eggs, gullux-hideout, mysterious-slaughter]
+audience: player-available
+tags:
+  - chapter-1
+  - exploration
+  - dragon-eggs
+  - gullux-hideout
+  - mysterious-slaughter
 status: complete
-summary: The party awakens from the shadow projection to find all remaining Dragonborn in the hideout mysteriously slain; they discover three stolen white dragon eggs, which they burn.
-content: |
+summary: >-
+  The party awakens from the shadow projection to find all remaining Dragonborn in the hideout mysteriously slain; they
+  discover three stolen white dragon eggs, which they burn.
+player_content: ""
+dm_content: |
   The party wakes in the East Hills cave hideout. Every Dragonborn not already dead in combat
   has been slain with no external wounds—Milicent's work, but the party doesn't know that yet.
   In the hideout they find three white dragon eggs, stolen by Gullux from Torma the Unforgiving.
@@ -17,7 +26,7 @@ content: |
   Treasure from the chapter's total hoard: 1350gp, 1900ep, 4250sp; magic items distributed
   throughout the chapter including Boots of Speed, Flametongue Longsword, Adamantine Plate
   Armor, and several other items.
-relationships:
+dm_links:
   - target: npc-milicent
     rel: features
     notes: Her unseen handiwork—all remaining Dragonborn slain without trace

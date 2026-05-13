@@ -1,17 +1,19 @@
 id: artifact-radiant-lance
 type: artifact
 name: The Radiant Lance
-summary: >-
-  Portable Estaran star metal device that opens paths between worlds along rift lines; built by Yrk and Felicity under
-  Milicent's direction for the party's cross-world journey.
-status: present
+audience: player-available
 tags:
   - estaran
   - artifact
   - world-crossing
   - star-metal
   - radiant-projector
-content: >-
+status: present
+summary: >-
+  Portable Estaran star metal device that opens paths between worlds along rift lines; built by Yrk and Felicity under
+  Milicent's direction for the party's cross-world journey.
+player_content: ""
+dm_content: >
   Perpendicular shafts of Estaran star metal mounted on a folding tripod. The lance attaches to the tripod via an
   intricate set of adjustable gears controlling elevation, attitude, and cardinal direction.
 
@@ -28,7 +30,7 @@ content: >-
 
   The device is a portable version of an Estaran Radiant Projector — the same fundamental technology that created the
   rifts it now follows. It cannot create new paths, only find and open existing ones.
-relationships:
+dm_links:
   - target: npc-yrk-the-trickster
     rel: created_by
     notes: Built with Felicity under Milicent's direction

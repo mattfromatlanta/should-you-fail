@@ -1,10 +1,19 @@
 id: location-teeth
 type: location
 name: The Teeth
-tags: [uplands, ridge, erol-lamat-manor, naeliste, west-falls]
+audience: player-available
+tags:
+  - uplands
+  - ridge
+  - erol-lamat-manor
+  - naeliste
+  - west-falls
 status: active
-summary: High ridge west of the Upland Stair; Erol and Lamat's manor sits here overlooking East Falls; the West Falls on the other side feed Naeliste.
-content: |
+summary: >-
+  High ridge west of the Upland Stair; Erol and Lamat's manor sits here overlooking East Falls; the West Falls on the
+  other side feed Naeliste.
+player_content: ""
+dm_content: |
   High ridge west of the Upland Stair in the Uplands. Erol and Lamat's elegant Eladrin-style
   manor sits atop The Teeth, positioned at the very edge of the cliff overlooking East Falls
   and the Faedwood. Manor contains extradimensional storage, enchanted items, collection of
@@ -12,7 +21,7 @@ content: |
 
   On the other side of the cliff face, the West Falls thunder down to feed Naeliste's basin.
   The Teeth serves as the border between the Uplands and Naeliste.
-relationships:
+dm_links:
   - target: npc-erol
     rel: home_of
   - target: npc-lamat

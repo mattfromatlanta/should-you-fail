@@ -1,18 +1,19 @@
 id: location-hall-of-allies
 type: location
 name: The Hall of Allies
+audience: player-available
 tags:
   - aris
   - government
   - estaran-architecture
   - gallifax
   - maelric
-
 status: active
 summary: >-
-  The seat of government for the Allied Cities; formerly an Estaran command nexus; the highest structure in Aris;
-  home to Gallifax's lair and Maelric's trance-throne.
-content: |
+  The seat of government for the Allied Cities; formerly an Estaran command nexus; the highest structure in Aris; home
+  to Gallifax's lair and Maelric's trance-throne.
+player_content: ""
+dm_content: |
   The Hall of Allies occupies the highest of Aris's seven hills. It was the original Estaran command nexus
   for the region — a structure of alien geometry and radiant materials, now partially reclaimed and
   repurposed by the Allied Cities as the seat of government for the Counsel of Citizens.
@@ -22,7 +23,7 @@ content: |
 
   Guards are normally posted but many were drawn out during the riot. When Gallifax leaves the Hall to
   stop the violence, Maelric is left alone and the Hall is effectively unguarded.
-relationships:
+dm_links:
   - target: location-aris
     rel: located_in
     notes: Occupies the highest hill in the city

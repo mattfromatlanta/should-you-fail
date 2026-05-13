@@ -1,10 +1,20 @@
 id: artifact-testament-of-embers
 type: artifact
 name: The Testament of Embers
-tags: [document, ancient, estaran, varkhasia, dragon-singularity, library-of-naeliste]
+audience: player-available
+tags:
+  - document
+  - ancient
+  - estaran
+  - varkhasia
+  - dragon-singularity
+  - library-of-naeliste
 status: present
-summary: Ancient Estaran epic describing Varkhasia the red Unary Great Wyrm who nearly destroyed the Estaran Empire before they annihilated the cosmos to stop him.
-content: |
+summary: >-
+  Ancient Estaran epic describing Varkhasia the red Unary Great Wyrm who nearly destroyed the Estaran Empire before they
+  annihilated the cosmos to stop him.
+player_content: ""
+dm_content: |
   An ancient epic text held in Melbara's Library of Rhymes and Antiquities in Naeliste. Recovered
   from an Estaran ruin after the Rebellion; indeterminate age, only known copy. Appears to have
   been written by the Estara themselves—few if any other documents written by the Estara are known
@@ -69,7 +79,7 @@ content: |
   Let peace endure beneath our governance,
   until the stars are cold
   and Time forgets its name.
-relationships:
+dm_links:
   - target: npc-melbara
     rel: owned_by
   - target: concept-dragon-singularity

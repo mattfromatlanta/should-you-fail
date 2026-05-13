@@ -1,13 +1,14 @@
 id: concept-estaran-lore-gaps
 type: concept
 name: "Estaran Lore: Open Gaps for Review"
-summary: Identified gaps and inconsistencies in the game book's Estaran/cosmos lore, surfaced during the Chapter 8 lore pass.
+audience: dm-only
 tags:
   - estarans
   - lore
   - todo
   - planning
-content: |
+summary: Identified gaps and inconsistencies in the game book's Estaran/cosmos lore, surfaced during the Chapter 8 lore pass.
+dm_content: |
   After the Chapter 8 cosmos/Estaran lore pass (2026-05-10), the following gaps in the canonical
   game book emerged. None block Chapter 8 play. Most are worth a separate review session.
 
@@ -60,7 +61,7 @@ content: |
   captive Estaran. Its content predates the cosmos/dragons/languages additions and the Material
   Plane rename. Worth a read-through to ensure what the Estaran says is still consistent with
   current canon.
-relationships:
+dm_links:
   - target: concept-estarans
     rel: related_to
   - target: concept-cosmos

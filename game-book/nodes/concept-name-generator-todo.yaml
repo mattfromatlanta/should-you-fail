@@ -1,13 +1,14 @@
 id: concept-name-generator-todo
 type: concept
 name: "Name Generator: Outstanding Work"
-summary: Remaining name generator YAML rule files to build; Estaran and Mortal are complete and operational.
+audience: dm-only
 tags:
   - mcp
   - tools
   - names
   - todo
-content: >-
+summary: Remaining name generator YAML rule files to build; Estaran and Mortal are complete and operational.
+dm_content: >
   The name generator MCP tool (`generate_name`) is live. Rule files live in `mcp/name-rules/`. Each file defines
   first_parts, second_parts, second_part_probability, weighted endings, optional name_pool, and forbidden list.
 

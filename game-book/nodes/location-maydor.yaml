@@ -1,23 +1,24 @@
 id: location-maydor
 type: location
 name: Maydor
-summary: >-
-  An Estaran world depicted on Farthim's Projector Hall star chart, alongside Aerus and Ozarrid; nothing else is known
-  about it yet.
-status: unknown
+audience: dm-only
 tags:
   - estaran
   - world
   - star-chart
   - chapter-8
-content: |
+status: unknown
+summary: >-
+  An Estaran world depicted on Farthim's Projector Hall star chart, alongside Aerus and Ozarrid; nothing else is known
+  about it yet.
+dm_content: |
   An Estaran-administered world named on the star chart embossed in the walls of Farthim's Projector Hall. The chart
   depicts routes to three other Estaran worlds: Aerus (the party's home), Maydor, and Ozarrid. The Aerus glyph the
   party will recognize. Maydor and Ozarrid are unknown to them and to the Farthimers.
 
   Nothing about Maydor is yet established in canon — climate, civilization, current state. To be filled in if and
   when the party investigates.
-relationships:
+dm_links:
   - target: concept-estarans
     rel: controlled_by
   - target: location-farthim

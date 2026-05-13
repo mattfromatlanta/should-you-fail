@@ -1,15 +1,22 @@
 id: npc-nirsa-hoegartner
 type: npc
 name: Nirsa Hoegartner
-tags: [human, oechenfor, socialite]
+audience: player-available
+tags:
+  - human
+  - oechenfor
+  - socialite
 status: alive
-summary: Human socialite in Oechenfor; formerly Nirsa Thristle; had an affair with Gord Lankenmangled while married to Taram Thristle; now involved with city counselor Ooli Forgegarden.
-content: |
+summary: >-
+  Human socialite in Oechenfor; formerly Nirsa Thristle; had an affair with Gord Lankenmangled while married to Taram
+  Thristle; now involved with city counselor Ooli Forgegarden.
+player_content: ""
+dm_content: |
   Socialite in Oechenfor. Formerly married to city counselor Taram Thristle as Nirsa Thristle.
   Was caught having an affair with Gord Lankenmangled (discovered by Cormin at Taram's request)
   before Gord was arrested and jailed. Reverted to her maiden name Hoegartner after the
   marriage ended. Now in a relationship with dwarf counselor Ooli Forgegarden.
-relationships:
+dm_links:
   - target: npc-taram-thristle
     rel: divorced_from
     notes: Formerly married; marriage ended after affair was revealed

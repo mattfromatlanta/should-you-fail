@@ -1,10 +1,21 @@
 id: artifact-letter-from-grib
 type: artifact
 name: Letter from Grib to Yip
-tags: [document, first-war, goblin, letter, fey, naeliste, historical]
+audience: player-available
+tags:
+  - document
+  - first-war
+  - goblin
+  - letter
+  - fey
+  - naeliste
+  - historical
 status: present
-summary: Personal letter from a goblin soldier named Grib to Yip, written during the First War; a rare window into the desperate early resistance against the Estarans.
-content: |
+summary: >-
+  Personal letter from a goblin soldier named Grib to Yip, written during the First War; a rare window into the
+  desperate early resistance against the Estarans.
+player_content: ""
+dm_content: |
   Believed dated to the first years of the Age of Estara. A personal letter from a goblin
   soldier named Grib to his friend Yip, held in Melbara's Library of Rhymes and Antiquities
   in Naeliste. Documents the Fey's strategic withdrawal to the Faedwood, the loss of Captain
@@ -45,7 +56,7 @@ content: |
 
   P.S. If you ever see Yrk again, kick him once for calling me short. Twice if he's drunk.
   But we both know you won't see him.
-relationships:
+dm_links:
   - target: npc-melbara
     rel: owned_by
   - target: npc-yrk-the-trickster

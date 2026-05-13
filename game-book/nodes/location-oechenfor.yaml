@@ -1,10 +1,18 @@
 id: location-oechenfor
 type: location
 name: Oechenfor
-tags: [allied-cities, frontier-city, party-base, mistywinde-river]
+audience: player-available
+tags:
+  - allied-cities
+  - frontier-city
+  - party-base
+  - mistywinde-river
 status: active
-summary: Rich, fast-growing frontier city at the mouth of the Mistywinde River, founded ~20 years ago by Aldrin, Erol, Lamat, and other Rebellion veterans.
-content: |
+summary: >-
+  Rich, fast-growing frontier city at the mouth of the Mistywinde River, founded ~20 years ago by Aldrin, Erol, Lamat,
+  and other Rebellion veterans.
+player_content: ""
+dm_content: |
   Founded ~20 years ago at the mouth of the Mistywinde River by Aldrin Stoneward, Erol the
   Faed, Lamat Velu, and other Rebellion veterans. Far from the reach of the four core cities.
   The party's home base and starting point for the campaign.
@@ -16,7 +24,7 @@ content: |
   - Lome evacuees arrived here after Torma's attack
 
   Nearby: the Faedwood (south), the Upland Stair (north through Faedwood)
-relationships:
+dm_links:
   - target: npc-aldrin-stoneward
     rel: founded_by
   - target: npc-erol

@@ -1,10 +1,21 @@
 id: enc-ch6a-05-aerial-attack
 type: encounter
 name: "Ch6a E05: Egedzoo's Aerial Attack"
-tags: [chapter-6a, combat, egedzoo, airship, crash, wyverns, captain-marvo]
+audience: player-available
+tags:
+  - chapter-6a
+  - combat
+  - egedzoo
+  - airship
+  - crash
+  - wyverns
+  - captain-marvo
 status: complete
-summary: Egedzoo attacks the party's airship mid-flight with hobgoblin wyvern riders; the party repels him but the engine is critically damaged; Captain Marvo barely survives the crash landing.
-content: |
+summary: >-
+  Egedzoo attacks the party's airship mid-flight with hobgoblin wyvern riders; the party repels him but the engine is
+  critically damaged; Captain Marvo barely survives the crash landing.
+player_content: ""
+dm_content: |
   The party has commissioned Captain Marvo's airship to travel deeper into the Feywild toward
   Xilo's location. Mid-flight, Egedzoo attacks with hobgoblin sky-riders mounted on wyverns.
   The party successfully drives off the dragon without destroying him—but the airship's engine
@@ -14,7 +25,7 @@ content: |
   emergency landing near a mysterious tower structure rising from the eternal twilight forest.
 
   This crash is the inciting event that leads to the discovery of Ozevriel's memorial.
-relationships:
+dm_links:
   - target: npc-egedzoo
     rel: features
   - target: chapter-6a-into-the-wild

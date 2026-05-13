@@ -1,10 +1,18 @@
 id: location-feywild
 type: location
 name: The Feywild
-tags: [plane, feywild, fey, xilo, naeliste, rebel-fey]
+audience: player-available
+tags:
+  - plane
+  - feywild
+  - fey
+  - xilo
+  - naeliste
+  - rebel-fey
 status: active
 summary: Vibrant reflection of the mortal world; home to Fey and the Rebel Fey; outer regions scarred by Estaran occupation.
-content: |
+player_content: ""
+dm_content: |
   A vibrant reflection of the mortal world. Home to Fey creatures characterized by intense
   magical energy. The Rebel Fey reside here. Naeliste is located in the Feywild.
 
@@ -17,7 +25,7 @@ content: |
 
   The Feywild has been weakened since both Ozevriel (died) and Milicent (departed) are absent—
   they were the two pillars of stability.
-relationships:
+dm_links:
   - target: location-naeliste
     rel: contains
   - target: location-feywild-wasteland

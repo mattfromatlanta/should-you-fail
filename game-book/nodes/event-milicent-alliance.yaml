@@ -1,10 +1,20 @@
 id: event-milicent-alliance
 type: event
 name: Alliance with Milicent
-tags: [chapter-5, milicent, alliance, dragon-singularity, dread-legion, pivotal]
+audience: player-available
+tags:
+  - chapter-5
+  - milicent
+  - alliance
+  - dragon-singularity
+  - dread-legion
+  - pivotal
 status: past
-summary: Chapter 5; the party met Milicent face to face in her Shadowfell fortress, learned the truth about 54 apocalypses and the Dragon Singularity plan, and forged an alliance on the condition she stop enslaving mortals.
-content: |
+summary: >-
+  Chapter 5; the party met Milicent face to face in her Shadowfell fortress, learned the truth about 54 apocalypses and
+  the Dragon Singularity plan, and forged an alliance on the condition she stop enslaving mortals.
+player_content: ""
+dm_content: |
   The party traveled to Milicent's Shadowfell fortress through the Shadow Projector (invited
   deeper by Yrk's arrangement). Milicent treated them as guests, not captives. She showed them
   an imprisoned Estaran and revealed:
@@ -19,7 +29,7 @@ content: |
 
   This event represents the campaign's major turning point: the party now carries the weight
   of preventing universal extinction.
-relationships:
+dm_links:
   - target: npc-milicent
     rel: arranged_by
   - target: npc-yrk-the-trickster

@@ -1,10 +1,20 @@
 id: event-dragonborn-invasion
 type: event
 name: Dragonborn Invasion of the Uplands
-tags: [chapter-1, dragonborn, gullux, lome, uplands, invasion]
+audience: player-available
+tags:
+  - chapter-1
+  - dragonborn
+  - gullux
+  - lome
+  - uplands
+  - invasion
 status: past
-summary: Winter before campaign start; Gullux led 50 White Dragonborn from the East Hills to besiege Lome; defeated by the party in Chapter 1.
-content: |
+summary: >-
+  Winter before campaign start; Gullux led 50 White Dragonborn from the East Hills to besiege Lome; defeated by the
+  party in Chapter 1.
+player_content: ""
+dm_content: |
   During winter preceding the campaign's start, Gullux stole white dragon eggs from Torma the
   Unforgiving's clutch. Using this as a power move, he led fifty White Dragonborn warriors
   from the East Hills down to the Uplands. They took the Upland Stair and laid siege to Lome,
@@ -17,7 +27,7 @@ content: |
 
   This event introduced Milicent to the party (indirectly) and led directly to the threat
   of Torma arriving in Chapter 2.
-relationships:
+dm_links:
   - target: npc-gullux
     rel: led_by
   - target: npc-milicent

@@ -1,10 +1,21 @@
 id: chapter-6a-into-the-wild
 type: chapter
 name: "Chapter 6a: Into the Wild"
-tags: [chapter, feywild, cetyri, xilo, egedzoo, ozevriel, milicent-research]
+audience: player-available
+tags:
+  - chapter
+  - feywild
+  - cetyri
+  - xilo
+  - egedzoo
+  - ozevriel
+  - milicent-research
 status: complete
-summary: Party pursues Cetyri into the Feywild, convinces him to commit to the cause, discovers Ozevriel's memorial and Milicent's observatory, meets Xilo and agrees to slay Egedzoo.
-content: |
+summary: >-
+  Party pursues Cetyri into the Feywild, convinces him to commit to the cause, discovers Ozevriel's memorial and
+  Milicent's observatory, meets Xilo and agrees to slay Egedzoo.
+player_content: ""
+dm_content: |
   Upon returning to Naeliste, the party discovered that Cetyri and Bronik had fled into the
   Feywild. Lomani Nae's careful questioning had revealed she understood the truth about Cetyri's
   world-spanning soul, and the young dragon ran to protect that secret.
@@ -34,7 +45,7 @@ content: |
   Xilo was pleased to meet them and supports their grand quest. To begin, he asked them for help
   slaying Egedzoo. The dragon is building power in the wasteland and must be stopped. The party
   agreed.
-relationships:
+dm_links:
   - target: npc-cetyri
     rel: features
   - target: npc-xilo-lord-of-robins

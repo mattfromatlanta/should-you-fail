@@ -1,10 +1,21 @@
 id: enc-ch4-02-the-aboleth
 type: encounter
 name: "Ch4 E02: The Aboleth's Domain"
-tags: [chapter-4, combat, aboleth, kua-toa, bullywugs, underwet, multiverse-hint]
+audience: player-available
+tags:
+  - chapter-4
+  - combat
+  - aboleth
+  - kua-toa
+  - bullywugs
+  - underwet
+  - multiverse-hint
 status: complete
-summary: The party encounters Mr'Hrm'N'Ahir the Aboleth Lord who has enslaved Bullywugs; his question about "how many moments" this world has existed hints at knowledge of the previous 54 apocalypses.
-content: |
+summary: >-
+  The party encounters Mr'Hrm'N'Ahir the Aboleth Lord who has enslaved Bullywugs; his question about "how many moments"
+  this world has existed hints at knowledge of the previous 54 apocalypses.
+player_content: ""
+dm_content: |
   Off course in the Underwet, the party finds a Kua-Toa village under the mental domination
   of the Aboleth Lord Mr'Hrm'N'Ahir. The Aboleth has also enslaved Bullywugs from the Gulpfen
   Brood.
@@ -15,7 +26,7 @@ content: |
 
   The party defeats the Aboleth and frees its thralls—both the Kua-Toa and the enslaved
   Bullywugs.
-relationships:
+dm_links:
   - target: npc-mr-hrm-n-ahir
     rel: features
   - target: concept-estarans

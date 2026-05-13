@@ -1,9 +1,19 @@
 id: concept-estarans
 type: concept
 name: The Estarans (Estara)
-tags: [estarans, estara, cosmic-threat, planar, ancient, empire]
-summary: Ancient extra-world beings who ruled mortals for millennia, banished in the Rebellion, and planning a 55th cosmic annihilation.
-content: |
+audience: player-available
+tags:
+  - estarans
+  - estara
+  - cosmic-threat
+  - planar
+  - ancient
+  - empire
+summary: >-
+  Ancient extra-world beings who ruled mortals for millennia, banished in the Rebellion, and planning a 55th cosmic
+  annihilation.
+player_content: ""
+dm_content: |
   The Estarans are powerful beings who are not native to the mortal world—they came from somewhere
   else entirely and rule a vast multi-world empire. Approximately 2,000 years ago they arrived on
   the mortal world, conscripted mortals into extra-planar wars, and were eventually banished in the
@@ -82,7 +92,7 @@ content: |
   Dragons are the truest expression of existence. Their innate qualities do not change across worlds or across time.
   This is why dragons — particularly Unary Great Wyrms — can destroy Estarans permanently, and why the Estarans fear
   them above all else. See concept-dragons.
-relationships:
+dm_links:
   - target: concept-dragon-singularity
     rel: fears
   - target: concept-shadow-projector

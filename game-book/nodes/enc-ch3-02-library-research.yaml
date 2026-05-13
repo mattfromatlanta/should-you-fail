@@ -1,10 +1,22 @@
 id: enc-ch3-02-library-research
 type: encounter
 name: "Ch3 E02: The Library of Rhymes and Antiquities"
-tags: [chapter-3, roleplay, naeliste, melbara, library, testament-of-embers, ode-to-seven-lords, letter-from-grib]
+audience: player-available
+tags:
+  - chapter-3
+  - roleplay
+  - naeliste
+  - melbara
+  - library
+  - testament-of-embers
+  - ode-to-seven-lords
+  - letter-from-grib
 status: complete
-summary: The party researches in Melbara's library and discovers three key historical documents: the Testament of Embers, the Ode to Seven Lords, and Grib's letter from the First War.
-content: |
+summary: >-
+  The party researches in Melbara's library and discovers three key historical documents: the Testament of Embers, the
+  Ode to Seven Lords, and Grib's letter from the First War.
+player_content: ""
+dm_content: |
   The party investigates the Library of Rhymes and Antiquities under the guidance of Melbara,
   the Queen Librarian and Moon Druid of Naeliste. Three critical documents come to light:
 
@@ -19,7 +31,7 @@ content: |
   Also found: the Letter from Caera to Melbara (written during the Rebellion).
 
   These documents transform the party's understanding of the cosmic conflict.
-relationships:
+dm_links:
   - target: npc-melbara
     rel: features
   - target: artifact-testament-of-embers

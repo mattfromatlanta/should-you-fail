@@ -1,12 +1,13 @@
 id: concept-ch8-todo
 type: concept
 name: "Chapter 8: Outstanding Work"
-summary: Unresolved TBDs for Chapter 8 that need DM decisions before or during session prep.
+audience: dm-only
 tags:
   - chapter-8
   - planning
   - todo
-content: >-
+summary: Unresolved TBDs for Chapter 8 that need DM decisions before or during session prep.
+dm_content: >
   ## The Dead Forest
 
 
@@ -25,8 +26,8 @@ content: >-
   ## Dead Feywild: Dungeon Layout
 
 
-  Torma's lair in the dead Feywild (enc-ch8-06) has no map or layout. The aesthetic is established (cold, grey, frost
-  on a corpse). Rooms, hazards, and encounter flow are TBD.
+  Torma's lair in the dead Feywild (enc-ch8-06) has no map or layout. The aesthetic is established (cold, grey, frost on
+  a corpse). Rooms, hazards, and encounter flow are TBD.
 
 
   ## Cetyri's Merges
@@ -46,16 +47,8 @@ content: >-
   ## Frost Giant Leader / Shaman
 
 
-  Garrison ground floor (enc-ch8-05b, sub-area B) calls for a frost giant leader and possibly a shaman to anchor the
+  Garrison great hall (enc-ch8-06, sub-area 6b) calls for a frost giant leader and possibly a shaman to anchor the
   great-hall fight. Stat blocks TBD.
-
-
-  ## E04: Farthim Scene
-
-
-  The party has arrived and met a few residents. The next session involves deeper engagement: meeting Gorven, Amalia,
-  and Marx; learning what happened with the Farthim Estarans; hearing about the giant siege; potentially recognizing the Aerus
-  glyph in the Projector Hall. The encounter node needs to be fleshed out for this beat.
 
 
   ## E06: Torma's Realm — Full Write-Up
@@ -63,7 +56,7 @@ content: >-
 
   The encounter node exists as a placeholder. Needs the full layout, room descriptions, hazards, and climax once the
   dungeon design is decided.
-relationships:
+dm_links:
   - target: chapter-8-across-the-void
     rel: related_to
   - target: location-dead-forest
@@ -72,10 +65,13 @@ relationships:
   - target: npc-torma-ice-world
     rel: related_to
     notes: Stat block and tactics TBD
-  - target: enc-ch8-05b-the-old-garrison
+  - target: enc-ch8-06-the-old-garrison
     rel: related_to
     notes: Frost giant leader/shaman stat blocks TBD
-  - target: enc-ch8-06-tormas-realm
+  - target: enc-ch8-07-dead-forest
+    rel: related_to
+    notes: Layout, hazards, and the rift path TBD
+  - target: enc-ch8-08-tormas-realm
     rel: related_to
     notes: Dungeon layout and merge scene TBD
 sources:

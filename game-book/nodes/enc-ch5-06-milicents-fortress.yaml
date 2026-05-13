@@ -1,10 +1,21 @@
 id: enc-ch5-06-milicents-fortress
 type: encounter
 name: "Ch5 E06: Milicent's Fortress"
-tags: [chapter-5, roleplay, milicent, shadowfell, yrk, honor-guard, guests]
+audience: player-available
+tags:
+  - chapter-5
+  - roleplay
+  - milicent
+  - shadowfell
+  - yrk
+  - honor-guard
+  - guests
 status: complete
-summary: The party fully transitions into the Shadowfell to find Yrk and Milicent's honor guard waiting; they are escorted as guests to Milicent's fortress.
-content: |
+summary: >-
+  The party fully transitions into the Shadowfell to find Yrk and Milicent's honor guard waiting; they are escorted as
+  guests to Milicent's fortress.
+player_content: ""
+dm_content: |
   The party fully transitions into the Shadowfell. Standing before them: Yrk the Trickster and
   members of Milicent's elite honor guard. They are treated as expected guests, not captives.
   Yrk has kept his word.
@@ -14,7 +25,7 @@ content: |
   brought to her audience hall. This is their first direct encounter with the Shadowdame.
 
   Milicent treats the party with honor and respect. She is attempting to recruit them willingly.
-relationships:
+dm_links:
   - target: npc-milicent
     rel: features
   - target: npc-yrk-the-trickster

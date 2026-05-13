@@ -1,19 +1,28 @@
 id: npc-maelyn-heatherfields
 type: npc
 name: Maelyn Heatherfields
-tags: [halfling, oechenfor, van-morgaaran-trading, officer, ally]
+audience: player-available
+tags:
+  - halfling
+  - oechenfor
+  - van-morgaaran-trading
+  - officer
+  - ally
 status: alive
-summary: Halfling officer of Van Morgaaran Trading; Delamin's lieutenant and a true ally of Cormin, who once helped her expose a bad suitor.
-content: |
+summary: >-
+  Halfling officer of Van Morgaaran Trading; Delamin's lieutenant and a true ally of Cormin, who once helped her expose
+  a bad suitor.
+player_content: ""
+dm_content: |
   Serves as an officer and lieutenant in Van Morgaaran Trading under Delamin Van Morgaaran.
   A true ally of Cormin: he once investigated a suitor of hers who seemed too good to be
   true, confirmed the suspicion, and helped her avoid a bad match. This earned her lasting
   loyalty.
-relationships:
+dm_links:
   - target: npc-delamin-van-morgaaran
     rel: member_of
     notes: His lieutenant in Van Morgaaran Trading
-  - target: npc-cormin
+  - target: pc-cormin
     rel: ally
     notes: Cormin investigated a bad suitor for her; she is a true ally
   - target: location-oechenfor

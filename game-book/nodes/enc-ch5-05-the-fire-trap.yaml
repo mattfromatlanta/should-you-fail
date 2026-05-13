@@ -1,10 +1,20 @@
 id: enc-ch5-05-the-fire-trap
 type: encounter
 name: "Ch5 E05: The Fire Trap"
-tags: [chapter-5, combat, shadow-projection, felicity, fire, third-capture]
+audience: player-available
+tags:
+  - chapter-5
+  - combat
+  - shadow-projection
+  - felicity
+  - fire
+  - third-capture
 status: complete
-summary: Felicity burns her own safehouse to lure the party back; when they investigate, they are pulled into the Shadow Projector a third time—but this time receive an invitation deeper.
-content: |
+summary: >-
+  Felicity burns her own safehouse to lure the party back; when they investigate, they are pulled into the Shadow
+  Projector a third time—but this time receive an invitation deeper.
+player_content: ""
+dm_content: |
   The night after the raid, Felicity sets fire to the safehouse herself. The blaze draws the
   party back to investigate. When they arrive: they are pulled into the Shadow Projector for
   the third time. They fight Felicity's minions in the shadow space.
@@ -15,7 +25,7 @@ content: |
 
   The fire was always the plan—a dramatic way to guarantee the party would be in the right
   place for the shadow seizure that would lead to the audience.
-relationships:
+dm_links:
   - target: npc-felicity
     rel: features
   - target: npc-milicent

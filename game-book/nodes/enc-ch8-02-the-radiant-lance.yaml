@@ -1,6 +1,7 @@
 id: enc-ch8-02-the-radiant-lance
 type: encounter
 name: "Ch8 E02: The Radiant Lance"
+audience: player-available
 tags:
   - chapter-8
   - set-piece
@@ -12,7 +13,8 @@ status: complete
 summary: >-
   At the heart of Metgal, Felicity demonstrates the Radiant Lance, Cetyri meditates and reads the paths, and the party
   crosses to the ice world.
-content: >-
+player_content: ""
+dm_content: >
   The allied forces have cleared a path to the crater at Metgal's heart. Only Felicity and Cetyri cross with the party —
   no Feywild Fey can safely enter Metgal; Xilo and Yrk stopped at the border. This is the final goodbye for Gallifax and
   Maelric.
@@ -68,7 +70,7 @@ content: >-
   >
 
   > Then: cold.
-relationships:
+dm_links:
   - target: chapter-8-across-the-void
     rel: part_of
   - target: artifact-radiant-lance

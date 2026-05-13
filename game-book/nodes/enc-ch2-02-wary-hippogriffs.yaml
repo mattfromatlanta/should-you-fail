@@ -1,10 +1,20 @@
 id: enc-ch2-02-wary-hippogriffs
 type: encounter
 name: "Ch2 E02: Wary Hippogriffs"
-tags: [chapter-2, combat, roleplay, bronik, dirge, lome, torma-warning]
+audience: dm-only
+tags:
+  - chapter-2
+  - combat
+  - roleplay
+  - bronik
+  - dirge
+  - lome
+  - torma-warning
 status: complete
-summary: Bronik arrives on his wyvern Dirge, interrupting Midge's planning—he demands to know what happened to his brother Gullux and warns Torma the Unforgiving is coming.
-content: |
+summary: >-
+  Bronik arrives on his wyvern Dirge, interrupting Midge's planning—he demands to know what happened to his brother
+  Gullux and warns Torma the Unforgiving is coming.
+dm_content: |
   A tense arrival. Bronik, white half-dragon son of Torma and brother of Gullux, lands in Lome
   on his wyvern Dirge. He is looking for Gullux and the stolen treasure. He recognizes items
   from Torma's hoard: the adamantine armor and flaming sword once belonged to Garrik the Bold
@@ -17,7 +27,7 @@ content: |
   he views him as a traitor to their mother.
 
   Treasure from Bronik: 190gp, Potion of Giant Strength (Hill).
-relationships:
+dm_links:
   - target: npc-bronik
     rel: features
   - target: npc-torma-the-unforgiving

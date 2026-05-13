@@ -1,8 +1,7 @@
 id: npc-amalia-farthim
 type: npc
 name: Amalia
-summary: Farthim's hunt master and lore keeper; leads hunting parties and holds the village's oral history of the dead Feywild.
-status: alive
+audience: player-available
 tags:
   - ice-world
   - farthim
@@ -10,7 +9,10 @@ tags:
   - leader
   - hunter
   - lore-keeper
-content: >-
+status: alive
+summary: Farthim's hunt master and lore keeper; leads hunting parties and holds the village's oral history of the dead Feywild.
+player_content: ""
+dm_content: >
   Amalia carries two roles — practical and historical. As hunt master, she leads the parties that go out after mammoths,
   giant elk, and woolly rhinoceroses. She has lost hunters to the giants' ambushes and feels those losses personally.
   She is the most urgent voice for dealing with Torma.
@@ -19,7 +21,7 @@ content: >-
   As lore keeper, she holds the oral history of the ice world: what the Feywild was, how it died, what the cold means.
   When she sees Fey among the party, her reaction will be the most complex — wonder and grief together. She knows the
   stories, but she never expected to meet something from inside them.
-relationships:
+dm_links:
   - target: location-farthim
     rel: leads
   - target: location-dead-feywild

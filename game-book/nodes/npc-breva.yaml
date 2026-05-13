@@ -1,17 +1,19 @@
 id: npc-breva
 type: npc
 name: Breva
-summary: >-
-  Youngest of Ekert's three assassins; surrendered quickly in the Hall of Allies when the attempt was foiled; named
-  Ekert Shae under interrogation.
-status: imprisoned
+audience: player-available
 tags:
   - human
   - aris
   - young-bastards
   - assassin
   - chapter-7
-content: >-
+status: imprisoned
+summary: >-
+  Youngest of Ekert's three assassins; surrendered quickly in the Hall of Allies when the attempt was foiled; named
+  Ekert Shae under interrogation.
+player_content: ""
+dm_content: >
   Breva is the most recently radicalized of the three and still harbors doubts she hasn't voiced to Corven or Aldrek.
   Ekert recruited her last, partly because her youth and apparent loyalty to Nava made her useful cover — if anyone in
   the group looks like a true believer, it's her.
@@ -22,7 +24,7 @@ content: >-
 
 
   If the party reaches her before the assassination attempt, she is the most reachable.
-relationships:
+dm_links:
   - target: npc-ekert-shae
     rel: manipulated_by
     notes: Most recently recruited; still has doubts; the weakest link

@@ -1,10 +1,20 @@
 id: location-memorial-of-ozevriel
 type: location
 name: Memorial of Ozevriel
-tags: [feywild, tomb, ozevriel, milicent-observatory, pilgrimage, chapter-6]
+audience: player-available
+tags:
+  - feywild
+  - tomb
+  - ozevriel
+  - milicent-observatory
+  - pilgrimage
+  - chapter-6
 status: active
-summary: Ancient memorial tower and tomb in the Feywild's eternal twilight forest; houses Ozevriel's crystal-preserved body and Milicent's old observatory at the peak.
-content: |
+summary: >-
+  Ancient memorial tower and tomb in the Feywild's eternal twilight forest; houses Ozevriel's crystal-preserved body and
+  Milicent's old observatory at the peak.
+player_content: ""
+dm_content: |
   Ancient tower and tomb complex dedicated to Ozevriel, who died in the First War. Once a
   pilgrimage site revered throughout Fey history; now fallen into disrepair, largely forgotten.
 
@@ -19,7 +29,7 @@ content: |
     on Estarans; where Hootini awaited the party; four key documents recovered here
 
   The airship crashed near this structure, grounding the party and leading to its discovery.
-relationships:
+dm_links:
   - target: npc-ozevriel
     rel: memorial_for
   - target: npc-milicent

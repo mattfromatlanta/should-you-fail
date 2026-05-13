@@ -1,10 +1,20 @@
 id: artifact-letter-from-caera
 type: artifact
 name: Letter from Caera to Melbara
-tags: [document, rebellion, caera, melbara, personal, letter]
+audience: player-available
+tags:
+  - document
+  - rebellion
+  - caera
+  - melbara
+  - personal
+  - letter
 status: present
-summary: A letter written by Caera to her mother-in-law Melbara during the Rebellion, expressing longing for her daughter Aelira and hope for victory.
-content: |
+summary: >-
+  A letter written by Caera to her mother-in-law Melbara during the Rebellion, expressing longing for her daughter
+  Aelira and hope for victory.
+player_content: ""
+dm_content: |
   Written weeks before Thorn's disappearance, at the end of the Rebellion. A personal letter
   from Caera to Melbara, held in Melbara's Library of Rhymes and Antiquities in Naeliste.
   Caera writes from a burned-out halfling village near the front; she and Thorn (Aelira's
@@ -34,7 +44,7 @@ content: |
   We'll come home as soon as we can.
 
   —Caera
-relationships:
+dm_links:
   - target: npc-caera
     rel: created_by
   - target: npc-melbara

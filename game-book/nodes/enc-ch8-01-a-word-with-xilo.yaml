@@ -1,6 +1,7 @@
 id: enc-ch8-01-a-word-with-xilo
 type: encounter
 name: "Ch8 E01: A Word with Xilo"
+audience: player-available
 tags:
   - chapter-8
   - roleplay
@@ -9,7 +10,8 @@ tags:
   - metgal
 status: complete
 summary: On the road to Metgal, the evening before arrival, Xilo pauses the group for a farewell and his thoughts on heroism.
-content: >
+player_content: ""
+dm_content: >
   On the road to Metgal, the evening before the party arrives at the crater. Xilo pauses the group. He has something to
   say before they reach the moment of departure. He does not expect to see any of them again.
 
@@ -36,7 +38,7 @@ content: >
 
   This is also the last night with Yrk, Gallifax, and Maelric on the road. If players want other goodbye scenes, give
   them room.
-relationships:
+dm_links:
   - target: chapter-8-across-the-void
     rel: part_of
   - target: npc-xilo-lord-of-robins

@@ -1,10 +1,20 @@
 id: enc-ch2-06-back-to-the-shadow
 type: encounter
 name: "Ch2 E06: Back to the Shadow"
-tags: [chapter-2, combat, shadow-projection, maxxa-valien, milicent, second-capture]
+audience: player-available
+tags:
+  - chapter-2
+  - combat
+  - shadow-projection
+  - maxxa-valien
+  - milicent
+  - second-capture
 status: complete
-summary: When the party returns to Maxxa'Valien's keep, Milicent pulls them into shadow space again to fight a transformed, weakened Maxxa'Valien—the second Shadow Projector experience.
-content: |
+summary: >-
+  When the party returns to Maxxa'Valien's keep, Milicent pulls them into shadow space again to fight a transformed,
+  weakened Maxxa'Valien—the second Shadow Projector experience.
+player_content: ""
+dm_content: |
   The party returns to Maxxa'Valien's fortress having fulfilled their end of the deal. But
   Milicent has other plans. For the second time, they are dragged into her shadow projection
   space. This time they face Maxxa'Valien—transformed, but deliberately weakened by Milicent
@@ -15,7 +25,7 @@ content: |
   remain opaque. The "Shadowdame M" reference from the kobold ruins connects.
 
   Monsters: Zombie Beholder, Eye Shadow variants.
-relationships:
+dm_links:
   - target: npc-maxxa-twins
     rel: features
   - target: npc-milicent

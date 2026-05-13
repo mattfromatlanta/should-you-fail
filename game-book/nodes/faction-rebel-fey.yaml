@@ -1,10 +1,20 @@
 id: faction-rebel-fey
 type: faction
 name: The Rebel Fey
-tags: [fey, archfey, rebel, first-war, feywild, animal-lords]
+audience: player-available
+tags:
+  - fey
+  - archfey
+  - rebel
+  - first-war
+  - feywild
+  - animal-lords
 status: active
-summary: The seven original Archfey who fought the Estarans in the First War; most are Animal Lords; they have no single leader; five remain active.
-content: |
+summary: >-
+  The seven original Archfey who fought the Estarans in the First War; most are Animal Lords; they have no single
+  leader; five remain active.
+player_content: ""
+dm_content: |
   The seven original Rebel Fey were: Itrina, Carris, Xilo, Ozevriel, Thessa, Varuun, and
   Milicent. Ozevriel sacrificed himself so the other six could escape during the First War.
   Milicent separated from the group when she began enslaving mortals. Five remain active:
@@ -31,7 +41,7 @@ content: |
   - Thessa: Walks where broken hearts grow gardens
   - Varuun: Guards places where worlds divide
   - Milicent: The fallen seventh, now the Shadowdame
-relationships:
+dm_links:
   - target: npc-milicent
     rel: former_member
     notes: Broke from the group when she began enslaving mortals

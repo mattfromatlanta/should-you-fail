@@ -1,10 +1,21 @@
 id: npc-lamat
 type: npc
 name: Lamat Velu
-tags: [veteran, founder, oechenfor, lome, monastery, rebellion, missing]
+audience: player-available
+tags:
+  - veteran
+  - founder
+  - oechenfor
+  - lome
+  - monastery
+  - rebellion
+  - missing
 status: alive
-summary: Veteran and co-Founder of Oechenfor and Lome; founded the Orchard Path Monastery; partner to Erol; disappeared but returned at end of Chapter 2.
-content: |
+summary: >-
+  Veteran and co-Founder of Oechenfor and Lome; founded the Orchard Path Monastery; partner to Erol; disappeared but
+  returned at end of Chapter 2.
+player_content: ""
+dm_content: |
   Race unknown. Veteran of the Rebellion and Founder of Oechenfor. With Erol, co-founded Lome
   five years ago. Founded the Orchard Path Monastery and mentored F'zuga. Lives with Erol in
   the Eladrin-style manor atop the Teeth.
@@ -13,7 +24,7 @@ content: |
   end of Chapter 2 to slay Torma. Then led the people of Lome south to Oechenfor.
 
   Left behind: Wraps of Unarmed Power +1 and 100pp plus 5 rubies (200gp each) in the manor.
-relationships:
+dm_links:
   - target: npc-erol
     rel: partner
   - target: npc-fzuga

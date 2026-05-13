@@ -1,10 +1,19 @@
 id: npc-twi-xu
 type: npc
 name: Twi'Xu, Animal Lord, Lieutenant of Bluebirds
-tags: [fey, animal-lord, xilo, feywild, ally]
+audience: player-available
+tags:
+  - fey
+  - animal-lord
+  - xilo
+  - feywild
+  - ally
 status: alive
-summary: Animal Lord and close lieutenant of Xilo; literally is a bluebird; encountered at Rinick's Diner where he monitored Egedzoo; sent ahead to Aris to make arrangements for the party's arrival.
-content: |
+summary: >-
+  Animal Lord and close lieutenant of Xilo; literally is a bluebird; encountered at Rinick's Diner where he monitored
+  Egedzoo; sent ahead to Aris to make arrangements for the party's arrival.
+player_content: ""
+dm_content: |
   Powerful Fey creature and vassal of Xilo, Lord of Robins. As an Animal Lord, Twi'Xu
   literally is a bluebird — he moves between a small bird form, a hybrid form, and a humanoid
   form. He carries the energy and manner of his bird nature.
@@ -17,7 +26,7 @@ content: |
 
   Sent ahead to Aris to make arrangements before the party's arrival. Met the party at the
   city gate and led them to the High Ward, where guest houses for dignitaries are available.
-relationships:
+dm_links:
   - target: npc-xilo-lord-of-robins
     rel: serves
   - target: npc-egedzoo

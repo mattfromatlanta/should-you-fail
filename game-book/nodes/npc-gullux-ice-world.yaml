@@ -1,10 +1,7 @@
 id: npc-gullux-ice-world
 type: npc
 name: Gullux (Ice World)
-summary: >-
-  Adult white dragon; Torma's older son; a bully and a sadist like his mother; the more dangerous of the two brothers
-  in the valley.
-status: alive
+audience: player-available
 tags:
   - white-dragon
   - adult-dragon
@@ -13,7 +10,12 @@ tags:
   - chapter-8
   - multiworld
   - world-ikellor
-content: >-
+status: alive
+summary: >-
+  Adult white dragon; Torma's older son; a bully and a sadist like his mother; the more dangerous of the two brothers in
+  the valley.
+player_content: ""
+dm_content: >
   Adult white dragon. Torma's older son, older than Bronik by a matter of hours. He is the monster between the two
   brothers — cruel and sadistic, a bully in his mother's image. He likes to be feared for his strength and sees smaller
   creatures as playthings. He will not bother with conversation beyond taunting his prey.
@@ -32,14 +34,14 @@ content: >-
 
   Babas spotted something vast move briefly in the far distance from the air, then blend back into the snow. The party
   does not yet know this was Gullux.
-relationships:
+dm_links:
   - target: npc-torma-ice-world
     rel: child_of
   - target: npc-bronik-ice-world
     rel: sibling_of
   - target: location-farthim
     rel: raids
-  - target: enc-ch8-05b-the-old-garrison
+  - target: enc-ch8-06-the-old-garrison
     rel: featured_in
     notes: Nest in the rafters; fights to the death
 sources:

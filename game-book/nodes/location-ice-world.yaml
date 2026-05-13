@@ -1,10 +1,7 @@
 id: location-ice-world
 type: location
 name: The Ice World (Ikellor)
-summary: >-
-  An alien world gripped by a centuries-long ice age caused by the Estarans' destruction of its Feywild; Estaran name
-  Ikellor; the party's first destination beyond their home world.
-status: active
+audience: player-available
 tags:
   - multiworld
   - ice-age
@@ -12,16 +9,21 @@ tags:
   - dead-feywild
   - chapter-8
   - world-ikellor
-content: >-
+status: active
+summary: >-
+  An alien world gripped by a centuries-long ice age caused by the Estarans' destruction of its Feywild; Estaran name
+  Ikellor; the party's first destination beyond their home world.
+player_content: ""
+dm_content: >
   A world in the grip of a centuries-long ice age, the long consequence of the Estarans' deliberate destruction of its
   Feywild. The growing season is near nothing. Large fauna — mammoths, woolly rhinoceroses, giant elk — have moved into
   lowland valleys, followed by the predators that hunt them.
 
 
-  The Estaran name for this world is Ikellor (eye-KELL-or). Farthim residents know the name but don't use it much —
-  they think of themselves as Farthimers before all else, and feel themselves to be natives even though they know they
-  are not. This world had no native mortals; the original settlers came from Aerus (the party's home world) and from
-  other worlds, relocated by the Estarans. They have no recorded history or cultural memory of a previous home.
+  The Estaran name for this world is Ikellor (eye-KELL-or). Farthim residents know the name but don't use it much — they
+  think of themselves as Farthimers before all else, and feel themselves to be natives even though they know they are
+  not. This world had no native mortals; the original settlers came from Aerus (the party's home world) and from other
+  worlds, relocated by the Estarans. They have no recorded history or cultural memory of a previous home.
 
 
   The Estarans withdrew approximately one year ago, recalled by central authority with no explanation given to the
@@ -35,9 +37,9 @@ content: >-
   The dead Feywild can still be reached as a collapsed hollow plane. Torma the Ancient has made her lair there.
 
 
-  Settlements: Farthim (human, dwarf, and goliath village, valley adjacent to a frozen river). The only remaining
-  mortal settlement — there were many, but they have been abandoned or died out since the ice age began.
-relationships:
+  Settlements: Farthim (human, dwarf, and goliath village, valley adjacent to a frozen river). The only remaining mortal
+  settlement — there were many, but they have been abandoned or died out since the ice age began.
+dm_links:
   - target: location-farthim
     rel: contains
   - target: location-dead-feywild

@@ -16,14 +16,15 @@ concepts:
   - concept-estaran-lore-gaps
   - concept-fey-law-philosophy
   - concept-name-generator-todo
+pcs:
+  - pc-cormin
+  - pc-aelira
+  - pc-sylvaris
+  - pc-peno
+  - pc-babas
+  - pc-beacon
+  - pc-valen
 npcs:
-  - npc-cormin
-  - npc-aelira
-  - npc-sylvaris
-  - npc-peno
-  - npc-babas
-  - npc-beacon
-  - npc-valen
   - npc-gallifax
   - npc-cetyri
   - npc-bronik
@@ -185,5 +186,6 @@ encounters:
   - enc-ch8-03-shock-of-cold
   - enc-ch8-04-the-settlement
   - enc-ch8-05-the-giant-tribe
-  - enc-ch8-06-tormas-realm
-  - enc-ch8-05b-the-old-garrison
+  - enc-ch8-06-the-old-garrison
+  - enc-ch8-07-dead-forest
+  - enc-ch8-08-tormas-realm

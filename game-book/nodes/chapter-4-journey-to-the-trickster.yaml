@@ -1,10 +1,21 @@
 id: chapter-4-journey-to-the-trickster
 type: chapter
 name: "Chapter 4: Journey to the Trickster"
-tags: [chapter, drekklands, yrk, tricksters-blessing, underwet, aboleth, bullywugs]
+audience: player-available
+tags:
+  - chapter
+  - drekklands
+  - yrk
+  - tricksters-blessing
+  - underwet
+  - aboleth
+  - bullywugs
 status: complete
-summary: Party travels the Underwet by submarine, reunites the Gulpfen Brood, discovers the Sunken Fortress (Estaran ruin), and receives the Trickster's Blessing from Yrk.
-content: |
+summary: >-
+  Party travels the Underwet by submarine, reunites the Gulpfen Brood, discovers the Sunken Fortress (Estaran ruin), and
+  receives the Trickster's Blessing from Yrk.
+player_content: ""
+dm_content: |
   Eigitch took the party through the Underwet in his submarine. After fighting chuul along the
   way, they surfaced in a cave where they battled kua-toa and rescued four bullywugs from the
   mental grip of an Aboleth named Mr'Hrm'N'Ahir. Before they defeated it, the Aboleth asked a
@@ -46,7 +57,7 @@ content: |
 
   Eigitch and the party made their way back to Naeliste by submarine, now invisible to Milicent's
   gaze and ready for what comes next.
-relationships:
+dm_links:
   - target: npc-yrk-the-trickster
     rel: features
   - target: npc-eigitch-the-old

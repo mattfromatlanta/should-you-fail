@@ -1,10 +1,18 @@
 id: artifact-ode-to-seven-lords
 type: artifact
 name: The Ode to Seven Lords
-tags: [document, rebel-fey, seven-lords, poem, milicent, naeliste]
+audience: player-available
+tags:
+  - document
+  - rebel-fey
+  - seven-lords
+  - poem
+  - milicent
+  - naeliste
 status: present
 summary: Formal poem detailing the seven original Rebel Fey and Milicent's fall from grace; held in Melbara's library.
-content: |
+player_content: ""
+dm_content: |
   By the Satyr Therinon; likely dated to the end of the Age of Rebellion. The most explicit
   known mention of the Rebel Fey, and the only document in Melbara's collection to name
   Milicent. Therinon was a famous Feywild loremaster known to Melbara (he has since passed);
@@ -89,7 +97,7 @@ content: |
   No war will make their hollow longing wake.
   The ones they lost, they carry in their tread—
   Too proud for tears, too old to count the dead.
-relationships:
+dm_links:
   - target: npc-melbara
     rel: owned_by
   - target: faction-rebel-fey

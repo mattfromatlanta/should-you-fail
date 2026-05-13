@@ -1,10 +1,21 @@
 id: event-rebellion
 type: event
 name: The Rebellion (Second Rebellion)
-tags: [history, rebellion, estara, allied-cities, 150-years-ago, metgal, gallifax]
+audience: player-available
+tags:
+  - history
+  - rebellion
+  - estara
+  - allied-cities
+  - 150-years-ago
+  - metgal
+  - gallifax
 status: past
-summary: Ended ~150 years ago; mortals successfully freed the Allied Cities from Estaran rule; key participants include Gallifax, Maelric, Aldrin, Erol, Lamat, Caera, and Thorn.
-content: |
+summary: >-
+  Ended ~150 years ago; mortals successfully freed the Allied Cities from Estaran rule; key participants include
+  Gallifax, Maelric, Aldrin, Erol, Lamat, Caera, and Thorn.
+player_content: ""
+dm_content: |
   A more recent conflict (ended ~150 years ago) in which mortals rose up against continued
   Estaran oppression. The Rebellion included the catastrophic destruction of Metgal by Estaran
   nightmare magic and fire—massive mortal casualties. This atrocity was the turning point that
@@ -22,7 +33,7 @@ content: |
   Legion, the Estara would never have been driven away (according to Xilo and Twi'Xu).
 
   After the Rebellion: Aldrin, Erol, Lamat, and other veteran Founders established Oechenfor.
-relationships:
+dm_links:
   - target: npc-gallifax
     rel: pivotal_participant
     notes: Switched sides from Estara to mortals at Metgal

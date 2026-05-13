@@ -1,10 +1,20 @@
 id: enc-ch7-02-aldrin-and-ardo
 type: encounter
 name: "Ch7 E02: Aldrin and Ardo"
-tags: [chapter-7, roleplay, aris, aldrin, ardo-manessi, political-crisis]
+audience: player-available
+tags:
+  - chapter-7
+  - roleplay
+  - aris
+  - aldrin
+  - ardo-manessi
+  - political-crisis
 status: complete
-summary: First morning in Aris — the party meets with Aldrin Stoneward, who briefs them on the crisis, and is introduced to Ardo Manessi. They learn about Gallifax's vigil over Maelric and first hear of Nava Kurn.
-content: |
+summary: >-
+  First morning in Aris — the party meets with Aldrin Stoneward, who briefs them on the crisis, and is introduced to
+  Ardo Manessi. They learn about Gallifax's vigil over Maelric and first hear of Nava Kurn.
+player_content: ""
+dm_content: |
   The morning after arriving in the High Ward, the party met with Aldrin Stoneward. He
   was exhausted from two months of trying to hold the peace between Veterans and Young
   Bastards but relieved to see the party. He filled them in on the situation:
@@ -21,7 +31,7 @@ content: |
   Aldrin introduced the party to Ardo Manessi, a city councilor he trusts as a moderate
   voice. Ardo presents as thoughtful and conciliatory. In truth he is playing both sides
   of the conflict, stoking chaos in hopes of positioning himself as Maelric's successor.
-relationships:
+dm_links:
   - target: chapter-7-aris-the-fracturing-capital
     rel: part_of
   - target: npc-aldrin-stoneward

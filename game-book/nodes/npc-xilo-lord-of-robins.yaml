@@ -1,10 +1,19 @@
 id: npc-xilo-lord-of-robins
 type: npc
 name: Xilo, Lord of Robins
-tags: [archfey, rebel-fey, feywild, ally, animal-lord]
+audience: player-available
+tags:
+  - archfey
+  - rebel-fey
+  - feywild
+  - ally
+  - animal-lord
 status: alive
-summary: One of the seven original Rebel Fey; an Animal Lord who literally is a robin with humanoid and hybrid forms; quick-witted and energetic; volunteered to travel with the party after they slew Egedzoo.
-content: |
+summary: >-
+  One of the seven original Rebel Fey; an Animal Lord who literally is a robin with humanoid and hybrid forms;
+  quick-witted and energetic; volunteered to travel with the party after they slew Egedzoo.
+player_content: ""
+dm_content: |
   One of the seven original Archfey who fought the Estarans in the First War. An Animal Lord:
   he literally is a robin, though he moves between a small bird form, a hybrid form, and a
   humanoid form. He has the personality and energy of a songbird — quick, bright, and restless.
@@ -25,7 +34,7 @@ content: |
   Feywild Compass, and volunteered to accompany them to Aris as an envoy of the Rebel Fey.
   First Fey lord to travel to the mortal capital. While in Aris he hopes to build a network
   of useful contacts for the future.
-relationships:
+dm_links:
   - target: faction-rebel-fey
     rel: member_of
   - target: npc-twi-xu

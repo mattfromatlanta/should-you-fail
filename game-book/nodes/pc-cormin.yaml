@@ -1,10 +1,19 @@
-id: npc-cormin
-type: npc
+id: pc-cormin
+type: pc
 name: Cormin
-tags: [player-character, sorcerer, mind-magic, illusion, party]
+audience: player-available
+tags:
+  - player-character
+  - sorcerer
+  - mind-magic
+  - illusion
+  - party
 status: alive
-summary: Sorcerer with exceptional talent for mind-related magic; illusions are one facet of a broader gift for psychic and mental manipulation.
-content: |
+summary: >-
+  Sorcerer with exceptional talent for mind-related magic; illusions are one facet of a broader gift for psychic and
+  mental manipulation.
+player_content: ""
+dm_content: |
   Player character. Sorcerer with an unusual specialty in mind-affecting magic—illusions,
   mental influence, and perception manipulation. His abilities extend beyond simple illusion
   into the broader space of how minds experience reality.
@@ -13,7 +22,7 @@ content: |
   - Ch6b: Invoked an illusory copy of the party to lead the approach into Egedzoo's sanctum.
     The dragon ambushed the illusion with his surprise breath attack, wasting it and
     inadvertently revealing the lightning conductor web rigged throughout the room.
-relationships:
+dm_links:
   - target: enc-ch6b-01-egedzoo-assault
     rel: appears_in
   - target: npc-delamin-van-morgaaran

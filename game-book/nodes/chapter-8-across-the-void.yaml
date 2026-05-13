@@ -1,10 +1,7 @@
 id: chapter-8-across-the-void
 type: chapter
 name: "Chapter 8: Across The Void"
-summary: >-
-  The party crosses to an alien ice world for the first time using the Radiant Lance, confronts Torma and her dragon
-  children, and frees a hatchling Cetyri imprisoned in the dead Feywild.
-status: in_progress
+audience: player-available
 tags:
   - chapter
   - ice-world
@@ -14,7 +11,12 @@ tags:
   - farthim
   - cetyri
   - multiworld
-content: >-
+status: in-progress
+summary: >-
+  The party crosses to an alien ice world for the first time using the Radiant Lance, confronts Torma and her dragon
+  children, and frees a hatchling Cetyri imprisoned in the dead Feywild.
+player_content: ""
+dm_content: >
   After a farewell with Xilo on the road to Metgal, the party activates the Radiant Lance at the crater's heart and
   crosses to another world for the first time. Only Felicity and Cetyri make the crossing with them — no Feywild Fey can
   safely enter Metgal; Xilo, Yrk, Gallifax, and Maelric remain behind.
@@ -33,9 +35,9 @@ content: >-
 
 
   To reach Torma the Ancient, the party must break the giant tribe's hold on the valley. Torma's sons — Adult white
-  dragons Gullux and Bronik — command the frost giants from the old Estaran garrison north-east of the valley.
-  Defeating the tribe opens access to the Dead Forest east of the garrison, and from there to the dead Feywild, where
-  Torma has made her lair and where a hatchling version of Cetyri is imprisoned in suspended animation.
+  dragons Gullux and Bronik — command the frost giants from the old Estaran garrison north-east of the valley. Defeating
+  the tribe opens access to the Dead Forest east of the garrison, and from there to the dead Feywild, where Torma has
+  made her lair and where a hatchling version of Cetyri is imprisoned in suspended animation.
 
 
   The merge is safe: the party's Cetyri is the stronger, older version, and it is his younger self being freed. Both
@@ -45,30 +47,51 @@ content: >-
   ## Encounter Outline
 
 
-  - **E01: A Word with Xilo** — Farewell on the road to Metgal. [complete]
-  - **E02: The Radiant Lance** — Crossing to Ikellor. [complete]
-  - **E03: Shock of Cold** — Arrival, blizzard, sabretooths, scout. [complete]
-  - **E04: The Settlement** — First contact with Farthim; the two perils; Estaran halls; star chart (Aerus / Maydor /
-    Ozarrid). [in progress, resumes Session 2]
-  - **E05: Field Encounter — Frost Giants** — Eastward foray draws a patrol; giants fight to the death from terror.
-  - **E05b: The Old Garrison** — Four sub-areas; both dragons; Bronik bargains if Gullux falls.
-  - **E06: Torma's Realm** — Through the Dead Forest to the dead Feywild; Torma; first merge. [later session]
+  - **E01: A Word with Xilo** — Farewell on the road to Metgal. [complete] - **E02: The Radiant Lance** — Crossing to
+  Ikellor. [complete] - **E03: Shock of Cold** — Arrival, blizzard, sabretooths, scout. [complete] - **E04: The
+  Settlement** — First contact with Farthim; the two perils; Estaran halls; star chart (Aerus / Maydor /
+    Ozarrid). [complete]
+  - **E05: Field Encounter — Frost Giants** — Eastward foray draws a patrol; giants fight to the death from terror. -
+  **E06: The Old Garrison** — Four sub-areas (6a basement, 6b great hall, 6c Gullux's rafters, 6d Bronik's control
+    tower); both dragons; Bronik bargains if Gullux falls.
+  - **E07: The Dead Forest** — Frozen ruin east of the garrison; rifts to the dead Feywild; this world's Cetyri
+    encountered along the way. [later session]
+  - **E08: Torma's Realm** — Across the rift into the dead Feywild; Torma; first merge. [later session]
 
 
   ## Session 1 — Played
 
 
-  E01, E02, and E03 completed. E04 in progress. Party crossed the void, survived arrival, defeated sabretooth cats,
-  scouted the ring (Estaran artifact at the Shield boundary), and Sylvaris reconnoitered the town center. Session ended
-  with the party withdrawing to plan their approach to Farthim.
+  E01, E02, and E03 completed. Party crossed the void, survived arrival, defeated sabretooth cats, scouted the ring
+  (Estaran artifact at the Shield boundary), and Sylvaris reconnoitered the town center. Session ended with the party
+  withdrawing to plan their approach to Farthim.
 
 
-  ## Session 2 — Planned Scope
+  ## Session 2 — Played
 
 
-  Resume E04 at first contact; play through E05 in the field. Dead Forest, garrison interior, and Torma's realm are
-  held for later sessions.
-relationships:
+  E04 completed. Sylvaris eavesdropped on Amalia and Marx in the town square (supplies down to weeks). The party
+  approached openly; the Farthimers asked if the Estarans had sent them and the party answered honestly that they had
+  not — presenting themselves as researchers who had unraveled the Radiant Projector. They conjured a feast and led the
+  two out to butchered sabre cats. On the trek they traded histories: the Farthim Estarans left a year ago; the frost
+  giants are emboldened; the Fey are blamed locally for the ice age. The party seeded doubt about that story with their
+  Aerus experience, and the Farthimers became inclined to agree more was being withheld.
+
+
+  The party were warned about giants and a possible dragon, told of a 300-year war and a garrison built for 1,000
+  Estaran soldiers, and given a valley map marking Farthim, the Garrison, and the Dead Forest. They explored the empty
+  Generator/Barracks and Projector Hall, identified the ring as a Shield boundary with the core machinery removed, and
+  read the embossed star chart — learning the Estaran name for this world, **Aerus**, and the routes to Maydor and
+  Ozarrid. At lodgings that night, Cetyri (pseudodragon) privately told Cormin he can feel this world's Cetyri pulling
+  from the direction of the garrison. The party began planning to investigate.
+
+
+  ## Session 3 — Planned Scope
+
+
+  E05 (field encounter with frost giants east of town) and E05b (the Old Garrison: basement, great hall, Gullux's
+  rafters, Bronik's control tower). Dead Forest and Torma's realm are held for later sessions.
+dm_links:
   - target: chapter-7-aris-the-fracturing-capital
     rel: preceded_by
   - target: artifact-radiant-lance
@@ -105,9 +128,11 @@ relationships:
     rel: contains
   - target: enc-ch8-05-the-giant-tribe
     rel: contains
-  - target: enc-ch8-05b-the-old-garrison
+  - target: enc-ch8-06-the-old-garrison
     rel: contains
-  - target: enc-ch8-06-tormas-realm
+  - target: enc-ch8-07-dead-forest
+    rel: contains
+  - target: enc-ch8-08-tormas-realm
     rel: contains
 sources:
   - chapter-8-planning.md

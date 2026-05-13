@@ -1,17 +1,26 @@
 id: npc-gord-lankenmangled
 type: npc
 name: Gord Lankenmangled
-tags: [dwarf, merchant, oechenfor, prisoner, star-metal]
+audience: player-available
+tags:
+  - dwarf
+  - merchant
+  - oechenfor
+  - prisoner
+  - star-metal
 status: alive
-summary: Imprisoned dwarf merchant who unknowingly crafted star metal tools for Milicent's quicklings while incarcerated in Oechenfor.
-content: |
+summary: >-
+  Imprisoned dwarf merchant who unknowingly crafted star metal tools for Milicent's quicklings while incarcerated in
+  Oechenfor.
+player_content: ""
+dm_content: |
   Owner of Lankmangled Arms. Imprisoned for keeping artisans in indentured servitude. Despite
   incarceration, was crafting specialized tools from star metal fragments—the same material found
   at the Estaran tower in the Drekklands—for Felicity's quicklings to use in kidnapping
   operations. When confronted, sheepishly admitted his fault and helped the party identify
   Felicity's plans. His motivation: unclear whether coerced, promised freedom, or motivated by
   revenge against those who imprisoned him.
-relationships:
+dm_links:
   - target: npc-felicity
     rel: used_by
     notes: Unknowingly crafted star metal tools for her quickling operation

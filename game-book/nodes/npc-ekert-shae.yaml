@@ -1,6 +1,7 @@
 id: npc-ekert-shae
 type: npc
 name: Ekert Shae
+audience: player-available
 tags:
   - aris
   - conspirator
@@ -12,7 +13,8 @@ status: alive
 summary: >-
   Ardo Manessi's covert operative and illusionist; joined the Young Bastards at Ardo's command and quickly won Nava's
   trust as an advisor; the illusion of Estaran descent was his plan and his spell.
-content: >-
+player_content: ""
+dm_content: >
   Ekert Shae has been Ardo Manessi's secret agent for a few years, operating quietly inside Aris's political scene. He
   joined the Young Bastards at Ardo's direct command, and over the last months climbed into Nava Kurn's inner circle as
   a trusted advisor — a position he cultivated deliberately and held through genuine usefulness. He is good at reading
@@ -40,7 +42,7 @@ content: >-
   in Aris, keeping still. His plan is to wait until the heat passes, then quietly make his way to Oechenfor — where he
   believes he can disappear into a city big enough to swallow him. He is at large. His role in the plot is known to the
   party and to Breva. Ardo himself has not been exposed.
-relationships:
+dm_links:
   - target: npc-ardo-manessi
     rel: serves
     notes: "Secret: Ekert's true loyalty is to Ardo; this connection is hidden from Nava and everyone else"

@@ -1,15 +1,22 @@
 id: faction-lome-monastery
 type: faction
 name: Orchard Path Monastery
-tags: [lome, monastery, monks, orc, lamat]
+audience: player-available
+tags:
+  - lome
+  - monastery
+  - monks
+  - orc
+  - lamat
 status: active
 summary: Warrior-monk monastery in Lome founded by Lamat, led by F'zuga, now relocated to Oechenfor with Lome's evacuees.
-content: |
+player_content: ""
+dm_content: |
   Founded and patronized by Lamat Velu five years ago. Led by the orc ascetic F'zuga. Consists
   of a dozen orc monks who train for town defense, craft tools for farmers, and lead ceremonies
   honoring service. The monastery has a courtyard, three residential buildings, and a meeting
   hall. Following Lome's evacuation, the monastery's people are now in Oechenfor.
-relationships:
+dm_links:
   - target: npc-fzuga
     rel: led_by
   - target: npc-lamat

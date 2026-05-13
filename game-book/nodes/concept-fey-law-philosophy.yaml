@@ -1,16 +1,18 @@
 id: concept-fey-law-philosophy
 type: concept
 name: Fey Law Philosophy
-summary: >-
-  Fey do not codify laws; they remember decisions and live by them, renegotiating through direct council when needed — a
-  system that works because Fey do not die between generations.
+audience: player-available
 tags:
   - fey
   - culture
   - philosophy
   - law
   - erol
-content: >-
+summary: >-
+  Fey do not codify laws; they remember decisions and live by them, renegotiating through direct council when needed — a
+  system that works because Fey do not die between generations.
+player_content: ""
+dm_content: >
   Shared with the party by Erol the Faed, shortly before the waterfront events in Aris (Chapter 7).
 
 
@@ -41,7 +43,7 @@ content: >-
   tools to him; they are part of his core identity. He is who he is *because* of the structures he has chosen to serve.
   Erol does not naturally understand this. She does not dismiss it, but she cannot fully feel it. To her, those
   structures are elegant workarounds for a problem she has never had. To Aldrin, they are the shape of a good life.
-relationships:
+dm_links:
   - target: npc-erol
     rel: articulated_by
     notes: Erol shared this with the party before the waterfront events in Ch7

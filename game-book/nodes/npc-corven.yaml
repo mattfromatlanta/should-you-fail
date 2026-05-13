@@ -1,17 +1,19 @@
 id: npc-corven
 type: npc
 name: Corven
-summary: >-
-  Hardened Young Bastard militant and ringleader of the trio Ekert Shae has maneuvered into plotting Maelric's
-  assassination.
-status: dead
+audience: player-available
 tags:
   - human
   - aris
   - young-bastards
   - assassin
   - chapter-7
-content: >-
+status: dead
+summary: >-
+  Hardened Young Bastard militant and ringleader of the trio Ekert Shae has maneuvered into plotting Maelric's
+  assassination.
+player_content: ""
+dm_content: >
   Corven is the steadiest of the three and the one Ekert worked on first. A longtime Young Bastard with a genuine
   grievance — lost work, lost status — he has convinced himself that removing Maelric is a political act, not a murder.
   Ekert did not have to push hard; he mostly just had to wait and apply pressure at the right moments.
@@ -23,7 +25,7 @@ content: >-
 
   If the party encounters him after the fact, he is the hardest to break — but the most likely to have useful
   information about Ekert if he does talk.
-relationships:
+dm_links:
   - target: npc-ekert-shae
     rel: manipulated_by
     notes: Ekert has been steadily radicalizing him; Corven believes the plan is his own idea

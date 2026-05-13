@@ -1,10 +1,7 @@
 id: npc-bronik-ice-world
 type: npc
 name: Bronik (Ice World)
-summary: >-
-  Adult white dragon; Torma's younger son; the more cunning of the two brothers; despises Gullux and resents his mother
-  but knows he cannot challenge her; a distinct iteration of the party's half-dragon companion.
-status: alive
+audience: player-available
 tags:
   - white-dragon
   - adult-dragon
@@ -13,26 +10,31 @@ tags:
   - chapter-8
   - multiworld
   - world-ikellor
-content: >-
+status: alive
+summary: >-
+  Adult white dragon; Torma's younger son; the more cunning of the two brothers; despises Gullux and resents his mother
+  but knows he cannot challenge her; a distinct iteration of the party's half-dragon companion.
+player_content: ""
+dm_content: >
   The ice world's iteration of Bronik. The party's Bronik is a half-dragon companion who has travelled with them since
-  Chapter 2 — he stayed behind with Xilo rather than crossing with the party. Here, the same soul exists as a true
-  Adult white dragon. The difference is jarring: the companion the party know is a half-mortal ally; this one is a
-  dragon in full, serving his mother's coerced empire.
+  Chapter 2 — he stayed behind with Xilo rather than crossing with the party. Here, the same soul exists as a true Adult
+  white dragon. The difference is jarring: the companion the party know is a half-mortal ally; this one is a dragon in
+  full, serving his mother's coerced empire.
 
 
-  Torma's younger son, slightly smaller than Gullux. Between the two brothers he is the cunning one. He despises
-  Gullux and resents Torma — he yearns for his mother's death but knows he is no match for her. More inclined to
-  consider angles than Gullux, though he is not much of a strategist.
+  Torma's younger son, slightly smaller than Gullux. Between the two brothers he is the cunning one. He despises Gullux
+  and resents Torma — he yearns for his mother's death but knows he is no match for her. More inclined to consider
+  angles than Gullux, though he is not much of a strategist.
 
 
-  He occupies the control tower east of the great hall — the old Estaran nerve center, 200 feet up, where he has
-  knocked a hole in the west wall for his own use. From there he watches.
+  He occupies the control tower east of the great hall — the old Estaran nerve center, 200 feet up, where he has knocked
+  a hole in the west wall for his own use. From there he watches.
 
   If the party reaches him after Gullux has fallen, he will bargain for his life. He will offer to tell them where to
   find a great treasure — specifically, the Dead Forest and Torma's lair — in exchange for being let go. If the party
   reaches him before Gullux, he will try to fight but will flee quickly if things turn against him. He is not a
   strategist and is not committed to dying for the position.
-relationships:
+dm_links:
   - target: npc-torma-ice-world
     rel: child_of
   - target: npc-gullux-ice-world
@@ -42,7 +44,7 @@ relationships:
     notes: Party's Bronik is a half-dragon companion; this one is a true dragon
   - target: location-farthim
     rel: raids
-  - target: enc-ch8-05b-the-old-garrison
+  - target: enc-ch8-06-the-old-garrison
     rel: featured_in
     notes: Nest in the control tower; bargains if Gullux is dead, flees otherwise
 sources:
