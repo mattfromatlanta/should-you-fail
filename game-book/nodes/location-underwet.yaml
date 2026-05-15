@@ -29,5 +29,3 @@ dm_links:
     rel: connected_to
   - target: npc-eigitch-the-old
     rel: navigated_by
-sources:
-  - chapters/chapter-4-journey-to-trickster.md

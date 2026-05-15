@@ -88,6 +88,3 @@ dm_links:
     rel: preceded_by
   - target: enc-ch8-06-the-old-garrison
     rel: leads_to
-sources:
-  - chapter-8-planning.md
-  - session-docs/ch8-open-questions.txt

@@ -14,21 +14,32 @@ summary: >-
   Milicent brings the party to a sealed chamber containing a captive Estaran; through this prisoner, they learn the
   truth — the Estarans have destroyed the cosmos 54 times before.
 player_content: ""
-dm_content: |
-  Milicent leads the party to a sealed chamber deep in her fortress. Inside: an imprisoned
-  Estaran—the first any of them have seen in person. Through this captive, the full horror
-  of the Estaran threat is revealed:
+dm_content: >
+  Milicent leads the party to a sealed chamber deep in her fortress. Inside: an imprisoned Estaran — the first any of
+  them have seen in person. Through this captive, the full horror of the Estaran threat is revealed:
+
 
   - The Estarans have destroyed and recreated the cosmos 54 times before
-  - Each time a rebellion threatened their empire or a Dragon Singularity emerged, they
-    enacted their "Last Resort"—annihilation of the universe, followed by reconstruction
-    under absolute control
+
+  - Each time a rebellion threatened their empire or a Dragon Singularity emerged, they enacted their "Last Resort" —
+  annihilation of the universe, followed by reconstruction under absolute control
+
   - The current world is the 55th iteration
+
   - The Estarans are preparing to do it again
 
-  This revelation explains: the Aboleth's question about "how many moments," the fragmented
-  memories of veterans like Aldrin, the Testament of Embers, and why Milicent has spent
-  centuries building an army.
+
+  This revelation explains: the Aboleth's question about "how many moments," the fragmented memories of veterans like
+  Aldrin, the Testament of Embers, and why Milicent has spent centuries building an army.
+
+
+  **The prisoner's deeper significance.** What the party witnesses here is Milicent using her prisoner as a reveal
+  device — she is showing them the 54 resets, the Last Resort, the scale of the threat. What she does not tell them is
+  that this prisoner is also her primary long-term intelligence source. From them she learned that Dragon Singularities
+  are a *persistent, recurring* Estaran nightmare across all 54 iterations — not a one-time event. The Testament of
+  Embers is just the written record of one instance. The Estarans have faced and destroyed singularities before, and
+  they live in ongoing fear of the next. This is the intelligence that made Milicent certain the Dragon Singularity is
+  the right weapon — and that shaped her choice of Cetyri as champion. See concept-milicents-plan.
 dm_links:
   - target: npc-milicent
     rel: features
@@ -38,5 +49,5 @@ dm_links:
     rel: set_in
   - target: chapter-5-return-to-oechenfor
     rel: part_of
-sources:
-  - chapters/chapter-5-return-to-oechenfor.md
+  - target: concept-milicents-plan
+    rel: informs

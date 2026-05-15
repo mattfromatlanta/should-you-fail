@@ -1,0 +1,74 @@
+id: concept-milicents-plan
+type: concept
+name: Milicent's Plan — The Dragon Singularity Strategy
+audience: dm-only
+summary: >-
+  Milicent's centuries-long strategy to end the Estaran cycle permanently by raising a Dragon Singularity — and her
+  deliberate choice of Cetyri as its champion.
+tags:
+  - milicent
+  - dragon-singularity
+  - cetyri
+  - estarans
+  - foundational
+  - lore
+  - strategy
+dm_content: >
+  Milicent's plan is not reactive. It is the product of centuries of research, a captured Estaran, and a moral reckoning
+  with what kind of power she intends to unleash on the cosmos.
+
+
+  **The intelligence source.** Milicent holds an Estaran prisoner in a sealed chamber in her Shadowfell fortress. From
+  this captive she learned what no ruin or library could tell her: that Dragon Singularities are not a rare historical
+  accident but a persistent, recurring threat to the Estaran Empire across all 54 iterations of the cosmos. Every time
+  the cosmos resets, the conditions that produce singularities reset too. The Estarans have never solved the problem —
+  only escaped it by burning everything. Her prisoner confirmed what the Testament of Embers only hinted at: the
+  Estarans are more afraid of dragons than of anything else in existence.
+
+
+  **The Testament of Embers was dumb luck.** The Fey of this world stumbled onto Varkhasia's story in an Estaran ruin
+  after the Rebellion. It was recovered, preserved in Naeliste's library, and read without anyone fully understanding
+  what it meant. Milicent eventually understood. Varkhasia is not a unique figure — he is simply the one instance that
+  was written down in Estaran literature and survived into the current world. There have been others across the 54
+  iterations. The Estarans' 44th Last Resort was triggered specifically to stop him.
+
+
+  **The strategic logic.** The Estarans can reset the cosmos when threatened. But a Dragon Singularity can permanently
+  destroy an Estaran — not defeat them, not drive them out, but end them. If the champion is ready before the Last
+  Resort can be triggered, the cycle ends permanently. Milicent's entire centuries-long project — the Shadow Projector,
+  the Dread Legion, the imprisonment of Cetyri, the alliance with the party — is aimed at that single moment.
+
+
+  **Why Cetyri.** This is the moral core of the plan. Milicent took Varkhasia as a warning, not just a precedent. A
+  being raised to cosmic power across all realities is not automatically a protector. Varkhasia was a weapon; he would
+  have been as great a tyrant as the Estarans if he had won. Milicent chose Cetyri deliberately and carefully: he is a
+  true golden dragon, whose nature across every world and every age is to protect the weak and guard the ancient pillars
+  of existence. If a single creature is to be raised to unimaginable power over the cosmos, it must be one whose
+  fundamental nature is to shield rather than to rule. The dragon's soul does not change across worlds — and Cetyri's
+  soul, in every iteration, is a guardian's soul.
+
+
+  **The soul damage and the Death Knights.** Milicent spent a century holding Cetyri prisoner, and the imprisonment was
+  not incidental. She was deliberately damaging his soul in the precise way the Dragon Singularity process requires —
+  creating the dispersed, fractured pattern that allows his soul-facets to unify across worlds without catastrophic
+  damage to the world where it happens. She also trained Death Knights against him during this period; the combat was
+  part of the conditioning. The party does not know the soul damage was deliberate. If they piece it together, treat it
+  as a major reveal. She has never apologized for it and will not.
+
+
+  **The trust posture.** Milicent does not love the party. She trusts them to execute the plan. She agreed to stop
+  enslaving mortals because the party required it — and because the Dread Legion is no longer the point; the point is
+  Cetyri. The alliance is transactional. She will not bend the plan to spare them, and she expects the same in return.
+dm_links:
+  - target: npc-milicent
+    rel: conceived_by
+  - target: npc-cetyri
+    rel: centers_on
+  - target: enc-ch5-07-the-imprisoned-estaran
+    rel: informed_by
+  - target: concept-dragon-singularity
+    rel: related_to
+  - target: concept-estarans-and-dragons
+    rel: related_to
+  - target: artifact-testament-of-embers
+    rel: documented_in

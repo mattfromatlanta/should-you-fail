@@ -22,6 +22,3 @@ dm_links:
     rel: contains
   - target: npc-milicent
     rel: home_of
-sources:
-  - world/cosmology.md
-  - chapters/chapter-5-return-to-oechenfor.md

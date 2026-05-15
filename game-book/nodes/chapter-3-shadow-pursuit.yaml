@@ -80,5 +80,3 @@ dm_links:
     rel: contains
   - target: enc-ch3-04-eigitch-and-the-plan
     rel: contains
-sources:
-  - archive/chapters/chapter-3-shadow-pursuit.md

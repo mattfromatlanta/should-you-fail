@@ -34,5 +34,3 @@ dm_links:
   - target: npc-taram-thristle
     rel: ally
     notes: Old school friend; Cormin investigated Nirsa's affair for him
-sources:
-  - prompts/session-worksheets/chapter-6b-egedzoo-assault.md

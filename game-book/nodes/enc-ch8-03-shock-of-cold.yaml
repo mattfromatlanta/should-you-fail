@@ -107,5 +107,3 @@ dm_links:
     rel: preceded_by
   - target: enc-ch8-04-the-settlement
     rel: leads_to
-sources:
-  - chapter-8-planning.md

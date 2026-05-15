@@ -71,5 +71,3 @@ dm_links:
     rel: contains
   - target: enc-ch1-10-waking
     rel: contains
-sources:
-  - archive/chapters/chapter-1-invaders.md

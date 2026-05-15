@@ -1,0 +1,74 @@
+id: chapter-10-the-dying-world
+type: chapter
+name: "Chapter 10: The Dying World"
+audience: dm-only
+summary: >-
+  The party arrives on a world where the Estarans have nearly crushed the Fey, finds this world's Cetyri serving the
+  Estarans, and may have to fight him directly to save the surviving Fey.
+status: planned
+tags:
+  - chapter
+  - multiworld
+  - cetyri
+  - merge
+  - estarans
+  - aldrin
+  - erol
+  - fey
+  - active-conflict
+dm_content: >-
+  The third world on the Radiant Lance network (Maydor or Ozarrid — TBD). The Estarans have nearly won here. The Fey are
+  broken, scattered, or in hiding. The party arrives into the aftermath of a war that is almost over — and on the wrong
+  side.
+
+
+  **This world's Cetyri.** Not a prisoner, not a fighter for the Fey — an Estaran ally, in the same role Gallifax played
+  on Aerus. He may be willing, complicit, deceived, or coerced; that is TBD. But from the outside, he serves the
+  Estarans. This is a mirror of what the party's Cetyri could have become under different circumstances, and should feel
+  that way.
+
+
+  **The dramatic question.** The party may have to fight this world's Cetyri directly — not to wound him for the merge,
+  but to save this world's surviving Fey. This raises the stakes considerably: the party's Cetyri may be asked to face
+  himself as an enemy. What does he do? What does he say to himself?
+
+
+  **The merge condition.** TBD — it is not yet established whether this world's Cetyri is also a merge candidate, or
+  whether the chapter's purpose is different. This should be decided when the chapter is developed further.
+
+
+  **Aldrin and Erol.** The party will find evidence — records, monuments, living witnesses — that this world's versions
+  of Aldrin and Erol participated in the near-destruction of the Fey here. Atrocities. The critical context: on Aerus,
+  no veteran remembers what the Estarans had them do. Their memories of the Fey War were taken or never formed. Aldrin,
+  Erol, and the other long-lived veterans of Aerus have no idea what was done in their names — or through their hands.
+  The evidence on this world should make that horror land fully: these were not willing war criminals. They were
+  instruments. The party will have to decide what, if anything, to do with what they learn, and whether to ever tell
+  Aldrin or Erol.
+
+
+  **The Fey survivors.** There are Fey left here, but barely. Who leads them, what they know, and what they need from
+  the party is TBD.
+
+
+  **Open questions:**
+
+  - Which world is this — Maydor or Ozarrid?
+
+  - Is this world's Cetyri a willing Estaran ally, a deceived one, or something else?
+
+  - Is he a merge candidate, and if so what is the condition?
+
+  - What form does the evidence of Aldrin and Erol's atrocities take — monuments, survivor testimony, Estaran records?
+
+  - Who are the surviving Fey and what is their situation?
+
+  - Does fighting this world's Cetyri permanently damage the merge, or is it still possible afterward?
+dm_links:
+  - target: chapter-9-the-war-world
+    rel: preceded_by
+  - target: npc-cetyri
+    rel: centers_on
+  - target: npc-aldrin
+    rel: features
+  - target: npc-erol
+    rel: features

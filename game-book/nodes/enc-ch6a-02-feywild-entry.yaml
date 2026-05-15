@@ -31,5 +31,3 @@ dm_links:
   - target: concept-estarans
     rel: referenced_in
     notes: The wasteland is the scar left by Estaran occupation
-sources:
-  - chapters/chapter-6a-into-the-wild.md

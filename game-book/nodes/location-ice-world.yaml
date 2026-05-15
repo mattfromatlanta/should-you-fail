@@ -52,5 +52,3 @@ dm_links:
   - target: concept-estarans
     rel: controlled_by
     notes: Formerly; withdrew one year ago
-sources:
-  - chapter-8-planning.md

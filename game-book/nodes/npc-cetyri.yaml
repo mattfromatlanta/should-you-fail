@@ -21,98 +21,88 @@ summary: >-
   observers; the multiplicity of his soul makes him the intended Golden Wyrm Singularity; committed party ally currently
   travelling in pseudodragon form on Ikellor.
 player_content: >
-  A young gold dragon. For most observers, indistinguishable from a living dragon — though he died as Milicent's
-  prisoner, returned as a revenant, and has since recovered nearly the whole way back. He is no longer a revenant.
+  Cetyri is a young gold dragon from the world Aerus. He is quiet and introspective, tasked with terrible purpose to
+  become the Dragon Singularity and save the Cosmos itself. He travels with the party now, while they walk the path
+  Milicent has laid out for them.
 
 
-  Originally a protector of good people on the world Aerus. Milicent captured and tortured him over the course of a
-  century, killed him, and discarded the body. The party found him in Chapter 2 in the Underdark — at that time blind, a
-  revenant possessed by revenge, washed there along an underground river from Milicent's dungeon. He has been with the
-  party (and Bronik) since.
+  Held for a century in Milicent's Shadow Keep, Cetyri was released into the Underdark only months before the campaign
+  began — carrying the aspect of undeath, barely aware of where he was, believing he might still be imprisoned. He had
+  become a revenant. The party found him in the underground lake in Chapter 2, rescued him, brought him to Naeliste, and
+  through Lomani's care he slowly recovered a semblance of normal life. Through death, undeath, and rebirth, he is
+  uniquely ready to seek the pieces of his multiple soul and join with them.
 
 
-  Erol quickly recognised his nature and sent him with the party to Naeliste, where Lomani Nae examined him and found his soul radiating in
-  beams to many worlds at once. Lomani diagnosed him as metaphysically damaged rather than truly undead, and Cetyri had
-  already begun to heal. While the party travelled south with Eigitch, Cetyri recovered fully under Lomani's care — his
-  sight returned and he became a living dragon again in every visible way. When Lomani then asked him directly about the
-  radiance — a violation of a secret dragons fiercely protect — Cetyri fled into the Feywild in
-  a panic, Bronik with him.
-
-
-  The party caught up to him in Qu in Chapter 6a. There he learned of the fifty-four Estaran resets and Milicent's plan:
-  because his death has severed him completely from the mortal world (in the same way the Trickster's Blessing severs
-  the party), he can safely merge with his other facets and become the Golden Wyrm Singularity — the one thing the
-  Estarans cannot survive. He committed to the plan, and has travelled with the party since, meditating on his future
-  and keeping his thoughts mostly to himself.
-
-
-  Through Chapter 7 in Aris he was a quiet companion. In Chapter 8 he meditated at the Radiant Lance at Metgal and chose
-  the path the party crossed by. On arrival in Ikellor he shifted into a pseudodragon — copper-gold scales, golden eyes
-  — for tactical reasons he has made plain: if an Estaran recognises him, or if another dragon (including another
-  Cetyri) reacts in panic or violence to his presence, the mission is finished. He will only take true dragon form when
-  the mission itself demands it, and has told the party openly that he will not save their lives if the mission can be
-  spared by their deaths.
-
-
-  In Farthim he told Cormin privately, and the party soon after, that he can feel this world's Cetyri pulling at him
-  from the direction of the old garrison.
+  Cetyri of Aerus has promised he will do what he can to permanently defeat the Estarans. For the moment, he travels
+  with the party disguised as a pseudodragon with copper scales and golden eyes. His greatest fear is that the Estarans
+  — or even another Cetyri — could learn their plans, to the ruin of all.
 dm_content: >
+  **Capture and imprisonment timeline.** Milicent captured Cetyri ~100 years ago — roughly 50 years after the Veterans'
+  Rebellion ended and the Estarans were driven from Aerus. By then she had thoroughly interrogated her Estaran prisoner
+  and formed her master plan for the Dragon Singularity. The century of imprisonment was deliberate soul preparation,
+  not mere captivity. She released him into the Underdark months before the campaign started — he was found by the party
+  in Chapter 2 barely aware he had been freed.
+
+
   **The first merge target.** The hatchling Cetyri imprisoned in the dead Feywild (npc-cetyri-hatchling) is the planned
-  first merge. The party do not yet know the hatchling exists; Cetyri's pull toward the garrison — which they saw in
-  Farthim Session 2 — is the first concrete signal of the merge to come. His full emotional preparation for the merge,
-  and what the merge looks and feels like from the outside, remain in flux. To be played out across the remainder of
-  Chapter 8.
+  first merge. The pull Cetyri feels is real and growing; it will intensify as the campaign approaches its climax of
+  Chapter 8. The merge will age him to an Adult gold dragon.
+
+
+  **His arc across the remaining chapters.** Cetyri begins quiet, introspective, and guarded — his thoughts on his own
+  transformation largely unknowable to the party. This should shift after the first merge. As an Adult, he will slowly
+  become more vocal: sharing observations, offering perspective, eventually taking something closer to a patron role as
+  the party moves toward the final confrontation.
 
 
   **Running Cetyri in combat.** Honour his stated stance — stays small and observant unless the mission itself is at
-  stake; will not break cover to save individual party members. He is not a party-saving dragon-out-of-the-bag.
+  stake. He is not a party-saving dragon-out-of-the-bag. His refusal to break cover is not cruelty; it is commitment to
+  a larger truth. This may evolve post-merge as his confidence and form grow.
+
+
+  **His interiority.** Play him as someone who has made peace with an ending, but not without cost. Moments of quiet
+  melancholy are in character — for now. Watch for opportunities to let that quietness crack open into something richer
+  as he grows.
 dm_links:
   - target: npc-cetyri-hatchling
     rel: planned_merge_target
-    notes: The first merge; emotional preparation in flux
-  - target: npc-felicity
-    rel: ally
-    notes: Crossed with him on the Radiant Lance; only Feywild Fey to enter Metgal alongside him
-  - target: enc-ch8-02-the-radiant-lance
-    rel: features
-    notes: Meditation at Metgal; chose the crossing route
-  - target: enc-ch8-03-shock-of-cold
-    rel: features
-    notes: Pseudodragon transformation on arrival
+    notes: The first merge; emotional preparation unfolding across Chapter 8
   - target: location-dead-feywild
     rel: destination
-    notes: Where the hatchling is imprisoned; the merge will happen here
-sources:
-  - npcs/heroes/cetyri.md
-  - chapters/chapter-2-darkness.md
-  - chapters/chapter-6a-into-the-wild.md
+    notes: Where the hatchling is imprisoned; the merger will happen here
+  - target: npc-eigitch-the-old
+    rel: ally
+    notes: Stayed in Naeliste while party travelled with Eigitch
+  - target: location-underdark
+    rel: found_at
+    notes: Island in the underground lake; where the party first encountered him
+  - target: location-naeliste
+    rel: recovered_at
+    notes: Examined and healed under Lomani's care
+  - target: location-qu
+    rel: reunited_at
+    notes: Party caught up with him here; learned of the plan
 public_links:
   - target: npc-erol
     rel: recognized_by
-    notes: Recognized Cetyri's nature on meeting; sent the party to Naeliste for the Trickster's Blessing
+    notes: Recognized Cetyri's nature; sent the party to seek the Trickster's Blessing
   - target: npc-milicent
     rel: former_captor_of
-    notes: Held him in her dungeon until his death; the cause of his revenant state
+    notes: Held him for a century; her plan depends on his merger
   - target: npc-bronik
     rel: ally
-    notes: Bronik accompanied him into the Feywild when he fled and has stayed with the party since
+    notes: Bronik accompanied him and has stayed with the party since
   - target: npc-lomani-nae
     rel: examined_by
-    notes: >-
-      Diagnosed metaphysical damage rather than undeath; later mistakenly asked Cetyri about his multiple soul,
-      prompting flight
-  - target: npc-eigitch-the-old
-    rel: ally
-    notes: Cetyri stayed in Naeliste while the party travelled south with Eigitch to find the Trickster
+    notes: Diagnosed metaphysical damage; Cetyri fled when she violated dragon secrecy
   - target: concept-dragon-singularity
     rel: destined_for
-    notes: Cetyri is the intended Golden Wyrm Singularity
   - target: concept-tricksters-blessing
     rel: related_to
-    notes: Cetyri's death has severed him from the mortal world in the same way the Blessing severs the party
+    notes: His death has severed him from the mortal world in the same way the Blessing severs the party
   - target: artifact-radiant-lance
     rel: used
-    notes: Meditated at the Lance at Metgal and chose the route across to Ikellor
+    notes: Meditated at the Lance at Metgal
   - target: chapter-2-darkness
     rel: appears_in
   - target: chapter-6a-into-the-wild
@@ -121,12 +111,3 @@ public_links:
     rel: appears_in
   - target: chapter-8-across-the-void
     rel: appears_in
-  - target: location-underdark
-    rel: found_at
-    notes: Island in the underground lake of the Maxxa twins' realm
-  - target: location-naeliste
-    rel: appears_in
-    notes: Examined, recovered, and fled from here
-  - target: location-qu
-    rel: appears_in
-    notes: Party reunited with him here in Chapter 6a

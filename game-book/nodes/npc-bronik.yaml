@@ -12,39 +12,41 @@ tags:
   - multiworld
 status: alive
 summary: >-
-  White half-dragon son of Torma the Unforgiving on Aerus; captured in Chapter 2; became a trusted party companion;
-  stayed with Xilo when the party crossed to Ikellor. An iteration of the same soul as Bronik (Ice World), a true Adult
-  white dragon on Ikellor.
-player_content: ""
+  White half-dragon son of Torma the Unforgiving; once an enemy, now a trusted companion; stayed behind with Xilo when
+  the party crossed to Ikellor.
+player_content: >
+  A white half-dragon who rode a wyvern named Dirge. Son of Torma the Unforgiving and brother to the traitorous
+  Gullux; he came searching for Gullux and for the stolen treasure after Gullux betrayed Torma by taking dragon eggs.
+
+
+  The party captured him in Chapter 2, and over time he came to accept them. He was befriended by Peno. He travelled to 
+  Naeliste with the party and Cetyri, stayed there with the Goblins while the party sought the Trickster, and when 
+  Cetyri fled into the Feywild in panic he went with him out of simple friendship and loyalty. He has been a quiet 
+  support to Cetyri ever since.
+
+
+  When the party crossed to Ikellor at the start of Chapter 8 via the Radiant Lance, Bronik stayed behind in Metgal
+  with Xilo, to whom he has pledged service.
 dm_content: >
-  White half-dragon who rides a wyvern named Dirge. Son of Torma the Unforgiving and brother to the traitorous Gullux.
-  Came searching for Gullux and the stolen treasure after Gullux betrayed Torma by stealing dragon eggs. Recognized
-  items from Torma's hoard (adamantine armor and flaming sword) when he encountered the party.
-
-
-  Captured by the party in Chapter 2. Over time accepted them and became a trusted companion. Traveled to Naeliste with
-  the party and Cetyri. Stayed in Naeliste with the Goblins while the party sought the Trickster.
-
-
-  When Cetyri fled Naeliste in a panic — Lomani Nae's question about the radiance had touched on knowledge dragons keep
-  from every other race — Bronik went with him into the Feywild out of simple friendship and loyalty.
-
-
-  Stays out of combat but provides support to Cetyri. Returned to the mortal world with the party at end of Chapter 6.
-  When the party crossed to Ikellor using the Radiant Lance at the start of Chapter 8, Bronik stayed behind with Xilo.
-dm_links:
-  - target: npc-torma-the-unforgiving
-    rel: family
-    notes: Son; was her loyal agent searching for Gullux
-  - target: npc-gullux
-    rel: family
-    notes: Brother; Gullux was a traitor to Torma
+  **Multiworld note.** Bronik is an iteration of the same soul as npc-bronik-ice-world, the true Adult white dragon on
+  Ikellor. The party has not yet been told this directly. If Cetyri's nature comes into discussion of soul-spanning,
+  Bronik becomes the obvious next question.
+public_links:
   - target: npc-cetyri
     rel: ally
-    notes: Close friend; accompanied him into the Feywild
+    notes: Close friend; went with him into the Feywild and has stayed at his side since
+  - target: npc-torma-the-unforgiving
+    rel: family
+    notes: Son
+  - target: npc-gullux
+    rel: family
+    notes: Brother; Gullux betrayed Torma
   - target: location-naeliste
     rel: stayed_in
     notes: Made friends with the Goblins in Chapter 3
-sources:
-  - npcs/heroes/bronik.md
-  - chapters/chapter-2-darkness.md
+  - target: chapter-2-darkness
+    rel: appears_in
+dm_links:
+  - target: npc-bronik-ice-world
+    rel: same_soul_as
+    notes: Multiworld iteration; party not yet told

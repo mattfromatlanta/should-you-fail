@@ -31,6 +31,3 @@ dm_links:
   - target: location-feywild
     rel: bordering
     notes: Hidden paths allow crossing to the Feywild
-sources:
-  - world/locations.md
-  - chapters/chapter-1-invaders.md

@@ -108,6 +108,3 @@ dm_links:
     rel: features
   - target: location-naeliste
     rel: found_at
-sources:
-  - assets/ode-to-seven-lords.md
-  - chapters/chapter-3-shadow-pursuit.md

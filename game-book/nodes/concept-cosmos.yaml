@@ -89,6 +89,3 @@ dm_links:
   - target: location-ice-world
     rel: example_of
     notes: Ikellor is an Estaran-colonized world
-sources:
-  - session-docs/ch8-ice-world-history.txt
-  - session-docs/ch8-open-questions.txt

@@ -91,5 +91,3 @@ dm_links:
     rel: preceded_by
   - target: enc-ch8-03-shock-of-cold
     rel: leads_to
-sources:
-  - chapter-8-planning.md

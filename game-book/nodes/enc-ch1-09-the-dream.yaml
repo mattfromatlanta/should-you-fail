@@ -34,5 +34,3 @@ dm_links:
     rel: features
   - target: chapter-1-invaders
     rel: part_of
-sources:
-  - chapters/chapter-1-invaders.md

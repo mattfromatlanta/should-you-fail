@@ -28,5 +28,3 @@ dm_links:
     rel: protects_against
   - target: chapter-4-journey-to-the-trickster
     rel: appears_in
-sources:
-  - chapters/chapter-4-journey-to-trickster.md

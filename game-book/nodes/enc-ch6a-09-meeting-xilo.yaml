@@ -41,6 +41,3 @@ dm_links:
   - target: location-memorial-of-ozevriel
     rel: set_in
     notes: The crashed airship is nearby
-sources:
-  - chapters/chapter-6a-into-the-wild.md
-  - prompts/session-worksheets/chapter-6a-final-session.md

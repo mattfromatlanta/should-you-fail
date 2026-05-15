@@ -37,6 +37,3 @@ dm_links:
   - target: npc-torma-ice-world
     rel: iteration_of
     notes: Same dragon on Ikellor; alive there as Torma the Ancient, an Ancient White Dragon
-sources:
-  - npcs/foes/torma-the-unforgiving.md
-  - chapters/chapter-2-darkness.md

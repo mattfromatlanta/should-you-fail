@@ -57,6 +57,3 @@ dm_links:
     rel: related_to
   - target: concept-dragons
     rel: related_to
-sources:
-  - session-docs/ch8-ice-world-history.txt
-  - session-docs/ch8-open-questions.txt

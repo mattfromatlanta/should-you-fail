@@ -1,0 +1,48 @@
+id: chapter-11-x
+type: chapter
+name: "Chapter 11: X"
+audience: dm-only
+summary: >-
+  TBD — ends with Cetyri completing the Singularity and the Estarans discovering the party's plan, setting up the final
+  chapter.
+status: planned
+tags:
+  - chapter
+  - cetyri
+  - singularity
+  - estarans
+  - endgame
+  - tbd
+dm_content: >-
+  The penultimate chapter. Details TBD, but two things happen here that drive Chapter 12:
+
+
+  **Cetyri becomes the Singularity.** The final merge is complete. Whatever the chapter's main narrative, it culminates
+  in Cetyri's transformation — the moment the quiet, introspective dragon travelling with the party becomes something
+  else entirely. This should be a major dramatic beat, not an offscreen event.
+
+
+  **The Estarans discover the plan.** Also in this chapter, the secret breaks. How — a surviving witness, a captured
+  party member, Estaran surveillance, an encounter with another Cetyri who warns them — is TBD. But by the end of this
+  chapter the Estarans know what is coming, and Chapter 12 begins with the clock already running.
+
+
+  **Open questions:**
+
+  - What is the main narrative of this chapter — which world, which conflict?
+
+  - How exactly does Cetyri complete the Singularity here — is there a final merge, or is the transformation a
+  culmination of earlier merges?
+
+  - How do the Estarans find out, and who or what is the vector?
+
+  - Is there a cost to the party in this chapter beyond Cetyri's transformation?
+dm_links:
+  - target: chapter-10-the-dying-world
+    rel: preceded_by
+  - target: chapter-12-the-final-battle
+    rel: followed_by
+  - target: npc-cetyri
+    rel: centers_on
+  - target: concept-dragon-singularity
+    rel: features

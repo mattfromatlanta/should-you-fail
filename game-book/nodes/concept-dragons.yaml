@@ -51,6 +51,3 @@ dm_links:
   - target: npc-torma-ice-world
     rel: example_of
     notes: Same dragon as Torma the Unforgiving on Aerus
-sources:
-  - session-docs/ch8-ice-world-history.txt
-  - session-docs/ch8-open-questions.txt

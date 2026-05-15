@@ -27,6 +27,3 @@ dm_links:
     rel: located_in
   - target: chapter-2-darkness
     rel: appears_in
-sources:
-  - npcs/foes/maxxa-twins.md
-  - chapters/chapter-2-darkness.md

@@ -28,5 +28,3 @@ dm_links:
     notes: Currently involved with Ooli
   - target: location-oechenfor
     rel: located_in
-sources:
-  - npcs/mortals/nirsa-hoegartner.md

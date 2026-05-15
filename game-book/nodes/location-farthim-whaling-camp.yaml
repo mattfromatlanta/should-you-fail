@@ -26,6 +26,3 @@ dm_links:
     rel: located_in
   - target: location-farthim
     rel: near
-sources:
-  - session-docs/ch8-ice-world-history.txt
-  - session-docs/ch8-open-questions.txt

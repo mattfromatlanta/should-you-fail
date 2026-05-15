@@ -21,6 +21,3 @@ dm_content: |
 dm_links:
   - target: location-lome
     rel: located_in
-sources:
-  - npcs/mortals/midge-wittle.md
-  - chapters/chapter-1-invaders.md

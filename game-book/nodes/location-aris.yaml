@@ -44,6 +44,3 @@ dm_links:
   - target: concept-estarans
     rel: built_by
     notes: Built atop and from ancient Estaran stronghold
-sources:
-  - world/locations.md
-  - chapters/chapter 7/chapter-7-synopsis.md

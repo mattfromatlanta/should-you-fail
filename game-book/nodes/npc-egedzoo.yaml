@@ -39,6 +39,3 @@ dm_links:
     rel: located_in
   - target: chapter-6b-death-to-egedzoo
     rel: appears_in
-sources:
-  - npcs/foes/egedzoo.md
-  - chapters/chapter-6b-death-to-egedzoo.md

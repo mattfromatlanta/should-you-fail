@@ -10,18 +10,26 @@ tags:
   - ally
 status: alive
 summary: >-
-  Queen Librarian of Naeliste's Library of Rhymes and Antiquities; Moon Druid; grandmother of Aelira; holds key
-  historical documents.
-player_content: ""
-dm_content: |
-  Queen Librarian and Moon Druid of Naeliste. Grandmother of Aelira (one of the party members).
-  Daughter-in-law relationship to Caera. Curates the Library of Rhymes and Antiquities, which
-  holds rare documents including the Testament of Embers, Grib's letter from the First War, and
-  the Ode to Seven Lords. Her collection's documents provided key revelations in Chapter 3.
-dm_links:
+  Queen Librarian of Naeliste's Library of Rhymes and Antiquities; Moon Druid; Aelira's grandmother; keeper of three
+  pivotal historical documents.
+player_content: >
+  Queen Librarian of Naeliste and a Moon Druid, and Aelira's grandmother — Caera is her daughter-in-law. She curates
+  the Library of Rhymes and Antiquities, the Fey collection that holds the Testament of Embers, Grib's letter from the
+  First War, and the Ode to Seven Lords. Three of the most important revelations of Chapter 3 came through her — the
+  party left Naeliste knowing more about the Estarans, the Rebel Fey, and what the world was actually facing than they
+  had any right to expect, and the credit for that is hers.
+
+
+  She is warm and unhurried in the way old librarians often are, but the warmth conceals a Moon Druid's seriousness;
+  she is not a quiet figure to be underestimated.
+dm_content: ""
+public_links:
   - target: npc-caera
     rel: family
     notes: Daughter-in-law; Caera is Aelira's mother
+  - target: pc-aelira
+    rel: family
+    notes: Grandmother
   - target: location-naeliste
     rel: located_in
   - target: artifact-testament-of-embers
@@ -31,6 +39,5 @@ dm_links:
     rel: owns
   - target: artifact-ode-to-seven-lords
     rel: owns
-sources:
-  - npcs/fey/melbara.md
-  - chapters/chapter-3-shadow-pursuit.md
+  - target: chapter-3-shadow-pursuit
+    rel: appears_in

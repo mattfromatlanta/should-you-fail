@@ -12,48 +12,51 @@ tags:
   - ageless
 status: alive
 summary: >-
-  Chief Citizen and Founder of Oechenfor; veteran gifted with ageless life by the Estara; departed Aris for Oechenfor
-  after Chapter 7 ended.
-player_content: ""
+  Chief Citizen and Founder of Oechenfor; veteran of the Rebellion gifted with ageless life by the Estara; left Aris
+  for Oechenfor with Erol after Chapter 7.
+player_content: >
+  A tall, regal middle-aged human man with dark skin and a bald head, with a seeming radiance about him. He carries the
+  legendary longsword Valor on his back. The Estara gifted him ageless, enduring life before the First Rebellion, and
+  he fought alongside Maelric Sturmwald and Gallifax in the war that followed. He survived the burning of Metgal.
+  Twenty years ago he co-founded Oechenfor with Erol and the other Founders, and he serves now as its Chief Citizen.
+
+
+  Aldrin is a creature of duty and service. The grand cultural constructs of mortal civilisation — law, oath, rank,
+  institution — are not merely tools to him; they are part of his core identity. He is who he is because of the
+  structures he has chosen to serve. This puts him in quiet tension with Erol, whose Fey nature finds written laws
+  unnecessary. He does not argue the point, but it touches something fundamental in him. See concept-fey-law-philosophy.
+
+
+  He was once Erol's partner, before she and Lamat grew close. To him, Erol is the one who got away. The affection
+  remains; so does the regret. He will not change himself for her, and she will not ask him to.
+
+
+  He arrived in Aris in Chapter 7 hoping to help the catatonic Maelric and stabilise the alliance, and was instead
+  caught between the Veterans and the Young Bastards — his reputation as a fair-minded moderate made him valuable, and
+  trapped, in the middle. When the Estaran psychic event struck during the waterfront illusion and crippled Erol, he
+  abandoned the Veterans' rally to protect her and stayed with her through the aftermath. He and Erol left Aris
+  together before the party crossed to Metgal.
 dm_content: >
-  A middle-aged human man with dark skin and a bald head. Tall and regal with a seeming radiance.\nCarries the legendary
-  longsword Valor on his back. Gifted by the Estara with ageless, enduring\nlife before the First Rebellion. Fought
-  alongside Maelric Sturmwald and Gallifax in the\nRebellion. Survived the burning of Metgal. Co-founded Oechenfor ~20
-  years ago with Erol the\nFaed and other Founders.\n\nWas in Aris during Chapter 7: arrived hoping to help the
-  catatonic Maelric and stabilize the alliance.\nInstead caught in an escalating political crisis between the Veterans
-  and Young Bastards.\nHis reputation as a fair-minded moderate made him valuable—and trapped—in the middle.\n\nWhen the
-  Estaran psychic event struck during the waterfront illusion (Ch7 E05/E06), Aldrin abandoned the Veterans' rally to
-  protect Erol, who was crippled by a psychic episode. He stayed with her through the aftermath.\n\nIDENTITY AND
-  LAW:\nAldrin is a creature of duty and service. The grand cultural constructs of mortal civilization —\nlaw, oath,
-  rank, institution — are not merely tools to him; they are part of his core identity.\nHe is who he is because of the
-  structures he has chosen to serve. This puts him in quiet\ntension with Erol, whose Fey nature makes written laws feel
-  unnecessary to her — Fey were\npresent when decisions were made and remember them; they do not have the mortal problem
-  of\nhanding rules to generations who were not there. Erol shared this view with the party before\nthe waterfront
-  events in Ch7. Aldrin does not argue the point, but it touches something\nfundamental in him. See
-  concept-fey-law-philosophy.\n\n## Current Status\n\nAldrin and Erol left Aris for Oechenfor after Chapter 7 concluded.
-  They did not travel to Metgal.\n\n> **DM NOTE:** They are heading to Oechenfor. The party does not know where they
-  went.
-dm_links:
-  - target: npc-maelric-sturmwald
-    rel: ally
+  **Where he went.** Aldrin and Erol are heading to Oechenfor. The party does not know where they went.
+public_links:
   - target: npc-erol
     rel: ally
-    notes: >-
-      Co-founded Oechenfor with her; former romantic partners—she is the one who got away; deep mutual affection remains
-      but Erol cannot live in his structured orbit
+    notes: Co-founded Oechenfor; former romantic partners; left Aris together after Ch7
+  - target: npc-maelric-sturmwald
+    rel: ally
+    notes: Fought together in the Rebellion
   - target: faction-allied-cities
     rel: member_of
   - target: event-rebellion
     rel: participated_in
   - target: location-oechenfor
     rel: founded
-  - target: location-oechenfor
-    rel: currently_in
-    notes: Departed Aris after Ch7; heading home
   - target: concept-fey-law-philosophy
     rel: in_tension_with
-    notes: Aldrin's identity is built around mortal institutions; this concept is a source of quiet friction with Erol
-sources:
-  - npcs/heroes/aldrin-stoneward.md
-  - chapters/chapter-1-invaders.md
-  - chapters/chapter 7/chapter-7-synopsis.md
+    notes: His identity is built around mortal institutions; this is the source of quiet friction with Erol
+  - target: chapter-7-aris-the-fracturing-capital
+    rel: appears_in
+dm_links:
+  - target: location-oechenfor
+    rel: currently_in
+    notes: Departed Aris after Ch7; party does not know

@@ -34,5 +34,3 @@ dm_links:
     rel: contains
   - target: concept-estarans
     rel: damaged_by
-sources:
-  - chapters/chapter-6a-into-the-wild.md

@@ -1,0 +1,56 @@
+id: enc-ch8-07-dead-forest
+type: encounter
+name: "Ch8 E07: The Dead Forest"
+audience: dm-only
+tags:
+  - chapter-8
+  - dead-forest
+  - dead-feywild
+  - ice-world
+  - hazard
+  - dungeon
+status: planned
+summary: >-
+  After clearing the garrison, the party crosses the Dead Forest east of it — a frozen ruin riddled with rifts to the
+  dead Feywild and the monsters that come through them — to find the rift that leads to Torma's lair.
+dm_content: >
+  East of the old Estaran garrison, the Dead Forest begins. It died three centuries ago when the Estarans destroyed the
+  Feywild. What remains is a frozen sprawl of dead trees and ruined undergrowth, riddled with rifts to the dead Feywild
+  that never fully closed. Frost giants avoid it. Torma entered the dead Feywild through this forest thirty years ago
+  and has not returned.
+
+
+  ## Role in the Chapter
+
+
+  The Dead Forest is the bridge between the cleared garrison and Torma's realm. The party must travel through it to find
+  the rift that opens to the dead Feywild and Torma's territory. This is also where this world's Cetyri will be
+  encountered (the pseudodragon's pull, established at Farthim, leads here).
+
+
+  ## What's Here
+
+
+  - **Hazards of the cold.** Monsters and demons drawn through the rifts, or born of them. Specific encounters TBD. -
+  **Rifts.** Multiple unstable openings into the dead Feywild. Most are dangerous to enter or even approach. The
+    party must find the right one — Torma's path.
+  - **This world's Cetyri.** The dragon the party's Cetyri has been feeling pull from the direction of the garrison.
+    First contact happens somewhere along this path. Tone and scene TBD.
+
+
+  ## TBD
+
+
+  Specific hazards, the path through the forest, monster encounters, and the rift the party uses to cross into the dead
+  Feywild are all unwritten. See concept-ch8-todo.
+dm_links:
+  - target: chapter-8-across-the-void
+    rel: part_of
+  - target: location-dead-forest
+    rel: set_in
+  - target: location-dead-feywild
+    rel: leads_to
+  - target: enc-ch8-06-the-old-garrison
+    rel: preceded_by
+  - target: enc-ch8-08-tormas-realm
+    rel: leads_to

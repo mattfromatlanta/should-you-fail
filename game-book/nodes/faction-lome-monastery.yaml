@@ -23,6 +23,3 @@ dm_links:
     rel: founded_by
   - target: location-lome
     rel: located_in
-sources:
-  - world/factions.md
-  - world/locations.md

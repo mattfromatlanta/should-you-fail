@@ -11,30 +11,28 @@ tags:
   - cetyri
 status: alive
 summary: >-
-  The Doorkeeper of Naeliste; cleric who maintains the teleportation circle; spiritually examined Cetyri and discovered
-  his soul's multiverse-spanning nature.
-player_content: ""
-dm_content: >
-  The Quiet Branch and spiritual elder of House Nae. Cleric who maintains Naeliste's permanent teleportation nexus (the
-  Circle).
+  The Doorkeeper of Naeliste; cleric who maintains the city's teleportation Circle; spiritually examined Cetyri and
+  inadvertently triggered his flight.
+player_content: >
+  The Quiet Branch and spiritual elder of House Nae, and the cleric who maintains Naeliste's permanent teleportation
+  Circle. He is formal, careful, deliberate — a man whose work is precision, and whose Fey nature gives him an
+  unhurried, slightly distant manner.
 
 
-  Through careful spiritual examination of Cetyri, he discovered that Cetyri's soul exhibits an irregular, dispersed
-  pattern with beams reaching to many worlds simultaneously. He diagnosed Cetyri as metaphysically damaged rather than
-  truly undead, and Cetyri recovered rapidly under his care while the party travelled south with Eigitch.
-
-
-  Seeing the recovery, Lomani made the mistake of asking Cetyri about the radiance. Dragon-soul multiplicity is
-  something dragons keep from every other race — only the Estarans know it, and only from experience. The question,
-  however well-meant, prompted Cetyri's panicked flight from Naeliste, Bronik with him.
-dm_links:
-  - target: location-naeliste
-    rel: located_in
-sources:
-  - npcs/fey/lomani-nae.md
-  - chapters/chapter-3-shadow-pursuit.md
-  - chapters/chapter-6a-into-the-wild.md
+  In Chapter 3 he examined Cetyri at the party's request and discovered that Cetyri's soul radiates in beams to many
+  worlds at once. He diagnosed Cetyri as metaphysically damaged rather than truly undead, took him into his care, and
+  by the time the party returned, Cetyri had recovered nearly fully. Seeing the recovery, Lomani asked Cetyri directly
+  about the radiance — a courteous question, and a serious mistake. Dragon-soul multiplicity is the secret dragons
+  fiercely keep from every other race, and Lomani had no way to know. Cetyri fled into the Feywild in panic, Bronik with
+  him, and the party went after them. Lomani has carried the misstep quietly since.
+dm_content: ""
 public_links:
   - target: npc-cetyri
     rel: examined
-    notes: Discovered his soul's multiverse-spanning nature; triggered his flight
+    notes: Diagnosed metaphysical damage rather than undeath; his question about the radiance triggered Cetyri's flight
+  - target: location-naeliste
+    rel: located_in
+  - target: chapter-3-shadow-pursuit
+    rel: appears_in
+  - target: chapter-6a-into-the-wild
+    rel: appears_in

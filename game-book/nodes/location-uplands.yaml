@@ -32,5 +32,3 @@ dm_links:
     rel: contains
   - target: location-east-hills
     rel: connected_to
-sources:
-  - world/locations.md

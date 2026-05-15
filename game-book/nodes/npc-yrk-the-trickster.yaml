@@ -1,6 +1,6 @@
 id: npc-yrk-the-trickster
 type: npc
-name: Yrk the Trickster (Ar'gix)
+name: Yrk
 audience: player-available
 tags:
   - goblin
@@ -12,41 +12,64 @@ tags:
   - blessing
 status: alive
 summary: >-
-  Nearly 2000-year-old goblin survivor of the First War; co-creator of the Shadow Projector; grants the Trickster's
-  Blessing; now allied with the party.
-player_content: ""
-dm_content: |
-  An ancient goblin who has survived nearly two millennia through cunning, misdirection, and
-  refusal to be found. Fought in the First War against the Estara, surviving by avoiding direct
-  confrontation. Was close to Milicent for decades and helped build the Shadow Projector's core
-  design ~400 years ago. Did not realize it would be used to enslave mortals. When Milicent
-  began creating the Dread Legion, he broke ties and fled to the Drekklands.
+  Ancient goblin survivor of two Fey Wars; the real individual behind the Trickster legend; co-creator of the Shadow
+  Projector; now allied with the party.
+player_content: >
+  To the people of Naeliste and the Faedwood, the Trickster is a legend — a possibly immortal spirit said to grant a
+  transformative blessing to those rare few who seek him out and prove worthy. Most don't know the Trickster is a
+  goblin. Fewer still know there is a real individual behind the myth at all. Yrk is that individual: an ancient goblin
+  who has survived nearly two millennia through cunning, misdirection, and a refusal to be found.
 
-  The Drekklands' magical instability suits him—hard to map, hard to follow. Great-great-great-
-  grandfather to Eigitch the Old. Has the deepest knowledge of the Shadow Projector's structure.
 
-  Grants the Trickster's Blessing through ritual combat death in a calm shadow space—severs
-  recipients' spiritual ties to the mortal world, making them invisible to Milicent's tracking.
+  He fought in the First War against the Estarans and got through it by avoiding direct confrontation at every turn. He
+  was close to Milicent for decades, and roughly four hundred years ago helped design the core of the Shadow Projector.
+  He understood that it could channel negative energy and that they theorised this might be a weapon against the
+  Estarans. What he did not see — not until she was already well down that path — was the depth of her determination, or
+  her willingness to spend mortal lives to achieve it. When he understood what the Dread Legion was and what she
+  intended to keep doing, he broke ties and disappeared into the Drekklands. He is not sure today whether he would make
+  the same choice again, knowing what followed. The Estarans really were defeated. He is great-great-great-grandfather
+  to Eigitch the Old.
 
-  Current status (end of Ch6): Working with Milicent on a portable Radiant Projector and star
-  model for the party's cross-world journey. Traveling the mortal world with Felicity. Will
-  arrive in Aris a few days after the party.
-dm_links:
+
+  The party found him in Chapter 4. From him they received the Trickster's Blessing — a ritual that severs the
+  recipient's spiritual ties to the mortal world through a controlled death in a calm shadow space, leaving them
+  invisible to Milicent's tracking. Of anyone alive he holds the deepest knowledge of the Shadow Projector's structure,
+  which is what makes him invaluable to the plan now.
+
+
+  Since rejoining the work he has been travelling the mortal world with Felicity, building a portable Radiant Projector
+  and star model for the party's cross-world journey. He was present in Aris with Felicity for the Veterans' Riot, and
+  met the party shortly after to present his latest work, the Radiant Lance. He was with the entourage that escorted the
+  party to Metgal and saw them leave Aerus for the first time.
+dm_content: >
+  **Who knows Yrk by name.** Milicent, Xilo, Felicity, Erol, Eigitch, and the party know that Yrk is the Trickster. To
+  most other characters, Yrk-as-individual does not exist — they know only the legend. To the Bullywugs of Naeliste, the
+  Trickster is called Ar'gix. Treat the connection between the name and the legend as a secret worth protecting in play.
+
+
+  **Tone in play.** Yrk's instinct is to slip the question, not answer it. He gives the party what they need but on his
+  own oblique terms.
+public_links:
   - target: npc-milicent
     rel: former_partner
-    notes: Co-built Shadow Projector; fled when she began enslaving mortals
+    notes: Co-built the Shadow Projector; fled when she began enslaving mortals; now rejoined the technical work
   - target: npc-eigitch-the-old
     rel: family
     notes: Great-great-great-grandfather
   - target: npc-felicity
     rel: traveling_with
-    notes: Working together on portable Radiant Projector project
+    notes: Working together on the portable Radiant Projector
   - target: concept-shadow-projector
     rel: created_by
   - target: concept-tricksters-blessing
     rel: grants
   - target: location-drekklands
     rel: located_in
-sources:
-  - npcs/heroes/yrk-the-trickster.md
-  - chapters/chapter-4-journey-to-trickster.md
+  - target: chapter-4-journey-to-the-trickster
+    rel: appears_in
+  - target: chapter-7-aris-the-fracturing-capital
+    rel: appears_in
+    notes: Arrived in Aris with Felicity after the Veterans' Riot; presented the Radiant Lance; escorted the party to Metgal
+  - target: artifact-radiant-lance
+    rel: created_by
+    notes: Presented to the party in Aris in Chapter 7

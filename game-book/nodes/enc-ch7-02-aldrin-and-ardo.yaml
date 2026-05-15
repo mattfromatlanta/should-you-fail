@@ -49,5 +49,3 @@ dm_links:
     notes: First mention; party has not yet met her
   - target: location-aris
     rel: set_in
-sources:
-  - chapters/chapter 7/chapter-7-recap.md

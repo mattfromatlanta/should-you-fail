@@ -50,5 +50,3 @@ dm_links:
   - target: npc-aldrin-stoneward
     rel: illustrates_friction_with
     notes: Aldrin's identity is built around mortal institutions; Erol's Fey nature makes her naturally indifferent to them
-sources:
-  - sessions/brainstorms.txt

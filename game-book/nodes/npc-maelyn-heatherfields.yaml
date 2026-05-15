@@ -27,5 +27,3 @@ dm_links:
     notes: Cormin investigated a bad suitor for her; she is a true ally
   - target: location-oechenfor
     rel: located_in
-sources:
-  - npcs/mortals/maelyn-heatherfields.md

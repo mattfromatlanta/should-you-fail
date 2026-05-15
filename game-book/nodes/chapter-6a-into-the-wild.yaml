@@ -80,5 +80,3 @@ dm_links:
     rel: contains
   - target: enc-ch6a-09-meeting-xilo
     rel: contains
-sources:
-  - archive/chapters/chapter-6a-into-the-wild.md

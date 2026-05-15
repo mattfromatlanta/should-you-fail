@@ -10,21 +10,26 @@ tags:
   - ally
 status: alive
 summary: >-
-  173-year-old goblin of Naeliste; great-great-great-grandson of Yrk the Trickster; submarine captain and guide for the
-  party's journey to the Drekklands.
-player_content: ""
-dm_content: |
-  173-year-old goblin who lives in Naeliste. Great-great-great-grandson of Yrk the Trickster—only
-  they know Yrk's true name (Ar'gix). Built and captains the submarine "The Rainbow Trout" in
-  the Goblinworks. Guided the party through the Underwet to the Drekklands in Chapter 4. Enjoys
-  practical jokes. Reunited with Yrk with dry, understated affection.
-dm_links:
+  173-year-old goblin of Naeliste; great-great-great-grandson of Yrk; submarine captain who guided the party through
+  the Underwet to the Drekklands.
+player_content: >
+  A 173-year-old goblin who lives in Naeliste, and the great-great-great-grandson of Yrk the Trickster — and one of the
+  very few who know Yrk's true name, Ar'gix. He built and captains the submarine The Rainbow Trout out of the
+  Goblinworks, and in Chapter 3 the party travelled south with him while Cetyri remained at Naeliste to recover. He
+  guided them through the Underwet to the Drekklands in Chapter 4 to find Yrk. He has a goblin's love of practical
+  jokes and a dry, understated affection for his ancestor; their reunion was warmer than either of them let on.
+
+
+  His plan set the trajectory of the campaign — it was Eigitch who knew how to reach Yrk at all, and the Trickster's
+  Blessing the party carries today is the fruit of that journey.
+dm_content: ""
+public_links:
   - target: npc-yrk-the-trickster
     rel: family
-    notes: Great-great-great-grandson
+    notes: Great-great-great-grandson; one of the few who knows Yrk's true name
   - target: location-naeliste
     rel: located_in
-sources:
-  - npcs/fey/eigitch-the-old.md
-  - chapters/chapter-3-shadow-pursuit.md
-  - chapters/chapter-4-journey-to-trickster.md
+  - target: chapter-3-shadow-pursuit
+    rel: appears_in
+  - target: chapter-4-journey-to-the-trickster
+    rel: appears_in

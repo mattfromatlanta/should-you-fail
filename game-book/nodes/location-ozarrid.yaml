@@ -24,5 +24,3 @@ dm_links:
   - target: location-farthim
     rel: appears_on
     notes: Named on the Projector Hall star chart
-sources:
-  - session-docs/ch8-open-questions.txt

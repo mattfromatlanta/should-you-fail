@@ -16,6 +16,10 @@ concepts:
   - concept-estaran-lore-gaps
   - concept-fey-law-philosophy
   - concept-name-generator-todo
+  - concept-estaran-empire
+  - concept-estarans-and-dragons
+  - concept-estarans-and-fey
+  - concept-milicents-plan
 pcs:
   - pc-cormin
   - pc-aelira
@@ -108,6 +112,8 @@ events:
   - event-rebellion
   - event-dragonborn-invasion
   - event-milicent-alliance
+  - event-second-fey-war
+  - event-shadow-war
 chapters:
   - chapter-1-invaders
   - chapter-2-darkness
@@ -118,6 +124,10 @@ chapters:
   - chapter-6b-death-to-egedzoo
   - chapter-7-aris-the-fracturing-capital
   - chapter-8-across-the-void
+  - chapter-9-the-war-world
+  - chapter-10-the-dying-world
+  - chapter-12-the-final-battle
+  - chapter-11-x
 artifacts:
   - artifact-testament-of-embers
   - artifact-letter-from-grib

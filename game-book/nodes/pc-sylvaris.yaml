@@ -19,5 +19,3 @@ dm_content: |
 dm_links:
   - target: enc-ch6b-01-egedzoo-assault
     rel: appears_in
-sources:
-  - prompts/session-worksheets/chapter-6b-egedzoo-assault.md

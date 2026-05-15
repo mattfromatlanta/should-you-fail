@@ -51,5 +51,3 @@ dm_links:
     rel: features
   - target: enc-ch8-02-the-radiant-lance
     rel: leads_to
-sources:
-  - chapter-8-planning.md

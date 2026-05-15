@@ -134,5 +134,3 @@ dm_links:
     rel: contains
   - target: enc-ch8-08-tormas-realm
     rel: contains
-sources:
-  - chapter-8-planning.md

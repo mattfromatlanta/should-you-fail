@@ -70,5 +70,3 @@ dm_links:
     rel: contains
   - target: enc-ch2-07-come-with-me
     rel: contains
-sources:
-  - archive/chapters/chapter-2-darkness.md

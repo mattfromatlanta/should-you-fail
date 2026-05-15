@@ -43,6 +43,3 @@ dm_links:
     rel: led
   - target: location-east-hills
     rel: based_in
-sources:
-  - npcs/foes/gullux.md
-  - chapters/chapter-1-invaders.md

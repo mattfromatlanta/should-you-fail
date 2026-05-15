@@ -29,6 +29,3 @@ dm_links:
     notes: Had an affair with Nirsa while she was married to Taram; affair exposed by Cormin
   - target: location-oechenfor
     rel: located_in
-sources:
-  - npcs/mortals/gord-lankmangled.md
-  - chapters/chapter-5-return-to-oechenfor.md

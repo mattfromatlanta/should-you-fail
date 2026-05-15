@@ -15,18 +15,33 @@ summary: >-
   The party explores the East Hills caves in search of shelter for Lome's citizens; they descend into the Underdark and
   discover kobold ruins containing a reference to "Shadowdame M."
 player_content: ""
-dm_content: |
+dm_content: >
   The party scouts the East Hills cave system for refuge space ahead of Torma's attack. The
+
   caves lead deeper than expected, into the Underdark. They encounter piercers, ropers, and
+
   various dungeon hazards before finding the kobold ruins.
 
+
   The kobold ruins are the hiding place of kobolds who once served Milicent but fled her service.
+
   She sent Death Knight champions to hunt them down. The ruins contain trapped rooms, secret
+
   doors, and mimics—and crucially, a curse or inscription written to "Shadowdame M." This is
+
   the party's first indirect reference to Milicent by name, though they don't yet understand it.
 
+
+  **"Shadowdame M." is a kobold nickname, not a title Milicent ever used or claimed.** These kobolds served her and
+  feared her, but they didn't know — or didn't dare write — her true name. It was a narrative device to plant an early
+  clue without giving the party her name directly. She has no connection to the title and would not recognize it as
+  referring to herself.
+
+
   Treasure from kobold ruins: 50gp silver ore (trapped, 400 lbs), 80 lbs gold ore, 130 lbs
+
   silver ore, 72 silver bars, 3 gold bars, Heward's Handy Haversack.
+
 
   Monsters: Piercers, Ropers, Hook Horrors, Mimics, Green Slime, Zombies.
 dm_links:
@@ -39,5 +54,3 @@ dm_links:
     rel: set_in
   - target: location-east-hills
     rel: set_in
-sources:
-  - chapters/chapter-2-darkness.md

@@ -182,5 +182,3 @@ dm_links:
   - target: location-ozarrid
     rel: related_to
     notes: Named on the Projector Hall star chart
-sources:
-  - chapter-8-planning.md

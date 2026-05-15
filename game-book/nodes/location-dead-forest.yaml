@@ -45,6 +45,3 @@ dm_links:
   - target: npc-torma-ice-world
     rel: related_to
     notes: Torma entered the dead Feywild through this forest thirty years ago
-sources:
-  - session-docs/ch8-ice-world-history.txt
-  - session-docs/ch8-open-questions.txt

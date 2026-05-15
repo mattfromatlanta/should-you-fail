@@ -81,5 +81,3 @@ dm_links:
     rel: contains
   - target: enc-ch5-08-the-alliance
     rel: contains
-sources:
-  - archive/chapters/chapter-5-return-to-oechenfor.md

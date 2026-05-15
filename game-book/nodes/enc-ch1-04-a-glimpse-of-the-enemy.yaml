@@ -23,5 +23,3 @@ dm_links:
     rel: part_of
   - target: location-faedwood
     rel: set_in
-sources:
-  - chapters/chapter-1-invaders.md

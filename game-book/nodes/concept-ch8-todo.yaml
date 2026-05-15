@@ -74,6 +74,3 @@ dm_links:
   - target: enc-ch8-08-tormas-realm
     rel: related_to
     notes: Dungeon layout and merge scene TBD
-sources:
-  - chapter-8-planning.md
-  - session-docs/ch8-open-questions.txt

@@ -10,46 +10,50 @@ tags:
   - animal-lord
 status: alive
 summary: >-
-  One of the seven original Rebel Fey; an Animal Lord who literally is a robin with humanoid and hybrid forms;
-  quick-witted and energetic; volunteered to travel with the party after they slew Egedzoo.
-player_content: ""
-dm_content: |
-  One of the seven original Archfey who fought the Estarans in the First War. An Animal Lord:
-  he literally is a robin, though he moves between a small bird form, a hybrid form, and a
-  humanoid form. He has the personality and energy of a songbird — quick, bright, and restless.
+  One of the seven original Rebel Fey; an Animal Lord who is, literally, a robin; quick-witted envoy to Aris and now to
+  Metgal; sworn philosophical ally of the party.
+player_content: >
+  One of the seven original Archfey who fought the Estarans in the First War, and an Animal Lord — he is, literally, a
+  robin, though he moves between a small bird form, a hybrid form, and a humanoid form as it suits him. He carries the
+  personality of a songbird: quick, bright, restless, energetic. From the Ode to Seven Lords: "Joy beneath the thorn,
+  taught the lost to win."
 
-  Maintains surveillance on threats through agents like Twi'Xu (Lieutenant of Bluebirds).
-  From the Ode to Seven Lords: "Joy beneath the thorn, taught the lost to win."
 
-  The Rebel Fey have no single leader. Xilo speaks for himself and carries influence among
-  the five active Rebel Fey, but he makes no binding pledges on their behalf. He volunteered
-  to travel with the party as an envoy after they slew Egedzoo — a gesture of goodwill, not
-  a sworn oath. Fey are immortal and do not make unbreakable promises.
+  Xilo understands what the party often struggles to: that without Milicent's drastic measures, the Estarans would
+  never have been driven away in the first place. He worries about the Feywild's weakened state — both Ozevriel and
+  Milicent are absent now, and the realm feels their absence. He maintains his own intelligence through agents like
+  Twi'Xu, Lieutenant of Bluebirds. Erol serves him as warlock.
 
-  Understands that without Milicent's drastic measures, the Estarans would never have been
-  driven away. Concerned about the Feywild's weakened state since both Ozevriel (dead) and
-  Milicent (departed to Shadowfell) are absent.
 
-  After the party slew Egedzoo: provided safe passage back to the mortal world, gifted a
-  Feywild Compass, and volunteered to accompany them to Aris as an envoy of the Rebel Fey.
-  First Fey lord to travel to the mortal capital. While in Aris he hopes to build a network
-  of useful contacts for the future.
-dm_links:
+  After the party slew Egedzoo in Chapter 6b, Xilo gave them safe passage back to the mortal world, gifted a Feywild
+  Compass, and volunteered to accompany them to Aris as an envoy — the first Fey lord to set foot in the mortal
+  capital. The Rebel Fey have no single ruler; Xilo speaks for himself and carries influence among the five active
+  Rebel Fey, but he makes no binding pledges on their behalf. Fey are immortal and do not make unbreakable promises.
+  His travelling with the party is a gesture of goodwill, not an oath. While in Aris he has been building a network of
+  useful contacts for the future.
+dm_content: >
+  **Running Xilo.** Songbird energy — short attention, sudden focus, never still in any form. He speaks for himself
+  only and will sidestep any attempt to extract a Rebel Fey commitment. Goodwill yes, oath no.
+public_links:
   - target: faction-rebel-fey
     rel: member_of
   - target: npc-twi-xu
     rel: employs
-    notes: Twi'Xu is his lieutenant, Lieutenant of Bluebirds
+    notes: Twi'Xu is his Lieutenant of Bluebirds
+  - target: npc-erol
+    rel: patron_of
+    notes: Erol is his warlock
+  - target: npc-egedzoo
+    rel: enemy_of
   - target: npc-milicent
     rel: former_ally
     notes: Complex relationship; respects her past role but she is now the Shadowdame
-  - target: npc-egedzoo
-    rel: enemy_of
   - target: location-feywild
     rel: located_in
   - target: location-aris
     rel: visiting
-    notes: First Fey lord to visit the mortal capital; building contacts
-sources:
-  - archive/chapters/chapter-6a-into-the-wild.md
-  - archive/assets/ode-to-seven-lords.md
+    notes: First Fey lord to visit the mortal capital
+  - target: artifact-ode-to-seven-lords
+    rel: referenced_in
+  - target: chapter-6a-into-the-wild
+    rel: appears_in

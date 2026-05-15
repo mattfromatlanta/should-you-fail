@@ -20,5 +20,3 @@ dm_links:
     notes: Currently involved with Nirsa
   - target: location-oechenfor
     rel: located_in
-sources:
-  - npcs/mortals/ooli-forgegarden.md

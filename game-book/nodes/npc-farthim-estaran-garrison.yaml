@@ -66,6 +66,3 @@ dm_links:
     rel: located_in
   - target: location-ice-world
     rel: located_in
-sources:
-  - session-docs/ch8-ice-world-history.txt
-  - session-docs/ch8-open-questions.txt

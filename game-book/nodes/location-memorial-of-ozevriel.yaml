@@ -40,5 +40,3 @@ dm_links:
     notes: Hootini awaited the party here
   - target: location-feywild
     rel: located_in
-sources:
-  - chapters/chapter-6a-into-the-wild.md

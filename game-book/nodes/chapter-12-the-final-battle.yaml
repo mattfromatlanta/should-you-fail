@@ -1,0 +1,64 @@
+id: chapter-12-the-final-battle
+type: chapter
+name: "Chapter 12: The Final Battle"
+audience: dm-only
+summary: >-
+  The Estarans have discovered the party's plan; Cetyri has become the Singularity; a desperate race to destroy the
+  Estaran war machine on their home world before the cosmos is reset.
+status: planned
+tags:
+  - chapter
+  - finale
+  - cetyri
+  - singularity
+  - estarans
+  - home-world
+  - race-against-time
+  - endgame
+dm_content: >-
+  The endgame. The Estarans know. Whether through a leak, a captured party member, an encounter with another Cetyri, or
+  simple Estaran intelligence — the plan has been compromised and the clock is running. The party must reach the Estaran
+  home world and give Cetyri the opportunity to act before the Estarans trigger their Last Resort: the 55th reset of the
+  cosmos.
+
+
+  **Cetyri as the Singularity.** By this chapter, the merges are complete. Cetyri is no longer the quiet pseudodragon
+  travelling in disguise — he is the Golden Wyrm Singularity, or close enough that the Estarans recognise what he is and
+  what it means. The tactical secrecy of earlier chapters is over. Everything now depends on speed and execution.
+
+
+  **The Estaran home world.** Details TBD. This is the first time the party has seen the Estarans on their own ground —
+  their architecture, their culture, their war machine at full strength. It should feel overwhelming. The party is not
+  here to win a conventional fight; they are here to get Cetyri into position.
+
+
+  **The race structure.** The chapter should feel like a countdown. Every obstacle, every setback, every choice costs
+  time the party may not have. The Estarans' Last Resort — complete annihilation and reconstruction of the cosmos — is a
+  real and present threat, not a distant one.
+
+
+  **The ending.** TBD in detail, but the chapter ends with either the Singularity's activation and the permanent defeat
+  of the Estarans, or catastrophic failure and the 55th reset. The shape of victory and the cost of it are still to be
+  determined.
+
+
+  **Open questions:**
+
+  - How do the Estarans discover the plan — and when exactly in the preceding chapters does this happen?
+
+  - What does the Estaran home world look like?
+
+  - What is the final cost to Cetyri — and does any version of him survive?
+
+  - Who from the party's long roster of allies makes it to the final battle?
+
+  - What does the party do after?
+dm_links:
+  - target: chapter-11-x
+    rel: preceded_by
+  - target: npc-cetyri
+    rel: centers_on
+  - target: concept-dragon-singularity
+    rel: features
+  - target: concept-estarans
+    rel: features

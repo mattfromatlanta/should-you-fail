@@ -32,7 +32,3 @@ dm_links:
     rel: founded_after
   - target: concept-estarans
     rel: liberated_from
-sources:
-  - world/locations.md
-  - world/factions.md
-  - world/history.md

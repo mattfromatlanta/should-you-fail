@@ -11,34 +11,36 @@ tags:
   - protector
 status: alive
 summary: >-
-  Ancient bronze dragon, Aegis and Steward of Free People for the Allied Cities; currently keeping vigil over the
-  catatonic Maelric in Aris.
-player_content: ""
-dm_content: |
-  An ancient bronze dragon who serves as protector and ally to the Allied Cities. Titles:
-  "Aegis and Steward of Free People." For generations allied with the Estara during their rule,
-  but during the Rebellion he witnessed the Estara unleash nightmare magic that burned Metgal.
-  Appalled by their cruelty, he abandoned them and joined the mortals—a turning point that helped
-  win the Rebellion.
+  Ancient bronze dragon, Aegis and Steward of Free People for the Allied Cities; kept vigil over Maelric in Aris
+  through Chapter 7.
+player_content: >
+  An ancient bronze dragon and the protector of the Allied Cities, titled Aegis and Steward of Free People. For
+  generations he was allied with the Estara during their rule of the mortal world. The Rebellion changed that: he
+  witnessed the Estara unleash the nightmare magic that burned Metgal, was appalled by the cruelty of it, and turned
+  against them. His defection was one of the turnings of the war.
 
-  His hoard is surprisingly modest for his age; he values knowledge and historical artifacts over
-  gold. He has made his lair in the Hall of Allies in Aris. Currently he is keeping strict vigil
-  over the catatonic Maelric, trusting no one's attempts to reach him through psychic means.
-dm_links:
+
+  His hoard is modest for a dragon of his age — he values knowledge and historical artefacts over gold, and his lair
+  is the Hall of Allies in Aris. Through Chapter 7 he kept strict vigil over Maelric's catatonic body, refusing every
+  attempt to reach him by psychic means; he is a steady, conservative presence and treats trust as something earned and
+  rarely given. With Maelric restored, that vigil has ended.
+dm_content: >
+  **Tone in play.** Conservative, weighty, slow to bend. He does not move quickly on new information and does not need
+  to. Use him as the ballast in Aris-side political scenes.
+public_links:
   - target: faction-allied-cities
     rel: protects
   - target: npc-maelric-sturmwald
     rel: ally
-    notes: Keeps vigil over Maelric's catatonic body in Aris
+    notes: Kept vigil over Maelric's catatonic body in Aris through Chapter 7
   - target: event-rebellion
     rel: participated_in
-    notes: Switched sides from Estara to mortals; key turning point
+    notes: Switched sides from Estara to mortals after Metgal burned
   - target: concept-estarans
     rel: former_ally
     notes: Was allied with the Estara before witnessing their cruelty at Metgal
   - target: location-aris
     rel: located_in
     notes: Lair in the Hall of Allies
-sources:
-  - npcs/heroes/gallifax.md
-  - chapters/chapter 7/chapter-7-synopsis.md
+  - target: chapter-7-aris-the-fracturing-capital
+    rel: appears_in

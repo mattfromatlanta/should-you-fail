@@ -89,6 +89,3 @@ dm_links:
     notes: An Estaran epic describing their fear of Varkhasia
   - target: location-naeliste
     rel: found_at
-sources:
-  - assets/testament-of-embers.md
-  - chapters/chapter-3-shadow-pursuit.md

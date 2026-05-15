@@ -105,6 +105,3 @@ dm_links:
     rel: features
   - target: npc-ekert-shae
     rel: features
-sources:
-  - archive/chapters/chapter 7/chapter-7-synopsis.md
-  - archive/chapters/chapter 7/chapter-7-recap.md

@@ -1,0 +1,1480 @@
+version: 1
+generated: "2026-05-12"
+instructions: |-
+  Review proposed_audience for each node. Edit the value in place to override.
+  Then run the apply_audience MCP tool. apply_audience reads this file and
+  rewrites every node to v2 schema (dm_content + audience + link split).
+  First pass leaves player_content empty for every player-available node.
+  Confidence: high = trust default; medium = quick scan; low = read the node before approving.
+total_nodes: 182
+by_confidence:
+  high: 92
+  medium: 81
+  low: 9
+proposals:
+  - id: artifact-letter-from-caera
+    type: artifact
+    name: Letter from Caera to Melbara
+    status: present
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: confirmed
+    reasoning: artifact default — review whether the party has encountered it
+  - id: artifact-letter-from-grib
+    type: artifact
+    name: Letter from Grib to Yip
+    status: present
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: confirmed
+    reasoning: artifact default — review whether the party has encountered it
+  - id: artifact-ode-to-seven-lords
+    type: artifact
+    name: The Ode to Seven Lords
+    status: present
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: confirmed
+    reasoning: artifact default — review whether the party has encountered it
+  - id: artifact-radiant-lance
+    type: artifact
+    name: The Radiant Lance
+    status: present
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: confirmed
+    reasoning: artifact default — review whether the party has encountered it
+  - id: artifact-testament-of-embers
+    type: artifact
+    name: The Testament of Embers
+    status: present
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: confirmed
+    reasoning: artifact default — review whether the party has encountered it
+  - id: chapter-1-invaders
+    type: chapter
+    name: "Chapter 1: Invaders"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: chapter default — player recap belongs here
+  - id: chapter-2-darkness
+    type: chapter
+    name: "Chapter 2: Darkness"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: chapter default — player recap belongs here
+  - id: chapter-3-shadow-pursuit
+    type: chapter
+    name: "Chapter 3: The Shadow Pursuit"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: chapter default — player recap belongs here
+  - id: chapter-4-journey-to-the-trickster
+    type: chapter
+    name: "Chapter 4: Journey to the Trickster"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: chapter default — player recap belongs here
+  - id: chapter-5-return-to-oechenfor
+    type: chapter
+    name: "Chapter 5: Return to Oechenfor"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: chapter default — player recap belongs here
+  - id: chapter-6a-into-the-wild
+    type: chapter
+    name: "Chapter 6a: Into the Wild"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: chapter default — player recap belongs here
+  - id: chapter-6b-death-to-egedzoo
+    type: chapter
+    name: "Chapter 6b: Death to Egedzoo"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: chapter default — player recap belongs here
+  - id: chapter-7-aris-the-fracturing-capital
+    type: chapter
+    name: "Chapter 7: Aris - The Fracturing Capital"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: chapter default — player recap belongs here
+  - id: chapter-8-across-the-void
+    type: chapter
+    name: "Chapter 8: Across The Void"
+    status: in_progress
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: chapter default — player recap belongs here
+  - id: concept-ch8-todo
+    type: concept
+    name: "Chapter 8: Outstanding Work"
+    status: ""
+    current_audience: ""
+    proposed_audience: dm-only
+    confidence: high
+    reasoning: "dm tags: planning, todo; node id ends with -todo"
+  - id: concept-cosmos
+    type: concept
+    name: The Cosmos — Natural Order
+    status: ""
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: confirmed
+    reasoning: concept default — review whether in-world lore or DM planning
+  - id: concept-dragon-singularity
+    type: concept
+    name: Dragon Singularity (Unary Great Wyrm)
+    status: ""
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: confirmed
+    reasoning: concept default — review whether in-world lore or DM planning
+  - id: concept-dragons
+    type: concept
+    name: Dragons — The Truest Expression of Existence
+    status: ""
+    current_audience: ""
+    proposed_audience: dm-only
+    confidence: confirmed
+    reasoning: concept default — review whether in-world lore or DM planning
+  - id: concept-estaran-lore-gaps
+    type: concept
+    name: "Estaran Lore: Open Gaps for Review"
+    status: ""
+    current_audience: ""
+    proposed_audience: dm-only
+    confidence: high
+    reasoning: "dm tags: todo, planning; node id signals lore-gap planning"
+  - id: concept-estarans
+    type: concept
+    name: The Estarans (Estara)
+    status: ""
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: confirmed
+    reasoning: concept default — review whether in-world lore or DM planning
+  - id: concept-fey-law-philosophy
+    type: concept
+    name: Fey Law Philosophy
+    status: ""
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: confirmed
+    reasoning: concept default — review whether in-world lore or DM planning
+  - id: concept-languages
+    type: concept
+    name: Languages of the Cosmos
+    status: ""
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: confirmed
+    reasoning: concept default — review whether in-world lore or DM planning
+  - id: concept-name-generator-todo
+    type: concept
+    name: "Name Generator: Outstanding Work"
+    status: ""
+    current_audience: ""
+    proposed_audience: dm-only
+    confidence: high
+    reasoning: "dm tags: todo; node id ends with -todo"
+  - id: concept-shadow-projector
+    type: concept
+    name: The Shadow Projector
+    status: ""
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: confirmed
+    reasoning: concept default — review whether in-world lore or DM planning
+  - id: concept-tricksters-blessing
+    type: concept
+    name: The Trickster's Blessing
+    status: ""
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: confirmed
+    reasoning: concept default — review whether in-world lore or DM planning
+  - id: enc-ch1-01-the-meeting
+    type: encounter
+    name: "Ch1 E01: The Meeting"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch1-02-faeries-are-angry
+    type: encounter
+    name: "Ch1 E02: The Faeries Are Angry"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch1-03-a-carcass-a-mess
+    type: encounter
+    name: "Ch1 E03: A Carcass, A Mess"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch1-04-a-glimpse-of-the-enemy
+    type: encounter
+    name: "Ch1 E04: A Glimpse of the Enemy"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch1-05-the-stair-is-held
+    type: encounter
+    name: "Ch1 E05: The Stair Is Held Against Us"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch1-06-the-missing-heroes
+    type: encounter
+    name: "Ch1 E06: The Missing Heroes"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch1-07-a-town-under-siege
+    type: encounter
+    name: "Ch1 E07: A Town Under Siege"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch1-08-we-drive-them-out
+    type: encounter
+    name: "Ch1 E08: We'll Drive Them From Our Land"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch1-09-the-dream
+    type: encounter
+    name: "Ch1 E09: The Dream"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch1-10-waking
+    type: encounter
+    name: "Ch1 E10: Waking"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch2-01-what-lome-needs
+    type: encounter
+    name: "Ch2 E01: What Lome Needs"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch2-02-wary-hippogriffs
+    type: encounter
+    name: "Ch2 E02: Wary Hippogriffs"
+    status: complete
+    current_audience: ""
+    proposed_audience: dm-only
+    confidence: confirmed
+    reasoning: encounter did not occur as planned
+    note: significant review needed
+  - id: enc-ch2-03-whats-in-a-hole
+    type: encounter
+    name: "Ch2 E03: What's In A Hole"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch2-04-beholders-realm
+    type: encounter
+    name: "Ch2 E04: Beholder's Realm"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch2-05-the-revenant
+    type: encounter
+    name: "Ch2 E05: The Revenant"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch2-06-back-to-the-shadow
+    type: encounter
+    name: "Ch2 E06: Back to the Shadow"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch2-07-come-with-me
+    type: encounter
+    name: "Ch2 E07: Come With Me If You Want to Live"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch3-01-pursuit-to-naeliste
+    type: encounter
+    name: "Ch3 E01: Pursuit to Naeliste"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch3-02-library-research
+    type: encounter
+    name: "Ch3 E02: The Library of Rhymes and Antiquities"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch3-03-lomani-examines-cetyri
+    type: encounter
+    name: "Ch3 E03: Lomani Examines Cetyri"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch3-04-eigitch-and-the-plan
+    type: encounter
+    name: "Ch3 E04: Eigitch and the Plan"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch4-01-the-underwet-journey
+    type: encounter
+    name: "Ch4 E01: The Underwet Journey"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch4-02-the-aboleth
+    type: encounter
+    name: "Ch4 E02: The Aboleth's Domain"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch4-03-bullhome-reunion
+    type: encounter
+    name: "Ch4 E03: Bullhome Reunion"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch4-04-drekklands-travel
+    type: encounter
+    name: "Ch4 E04: The Drekklands"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch4-05-the-sunken-fortress
+    type: encounter
+    name: "Ch4 E05: The Sunken Fortress"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch4-06-krivs-territory
+    type: encounter
+    name: "Ch4 E06: Into Kriv's Territory"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch4-07-the-tricksters-test
+    type: encounter
+    name: "Ch4 E07: The Trickster's Test"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch4-08-audience-with-yrk
+    type: encounter
+    name: "Ch4 E08: Audience with Yrk"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch5-01-return-through-faedwood
+    type: encounter
+    name: "Ch5 E01: Return Through the Faedwood"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch5-02-the-missing-children
+    type: encounter
+    name: "Ch5 E02: The Missing Children"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch5-03-gords-betrayal
+    type: encounter
+    name: "Ch5 E03: Gord's Betrayal"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+    note: close review needed
+  - id: enc-ch5-04-the-quickling-safehouse
+    type: encounter
+    name: "Ch5 E04: The Quickling Safehouse"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch5-05-the-fire-trap
+    type: encounter
+    name: "Ch5 E05: The Fire Trap"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch5-06-milicents-fortress
+    type: encounter
+    name: "Ch5 E06: Milicent's Fortress"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch5-07-the-imprisoned-estaran
+    type: encounter
+    name: "Ch5 E07: The Imprisoned Estaran"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch5-08-the-alliance
+    type: encounter
+    name: "Ch5 E08: The Alliance"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch6a-01-cetyris-flight
+    type: encounter
+    name: "Ch6a E01: Cetyri's Flight"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch6a-02-feywild-entry
+    type: encounter
+    name: "Ch6a E02: Into the Scorched Wasteland"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch6a-03-rincks-diner
+    type: encounter
+    name: "Ch6a E03: Rinick's Diner"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch6a-04-confronting-cetyri
+    type: encounter
+    name: "Ch6a E04: Confronting Cetyri in Qu"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch6a-05-aerial-attack
+    type: encounter
+    name: "Ch6a E05: Egedzoo's Aerial Attack"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch6a-06-ozevriel-memorial
+    type: encounter
+    name: "Ch6a E06: Exploring Ozevriel's Memorial"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch6a-07-trapped-demons
+    type: encounter
+    name: "Ch6a E07: Trapped Demons and Worgs"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch6a-08-milicents-observatory
+    type: encounter
+    name: "Ch6a E08: Milicent's Observatory"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch6a-09-meeting-xilo
+    type: encounter
+    name: "Ch6a E09: Meeting Xilo"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch6b-01-egedzoo-assault
+    type: encounter
+    name: "Ch6b E01: Assault on Egedzoo's Canyon Lair"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch6b-02-xilo-alliance-and-return
+    type: encounter
+    name: "Ch6b E02: Xilo's Alliance and Return to the mortal world"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch7-01-arrival-in-aris
+    type: encounter
+    name: "Ch7 E01: Arrival in Aris"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch7-02-aldrin-and-ardo
+    type: encounter
+    name: "Ch7 E02: Aldrin and Ardo"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch7-03-erols-perspective
+    type: encounter
+    name: "Ch7 E03: Erol's Perspective"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch7-04-street-intelligence
+    type: encounter
+    name: "Ch7 E04: Afternoon in Aris"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch7-05-the-estaran-descent
+    type: encounter
+    name: "Ch7 E05: The Estaran Descent"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch7-06-the-riot-and-the-dragon
+    type: encounter
+    name: "Ch7 E06: The Riot and the Dragon"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch7-07-the-attempt-on-maelric
+    type: encounter
+    name: "Ch7 E07: The Attempt on Maelric"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch7-08-the-aftermath
+    type: encounter
+    name: "Ch7 E08: The Aftermath"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch8-01-a-word-with-xilo
+    type: encounter
+    name: "Ch8 E01: A Word with Xilo"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch8-02-the-radiant-lance
+    type: encounter
+    name: "Ch8 E02: The Radiant Lance"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch8-03-shock-of-cold
+    type: encounter
+    name: "Ch8 E03: Shock of Cold"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch8-04-the-settlement
+    type: encounter
+    name: "Ch8 E04: The Settlement"
+    status: complete
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: encounter is complete — recap may be wanted player-side
+  - id: enc-ch8-05-the-giant-tribe
+    type: encounter
+    name: "Ch8 E05: Field Encounter — Frost Giants"
+    status: planned
+    current_audience: ""
+    proposed_audience: dm-only
+    confidence: high
+    reasoning: encounter not yet played; prep is DM-only
+  - id: enc-ch8-06-the-old-garrison
+    type: encounter
+    name: "Ch8 E06: The Old Garrison"
+    status: planned
+    current_audience: ""
+    proposed_audience: dm-only
+    confidence: high
+    reasoning: encounter not yet played; prep is DM-only
+  - id: enc-ch8-07-dead-forest
+    type: encounter
+    name: "Ch8 E07: The Dead Forest"
+    status: planned
+    current_audience: ""
+    proposed_audience: dm-only
+    confidence: high
+    reasoning: encounter not yet played; prep is DM-only
+  - id: enc-ch8-08-tormas-realm
+    type: encounter
+    name: "Ch8 E08: Torma's Realm"
+    status: planned
+    current_audience: ""
+    proposed_audience: dm-only
+    confidence: high
+    reasoning: encounter not yet played; prep is DM-only
+  - id: event-dragonborn-invasion
+    type: event
+    name: Dragonborn Invasion of the Uplands
+    status: past
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: event default — historical events are usually public
+  - id: event-first-war
+    type: event
+    name: The First War (First Rebellion)
+    status: past
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: event default — historical events are usually public
+  - id: event-milicent-alliance
+    type: event
+    name: Alliance with Milicent
+    status: past
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: event default — historical events are usually public
+  - id: event-rebellion
+    type: event
+    name: The Rebellion (Second Rebellion)
+    status: past
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: event default — historical events are usually public
+  - id: faction-allied-cities
+    type: faction
+    name: The Allied Cities
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: faction default — review whether the faction is publicly known
+  - id: faction-counsel-of-citizens
+    type: faction
+    name: Counsel of Citizens
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: faction default — review whether the faction is publicly known
+  - id: faction-lome-monastery
+    type: faction
+    name: Orchard Path Monastery
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: faction default — review whether the faction is publicly known
+  - id: faction-milicents-forces
+    type: faction
+    name: Milicent's Forces
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: faction default — review whether the faction is publicly known
+  - id: faction-rebel-fey
+    type: faction
+    name: The Rebel Fey
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: faction default — review whether the faction is publicly known
+  - id: location-aris
+    type: location
+    name: Aris
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-dead-feywild
+    type: location
+    name: The Dead Feywild
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-dead-forest
+    type: location
+    name: The Dead Forest
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: location with active/known status | content contains DM markers (DM NOTE / TBD / TODO) — needs review
+  - id: location-drekklands
+    type: location
+    name: The Drekklands
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-east-hills
+    type: location
+    name: East Hills
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-faedwood
+    type: location
+    name: The Faedwood
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-farthim
+    type: location
+    name: Farthim
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: location with active/known status | content contains DM markers (DM NOTE / TBD / TODO) — needs review
+  - id: location-farthim-whaling-camp
+    type: location
+    name: The Whaling Camp
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-feywild
+    type: location
+    name: The Feywild
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-feywild-wasteland
+    type: location
+    name: Feywild Wasteland (Scorched Outer Regions)
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-hall-of-allies
+    type: location
+    name: The Hall of Allies
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-ice-world
+    type: location
+    name: The Ice World (Ikellor)
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-lome
+    type: location
+    name: Lome
+    status: abandoned
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-maydor
+    type: location
+    name: Maydor
+    status: unknown
+    current_audience: ""
+    proposed_audience: dm-only
+    confidence: medium
+    reasoning: location status=unknown — likely undiscovered
+  - id: location-memorial-of-ozevriel
+    type: location
+    name: Memorial of Ozevriel
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-milicents-fortress
+    type: location
+    name: Milicent's Mountain Fortress
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-naeliste
+    type: location
+    name: Naeliste
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-oechenfor
+    type: location
+    name: Oechenfor
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-ozarrid
+    type: location
+    name: Ozarrid
+    status: unknown
+    current_audience: ""
+    proposed_audience: dm-only
+    confidence: medium
+    reasoning: location status=unknown — likely undiscovered
+  - id: location-qu
+    type: location
+    name: Qu
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-rincks-diner
+    type: location
+    name: Rinick's Diner
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-shadowfell
+    type: location
+    name: The Shadowfell
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-teeth
+    type: location
+    name: The Teeth
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-underdark
+    type: location
+    name: The Underdark (East Hills Cave System)
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-underwet
+    type: location
+    name: The Underwet
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-upland-stair
+    type: location
+    name: Upland Stair
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: location-uplands
+    type: location
+    name: The Uplands
+    status: active
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: location with active/known status
+  - id: npc-adrum-zannis
+    type: npc
+    name: Adrum Zannis
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: pc-aelira
+    type: pc
+    name: Aelira
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-ahkkathassys
+    type: npc
+    name: Ahkkathassys
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-aldrek
+    type: npc
+    name: Aldrek
+    status: dead
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-aldrin-stoneward
+    type: npc
+    name: Aldrin Stoneward
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: >-
+      npc default — most characters have surface info worth sharing | content contains DM markers (DM NOTE / TBD / TODO)
+      — needs review
+  - id: npc-amalia-farthim
+    type: npc
+    name: Amalia
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-ardo-manessi
+    type: npc
+    name: Ardo Manessi
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: pc-babas
+    type: pc
+    name: Babas
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: pc-beacon
+    type: pc
+    name: Beacon
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-breeci-gibbal
+    type: npc
+    name: Breeci Gibbal
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-breva
+    type: npc
+    name: Breva
+    status: imprisoned
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-bronik
+    type: npc
+    name: Bronik
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-bronik-ice-world
+    type: npc
+    name: Bronik (Ice World)
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-brother-alistair
+    type: npc
+    name: Brother Alistair Thornfield
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-caera
+    type: npc
+    name: Caera
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-cetyri
+    type: npc
+    name: Cetyri
+    status: undead
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-cetyri-hatchling
+    type: npc
+    name: Cetyri (Ice World Hatchling)
+    status: alive
+    current_audience: ""
+    proposed_audience: dm-only
+    confidence: confirmed
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: pc-cormin
+    type: pc
+    name: Cormin
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-corven
+    type: npc
+    name: Corven
+    status: dead
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-delamin-van-morgaaran
+    type: npc
+    name: Delamin Van Morgaaran
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-egedzoo
+    type: npc
+    name: Egedzoo
+    status: dead
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-eigitch-the-old
+    type: npc
+    name: Eigitch the Old
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-ekert-shae
+    type: npc
+    name: Ekert Shae
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-erol
+    type: npc
+    name: Erol the Faed
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: >-
+      npc default — most characters have surface info worth sharing | content contains DM markers (DM NOTE / TBD / TODO)
+      — needs review
+  - id: npc-farthim-estaran-garrison
+    type: npc
+    name: The Farthim Estarans (Cersael's Section)
+    status: gone
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: medium
+    reasoning: >-
+      npc default — most characters have surface info worth sharing | content contains DM markers (DM NOTE / TBD / TODO)
+      — needs review
+  - id: npc-felicity
+    type: npc
+    name: Felicity Roo
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-fzuga
+    type: npc
+    name: F'zuga
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-gallifax
+    type: npc
+    name: Gallifax
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-gord-lankenmangled
+    type: npc
+    name: Gord Lankenmangled
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-gorven-farthim
+    type: npc
+    name: Gorven
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-gullux
+    type: npc
+    name: Gullux the Iceflesh Grafter
+    status: dead
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-gullux-ice-world
+    type: npc
+    name: Gullux (Ice World)
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-hootini
+    type: npc
+    name: Hootini
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-kruftus-unter
+    type: npc
+    name: Kruftus Unter
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-lamat
+    type: npc
+    name: Lamat Velu
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-lomani-nae
+    type: npc
+    name: Lomani Nae
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-maelric-sturmwald
+    type: npc
+    name: Maelric Sturmwald
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-maelyn-heatherfields
+    type: npc
+    name: Maelyn Heatherfields
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-marx-farthim
+    type: npc
+    name: Marx
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-maxxa-twins
+    type: npc
+    name: Maxxa'Valien and Maxxa'Volien
+    status: unknown
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: confirmed
+    reasoning: >-
+      npc default — most characters have surface info worth sharing | status=unknown suggests party may not have met
+      them yet — review
+  - id: npc-melbara
+    type: npc
+    name: Melbara
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-midge-wittle
+    type: npc
+    name: Midge Wittle
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-milicent
+    type: npc
+    name: Milicent (The Shadowdame)
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-mr-hrm-n-ahir
+    type: npc
+    name: Mr'Hrm'N'Ahir
+    status: dead
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-nava-kurn
+    type: npc
+    name: Nava Kurn
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-nirsa-hoegartner
+    type: npc
+    name: Nirsa Hoegartner
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-ooli-forgegarden
+    type: npc
+    name: Ooli Forgegarden
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-ozevriel
+    type: npc
+    name: Ozevriel
+    status: dead
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: pc-peno
+    type: pc
+    name: Peno
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: pc-sylvaris
+    type: pc
+    name: Sylvaris
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-taram-thristle
+    type: npc
+    name: Taram Thristle
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-torma-ice-world
+    type: npc
+    name: Torma the Ancient
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-torma-the-unforgiving
+    type: npc
+    name: Torma the Unforgiving
+    status: dead
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-twi-xu
+    type: npc
+    name: Twi'Xu, Animal Lord, Lieutenant of Bluebirds
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: pc-valen
+    type: pc
+    name: Valen
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-xilo-lord-of-robins
+    type: npc
+    name: Xilo, Lord of Robins
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing
+  - id: npc-yrk-the-trickster
+    type: npc
+    name: Yrk the Trickster (Ar'gix)
+    status: alive
+    current_audience: ""
+    proposed_audience: player-available
+    confidence: high
+    reasoning: npc default — most characters have surface info worth sharing

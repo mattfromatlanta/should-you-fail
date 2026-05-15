@@ -12,28 +12,37 @@ tags:
   - gallifax
 status: past
 summary: >-
-  Ended ~150 years ago; mortals successfully freed the Allied Cities from Estaran rule; key participants include
-  Gallifax, Maelric, Aldrin, Erol, Lamat, Caera, and Thorn.
+  ~200-150 years ago; mortal veterans rose against the Estarans, dovetailing with the Shadow War to drive them from
+  Aerus and establish the Allied Cities confederation.
 player_content: ""
-dm_content: |
-  A more recent conflict (ended ~150 years ago) in which mortals rose up against continued
-  Estaran oppression. The Rebellion included the catastrophic destruction of Metgal by Estaran
-  nightmare magic and fire—massive mortal casualties. This atrocity was the turning point that
-  caused Gallifax to abandon the Estara and join the mortals.
+dm_content: >
+  The Veterans' Rebellion was not a spontaneous uprising — it was the breaking point of populations that had endured
+  centuries of Estaran conscription, expenditure in foreign wars, and the grinding toll of the Shadow War being fought
+  on their doorstep. Around 200 years ago, veterans who had spent lifetimes fighting Estaran campaigns turned on their
+  masters.
 
-  Key participants:
-  - Maelric Sturmwald
-  - Gallifax (switched sides from Estara after witnessing destruction of Metgal)
-  - Aldrin Stoneward (veteran from 2000 years prior)
-  - Erol the Faed and Lamat Velu
-  - Caera and Thorn (Aelira's parents)
-  - Other veterans who became the Founders
 
-  Milicent's forces were secretly critical to the Rebellion's success—without her Dread
-  Legion, the Estara would never have been driven away (according to Xilo and Twi'Xu).
+  Key participants: Aldrin Stoneward, Erol the Faed, Maelric Sturmwald, Lamat Velu, Caera, Thorn, and Gallifax (who
+  switched sides from the Estarans after witnessing the destruction of Metgal).
 
-  After the Rebellion: Aldrin, Erol, Lamat, and other veteran Founders established Oechenfor.
+
+  The Rebellion dovetailed with the Shadow War — the Estarans were simultaneously fighting Milicent's Dread Legion from
+  the shadow side and mortal veterans from within. They were not equipped to hold both fronts.
+
+
+  The Estarans' final act was the destruction of Metgal — nightmare magic and fire, massive mortal casualties. It was
+  meant to break the Rebellion. Instead it broke Gallifax's loyalty to them, and his defection sealed their fate.
+
+
+  The Estarans were driven from Aerus entirely ~150 years ago. Most mortals never knew that Milicent's Dread Legion was
+  half the reason they won — her role was kept secret throughout.
+
+
+  **Aftermath.** Aldrin, Erol, Lamat, and other veteran Founders established Oechenfor ~20 years ago. The Allied Cities
+  formed a new confederation and became the dominant political power outside Fey territories.
 dm_links:
+  - target: event-shadow-war
+    rel: part_of
   - target: npc-gallifax
     rel: pivotal_participant
     notes: Switched sides from Estara to mortals at Metgal
@@ -51,6 +60,3 @@ dm_links:
     rel: resulted_in
   - target: concept-estarans
     rel: against
-sources:
-  - world/history.md
-  - world/factions.md

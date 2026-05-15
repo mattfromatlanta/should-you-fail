@@ -28,5 +28,3 @@ dm_links:
     rel: part_of
   - target: location-underwet
     rel: set_in
-sources:
-  - chapters/chapter-4-journey-to-trickster.md

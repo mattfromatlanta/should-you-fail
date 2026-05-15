@@ -11,36 +11,45 @@ tags:
   - animal-lords
 status: active
 summary: >-
-  The seven original Archfey who fought the Estarans in the First War; most are Animal Lords; they have no single
+  The seven original Archfey who fought the Estarans across two Fey Wars; most are Animal Lords; they have no single
   leader; five remain active.
 player_content: ""
-dm_content: |
-  The seven original Rebel Fey were: Itrina, Carris, Xilo, Ozevriel, Thessa, Varuun, and
-  Milicent. Ozevriel sacrificed himself so the other six could escape during the First War.
-  Milicent separated from the group when she began enslaving mortals. Five remain active:
-  Itrina, Carris, Xilo, Thessa, and Varuun.
+dm_content: >
+  The seven original Rebel Fey were: Itrina, Carris, Xilo, Ozevriel, Thessa, Varuun, and Milicent. Ozevriel was killed
+  early in the Second Fey War — his death began the fracturing of the coalition. Milicent separated from the group when
+  she began building the Dread Legion from enslaved mortals. Five remain active: Itrina, Carris, Xilo, Thessa, and
+  Varuun.
 
-  The Rebel Fey have no single leader. They are a loose alliance of ancient, immortal Archfey
-  who share history and purpose but act independently. They do not make binding collective
-  decisions and no one speaks for all of them. Xilo travels with the party as a personal
-  gesture — not as a representative empowered to commit the others.
 
-  Most (though not all) of the Rebel Fey are Animal Lords — ancient Fey who literally are
-  animals, moving between a natural animal form, a hybrid form, and a humanoid form. Xilo is
-  the Lord of Robins; Twi'Xu (his lieutenant, not one of the seven) is Lieutenant of Bluebirds.
+  The Rebel Fey have no single leader. They are a loose alliance of ancient, immortal Archfey who share history and
+  purpose but act independently. They do not make binding collective decisions and no one speaks for all of them. Xilo
+  travels with the party as a personal gesture — not as a representative empowered to commit the others.
 
-  They are complex allies: they want Milicent's methods stopped but understand the debt they
-  owe her for the Rebellion's success. They possess knowledge of the Shadow Projector and
-  Cetyri's potential.
+
+  Most (though not all) of the Rebel Fey are Animal Lords — ancient Fey who literally are animals, moving between a
+  natural animal form, a hybrid form, and a humanoid form. Xilo is the Lord of Robins; Twi'Xu (his lieutenant, not one
+  of the seven) is Lieutenant of Bluebirds.
+
+
+  They are complex allies: they want Milicent's methods stopped but understand the debt they owe her for the Rebellion's
+  success. They possess knowledge of the Shadow Projector and Cetyri's potential.
+
 
   Named members (from the Ode to Seven Lords):
+
   - Itrina: Watches from beyond the frost, holds lost names
+
   - Carris: Crowned in antlers, holds lawless borders
+
   - Xilo (Lord of Robins): Joy beneath the thorn, taught the lost to win
-  - Ozevriel: Sacrificed himself (deceased); memorial tomb exists in the Feywild
+
+  - Ozevriel: Killed in the Second Fey War (deceased); memorial tomb exists in the Feywild
+
   - Thessa: Walks where broken hearts grow gardens
+
   - Varuun: Guards places where worlds divide
-  - Milicent: The fallen seventh, now the Shadowdame
+
+  - Milicent: The fallen seventh; departed to the Shadowfell during the Second Fey War
 dm_links:
   - target: npc-milicent
     rel: former_member
@@ -49,9 +58,8 @@ dm_links:
     rel: member_of
   - target: npc-ozevriel
     rel: lost_member
-    notes: Sacrificed himself in the First War
+    notes: Killed early in the Second Fey War
   - target: event-first-war
     rel: participated_in
-sources:
-  - archive/chapters/chapter-3-shadow-pursuit.md
-  - archive/assets/ode-to-seven-lords.md
+  - target: event-second-fey-war
+    rel: participated_in

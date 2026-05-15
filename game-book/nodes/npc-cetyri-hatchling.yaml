@@ -36,5 +36,3 @@ dm_links:
     rel: located_in
   - target: enc-ch8-08-tormas-realm
     rel: featured_in
-sources:
-  - chapter-8-planning.md

@@ -22,6 +22,3 @@ dm_links:
     rel: leads
   - target: location-lome
     rel: based_in
-sources:
-  - npcs/mortals/fzuga.md
-  - chapters/chapter-1-invaders.md

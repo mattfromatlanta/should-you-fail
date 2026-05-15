@@ -27,6 +27,3 @@ dm_links:
   - target: concept-estarans
     rel: hinted_at
     notes: His question about "how many moments" hints at knowledge of the 54 previous worlds
-sources:
-  - npcs/foes/mr-hrm-n-ahir.md
-  - chapters/chapter-4-journey-to-trickster.md

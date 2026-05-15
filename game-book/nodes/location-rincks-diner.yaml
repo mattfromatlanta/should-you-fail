@@ -24,5 +24,3 @@ dm_links:
     rel: frequented_by
   - target: npc-egedzoo
     rel: visited_by
-sources:
-  - chapters/chapter-6a-into-the-wild.md

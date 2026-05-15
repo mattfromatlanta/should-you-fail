@@ -33,5 +33,3 @@ dm_links:
     rel: founded
   - target: event-rebellion
     rel: participated_in
-sources:
-  - npcs/mortals/adrum-zannis.md

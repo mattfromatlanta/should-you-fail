@@ -77,5 +77,3 @@ dm_links:
   - target: enc-ch5-07-the-imprisoned-estaran
     rel: related_to
     notes: Consistency-check candidate (item 8)
-sources:
-  - session-docs/ch8-open-questions.txt

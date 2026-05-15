@@ -2,7 +2,8 @@
 # Version 2.0
 #
 # Game book nodes are the source of truth for campaign knowledge.
-# Source files (.md, .txt) are inputs that inform and update nodes.
+# The archive/ folder is read-only historical reference only; the game book has
+# fully subsumed it.
 # Nodes are stored in game-book/nodes/ as individual YAML files.
 #
 # v2.0 introduces a player/DM split so the game book can drive a player-facing
@@ -211,5 +212,8 @@
 #   - target: <node-id>     # any audience
 #     rel: <relationship-type>
 #     notes: Optional clarifying note
-# sources:
-#   - relative/path/to/source.md
+#
+# NOTE: The legacy `sources:` field was removed on 2026-05-13. The game book has
+# fully subsumed the archive — game book nodes are the only source of truth, and
+# there is no longer a need to point back to original .md/.txt files. Do not
+# reintroduce this field.

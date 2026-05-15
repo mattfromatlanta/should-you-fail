@@ -66,5 +66,3 @@ dm_links:
     rel: documents
   - target: location-naeliste
     rel: found_at
-sources:
-  - assets/letter-from-grib.md

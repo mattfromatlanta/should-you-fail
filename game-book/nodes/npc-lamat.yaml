@@ -9,27 +9,25 @@ tags:
   - lome
   - monastery
   - rebellion
-  - missing
 status: alive
 summary: >-
-  Veteran and co-Founder of Oechenfor and Lome; founded the Orchard Path Monastery; partner to Erol; disappeared but
-  returned at end of Chapter 2.
-player_content: ""
-dm_content: |
-  Race unknown. Veteran of the Rebellion and Founder of Oechenfor. With Erol, co-founded Lome
-  five years ago. Founded the Orchard Path Monastery and mentored F'zuga. Lives with Erol in
-  the Eladrin-style manor atop the Teeth.
+  Veteran of the Rebellion and co-Founder of Oechenfor and Lome; founded the Orchard Path Monastery; partner to Erol.
+player_content: >
+  A veteran of the Rebellion and one of the Founders of Oechenfor, and Erol's life partner. With Erol he co-founded
+  Lome five years ago, and earlier founded the Orchard Path Monastery, where he mentored F'zuga. He and Erol keep an
+  Eladrin-style manor atop the Teeth above Lome. Where Aldrin's sense of order is built from external structures of
+  duty and institution, Lamat's is built inward — a discipline of the self rather than of the world.
 
-  Disappeared in autumn after discovering he was targeted by Milicent. Returned with Erol at
-  end of Chapter 2 to slay Torma. Then led the people of Lome south to Oechenfor.
 
-  Left behind: Wraps of Unarmed Power +1 and 100pp plus 5 rubies (200gp each) in the manor.
-dm_links:
+  In Chapter 2 he disappeared after discovering Milicent had targeted him. He returned with Erol at the end of that
+  chapter to help slay Torma, then led the people of Lome south to Oechenfor.
+dm_content: >
+  **Practical detail.** He left behind in the manor at Lome: Wraps of Unarmed Power +1, 100pp, and 5 rubies (200gp
+  each). Available if the party returns to the manor.
+public_links:
   - target: npc-erol
     rel: partner
-  - target: npc-fzuga
-    rel: mentor
-    notes: Founded the monastery; mentored F'zuga
+    notes: Life partner; co-founded Lome and Oechenfor together
   - target: faction-lome-monastery
     rel: founded
   - target: location-lome
@@ -38,5 +36,9 @@ dm_links:
     rel: founded
   - target: event-rebellion
     rel: participated_in
-sources:
-  - npcs/heroes/erol-and-lamat.md
+  - target: chapter-2-darkness
+    rel: appears_in
+dm_links:
+  - target: npc-fzuga
+    rel: mentor
+    notes: Founded the monastery; mentored F'zuga

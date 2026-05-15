@@ -33,5 +33,3 @@ dm_links:
   - target: location-feywild
     rel: set_in
     notes: Deep in the eternal twilight forest region
-sources:
-  - chapters/chapter-6a-into-the-wild.md

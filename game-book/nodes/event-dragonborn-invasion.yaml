@@ -39,6 +39,3 @@ dm_links:
     rel: contested
   - target: chapter-1-invaders
     rel: covered_in
-sources:
-  - chapters/chapter-1-invaders.md
-  - world/history.md

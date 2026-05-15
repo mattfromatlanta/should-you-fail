@@ -21,7 +21,3 @@ dm_links:
     rel: located_near
   - target: location-underdark
     rel: contains
-sources:
-  - world/locations.md
-  - chapters/chapter-1-invaders.md
-  - chapters/chapter-2-darkness.md

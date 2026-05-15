@@ -30,6 +30,3 @@ dm_links:
     rel: located_in
   - target: location-naeliste
     rel: adjacent_to
-sources:
-  - world/locations.md
-  - chapters/chapter-1-invaders.md

@@ -1,6 +1,6 @@
 id: npc-milicent
 type: npc
-name: Milicent (The Shadowdame)
+name: Milicent
 audience: player-available
 tags:
   - archshade
@@ -12,52 +12,90 @@ tags:
   - ally
 status: alive
 summary: >-
-  Former Rebel Fey Lady of the Moon, now the Shadowdame; architect of the Dragon Singularity plan to stop the Estarans;
-  allied with the party since Chapter 5.
-player_content: ""
-dm_content: |
-  One of the seven original Rebel Fey who fought the Estarans in the First War. Once the Lady
-  of the Moon, a brilliant scholar who studied order and predictability—unusual for a Fey. Her
-  methodical research revealed Estaran vulnerabilities, their outworld origin, and the escalating
-  pattern of their incursions. She was Erol's first patron before their bond broke.
+  Former Rebel Fey Lady of the Moon, architect of the Dragon Singularity plan, and the party's uneasy ally since Chapter
+  5.
+player_content: >
+  Milicent is one of the oldest living things on Aerus. She was there when the Estarans arrived. She watched them teach
+  mortals to build cities and call it kindness, while the Fey fought and died in the Faedwood. She has been fighting
+  them, in one form or another, for two thousand years.
 
-  ~400 years ago she and Yrk built the Shadow Projector. When she began using it to enslave
-  mortals for her Dread Legion army, Yrk fled. She spent a century keeping Cetyri prisoner,
-  training Death Knights with him—and possibly damaging his soul in the specific way needed for
-  the Dragon Singularity.
 
-  Her plan: guide Cetyri to become the Unary Great Wyrm and use that cosmic power to permanently
-  defeat the Estarans before they enact their 55th apocalypse.
+  She is a scholar first. What sets her apart from the other Rebel Fey — what always set her apart — is that she thinks
+  in systems. She studies patterns, causes, and consequences with a patience that most beings cannot sustain across a
+  century, let alone two millennia. That mind is what eventually unlocked the truth: that the Estarans have done this
+  before, fifty-four times, and that there is exactly one weapon in existence they have never found an answer to.
 
-  In Chapter 5 she agreed to stop enslaving mortals and trust the party to execute her plan.
-  Agents: Felicity (mortal world operative), Yrk (technical collaborator).
 
-  Milicent has an observatory at Ozevriel's memorial tower in the Feywild—a relic of her scholarly
-  past. She cannot track the party in Naeliste or after they receive the Trickster's Blessing.
-dm_links:
+  She is not warm. She is not cruel either — cruelty implies feeling. What she is, is certain. She made a decision long
+  ago about what the cosmos requires and has spent centuries engineering the conditions to deliver it. The Dread Legion,
+  the Shadow Projector, the century she held Cetyri — none of it was passion. It was preparation. She is capable of
+  treating the suffering of individuals, including people she respects, as an acceptable cost of the work.
+
+
+  Since Chapter 5 she is the party's ally, and she takes that seriously in her own way. She will keep her word. She will
+  not bend the plan to spare them. She expects the same in return.
+dm_content: >
+  **She is a scholar.** This is not incidental — it is why she succeeded where the other Rebel Fey did not. She studied
+  the Estarans the way a naturalist studies a predator: patiently, without sentiment, looking for the structural
+  weakness. She found it. See concept-milicents-plan.
+
+
+  **Soul damage was deliberate.** The century of Cetyri's imprisonment was not captivity for its own sake — she was
+  preparing his soul in the precise way the Dragon Singularity requires. The party does not know this. If they piece it
+  together, treat it as a major reveal. She has never apologized for it and will not.
+
+
+  **Why Cetyri.** She spent decades thinking about Varkhasia — about what happens when something that powerful wins —
+  and decided the champion had to be a golden dragon or not at all. That choice is the most human thing about her, and
+  she would not describe it that way.
+
+
+  **She still carries Ozevriel.** She will not show it.
+
+
+  **The Estaran prisoner.** She holds a captive Estaran in a sealed chamber in her fortress — her primary intelligence
+  source on the empire's structure, the 54 resets, and the persistent Estaran fear of Dragon Singularities. The party
+  has met this prisoner. They do not yet know the full scope of what Milicent has learned from them.
+
+
+  **The Erol bond.** Their relationship has history that has not yet been fully explored. To be developed.
+
+
+  **Trust posture.** The alliance is transactional. She trusts the party to execute the plan; she does not love them,
+  and she will not bend the plan to spare them.
+public_links:
   - target: npc-cetyri
     rel: former_captor
-    notes: Kept him prisoner for a century to train Death Knights; damaged his soul for singularity
+    notes: Held him for a century; her plan depends on him becoming the Golden Wyrm Singularity
   - target: npc-yrk-the-trickster
     rel: former_partner
-    notes: Co-built the Shadow Projector; Yrk fled when she began enslaving mortals
+    notes: Co-built the Shadow Projector; Yrk fled, has since rejoined the technical work
   - target: npc-erol
     rel: former_patron_of
     notes: Was Erol's first patron before their bond broke
   - target: npc-felicity
     rel: employs
+    notes: Felicity is her warlock in the mortal world
   - target: faction-rebel-fey
     rel: former_member
   - target: concept-shadow-projector
     rel: created_by
   - target: concept-dragon-singularity
     rel: planned_by
-  - target: location-milicents-fortress
-    rel: controls
   - target: concept-estarans
     rel: enemy_of
-sources:
-  - world/factions.md
-  - chapters/chapter-3-shadow-pursuit.md
-  - chapters/chapter-5-return-to-oechenfor.md
-  - chapters/chapter-6a-into-the-wild.md
+  - target: concept-tricksters-blessing
+    rel: blocked_by
+    notes: Cannot track the party while they bear the Blessing
+  - target: chapter-5-return-to-oechenfor
+    rel: appears_in
+dm_links:
+  - target: location-milicents-fortress
+    rel: controls
+  - target: npc-cetyri
+    rel: damaged_soul_of
+    notes: The century of imprisonment was deliberate preparation for the Singularity merge
+  - target: concept-milicents-plan
+    rel: architect_of
+  - target: enc-ch5-07-the-imprisoned-estaran
+    rel: holds_prisoner_in

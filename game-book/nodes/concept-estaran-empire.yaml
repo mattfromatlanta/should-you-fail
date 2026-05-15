@@ -1,0 +1,49 @@
+id: concept-estaran-empire
+type: concept
+name: The Estaran Empire
+audience: dm-only
+summary: >-
+  The vast multi-world empire the Estarans have maintained across 54 iterations of the cosmos, preserved through
+  annihilation and reconstruction.
+tags:
+  - estarans
+  - empire
+  - cosmos
+  - multi-world
+  - foundational
+  - lore
+dm_content: >
+  The Estarans are not native to the mortal world — or to any of the worlds they occupy. They originate from a single
+  homeworld that has been preserved intact across every reset of the cosmos. Every annihilation, every reconstruction,
+  every new 55th iteration begins with the Estaran homeworld already in place. It is the one fixed point in a remade
+  universe.
+
+
+  Their empire spans many worlds simultaneously. They manage each world as an administrative unit — isolating them from
+  one another, suppressing cross-world awareness, and relocating mortal populations as needed to achieve what they
+  consider an ideal ordered balance. Mortals on Estaran-colonized worlds typically have no memory of their origin world;
+  that history is stripped in transit.
+
+
+  **The Last Resort.** When a rebellion grows strong enough to threaten their empire, or when a Dragon Singularity
+  emerges, the Estarans enact their ultimate weapon: the complete annihilation of the cosmos, followed by reconstruction
+  under their control. They have done this 54 times. The current world is the 55th iteration. The Estarans are preparing
+  to do it again. They justify this without moral difficulty — their ordered, rule-bound nature narrows their choices
+  until burning a universe feels like administration.
+
+
+  **The isolation strategy.** The Estarans deliberately leave no records or technology behind when they withdraw from a
+  world. They do not want mortals learning their methods. What remains is only what is built into structures and cannot
+  be removed — embossed star charts, architectural features, Radiant Projector halls. Veterans of the Rebellion carry
+  psychic traps in their memories, preventing them from recovering knowledge of what they witnessed.
+
+
+  **The homeworld.** Details remain unknown to the party. It is the one thing the Last Resort cannot touch — the seed
+  from which the empire regrows after every annihilation.
+dm_links:
+  - target: concept-estarans
+    rel: described_by
+  - target: concept-dragon-singularity
+    rel: threatened_by
+  - target: concept-cosmos
+    rel: spans

@@ -19,7 +19,3 @@ dm_links:
     rel: located_in
   - target: chapter-5-return-to-oechenfor
     rel: appears_in
-sources:
-  - npcs/mortals/brother-alistair-thornfield.md
-  - chapters/chapter-1-invaders.md
-  - chapters/chapter-5-return-to-oechenfor.md

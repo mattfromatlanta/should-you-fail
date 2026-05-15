@@ -52,6 +52,3 @@ dm_links:
   - target: location-faedwood
     rel: set_in
     notes: Emerge here after the Fey crossing
-sources:
-  - chapters/chapter-6b-death-to-egedzoo.md
-  - prompts/session-worksheets/chapter-6b-egedzoo-assault.md

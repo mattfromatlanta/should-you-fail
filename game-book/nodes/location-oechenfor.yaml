@@ -35,7 +35,3 @@ dm_links:
     rel: connected_to
   - target: location-upland-stair
     rel: connected_to
-sources:
-  - world/locations.md
-  - chapters/chapter-1-invaders.md
-  - chapters/chapter-5-return-to-oechenfor.md

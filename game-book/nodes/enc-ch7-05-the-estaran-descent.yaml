@@ -36,5 +36,3 @@ dm_links:
     rel: set_in
   - target: concept-estarans
     rel: features
-sources:
-  - archive/chapters/chapter 7/chapter-7-recap.md

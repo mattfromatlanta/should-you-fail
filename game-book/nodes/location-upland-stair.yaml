@@ -26,6 +26,3 @@ dm_links:
     rel: connected_to
   - target: event-dragonborn-invasion
     rel: contested_in
-sources:
-  - world/locations.md
-  - chapters/chapter-1-invaders.md

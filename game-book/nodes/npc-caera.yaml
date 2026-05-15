@@ -33,6 +33,3 @@ dm_links:
     rel: located_in
   - target: event-rebellion
     rel: participated_in
-sources:
-  - npcs/fey/caera.md
-  - chapters/chapter-2-darkness.md

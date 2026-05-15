@@ -7,38 +7,43 @@ tags:
   - veteran
   - exarch
   - aris
-  - catatonic
   - rebellion
 status: alive
 summary: >-
-  Chief Exarch of the Allied Cities; restored from a two-month catatonic trance at the end of Chapter 7 by Cormin,
-  Babas, and Beacon; now traveling with the party to Metgal.
-player_content: ""
+  Chief Exarch of the Allied Cities; veteran of the Rebellion; restored from a two-month catatonic trance at the end of
+  Chapter 7 and now travelling with the party to Metgal.
+player_content: >
+  Citizen Exarch of the Allied Cities, based in Aris, and a veteran of the Rebellion. Two months before Chapter 7
+  began, he entered a meditative trance to explore his own subconscious and did not wake. Gallifax kept strict vigil
+  over his body and trusted no one's attempts to reach him; his absence threw the Allied Cities into political crisis
+  and was the political backdrop of the party's time in Aris.
+
+
+  At the end of Chapter 7, Cormin, Babas, and Beacon reached him together in the trance, and Babas's magic restored
+  him. The party briefed him afterward on the riot, the assassination attempt, and the Estaran cosmological threat. He
+  took it all in; the party made the case for political change, and floated — with some irony — that Ardo Manessi
+  could be given a more prominent role in the Council. He agreed to travel with the party to Metgal.
 dm_content: >
-  Citizen Exarch based in Aris. Veteran of the Rebellion. Two months ago he entered a meditative trance to explore his
-  subconscious and did not wake. Gallifax kept strict vigil throughout. His catatonic state threw the Allied Cities into
-  political crisis.
+  **Ardo's deeper conspiracy.** Not exposed when the party briefed Maelric. Still live for future chapters.
 
 
-  At the end of Chapter 7, Cormin, Babas, and Beacon worked together to reach him in the trance. Babas's magic restored
-  him. He woke. The party briefed him on the events of the riot, the assassination attempt, and the Estaran cosmological
-  threat. He took it all in. The party made the case for political change and suggested (with some irony) that Ardo
-  Manessi could be given a more prominent role in the Council. Ardo's deeper conspiracy was not exposed.
-
-
-  Maelric has agreed to travel with the party to Metgal.
-dm_links:
+  **State after waking.** Treat him as functional but tender. Two months under was real damage, not just a nap.
+public_links:
   - target: npc-gallifax
     rel: guarded_by
-    notes: Gallifax keeps vigil and trusts no one to reach him
+    notes: Gallifax kept strict vigil over his trance for two months
   - target: npc-aldrin-stoneward
     rel: ally
+    notes: Fought together in the Rebellion
   - target: faction-counsel-of-citizens
     rel: led_by
   - target: event-rebellion
     rel: participated_in
   - target: location-aris
     rel: located_in
-sources:
-  - npcs/mortals/maelric-sturmwald.md
-  - chapters/chapter 7/chapter-7-synopsis.md
+  - target: chapter-7-aris-the-fracturing-capital
+    rel: appears_in
+dm_links:
+  - target: npc-ardo-manessi
+    rel: politically_entangled_with
+    notes: Party suggested giving Ardo a more prominent Council role; Ardo's deeper conspiracy remains hidden

@@ -33,5 +33,3 @@ dm_links:
     rel: part_of
   - target: location-teeth
     rel: set_in
-sources:
-  - chapters/chapter-1-invaders.md

@@ -44,5 +44,3 @@ dm_links:
     notes: Discussed; party learning more about Young Bastards without yet meeting her
   - target: location-aris
     rel: set_in
-sources:
-  - chapters/chapter 7/chapter-7-recap.md

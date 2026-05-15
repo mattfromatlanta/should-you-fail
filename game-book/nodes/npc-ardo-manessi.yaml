@@ -47,5 +47,3 @@ dm_links:
   - target: npc-breva
     rel: knows_of
     notes: Knows her name as one of Ekert's trio. Breva does not know Ardo exists in this scheme.
-sources:
-  - chapters/chapter 7/chapter-7-npcs.txt

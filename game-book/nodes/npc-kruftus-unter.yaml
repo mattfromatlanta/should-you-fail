@@ -19,6 +19,3 @@ dm_links:
     rel: led
   - target: location-oechenfor
     rel: currently_in
-sources:
-  - npcs/mortals/kruftus-unter.md
-  - chapters/chapter-1-invaders.md

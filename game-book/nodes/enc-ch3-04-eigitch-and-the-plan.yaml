@@ -37,5 +37,3 @@ dm_links:
     rel: set_in
   - target: location-underwet
     rel: referenced_in
-sources:
-  - chapters/chapter-3-shadow-pursuit.md

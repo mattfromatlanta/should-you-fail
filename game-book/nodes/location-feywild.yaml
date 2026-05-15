@@ -12,19 +12,25 @@ tags:
 status: active
 summary: Vibrant reflection of the mortal world; home to Fey and the Rebel Fey; outer regions scarred by Estaran occupation.
 player_content: ""
-dm_content: |
-  A vibrant reflection of the mortal world. Home to Fey creatures characterized by intense
-  magical energy. The Rebel Fey reside here. Naeliste is located in the Feywild.
+dm_content: >
+  A vibrant reflection of the mortal world. Home to Fey creatures characterized by intense magical energy. The Rebel Fey
+  reside here. Naeliste is located in the Feywild.
 
-  Outer regions (closest to the mortal world) were scorched and ruined by Estaran influence—a
-  fundamental incompatibility between Estaran order and Fey chaos left these borderlands dead.
-  Giant thorn vines the size of mountain ranges mark the wasteland horizon.
 
-  The heart of the Feywild is an eternal twilight forest—the primal, untouched state of the
-  realm. The Memorial of Ozevriel stands in this forest.
+  The outer regions — closest to the mortal world — were transformed into Waste during the Second Fey War and Shadow War
+  (~400-150 years ago). Centuries of conflict between Estaran order and Fey nature scorched these borderlands beyond
+  recovery. Giant thorn vines the size of mountain ranges mark the wasteland horizon. These regions are dead; they will
+  not heal.
 
-  The Feywild has been weakened since both Ozevriel (died) and Milicent (departed) are absent—
-  they were the two pillars of stability.
+
+  The heart of the Feywild is an eternal twilight forest — the primal, untouched state of the realm. The Memorial of
+  Ozevriel stands in this forest. This core was protected throughout the wars, though it carries the weight of what was
+  lost.
+
+
+  The Feywild has been structurally weakened since both of its pillars of stability were removed: Ozevriel, killed in
+  the Second Fey War, and Milicent, who departed to the Shadowfell ~250 years ago. Without them the realm cannot fully
+  heal, even now that the Estarans are gone.
 dm_links:
   - target: location-naeliste
     rel: contains
@@ -34,6 +40,7 @@ dm_links:
     rel: contains
   - target: faction-rebel-fey
     rel: home_of
-sources:
-  - world/cosmology.md
-  - chapters/chapter-6a-into-the-wild.md
+  - target: event-second-fey-war
+    rel: scarred_by
+  - target: event-shadow-war
+    rel: scarred_by

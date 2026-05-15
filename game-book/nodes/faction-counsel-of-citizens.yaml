@@ -20,6 +20,3 @@ dm_links:
     rel: located_in
   - target: npc-maelric-sturmwald
     rel: led_by
-sources:
-  - world/factions.md
-  - chapters/chapter 7/chapter-7-synopsis.md

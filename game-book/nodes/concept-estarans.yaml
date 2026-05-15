@@ -110,9 +110,3 @@ dm_links:
     rel: feared_by
   - target: concept-languages
     rel: related_to
-sources:
-  - world/cosmology.md
-  - world/history.md
-  - chapters/chapter-3-shadow-pursuit.md
-  - chapters/chapter-5-return-to-oechenfor.md
-  - chapters/chapter-6a-into-the-wild.md

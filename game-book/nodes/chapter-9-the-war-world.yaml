@@ -1,0 +1,62 @@
+id: chapter-9-the-war-world
+type: chapter
+name: "Chapter 9: The War World"
+audience: dm-only
+summary: >-
+  The party arrives on a world where Estarans and Fey are actively at war, finds this world's Cetyri fighting for the
+  Fey, and must engineer his mortal wounding to make him a candidate for the merge.
+status: planned
+tags:
+  - chapter
+  - multiworld
+  - fey-war
+  - cetyri
+  - merge
+  - gallifax
+  - estarans
+  - active-conflict
+dm_content: >-
+  The second world on the Radiant Lance network (Maydor or Ozarrid — TBD). Unlike Ikellor, the conflict here is live:
+  Estarans and Fey are actively at war. The party arrives into an ongoing crisis.
+
+
+  **This world's Cetyri.** An Adult gold dragon, fighting on the side of the Fey. His presence is both an asset and a
+  complication — the party's Cetyri will feel the pull of him strongly. This Cetyri has not been severed; he is whole,
+  vital, and committed to a cause he believes in. That makes him unsuitable for the merge as he stands.
+
+
+  **The merge condition.** A candidate Cetyri must be severed — damaged by death or near-death in the specific way that
+  severs a soul from the mortal world. This world's Cetyri must suffer a mortal wound to become a candidate. The
+  dramatic question of the chapter: can the party engineer a situation where this Cetyri is mortally wounded without
+  simply killing him outright, and without betraying his trust or the Fey cause he fights for?
+
+
+  **The no-win situation.** One possibility under consideration: the party must lead this world's Cetyri into a
+  situation he cannot survive intact — a battle, a sacrifice, a trap — where his mortal wounding is the only path
+  forward. The moral weight of this should be felt. He is not an enemy. He is a version of someone the party knows and
+  cares about.
+
+
+  **Gallifax.** A version of Gallifax may be present on this world, with a relationship to this world's Cetyri. Nature
+  of the relationship TBD — could be ally, companion, rival, or something more personal. His presence would give the
+  party a familiar face in an unfamiliar war, and could complicate the no-win situation if he is close to this Cetyri.
+
+
+  **Open questions:**
+
+  - Which world is this — Maydor or Ozarrid?
+
+  - What is Gallifax's relationship to this world's Cetyri?
+
+  - Does the party's Cetyri have any say in what is asked of his other self?
+
+  - What does it feel like for the party's Cetyri to watch himself be broken?
+
+  - Is there a Fey leader or Estaran commander who anchors the war narrative?
+dm_links:
+  - target: chapter-8-across-the-void
+    rel: preceded_by
+  - target: chapter-10-the-dying-world
+    rel: followed_by
+  - target: npc-cetyri
+    rel: centers_on

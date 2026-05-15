@@ -47,5 +47,3 @@ dm_links:
   - target: enc-ch8-06-the-old-garrison
     rel: featured_in
     notes: Nest in the control tower; bargains if Gullux is dead, flees otherwise
-sources:
-  - session-docs/ch8-ice-world-history.txt

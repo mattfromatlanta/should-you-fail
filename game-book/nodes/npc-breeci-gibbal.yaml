@@ -22,5 +22,3 @@ dm_links:
     notes: Seasonal employer of Peno
   - target: location-oechenfor
     rel: located_in
-sources:
-  - npcs/mortals/breeci-gibbal.md

@@ -38,6 +38,3 @@ dm_links:
     rel: member_of
   - target: location-oechenfor
     rel: operated_in
-sources:
-  - npcs/heroes/felicity.md
-  - chapters/chapter-5-return-to-oechenfor.md

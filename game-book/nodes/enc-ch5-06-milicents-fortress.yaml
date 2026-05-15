@@ -36,5 +36,3 @@ dm_links:
     rel: set_in
   - target: chapter-5-return-to-oechenfor
     rel: part_of
-sources:
-  - chapters/chapter-5-return-to-oechenfor.md

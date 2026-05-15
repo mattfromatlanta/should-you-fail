@@ -1,0 +1,79 @@
+id: event-shadow-war
+type: event
+name: The Shadow War
+audience: dm-only
+summary: >-
+  ~250-150 years ago; Milicent's Dread Legion ground the Estarans down across Aerus while mortal veterans rose in
+  rebellion, ending in the destruction of Metgal and the Estarans' final defeat.
+tags:
+  - history
+  - shadow-war
+  - milicent
+  - dread-legion
+  - estarans
+  - veterans-rebellion
+  - metgal
+  - gallifax
+  - 250-years-ago
+dm_content: >
+  By ~250 years ago the conflict on Aerus had ceased to be a Fey war and had become something stranger and more
+  terrible: a grinding war of attrition between Milicent's Dread Legion and the Estaran military, fought largely in
+  shadow and at the edges of mortal awareness. The Estarans responded to the Dread Legion's gains by spending mortal
+  lives at a terrible rate — conscripting soldiers from across their empire to hold Aerus, burning through populations
+  to stem the advance of undeath.
+
+
+  **The Feywild Wastes.** The decades of conflict transformed whole regions of the Feywild into Waste — dead, scorched
+  borderlands where Estaran order and Fey nature had ground against each other for too long. Giant thorn vines the size
+  of mountain ranges mark the edges of these dead zones. The heart of the Feywild — the eternal twilight forest — was
+  protected, but the outer regions were fundamentally scarred.
+
+
+  **Milicent's Shadow Keep.** Having abandoned her tower at Ozevriel's memorial, Milicent established her seat of power
+  in the Shadowfell — the Shadow Keep — housing the Shadow Projector and commanding the Dread Legion from beyond the
+  reach of the Estarans' conventional forces.
+
+
+  **The Veterans' Rebellion (~200 ya).** Centuries of Estaran conscription and mortal casualties finally broke the
+  tolerance of mortal populations on Aerus. Veterans — soldiers who had spent lifetimes fighting Estaran wars — turned
+  on their masters. Aldrin Stoneward, Erol the Faed, Maelric Sturmwald, Lamat Velu, Caera, Thorn, and others began
+  driving the Estarans back toward Metgal. The Estarans now faced war on two fronts: the Dread Legion from the shadow,
+  mortal veterans from within.
+
+
+  **Milicent's prisoner (~200 ya).** During the Veterans' Rebellion, Milicent captured an Estaran prisoner of war and
+  brought them to the Shadow Keep. Over the following decades she interrogated this prisoner thoroughly, learning the
+  full scope of the Estaran threat — the 54 resets, the persistent recurring fear of Dragon Singularities, the structure
+  of the empire across worlds. This intelligence became the foundation of her master plan. See concept-milicents-plan.
+
+
+  **The destruction of Metgal and the end (~150 ya).** The Estarans, cornered and facing defeat, destroyed the city of
+  Metgal with nightmare magic and fire — a massive mortal atrocity. Gallifax, who had served the Estarans, witnessed it
+  and turned against them. With Gallifax's defection and the combined pressure of the Veterans' Rebellion and the Dread
+  Legion, the Estarans were driven from Aerus entirely. The golden age of the Allied Cities began. Veterans formed a new
+  confederation and became the dominant political power outside Fey territories. Milicent's contribution was kept
+  secret; most mortals never knew her army was half the reason they won.
+
+
+  **Aftermath.** With the Estarans gone, Milicent turned her full attention to her prisoner and the plan taking shape.
+  ~100 years ago she captured Cetyri and began the century of deliberate preparation the Dragon Singularity would
+  require. See concept-milicents-plan.
+dm_links:
+  - target: event-second-fey-war
+    rel: preceded_by
+  - target: event-rebellion
+    rel: followed_by
+  - target: npc-milicent
+    rel: led_by
+  - target: npc-aldrin-stoneward
+    rel: involves
+  - target: npc-erol
+    rel: involves
+  - target: npc-maelric-sturmwald
+    rel: involves
+  - target: npc-gallifax
+    rel: involves
+  - target: faction-allied-cities
+    rel: resulted_in
+  - target: concept-milicents-plan
+    rel: informed

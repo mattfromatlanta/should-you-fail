@@ -44,5 +44,3 @@ dm_links:
     rel: setting_for
   - target: concept-estarans
     rel: destroyed_by
-sources:
-  - chapter-8-planning.md

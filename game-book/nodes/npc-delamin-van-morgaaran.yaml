@@ -29,5 +29,3 @@ dm_links:
     notes: Maelyn is his lieutenant
   - target: location-oechenfor
     rel: located_in
-sources:
-  - npcs/mortals/delamin-van-morgaaran.md

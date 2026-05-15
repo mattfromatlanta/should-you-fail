@@ -43,5 +43,3 @@ dm_links:
     rel: occurred_at
   - target: chapter-5-return-to-oechenfor
     rel: covered_in
-sources:
-  - chapters/chapter-5-return-to-oechenfor.md

@@ -41,6 +41,3 @@ dm_links:
   - target: concept-estarans
     rel: derived_from
     notes: Corrupted adaptation of Estaran Radiant Projector technology
-sources:
-  - chapters/chapter-3-shadow-pursuit.md
-  - chapters/chapter-5-return-to-oechenfor.md

@@ -33,6 +33,3 @@ dm_links:
   - target: location-underwet
     rel: connected_to
     notes: The Underwet flows beneath the Allied Cities and surfaces here
-sources:
-  - chapters/chapter-4-journey-to-trickster.md
-  - chapters/chapter-3-shadow-pursuit.md

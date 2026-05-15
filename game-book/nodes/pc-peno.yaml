@@ -26,6 +26,3 @@ dm_links:
   - target: npc-breeci-gibbal
     rel: employed_by
     notes: Seasonal work as Breeci's employee in Oechenfor
-sources:
-  - prompts/session-worksheets/chapter-6b-egedzoo-assault.md
-  - npcs/mortals/breeci-gibbal.md

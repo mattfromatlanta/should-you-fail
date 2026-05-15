@@ -12,37 +12,44 @@ tags:
   - 2000-years-ago
 status: past
 summary: >-
-  ~2000 years ago; the first conflict against the Estarans led by the seven Rebel Fey and mortals; much history lost to
-  time; Yrk survived; Ozevriel died.
+  ~2000 years ago; the Estarans arrived on Aerus as apparent benefactors, the Fey resisted from the start, and the war
+  ended in Fey retreat with mortals largely unaware.
 player_content: ""
-dm_content: |
-  Approximately 2000 years ago, shortly after the Estarans arrived, the Fey and mortals began
-  resisting. Led by the seven Rebel Fey (Itrina, Carris, Xilo, Ozevriel, Thessa, Varuun,
-  Milicent). Much of this history is lost to time—barely legends remain. Key events:
+dm_content: >
+  Approximately 2000 years ago, the Estarans arrived on Aerus. Their first act was to raise up the mortal races —
+  teaching them about civilization, building cities, appearing as great benefactors. For a long time, that is exactly
+  what they seemed. Mortals thrived under their guidance and had little reason to question it.
 
-  - The Fey fought the Estara from the moment they arrived
-  - Strategic withdrawal to the Faedwood to bottleneck the Estara
-  - Grib's letter (an artifact) documents the desperation of this period
-  - Ozevriel sacrificed himself so the other six Rebel Fey could escape
-  - Yrk the Trickster survived by avoiding direct confrontation, misdirection, sabotage
-  - Aldrin Stoneward was gifted with ageless life during this era by the Estara
 
-  The war ultimately did not drive the Estara away permanently—they continued ruling for
-  ~1850 more years until the more recent Rebellion.
+  The Fey were not deceived. Fey and Estarans are structural enemies throughout the cosmos; the resistance began almost
+  immediately. Led by the seven Rebel Fey — Itrina, Carris, Xilo, Ozevriel, Thessa, Varuun, and Milicent — the Fey
+  fought the Estarans from the moment they arrived. The front of this war was the Faedwood and the wild places; mortals
+  building cities with Estaran patronage far away were largely unaware a war was being fought on their behalf.
+
+
+  The First War ended in strategic withdrawal, not victory. The Fey were pushed back but not destroyed. Key events:
+
+  - The Fey bottlenecked the Estaran advance through the Faedwood
+
+  - Yrk the Trickster survived through misdirection and sabotage rather than direct confrontation
+
+  - Aldrin Stoneward was gifted with ageless life by the Estarans during this era — the reasons are not fully known
+
+  - The war ended in stalemate; the Estarans continued ruling Aerus for roughly 1600 more years
+
+
+  The Fey did not forget. The Second Fey War would come ~1600 years later. See event-second-fey-war.
 dm_links:
   - target: faction-rebel-fey
     rel: led_by
   - target: concept-estarans
     rel: caused_by
-  - target: npc-ozevriel
-    rel: died_in
   - target: npc-yrk-the-trickster
     rel: survived_by
   - target: npc-aldrin-stoneward
     rel: era_of
-    notes: Received ageless life from the Estara during this period
+    notes: Received ageless life from the Estarans during this period
   - target: artifact-letter-from-grib
     rel: documented_in
-sources:
-  - world/history.md
-  - chapters/chapter-3-shadow-pursuit.md
+  - target: event-second-fey-war
+    rel: followed_by

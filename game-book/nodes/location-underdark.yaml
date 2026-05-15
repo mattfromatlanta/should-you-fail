@@ -33,6 +33,3 @@ dm_links:
     notes: Cetyri's body was found in the underground lake
   - target: location-uplands
     rel: connected_to
-sources:
-  - world/underdark-locations.md
-  - chapters/chapter-2-darkness.md

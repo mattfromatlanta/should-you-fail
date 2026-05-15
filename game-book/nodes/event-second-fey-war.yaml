@@ -1,0 +1,66 @@
+id: event-second-fey-war
+type: event
+name: The Second Fey War
+audience: dm-only
+summary: >-
+  ~400-250 years ago; the Fey of Aerus rose again to drive out the Estarans, suffered catastrophic losses, and were
+  ultimately transformed by Milicent's creation of the Dread Legion.
+tags:
+  - history
+  - second-fey-war
+  - fey
+  - estarans
+  - milicent
+  - dread-legion
+  - ozevriel
+  - rebel-fey
+  - 400-years-ago
+dm_content: >
+  ~400 years ago the Rebel Fey rose again, determined this time to drive the Estarans from Aerus permanently. The First
+  War had ended in retreat and stalemate; this conflict was meant to be decisive. It was — but not in the way the Fey
+  intended.
+
+
+  **The opening campaign (~400 ya).** The Fey struck hard but suffered grievous losses almost immediately. The Estarans,
+  long established on Aerus and commanding vast mortal resources, began pulling veteran soldiers back from distant
+  conflicts to fight the Fey on Aerus directly. Ozevriel — the shield of the Rebel Fey, the one who had held the line so
+  others could escape in the First War — was killed early in this conflict. His death was a catastrophic blow. The other
+  Rebel Fey, already a loosely bound coalition, began to fracture. The Quicklings, a race of Fey who had long chafed
+  under Estaran order, entered Milicent's direct service during this period — the only Fey race to fully ally with her
+  as her strategy darkened.
+
+
+  **Ozevriel's death and Milicent's tower.** Milicent had maintained a tower at the site since the First War — it
+  predated Ozevriel's death and was not built as a tomb. After he fell, he was buried at its base, and the tower became
+  his memorial by circumstance. Milicent remained there for a time before her path led her elsewhere.
+
+
+  **The strategic turn (~350 ya).** On the brink of defeat, Milicent and Yrk abandoned conventional resistance. Together
+  they built the Shadow Projector — a corrupted adaptation of Estaran Radiant Projector technology — and Milicent began
+  quietly forming the Dread Legion from captured and enslaved mortals. Yrk did not understand at first what the device
+  would be used for. The tide began slowly to turn.
+
+
+  **The fracturing of the Rebel Fey.** Ozevriel's death had already cracked the coalition. Once it became clear Milicent
+  was building an undead army from enslaved mortals, the fracture became permanent. The Rebel Fey as a unified force
+  effectively ceased to exist. Xilo, Itrina, Carris, Thessa, and Varuun withdrew. Milicent pressed on alone with her
+  Dread Legion and the Quicklings.
+
+
+  **Transition to the Shadow War (~250 ya).** By this point the Dread Legion had become a proper army. Yrk discovered
+  what Milicent had truly been doing and went into hiding rather than confront her directly. Milicent abandoned her
+  tower at Ozevriel's memorial and established her Shadow Keep in the Shadowfell. The conflict had transformed: it was
+  no longer a Fey war but a shadow war between the Dread Legion and the Estaran military machine. See event-shadow-war.
+dm_links:
+  - target: npc-milicent
+    rel: led_by
+  - target: npc-ozevriel
+    rel: death_of
+  - target: event-first-war
+    rel: preceded_by
+  - target: event-shadow-war
+    rel: followed_by
+  - target: concept-shadow-projector
+    rel: created_during
+  - target: faction-rebel-fey
+    rel: involved

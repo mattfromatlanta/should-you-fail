@@ -1,0 +1,62 @@
+id: concept-estarans-and-dragons
+type: concept
+name: Estarans and Dragons
+audience: dm-only
+summary: >-
+  Why dragons are the one force the Estarans cannot reorder, and why Dragon Singularities are a persistent threat across
+  all 54 iterations of the cosmos.
+tags:
+  - estarans
+  - dragons
+  - dragon-singularity
+  - foundational
+  - lore
+  - varkhasia
+  - milicent
+dm_content: >
+  Dragons are the truest expression of existence. Their innate qualities — their soul, their language, their fundamental
+  nature — do not change across time or across worlds. The Estarans can reshape worlds, relocate peoples, and reset the
+  cosmos. They cannot change dragons. This is the root of the conflict.
+
+
+  **Why dragons threaten the Estarans.** Everything the Estarans do depends on their ability to reorder existence.
+  Dragons exist outside that capacity. A Unary Great Wyrm — a Dragon Singularity — is the one being capable of
+  permanently destroying an Estaran. Not defeating them, not driving them out: permanently ending them. No other force
+  in the cosmos can do this.
+
+
+  **Dragon Singularities are a persistent threat across time.** This is not a rare accident or a single historical
+  anomaly. Across the full span of the Estaran Empire — 54 resets of the cosmos — Dragon Singularities have emerged
+  repeatedly. The Estarans live in ongoing fear of them. The Testament of Embers documents Varkhasia, a red Unary Great
+  Wyrm who nearly destroyed the empire before the Estarans triggered their 44th Last Resort to stop him. But Varkhasia
+  is simply the one instance that was recorded in Estaran literature and happened to survive into the current world
+  through a ruin. He is not unique. There have been others.
+
+
+  **How the Fey of this world learned about it.** The party's world stumbled onto the Testament of Embers by dumb luck —
+  it was recovered from an Estaran ruin after the Rebellion and ended up in Melbara's library in Naeliste. The Fey who
+  read it didn't fully understand what it meant at the time. Milicent, with her scholarly mind and her Estaran prisoner,
+  eventually did.
+
+
+  **Milicent's intelligence.** From her prisoner, Milicent learned that the Estarans' fear of Dragon Singularities is
+  not historical but ongoing — a structural vulnerability they have never solved. Every time they reset the cosmos, the
+  conditions that produce singularities reset too. The threat cannot be designed out of existence. This is what made
+  Milicent certain the Dragon Singularity is the correct weapon: it is the one thing the Estarans have never found an
+  answer to except annihilation, and if the champion is ready before the Last Resort can be triggered, the cycle ends.
+
+
+  **The warning of Varkhasia.** A being raised to cosmic power across all realities is not automatically a protector.
+  Varkhasia was a weapon. Milicent took this as a warning, not just a precedent. Her deliberate choice of Cetyri as the
+  intended Singularity is a direct response to it — see concept-milicents-plan.
+dm_links:
+  - target: concept-dragons
+    rel: related_to
+  - target: concept-dragon-singularity
+    rel: related_to
+  - target: concept-estarans
+    rel: related_to
+  - target: artifact-testament-of-embers
+    rel: documented_in
+  - target: npc-milicent
+    rel: central_to

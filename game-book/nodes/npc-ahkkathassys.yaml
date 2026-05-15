@@ -28,5 +28,3 @@ dm_links:
     rel: founded
   - target: location-drekklands
     rel: originated_from
-sources:
-  - npcs/mortals/ahkkathassys.md

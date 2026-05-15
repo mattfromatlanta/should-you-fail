@@ -31,5 +31,3 @@ dm_links:
     notes: Nirsa had an affair with Gord while married to Taram
   - target: location-oechenfor
     rel: located_in
-sources:
-  - npcs/mortals/taram-thristle.md

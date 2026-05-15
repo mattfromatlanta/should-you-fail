@@ -1,0 +1,126 @@
+# Writing Pattern + Priority Backlog
+#
+# ─────────────────────────────────────────────────────────────
+# WRITING PATTERN (codified after the Cetyri rewrite, 2026-05-12)
+# ─────────────────────────────────────────────────────────────
+#
+# Two rules govern where a fact lives in the game book.
+#
+# 1) ARCS GO IN CHARACTER NODES. SCENES GO IN ENCOUNTER/CHAPTER NODES.
+#
+#    NPC and PC `player_content` holds ARC SHAPE — the bend of a
+#    character's story across the campaign, summarised. Identity,
+#    motivation, current state, key arc beats, why they matter.
+#    Roughly 5–6 paragraphs for a major character; fewer for minor
+#    ones. No read-aloud prose. No scene-level location detail. No
+#    dialogue.
+#
+#    Encounter `dm_content` (and, where written, encounter
+#    `player_content`) holds SCENES — what specifically happened in
+#    this scene, the read-aloud prose, the location detail, the
+#    choices made, the dialogue. The actual story-of-record.
+#
+#    Chapter `player_content` stitches the chapter's encounters
+#    together at a chapter-arc level — summary of the chapter's
+#    story for the player journal.
+#
+#    Each fact lives in ONE place at full fidelity. NPC nodes
+#    reference arc beats in 1–2 sentences and trust the encounter
+#    nodes to carry the scene-of-record.
+#
+# 2) dm_content IS THE DELTA, NEVER THE WHOLE.
+#
+#    On player-available nodes, dm_content holds ONLY what is not
+#    in player_content: hidden motivations, planning notes, secret
+#    connections, instructions for how to run the character in
+#    combat or scene. Never restate facts already in player_content.
+#    Full picture = player_content + dm_content.
+#
+#    On dm-only nodes, everything lives in dm_content.
+#
+# When writing or revising a node, check the corresponding chapter
+# and encounter nodes first. If a scene already exists there,
+# reference it; do not duplicate it. If a scene is missing or
+# inconsistent, fix the encounter, then write the arc-level beat
+# in the character node.
+#
+# Cetyri (npc-cetyri) is the worked example. His node, the four
+# Cetyri-tagged encounters (enc-ch2-05, enc-ch3-03, enc-ch6a-01,
+# enc-ch6a-04), and the Ch8 encounters together demonstrate the
+# pattern.
+#
+# ─────────────────────────────────────────────────────────────
+# PRIORITY BACKLOG
+# ─────────────────────────────────────────────────────────────
+#
+# These nodes need careful authoring of their player_content
+# section before the Foundry player journal is published. They are
+# the campaign's most-loaded characters: long arcs, hidden depths,
+# central to multiple chapters. Default-generated or terse
+# summaries will not do them justice.
+#
+# Use it as a checklist when filling out player_content sections.
+# Apply the pattern above as you write each one.
+
+version: 2
+generated: 2026-05-12
+
+priority_npcs:
+  - id: npc-cetyri
+    written: true
+    note: "Worked example. Demonstrates the arc-shape pattern. Source for the rules above."
+
+  - id: npc-erol
+    written: true
+    note: "Faed scholar with deep history; her honest reads on Aris politics are formative."
+
+  - id: npc-aldrin-stoneward
+    written: true
+    note: "Left the party before Ch8; player journal reflects his arc and departure."
+
+  - id: npc-milicent
+    written: true
+    note: "Player perception captured as it stands now (uneasy ally); soul-damage-was-deliberate kept DM-side."
+
+  - id: npc-yrk-the-trickster
+    written: true
+    note: "Trickster's Blessing mechanic surfaced; Yrk's manner kept oblique."
+
+  - id: npc-lamat
+    written: true
+    note: "Quiet ally; manor cache kept DM-side."
+
+  - id: npc-xilo-lord-of-robins
+    written: true
+    note: "Alliance arc and goodwill-not-oath posture surfaced."
+
+  - id: npc-twi-xu
+    written: true
+    note: "Scene encounters left to encounter nodes; bird-form personality captured."
+
+  - id: npc-eigitch-the-old
+    written: true
+    note: "Pivotal role in the Trickster journey acknowledged."
+
+  - id: npc-bronik
+    written: true
+    note: "Disambiguated from npc-bronik-ice-world; same-soul reveal kept DM-side."
+
+  - id: npc-maelric-sturmwald
+    written: true
+    note: "Restoration and current state captured; Ardo conspiracy kept DM-side."
+
+  - id: npc-gallifax
+    written: true
+    note: "Conservative tone preserved; Metgal turning point in player content."
+
+  - id: npc-lomani-nae
+    written: true
+    note: "Examination arc and the misstep with Cetyri captured."
+
+  - id: npc-melbara
+    written: true
+    note: "Library role and Ch3 revelations through her surfaced; what she knows in full stays DM-side."
+
+# When player_content is written for any of these, set `written: true`
+# (or remove from the list).

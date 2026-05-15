@@ -42,6 +42,3 @@ dm_links:
     rel: appears_in
   - target: enc-ch6b-01-egedzoo-assault
     rel: appears_in
-sources:
-  - chapters/chapter-6a-into-the-wild.md
-  - prompts/session-worksheets/chapter-6b-egedzoo-assault.md

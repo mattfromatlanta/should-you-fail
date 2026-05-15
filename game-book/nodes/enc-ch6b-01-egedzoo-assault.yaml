@@ -58,6 +58,3 @@ dm_links:
     rel: part_of
   - target: location-feywild-wasteland
     rel: set_in
-sources:
-  - chapters/chapter-6b-death-to-egedzoo.md
-  - prompts/session-worksheets/chapter-6b-egedzoo-assault.md

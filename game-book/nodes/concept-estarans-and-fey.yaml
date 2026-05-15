@@ -1,0 +1,52 @@
+id: concept-estarans-and-fey
+type: concept
+name: Estarans and Fey
+audience: dm-only
+summary: >-
+  Why Fey and Estarans are structural enemies throughout the cosmos — an incompatibility of nature, not merely politics
+  — and why that makes the Fey indispensable to the resistance.
+tags:
+  - estarans
+  - fey
+  - rebel-fey
+  - foundational
+  - lore
+  - incompatibility
+dm_content: >
+  Fey and Estarans are natural enemies throughout the cosmos. This is not a contingent political conflict — it is a
+  structural incompatibility baked into the nature of both. Every world with an Estaran footprint sees conflict with the
+  Fey, without exception. The Estarans are aware of this pattern and manage it as a constant, not a variable.
+
+
+  **Why they are incompatible.** Fey existence is fundamentally at odds with Estaran magic and Estaran ideology. The
+  Estarans believe in order, control, and the managed balance of existence. Fey are the expression of existence in its
+  wild, living, uncontrolled form — they predate Estaran arrival on every world they inhabit, and they resist Estaran
+  reordering by their nature, not just by choice. Estaran magic does not work on Fey the way it works on mortals. The
+  Estarans cannot conscript them, cannot psychically trap them, cannot easily neutralize them.
+
+
+  **The Estarans' approach.** The Estarans see Fey as a nuisance to manage or exterminate when necessary. In their own
+  self-image, they prefer to do no harm. In practice, they are ruthless when the Fey become an obstacle. The destruction
+  of Ikellor's Feywild — deliberately triggered to cause the ice age that is slowly killing the world — is the clearest
+  example: a strategic act, not a side effect.
+
+
+  **The Rebel Fey.** The seven original Rebel Fey who fought the Estarans in the First War represent the organized
+  expression of this natural enmity. They did not choose to fight the Estarans out of politics — it is what Fey do when
+  the Estarans arrive. Most of the original seven remain active; Ozevriel died so the others could escape. Milicent was
+  among them before her path diverged.
+
+
+  **Why the Fey are valuable to the resistance.** Fey cannot be psychically trapped or co-opted by the Estarans the way
+  mortal veterans can. They retain memory across generations. They can hold and pass on knowledge the Estarans cannot
+  suppress. The library at Naeliste — where the Testament of Embers survived — exists because Fey preserved it.
+dm_links:
+  - target: concept-estarans
+    rel: related_to
+  - target: faction-rebel-fey
+    rel: related_to
+  - target: concept-cosmos
+    rel: related_to
+  - target: location-ice-world
+    rel: example_of
+    notes: Estarans destroyed Ikellor's Feywild as a strategic act

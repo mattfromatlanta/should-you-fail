@@ -45,5 +45,3 @@ dm_links:
   - target: concept-estarans
     rel: derived_from
     notes: Portable version of an Estaran Radiant Projector
-sources:
-  - chapter-8-planning.md

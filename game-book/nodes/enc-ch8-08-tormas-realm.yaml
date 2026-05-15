@@ -60,5 +60,3 @@ dm_links:
     notes: Completes the merge; grows in power
   - target: enc-ch8-07-dead-forest
     rel: preceded_by
-sources:
-  - chapter-8-planning.md

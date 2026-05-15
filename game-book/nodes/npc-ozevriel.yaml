@@ -11,31 +11,36 @@ tags:
   - feywild
 status: dead
 summary: >-
-  One of the seven Rebel Fey who sacrificed himself so the other six could escape during the First War; his memorial
-  tower exists in the Feywild.
+  One of the seven Rebel Fey, killed early in the Second Fey War; his death shattered the Rebel Fey coalition; his
+  memorial tower stands in the Feywild.
 player_content: ""
-dm_content: |
-  From the Ode to Seven Lords—one of the original seven Rebel Fey. Sacrificed himself during the
-  First War to let the other six escape. His death weakened the Feywild fundamentally; he was
-  one of two pillars giving the realm stability. Milicent's departure to the Shadowfell removed
-  the second pillar, leaving the Feywild unable to heal.
+dm_content: >
+  From the Ode to Seven Lords — one of the original seven Rebel Fey. Known as the shield of the coalition; in the First
+  War he had held the line so the other six could escape. When the Second Fey War began ~400 years ago, he was killed
+  early in the fighting — a catastrophic loss that began the fracturing of the Rebel Fey as a unified force. Ozevriel's
+  death, and then Milicent's descent into shadow, left only five of the original seven bound by their oaths.
 
-  His memorial tomb exists in the Feywild's eternal twilight forest—once a pilgrimage site, now
-  fallen into disrepair and largely forgotten. His body is preserved in crystal, standing eternal
-  watch. The party explored the memorial in Chapter 6a and discovered Milicent's old observatory
-  at its peak.
 
-  Verse from the Ode: "Ozevriel—he gave himself so six could walk away."
+  His death weakened the Feywild fundamentally. He and Milicent had been the two pillars giving the realm stability.
+  When Milicent later departed to the Shadowfell, the second pillar was removed, leaving the Feywild unable to fully
+  heal.
+
+
+  Milicent's tower at the site predates his death — it was not built as a tomb. He was buried at its base after he fell,
+  and the tower became his memorial by circumstance. Milicent maintained it as her base until ~250 years ago when she
+  established the Shadow Keep. It has since fallen into disrepair and is largely forgotten. His body is preserved in
+  crystal, standing eternal watch. The party explored the memorial in Chapter 6a and discovered Milicent's old
+  observatory at its peak.
+
+
+  The verse from the Ode inscribed on the platform beneath his body: "Ozevriel — he gave himself so six could walk
+  away."
 dm_links:
   - target: faction-rebel-fey
     rel: member_of
   - target: location-memorial-of-ozevriel
     rel: entombed_in
-  - target: event-first-war
+  - target: event-second-fey-war
     rel: died_in
   - target: npc-milicent
     rel: former_ally
-    notes: Milicent built an observatory atop his memorial
-sources:
-  - chapters/chapter-6a-into-the-wild.md
-  - assets/ode-to-seven-lords.md

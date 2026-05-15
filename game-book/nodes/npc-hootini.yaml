@@ -25,6 +25,3 @@ dm_links:
     rel: former_servant
   - target: location-memorial-of-ozevriel
     rel: found_at
-sources:
-  - npcs/fey/hootini.md
-  - chapters/chapter-6a-into-the-wild.md

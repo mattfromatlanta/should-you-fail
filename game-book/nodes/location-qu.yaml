@@ -24,5 +24,3 @@ dm_links:
     rel: visited_by
   - target: npc-bronik
     rel: visited_by
-sources:
-  - chapters/chapter-6a-into-the-wild.md

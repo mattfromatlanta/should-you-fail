@@ -143,6 +143,3 @@ dm_links:
     rel: preceded_by
   - target: enc-ch8-07-dead-forest
     rel: leads_to
-sources:
-  - session-docs/ch8-ice-world-history.txt
-  - session-docs/ch8-open-questions.txt
