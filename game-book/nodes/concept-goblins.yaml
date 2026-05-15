@@ -1,0 +1,63 @@
+id: concept-goblins
+type: concept
+name: Goblins
+audience: player-available
+summary: >-
+  A Fey people of the Feywild — immortal but increasingly wild with age, jovial and industrious, with a storytelling
+  culture that celebrates glorious ends.
+tags:
+  - goblins
+  - fey
+  - naeliste
+  - culture
+  - feywild
+  - race
+player_content: >
+  Goblins are a Fey people, native to the Feywild and found wherever Fey cultures have taken root in the mortal world.
+  In Naeliste they are one of the three founding peoples, alongside Eladrin and Bullywugs.
+
+
+  They are immortal — but none of them live forever. As a goblin ages, something shifts in their nature. They get
+  wilder. The feats they attempt grow bolder, the risks they take more extravagant, the pranks more elaborate and the
+  adventures more dangerous. Every goblin knows this about themselves and most embrace it completely. The best life a
+  goblin can live ends with a really, really good story.
+
+
+  Goblins are jovial by nature, with a deep fondness for pranks and a tendency to find the whole situation funnier than
+  everyone else does. They are also genuinely industrious and clever — quick to pick up trades, eager to travel, and
+  natural participants in mercantile life. Getting out and seeing the world suits them. It gives them material.
+
+
+  Their social culture is loose by most standards — few hard rules, little hierarchy — but their storytelling tradition
+  is something else entirely. In the evenings, goblins gather to raise hell and recite the tales of their greatest
+  heroes. The best stories are always about the end: the impossible gambit, the spectacular last act, the death that
+  made everyone who heard about it burst out laughing and then go quiet. To be remembered that way is the highest honor
+  a goblin can receive.
+dm_content: >
+  **Eigitch the Old.** At under 200 years old, Eigitch is among the oldest and wildest living goblins — a mark of how
+  far the aging process has taken him. His enthusiasm for piloting a submarine through magically unstable underground
+  rivers with a party of strangers is entirely in character. He is not reckless by goblin standards; he is simply very,
+  very old.
+
+
+  **Yrk is a special case.** Nearly two thousand years old, Yrk has survived far longer than any goblin by exploiting
+  the one trait that keeps him alive: his gift for being overlooked. Where age drives most goblins toward increasingly
+  visible, daring, story-worthy acts, Yrk has spent two millennia perfecting the art of not being seen, not being
+  remembered, not being found. He is the ultimate expression of the goblin instinct run in reverse. He would not
+  describe it that way. He would probably change the subject.
+
+
+  **Goblin longevity in play.** A goblin's age is a signal of how wild they've become — the older the goblin, the more
+  extreme their behavior and the closer they are to a glorious end. Young goblins are merely mischievous. Eigitch-old
+  goblins are genuinely dangerous to be around, in the best possible way.
+dm_links:
+  - target: npc-yrk-the-trickster
+    rel: example_of
+    notes: Extraordinary exception — survived nearly two millennia by being overlooked rather than daring
+  - target: npc-eigitch-the-old
+    rel: example_of
+    notes: Among the oldest living goblins at under 200; his wildness reflects his age
+  - target: location-naeliste
+    rel: lives_in
+  - target: concept-fey-law-philosophy
+    rel: related_to

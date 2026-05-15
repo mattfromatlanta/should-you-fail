@@ -73,3 +73,6 @@ public_links:
   - target: artifact-radiant-lance
     rel: created_by
     notes: Presented to the party in Aris in Chapter 7
+  - target: concept-goblins
+    rel: instance_of
+    notes: Extraordinary exception — survived nearly two millennia by being overlooked rather than daring
