@@ -1,0 +1,89 @@
+id: event-erol-and-aldrin
+type: event
+name: "Erol and Aldrin: The Centuries Between"
+audience: dm-only
+summary: >-
+  The centuries-long arc of Erol and Aldrin — friendship before the Second Fey War, joint conscription through their
+  bond, the strain that has remained, and Erol's eventual retreat to the Teeth where Lamat joined her.
+status: ongoing
+tags:
+  - erol
+  - aldrin
+  - history
+  - conscription
+  - oechenfor
+  - lome
+  - character-backstory
+dm_content: >-
+  Erol and Aldrin met before the Second Fey War. They became fast friends and adventured together for a time, talking
+  even then about the need for new places for mortals to live on Aerus — perhaps outside the Estaran core. The notion
+  that would centuries later become Oechenfor began as their shared dream.
+
+
+  Through Aldrin she met Maelric, and through Maelric and Gallifax the Estarans found them both. Their conscription was
+  not coincidence — the Estarans saw a powerful mortal warrior bonded to a powerful Fey and took both. The mechanism, as
+  it always is in these cases, was the bond itself: Erol was drawn into Estaran service through her love for Aldrin.
+  They were taken away from Aerus for many campaigns just as Aerus's Fey were mustering for the Second Fey War. See
+  `concept-estaran-conscription`.
+
+
+  They returned broken and changed, without understanding why. The Estarans were distracted by other crises and
+  dismissive of their plight. This was the seed of the Veterans' Rebellion. Together with Maelric and the others they
+  rose against the Estarans.
+
+
+  At the time of their return, Erol also discovered Milicent — her former patron — had embraced undeath and shadow
+  power. She severed the bond in horror. She pledged herself to Xilo, Lord of Robins, to regain the power she needed for
+  the war. She and Aldrin grew closer during this period.
+
+
+  After Metgal and the confederation of the Allied Cities, Erol lived in Aris with Aldrin for a time. They founded
+  Oechenfor some time later with their Veteran allies, seeking a fresh start. To her dismay, Erol found no comfort in
+  Oechenfor either. She built her manor on the Teeth, near Lamat's monastery in the Uplands. One day she invited Lamat
+  to visit her. He decided that this was where he was most needed, and has lived with her there for the last five years.
+
+
+  ## The Strain
+
+
+  Erol does not blame Aldrin for her conscription. But she cannot forget. She cannot fully separate him from what
+  followed. This is the unresolved thing between them — affection without resolution, regret without remedy. To Aldrin,
+  Erol is the one who got away; he does not know with the same clarity that he was, for her, the door through which the
+  Estarans entered.
+
+
+  ## Lamat's Role
+
+
+  Lamat is not Erol's romantic or life partner. His monk's discipline has given him profound intuition — he is not
+  psychic but he understands people with minimal observation. He saw Erol's broken heart and gave comfort by simply
+  being present and being himself. She needs him to remain what he is, and he understands that.
+
+
+  ## Note on Erol's Patron History
+
+
+  Erol was Milicent's warlock long before she met Aldrin. Serving Milicent and her Estaran conscription are discrete
+  events in her life — separated by significant time — though both are load-bearing for who she is now. The Estarans did
+  not exploit the Milicent bond; they exploited the later bond with Aldrin.
+dm_links:
+  - target: npc-erol
+    rel: about
+  - target: npc-aldrin-stoneward
+    rel: about
+  - target: npc-lamat
+    rel: features
+  - target: npc-milicent
+    rel: features
+  - target: npc-xilo-lord-of-robins
+    rel: features
+  - target: npc-maelric-sturmwald
+    rel: features
+  - target: npc-gallifax
+    rel: features
+  - target: concept-estaran-conscription
+    rel: related_to
+  - target: event-rebellion
+    rel: preceded_by
+  - target: location-oechenfor
+    rel: related_to

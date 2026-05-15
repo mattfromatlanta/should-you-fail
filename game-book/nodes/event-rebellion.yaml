@@ -15,31 +15,57 @@ summary: >-
   ~200-150 years ago; mortal veterans rose against the Estarans, dovetailing with the Shadow War to drive them from
   Aerus and establish the Allied Cities confederation.
 player_content: ""
-dm_content: >
+dm_content: >-
   The Veterans' Rebellion was not a spontaneous uprising — it was the breaking point of populations that had endured
   centuries of Estaran conscription, expenditure in foreign wars, and the grinding toll of the Shadow War being fought
   on their doorstep. Around 200 years ago, veterans who had spent lifetimes fighting Estaran campaigns turned on their
   masters.
 
 
+  The proximate spark of the Rebellion was the return of conscripted veterans — broken, confused, carrying fear they
+  could not name. They did not understand what had been done to them. They perceived only that the civilization the
+  Estarans had built rested on something rotten, and they rose intuitively. See `concept-estaran-conscription`.
+
+
   Key participants: Aldrin Stoneward, Erol the Faed, Maelric Sturmwald, Lamat Velu, Caera, Thorn, and Gallifax (who
   switched sides from the Estarans after witnessing the destruction of Metgal).
 
 
-  The Rebellion dovetailed with the Shadow War — the Estarans were simultaneously fighting Milicent's Dread Legion from
-  the shadow side and mortal veterans from within. They were not equipped to hold both fronts.
+  The Rebellion coincided with Milicent's Shadow War — the Estarans were simultaneously fighting Milicent's Dread Legion
+  from the shadow side and mortal veterans from within. They were not equipped to hold both fronts. The Shadow War was
+  not a war of great battles. It was a persistent campaign by wraiths and death knights to collapse Estaran power at key
+  structural points across Aerus. This made the Estarans vulnerable enough that the Fey and the Veterans could finally
+  succeed.
 
 
   The Estarans' final act was the destruction of Metgal — nightmare magic and fire, massive mortal casualties. It was
-  meant to break the Rebellion. Instead it broke Gallifax's loyalty to them, and his defection sealed their fate.
+  meant to break the Rebellion. Instead it broke Gallifax's loyalty to them, and his defection sealed their fate. The
+  Estarans were driven from Aerus entirely ~150 years ago.
 
 
-  The Estarans were driven from Aerus entirely ~150 years ago. Most mortals never knew that Milicent's Dread Legion was
-  half the reason they won — her role was kept secret throughout.
+  ## Who Knows What
 
 
-  **Aftermath.** Aldrin, Erol, Lamat, and other veteran Founders established Oechenfor ~20 years ago. The Allied Cities
-  formed a new confederation and became the dominant political power outside Fey territories.
+  The role of Milicent's Dread Legion is a dark secret on Aerus. Most mortals know only that the Rebellion happened and
+  that it succeeded. Only a handful of mortals understand there were two Fey wars on their world and that Milicent's
+  Shadow War was half the reason victory was possible. As of the current campaign:
+
+
+  - **Mortals who know:** Felicity (Milicent's warlock), the party, and now Aldrin and Maelric (briefed by the party in
+  Chapter 7).
+
+  - **Fey who know:** Only the ancient Fey — Yrk, Xilo, and the surviving Rebel Fey — fully understand the role Milicent
+  played in the Estarans' defeat on Aerus.
+
+
+  The party, having spoken directly with Xilo and Milicent, now understands more than almost any living mortal.
+
+
+  ## Aftermath
+
+
+  Aldrin, Erol, Lamat, and other veteran Founders established Oechenfor ~20 years ago. The Allied Cities formed a new
+  confederation and became the dominant political power outside Fey territories.
 dm_links:
   - target: event-shadow-war
     rel: part_of

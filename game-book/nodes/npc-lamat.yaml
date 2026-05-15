@@ -11,12 +11,20 @@ tags:
   - rebellion
 status: alive
 summary: >-
-  Veteran of the Rebellion and co-Founder of Oechenfor and Lome; founded the Orchard Path Monastery; partner to Erol.
-player_content: >
-  A veteran of the Rebellion and one of the Founders of Oechenfor, and Erol's life partner. With Erol he co-founded
-  Lome five years ago, and earlier founded the Orchard Path Monastery, where he mentored F'zuga. He and Erol keep an
-  Eladrin-style manor atop the Teeth above Lome. Where Aldrin's sense of order is built from external structures of
-  duty and institution, Lamat's is built inward — a discipline of the self rather than of the world.
+  Veteran of the Rebellion and co-Founder of Oechenfor and Lome; founded the Orchard Path Monastery; shares his home on
+  the Teeth with Erol in a bond that is inscrutable rather than romantic.
+player_content: >-
+  A veteran of the Rebellion and one of the Founders of Oechenfor. With Erol he co-founded Lome five years ago, and
+  earlier founded the Orchard Path Monastery, where he mentored F'zuga. He and Erol keep an Eladrin-style manor atop the
+  Teeth above Lome. Where Aldrin's sense of order is built from external structures of duty and institution, Lamat's is
+  built inward — a discipline of the self rather than of the world.
+
+
+  Lamat is not Erol's romantic or life partner, despite the impression their shared home gives. His discipline as a monk
+  has given him a profound intuitive understanding of people — he is not psychic, but he reads others with minimal
+  observation. He saw Erol's broken heart and gave her what she needed, which was simply for him to be present and to be
+  himself. He decided five years ago that her manor on the Teeth was where he was most needed, and he has lived there
+  since.
 
 
   In Chapter 2 he disappeared after discovering Milicent had targeted him. He returned with Erol at the end of that
@@ -26,8 +34,8 @@ dm_content: >
   each). Available if the party returns to the manor.
 public_links:
   - target: npc-erol
-    rel: partner
-    notes: Life partner; co-founded Lome and Oechenfor together
+    rel: ally
+    notes: Shares her home on the Teeth; co-founded Lome and Oechenfor together; bond is inscrutable rather than romantic
   - target: faction-lome-monastery
     rel: founded
   - target: location-lome

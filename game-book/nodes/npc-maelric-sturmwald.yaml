@@ -12,22 +12,33 @@ status: alive
 summary: >-
   Chief Exarch of the Allied Cities; veteran of the Rebellion; restored from a two-month catatonic trance at the end of
   Chapter 7 and now travelling with the party to Metgal.
-player_content: >
-  Citizen Exarch of the Allied Cities, based in Aris, and a veteran of the Rebellion. Two months before Chapter 7
-  began, he entered a meditative trance to explore his own subconscious and did not wake. Gallifax kept strict vigil
-  over his body and trusted no one's attempts to reach him; his absence threw the Allied Cities into political crisis
-  and was the political backdrop of the party's time in Aris.
+player_content: >-
+  Citizen Exarch of the Allied Cities, based in Aris, and a veteran of the Rebellion. Like all veterans he carries the
+  unnatural longevity of long Estaran service.
 
 
-  At the end of Chapter 7, Cormin, Babas, and Beacon reached him together in the trance, and Babas's magic restored
+  Over decades as Chief Exarch, Maelric came to understand the unbalance afflicting all the veterans — the unresolved
+  fear, the inability to age out, the political stagnation it produced. Two months before Chapter 7 began, he entered a
+  meditative trance deliberately, seeking a cure for the veterans' condition. He did not wake. Gallifax kept strict
+  vigil over his body and trusted no one's attempts to reach him; his absence threw the Allied Cities into political
+  crisis and was the political backdrop of the party's time in Aris.
+
+
+  At the end of Chapter 7, Cormin, Babbas, and Beacon reached him together in the trance, and Babbas's magic restored
   him. The party briefed him afterward on the riot, the assassination attempt, and the Estaran cosmological threat. He
-  took it all in; the party made the case for political change, and floated — with some irony — that Ardo Manessi
-  could be given a more prominent role in the Council. He agreed to travel with the party to Metgal.
-dm_content: >
+  took it all in; the party made the case for political change, and floated — with some irony — that Ardo Manessi could
+  be given a more prominent role in the Council. He agreed to travel with the party to Metgal.
+dm_content: >-
   **Ardo's deeper conspiracy.** Not exposed when the party briefed Maelric. Still live for future chapters.
 
 
   **State after waking.** Treat him as functional but tender. Two months under was real damage, not just a nap.
+
+
+  **The trance was a psychic trap activation.** Maelric was caught in a psychic trap left for him by the Estarans — the
+  same conscription mechanism that crippled Erol at the waterfront. His attempt to look inward at his own service
+  activated the trap; he could not return under his own power. See `concept-estaran-conscription`. Whether he learned
+  anything useful before being trapped is not yet established and is available as a future reveal.
 public_links:
   - target: npc-gallifax
     rel: guarded_by
@@ -47,3 +58,6 @@ dm_links:
   - target: npc-ardo-manessi
     rel: politically_entangled_with
     notes: Party suggested giving Ardo a more prominent Council role; Ardo's deeper conspiracy remains hidden
+  - target: concept-estaran-conscription
+    rel: affected_by
+    notes: The trance trap is an instance of the conscription mechanism

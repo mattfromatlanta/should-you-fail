@@ -8,8 +8,18 @@ tags:
   - human
   - male
   - party
+  - manu
+  - missionary
 status: alive
-summary: Male human warlock; one of the seven player characters.
-player_content: ""
-dm_content: |
-  Player character. Male human warlock. One of the seven members of the party.
+summary: Male human warlock from Manu; missionary companion to Babbas; one of the seven player characters.
+player_content: >-
+  A human warlock from Manu, a village on an island in the great bay between Hestar and Alimar. He and Babbas grew up
+  together there and left as missionaries, carrying their faith into a wider world they were not entirely prepared for.
+  Their bond is close and their outlook, at least when they arrived, was somewhat naive — formed by an island community
+  far from the political and cosmic entanglements the party has since walked into.
+
+
+  He is one of the seven members of the party.
+dm_content: >-
+  Player character. Male human warlock. One of the seven members of the party. Travelled to the wider world as a
+  missionary alongside Babbas; both are from Manu, a village on an island in the great bay between Hestar and Alimar.

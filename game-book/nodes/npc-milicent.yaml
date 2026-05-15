@@ -34,7 +34,7 @@ player_content: >
 
   Since Chapter 5 she is the party's ally, and she takes that seriously in her own way. She will keep her word. She will
   not bend the plan to spare them. She expects the same in return.
-dm_content: >
+dm_content: >-
   **She is a scholar.** This is not incidental — it is why she succeeded where the other Rebel Fey did not. She studied
   the Estarans the way a naturalist studies a predator: patiently, without sentiment, looking for the structural
   weakness. She found it. See concept-milicents-plan.
@@ -58,7 +58,13 @@ dm_content: >
   has met this prisoner. They do not yet know the full scope of what Milicent has learned from them.
 
 
-  **The Erol bond.** Their relationship has history that has not yet been fully explored. To be developed.
+  **The Erol bond.** Erol was Milicent's first warlock, bonded long before the Rebellion and long before Erol met
+  Aldrin. Erol is a wild Fey who admires order — she was drawn to Milicent as the greatest Fey scholar of Aerus, a mind
+  for pattern and deep recognition, the Lady of the Moon whose domain is the most ordered face of nature. The bond was
+  the meeting of complementary natures. When Erol returned from Estaran conscription and saw what Milicent had become —
+  undeath, shadow, the willing transformation of the mind she had revered — she severed the bond in horror. Milicent has
+  never apologized for it. She believes she was right. She remembers Erol with whatever Milicent uses in place of
+  fondness. See `event-erol-and-aldrin`.
 
 
   **Trust posture.** The alliance is transactional. She trusts the party to execute the plan; she does not love them,
@@ -99,3 +105,6 @@ dm_links:
     rel: architect_of
   - target: enc-ch5-07-the-imprisoned-estaran
     rel: holds_prisoner_in
+  - target: event-erol-and-aldrin
+    rel: features_in
+    notes: Full arc of Erol's life, including the patron history that precedes her conscription

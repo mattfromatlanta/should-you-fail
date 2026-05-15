@@ -1,0 +1,108 @@
+id: concept-estaran-conscription
+type: concept
+name: Estaran Conscription
+audience: dm-only
+summary: >-
+  The ancient Estaran practice of conscripting strong mortals and bonded Fey across worlds, crushing their memories, and
+  the persistent damage this leaves behind.
+tags:
+  - estarans
+  - veterans
+  - conscription
+  - foundational
+  - lore
+  - trauma
+  - fey-war
+dm_content: >-
+  The Estarans see danger in bonds of mortals and Fey. Such bonds corrupt order and pull the great project of
+  civilization into chaos. When mortals align with Fey, they will not raise a sword against them.
+
+
+  So the Estarans do not ask them to. Instead, they conscript the strongest and fiercest mortal fighters and deploy them
+  across the Cosmos — to fight Fey they do not know, in places they cannot name, for reasons they are never given. To
+  prevent knowledge of other worlds from seeping back and threatening the safety of isolation, the conscripts' memories
+  are crushed. Veterans return home knowing they were gone. They do not know where, or for how long, or what they did.
+
+
+  On occasion, the Estarans conscript powerful Fey with close allegiance to the mortal world — turning them against
+  their own kind in their everlasting campaign. These Fey are led to servitude in many cases by the love they feel for a
+  mortal soul. Erol the Faed was one such case, drawn in through her deep friendship with Aldrin Stoneward. Though she
+  does not blame him, she cannot forget.
+
+
+  ## What Veterans Carry
+
+
+  Those conscripted return home damaged in ways they cannot articulate:
+
+
+  **A deep, persistent, sourceless fear.** They have seen things — committed things — they cannot recall. The fear
+  remains even when the memory is gone. It surfaces without warning, disproportionate to present circumstances,
+  resistant to reason.
+
+
+  **The scars of Fey psychic magic.** Many veterans were direct targets of Fey psychic attacks during their service. Fey
+  psychic magic leaves particular kinds of wounds — not the blunt trauma of a suppressed memory but something more like
+  a presence, a residue that lingers in the mind and does not heal cleanly.
+
+
+  **Unnatural longevity.** Estaran service altered the veterans physically. The Estarans frame this as a gift — the
+  reward of a life well-spent in service to civilization. Mortals come to experience it as a curse. It is not a prize
+  deliberately bestowed but the residue of what Estaran magic does to mortal bodies over extended exposure and service.
+  Veterans were never told, or do not remember being told, that this would happen. They simply realized over time that
+  they had lived longer than is natural. For some it first felt like a blessing. It is not universally seen that way
+  now. Aldrin himself privately hopes he will be allowed to age and pass eventually.
+
+
+  **An inability to grieve what they lost.** They know, in some sense, that time passed. They know they are different.
+  They do not know what they lost, and they cannot mourn it cleanly. This is its own kind of wound.
+
+
+  ## The Psychic Traps
+
+
+  The psychic mechanisms used to suppress veterans' memories are an ancient Estaran tactic, refined across many
+  iterations of the cosmos. They are a deliberate system of control, designed to mitigate the danger of rebellion by
+  ensuring that veterans can never piece together their history. The traps are passive until probed, at which point they
+  activate to prevent recovery.
+
+
+  Two known instances on Aerus:
+
+
+  - **Erol at the Aris waterfront (Ch7).** She stood against the illusory Estarans in combat and was incapacitated by
+  hidden psychic magic. Like the rest of the veterans that day, she did not know this would happen. She and Babbas
+  theorized afterward that this was deliberate Estaran tampering. They were correct.
+
+  - **Maelric's trance.** He made a purposeful internal expedition to better understand himself and the veterans'
+  condition, looking for a cure. The trap sprung when he probed his own service. He could not return under his own
+  power. The party together — Cormin, Babbas, and Beacon — reached him in the trance, and Babbas's magic restored him.
+
+
+  The two experiences are diagnostic of the same mechanism but were not identical. Erol tried to stand against the
+  Estarans in combat; Maelric went looking for the truth in himself. Both encountered internal perils they did not
+  expect. The full extent of what the Estarans left behind in veteran minds is not known.
+
+
+  ## Implications for the Final War
+
+
+  It is now obvious to the party that the Veterans of Aerus cannot reliably fight the final war against the Estarans.
+  Whatever was planted in them activates the moment they try. This is by design — the Estarans have used this mechanism
+  across many cosmic iterations precisely to prevent the kind of rebellion that nearly ended them on Aerus from ever
+  being repeated. The final confrontation must fall to the party, with Cetyri as the fulcrum.
+dm_links:
+  - target: concept-estarans
+    rel: instance_of
+  - target: concept-estaran-empire
+    rel: instance_of
+  - target: event-rebellion
+    rel: caused
+  - target: npc-erol
+    rel: affects
+  - target: npc-aldrin-stoneward
+    rel: affects
+  - target: npc-maelric-sturmwald
+    rel: affects
+  - target: enc-ch5-07-the-imprisoned-estaran
+    rel: source_of

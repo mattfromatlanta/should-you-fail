@@ -8,7 +8,7 @@ tags:
   - todo
   - planning
 summary: Identified gaps and inconsistencies in the game book's Estaran/cosmos lore, surfaced during the Chapter 8 lore pass.
-dm_content: |
+dm_content: |-
   After the Chapter 8 cosmos/Estaran lore pass (2026-05-10), the following gaps in the canonical
   game book emerged. None block Chapter 8 play. Most are worth a separate review session.
 
@@ -49,11 +49,13 @@ dm_content: |
   Aerus, Maydor, and Ozarrid. Only Aerus has lore. Maydor and Ozarrid need at least stub location
   nodes — the party may copy these names off the wall in Session 2 and ask about them.
 
-  ## 7. Veterans' Psychic Traps
+  ## 7. Veterans' Psychic Traps — CLOSED (2026-05-15)
 
-  Mentioned in concept-estarans as part of the Estarans' isolation strategy — psychic traps in
-  Aerus veterans' minds to prevent recovery of lost memories. Not tied to any specific veteran
-  NPC node or to event-first-war. If this is going to surface in play, it needs anchoring.
+  Anchored in `concept-estaran-conscription` and tied to specific veteran NPCs (Erol, Aldrin,
+  Maelric) and to the Chapter 7 waterfront event. The Erol/Babas theory is now confirmed as
+  canon truth and load-bearing for the campaign's endgame: the Veterans of Aerus cannot
+  reliably fight the final war against the Estarans because the traps activate on probing.
+  The final confrontation must fall to the party, with Cetyri as the fulcrum.
 
   ## 8. Pre-existing Chapter Files Consistency Check
 
@@ -77,3 +79,6 @@ dm_links:
   - target: enc-ch5-07-the-imprisoned-estaran
     rel: related_to
     notes: Consistency-check candidate (item 8)
+  - target: concept-estaran-conscription
+    rel: related_to
+    notes: "Closes gap #7"

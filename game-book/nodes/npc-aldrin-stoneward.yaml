@@ -12,13 +12,15 @@ tags:
   - ageless
 status: alive
 summary: >-
-  Chief Citizen and Founder of Oechenfor; veteran of the Rebellion gifted with ageless life by the Estara; left Aris
-  for Oechenfor with Erol after Chapter 7.
-player_content: >
+  Chief Citizen and Founder of Oechenfor; veteran of the Rebellion who carries the unnatural longevity of long Estaran
+  service; left Aris for Oechenfor with Erol after Chapter 7.
+player_content: >-
   A tall, regal middle-aged human man with dark skin and a bald head, with a seeming radiance about him. He carries the
-  legendary longsword Valor on his back. The Estara gifted him ageless, enduring life before the First Rebellion, and
-  he fought alongside Maelric Sturmwald and Gallifax in the war that followed. He survived the burning of Metgal.
-  Twenty years ago he co-founded Oechenfor with Erol and the other Founders, and he serves now as its Chief Citizen.
+  legendary longsword Valor on his back. Like other veterans of the Rebellion, he carries the unnatural longevity that
+  comes of long Estaran service — framed by the Estarans as a gift, experienced by mortals as something quieter and
+  harder to name. He fought alongside Maelric Sturmwald and Gallifax in the war that followed his return. He survived
+  the burning of Metgal. Twenty years ago he co-founded Oechenfor with Erol and the other Founders, and he serves now as
+  its Chief Citizen.
 
 
   Aldrin is a creature of duty and service. The grand cultural constructs of mortal civilisation — law, oath, rank,
@@ -27,17 +29,32 @@ player_content: >
   unnecessary. He does not argue the point, but it touches something fundamental in him. See concept-fey-law-philosophy.
 
 
-  He was once Erol's partner, before she and Lamat grew close. To him, Erol is the one who got away. The affection
-  remains; so does the regret. He will not change himself for her, and she will not ask him to.
+  Erol has been part of his life for centuries — first as a friend before the Second Fey War, when they adventured
+  together and dreamed of new places for mortals to live outside Estaran shadow; later as a fellow conscript; later
+  still as a partner and co-founder of Oechenfor. She and Lamat live together now on the Teeth above Lome. To Aldrin,
+  Erol is the one who got away. The affection remains; so does the regret. He does not fully understand the strain
+  between them, only that it is there.
 
 
   He arrived in Aris in Chapter 7 hoping to help the catatonic Maelric and stabilise the alliance, and was instead
   caught between the Veterans and the Young Bastards — his reputation as a fair-minded moderate made him valuable, and
   trapped, in the middle. When the Estaran psychic event struck during the waterfront illusion and crippled Erol, he
-  abandoned the Veterans' rally to protect her and stayed with her through the aftermath. He and Erol left Aris
-  together before the party crossed to Metgal.
-dm_content: >
+  abandoned the Veterans' rally to protect her and stayed with her through the aftermath. He and Erol left Aris together
+  before the party crossed to Metgal.
+dm_content: >-
   **Where he went.** Aldrin and Erol are heading to Oechenfor. The party does not know where they went.
+
+
+  **On his longevity.** Aldrin, like all veterans, was never told (or does not remember being told) that Estaran service
+  would alter him physically. He realized over time that he was living longer than was natural. For a while it felt like
+  a blessing. Privately, he has come to hope he will be allowed to age and pass eventually. He does not advertise this.
+  See `concept-estaran-conscription`.
+
+
+  **On Erol.** Aldrin does not know with full clarity that he was, for her, the door through which the Estarans entered.
+  The Estarans found them both through their bond; her love for him was the mechanism of her conscription. He suspects
+  something of this — she has not hidden her grief well over centuries — but he has never had it confirmed. He carries
+  the affection and the regret without the full picture. See `event-erol-and-aldrin`.
 public_links:
   - target: npc-erol
     rel: ally
@@ -60,3 +77,9 @@ dm_links:
   - target: location-oechenfor
     rel: currently_in
     notes: Departed Aris after Ch7; party does not know
+  - target: concept-estaran-conscription
+    rel: affected_by
+    notes: Aldrin is one of the affected veterans; his ageless life is the residue of Estaran service, not a gift
+  - target: event-erol-and-aldrin
+    rel: features_in
+    notes: Full arc of his relationship with Erol

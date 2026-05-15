@@ -21,12 +21,13 @@ concepts:
   - concept-estarans-and-fey
   - concept-milicents-plan
   - concept-goblins
+  - concept-estaran-conscription
 pcs:
   - pc-cormin
   - pc-aelira
   - pc-sylvaris
   - pc-peno
-  - pc-babas
+  - pc-babbas
   - pc-beacon
   - pc-valen
 npcs:
@@ -115,6 +116,7 @@ events:
   - event-milicent-alliance
   - event-second-fey-war
   - event-shadow-war
+  - event-erol-and-aldrin
 chapters:
   - chapter-1-invaders
   - chapter-2-darkness

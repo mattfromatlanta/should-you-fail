@@ -14,46 +14,70 @@ status: alive
 summary: >-
   Eladrin veteran warlock, co-Founder of Oechenfor and Lome; was Milicent's warlock until the Estarans conscripted her;
   now serves Xilo; left Aris after Chapter 7.
-player_content: >
+player_content: >-
   An Eladrin warlock and one of the great Founders of Oechenfor. She is stunning and wild to behold — supernatural
   presence more than mere beauty — and her Eladrin aspect (Spring, Summer, Fall, Winter) shifts with her mood. Unusually
   for her kind, she often appears as a blend, or as something stranger: an Indian Summer, a False Spring, a morning
   thunderstorm, a drought in March. Other Eladrin do not generally do this.
 
 
-  Erol was once Milicent's warlock, the earliest known bond between them. The Estarans conscripted her before the
-  Second Rebellion and took her away to unknown work; when she returned and saw what Milicent had become, she severed
-  the bond. She lived quietly for a time, then sought out Xilo when the Rebellion began in earnest so she could fight
-  the Estarans with her full power. She is his warlock now. As a Fey veteran she is far less affected by the lingering
-  Estaran magic mortal veterans carry, though she — like all veterans — has no clear memory of her service.
+  Erol is a veteran of the Second Fey War and the Veterans' Rebellion. She was conscripted by the Estarans alongside
+  Aldrin Stoneward, with whom she had been close friends for centuries before the war. She does not speak of what she
+  did during her service; she does not remember it. She returned, like the other veterans, hurt and confused. As a Fey
+  veteran she is far less affected by the lingering Estaran magic mortal veterans carry, though she — like all veterans
+  — has no clear memory of her service.
 
 
-  With Lamat she co-founded Lome, then Oechenfor; for a stretch they disappeared together between Feywild and
-  Shadowfell refuges, fearing Milicent would come to conscript her back. She returned dramatically at the end of
-  Chapter 2 to slay Torma the Unforgiving and save the party. On meeting Cetyri she recognised what he was, suspected
-  Milicent's hand in it, and sent the party to Naeliste — and then to Yrk for the Trickster's Blessing.
+  Long before any of this, Erol was Milicent's warlock — the earliest known bond between them. On returning from
+  conscription and seeing what Milicent had become, she severed the bond. She sought out Xilo, Lord of Robins, when the
+  Rebellion began in earnest so she could fight the Estarans at full power. She is his warlock now.
 
 
-  Erol and Aldrin Stoneward were once partners, before Erol and Lamat grew close. Deep affection remains; to Aldrin she
-  is the one who got away, and Erol admires him deeply but cannot live constrained in his soldierly, structured orbit.
-  She articulated this to the party in Aris as a Fey-law philosophy: Fey remember their agreements and renegotiate when
-  needed, and so have no need of written laws — a system that only works because they do not die between generations.
-  See concept-fey-law-philosophy.
+  She and Aldrin co-founded Oechenfor with the other Veterans, but Erol found no comfort there. She built her manor on
+  the Teeth, near the monk Lamat's monastery. Lamat came to live with her there five years ago. Their bond is
+  inscrutable to outsiders and they do not explain it.
+
+
+  Erol and Aldrin Stoneward were once partners. Deep affection remains; to Aldrin she is the one who got away, and Erol
+  admires him deeply but cannot live constrained in his soldierly, structured orbit. She articulated this to the party
+  in Aris as a Fey-law philosophy: Fey remember their agreements and renegotiate when needed, and so have no need of
+  written laws — a system that only works because they do not die between generations. See concept-fey-law-philosophy.
+
+
+  She returned dramatically at the end of Chapter 2 to slay Torma the Unforgiving and save the party. On meeting Cetyri
+  she recognised what he was, suspected Milicent's hand in it, and sent the party to Naeliste — and then to Yrk for the
+  Trickster's Blessing.
 
 
   In Chapter 7 in Aris, acting as envoy to local leaders and Citizen Counselors, she was struck by the Estaran psychic
   event at the waterfront illusion and suffered an intense episode — falling to her knees, completely drained. Aldrin
-  abandoned the Veterans' rally to protect her, and Babas came forward to help. Together Erol and Babas theorised that
+  abandoned the Veterans' rally to protect her, and Babbas came forward to help. Together Erol and Babbas theorised that
   this may be deliberate Estaran tampering — a mechanism to prevent veterans from ever mounting effective resistance.
   Erol resolved to leave Aris and go home. She and Aldrin departed before the party crossed to Metgal.
-dm_content: >
+dm_content: >-
   **Where she went.** Erol and Aldrin are heading to Oechenfor. The party does not know where they went, only that they
   left Aris together.
 
 
   **Damage from the waterfront event.** Erol withdrawing signals real damage, not merely exhaustion. The "Estaran
-  tampering of veterans" theory she shared with Babas is the working hypothesis the campaign is built around — treat it
-  as load-bearing for any future veteran scenes.
+  tampering of veterans" theory she shared with Babbas is correct — see `concept-estaran-conscription`. The waterfront
+  collapse was a conscription psychic trap activating. Erol attempted to act against (illusory) Estarans in combat, and
+  the dormant control sprang. Like the other veterans that day she did not know it would happen.
+
+
+  **The Aldrin bond as conscription mechanism.** Erol was drawn into Estaran service through her love for Aldrin. She
+  does not blame him. She also cannot forget. This is the load-bearing strain in their relationship and remains
+  unresolved. See `event-erol-and-aldrin` for the full arc.
+
+
+  **Patron history — order matters.** Erol was Milicent's warlock long before she met Aldrin. Serving Milicent and her
+  Estaran conscription are discrete events in her life. The Estarans did not exploit the Milicent bond; they exploited
+  the later bond with Aldrin.
+
+
+  **Lamat is not her romantic partner.** Despite their shared home on the Teeth, the bond is inscrutable rather than
+  romantic. Lamat's monk's discipline gives him profound intuition; he saw her broken heart and gave comfort by simply
+  being present and being himself.
 public_links:
   - target: npc-cetyri
     rel: recognized
@@ -62,18 +86,18 @@ public_links:
     rel: ally
     notes: Former romantic partners; co-founded Oechenfor; left Aris together after Ch7
   - target: npc-lamat
-    rel: partner
-    notes: Life partner; co-founded Lome and Oechenfor together
+    rel: ally
+    notes: Shares her home on the Teeth; co-founded Lome and Oechenfor together; bond is inscrutable rather than romantic
   - target: npc-milicent
     rel: former_servant_of
-    notes: Was Milicent's warlock; bond severed when Erol returned from Estaran conscription
+    notes: Was Milicent's warlock long before her conscription; bond severed when Erol returned from Estaran service
   - target: npc-xilo-lord-of-robins
     rel: serves
     notes: Now Xilo's warlock
   - target: npc-torma-the-unforgiving
     rel: slew
     notes: Slew Torma at the end of Chapter 2 to save the party
-  - target: npc-babas
+  - target: pc-babbas
     rel: ally
     notes: Helped Erol after the waterfront psychic event; together they theorised Estaran tampering of veterans
   - target: location-lome
@@ -96,3 +120,9 @@ dm_links:
   - target: location-oechenfor
     rel: currently_in
     notes: Departed Aris after Ch7; heading home — party does not know
+  - target: concept-estaran-conscription
+    rel: affected_by
+    notes: Erol is an instance of the conscription pattern, drawn in through her bond with Aldrin
+  - target: event-erol-and-aldrin
+    rel: features_in
+    notes: Full arc of their relationship is documented here

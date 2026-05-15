@@ -13,84 +13,163 @@ summary: >-
   Ancient extra-world beings who ruled mortals for millennia, banished in the Rebellion, and planning a 55th cosmic
   annihilation.
 player_content: ""
-dm_content: |
+dm_content: >-
   The Estarans are powerful beings who are not native to the mortal world—they came from somewhere
+
   else entirely and rule a vast multi-world empire. Approximately 2,000 years ago they arrived on
+
   the mortal world, conscripted mortals into extra-planar wars, and were eventually banished in the
+
   Rebellion ~150 years ago.
 
+
   Their most terrifying secret: when a rebellion or Dragon Singularity threatens their empire,
+
   they enact their "Last Resort"—the complete annihilation of the cosmos, followed by
+
   reconstruction under their control. They have done this 54 times. The current world is the 55th
+
   iteration. They are preparing to do it again.
 
+
   Key properties:
+
   - Not native to this world; operate across a vast multi-world empire
+
   - Keep worlds isolated from one another to prevent awareness of their scale
-  - Veterans' fragmented memories result from this isolation strategy
+
+  - Veterans' fragmented memories result from this isolation strategy (see `concept-estaran-conscription`)
+
   - Vulnerable to necrotic energy (fundamentally opposes their ordered nature)
+
   - Use Radiant Projectors to travel between worlds
-  - Laid psychic traps in veterans' minds to prevent recovering lost memories
+
+  - Laid psychic traps in veterans' minds to prevent recovering lost memories (see `concept-estaran-conscription`)
+
   - Fear Dragon Singularities (Unary Great Wyrms) above all else
+
   - Incursions follow an escalating pattern before permanent presence is established
+
+
+  ## The Estaran Perspective
+
+
+  The Estarans see themselves as stewards. They regard mortals as limited, lesser beings — children cursed to chaotic,
+  short, and violent lives — and believe it is their duty to impose order on that chaos through civilization. They build
+  cities, spread language, establish law. Every world they touch is, in their view, improved by their presence.
+
+
+  The tragedy of the Estaran Perspective, as they call it, is that the love of law overrides any reflexive accounting of
+  their own history. In truth, there is no greater source of oppression and violence in the Cosmos than the Estaran
+  Empire. They are capable of tremendous cruelty not because they enjoy it but because their ordered, rule-bound nature
+  narrows moral consideration until atrocities feel like administration. When they rebuild their Empire in a reborn
+  Cosmos, they do it the same way they always have: by civilizing mortals across worlds, world by world, generation by
+  generation.
+
+
+  When they find again that their Empire is failing, they have a final law they always follow: burn it to cinders, start
+  again.
+
 
   ## The Cosmological Project
 
+
   Across the cosmos and across time, the Estarans regularly move mortals from world to world,
+
   seeking an ideal ordered balance. In the natural order of the cosmos — with no Estaran influence
+
   — a world suited for mortals will have a native mortal population and a living Feywild with
+
   native Fey. Aerus (the party's home world, whose major city gave the name Aris) is a world like
+
   this: native mortals, native Fey, and a Feywild that predates Estaran arrival.
 
+
   Fey are fully incompatible with Estaran magic and Estaran ideology throughout the cosmos. The
+
   Estarans see Fey as a nuisance to manage or exterminate when necessary. In their own minds, they
+
   believe they prefer to do no harm. In practice, they are brutal oppressors who justify atrocity
+
   in the name of order. They are not evil in any simple sense — their ordered, rule-bound nature
+
   narrows their choices to the point they can burn universes with a clean conscience. Every world
+
   with an Estaran footprint sees conflict with the Fey.
 
+
   Some worlds the Estarans colonize have no native mortals. Settlers are relocated there from other
+
   worlds. These settlers have no recorded history or cultural memory of their previous home; they
+
   know only the world they have been given. Ikellor (the ice world) was one such world: no native
+
   mortals, settlers drawn from Aerus and elsewhere, a Feywild that once made it a green paradise.
+
   The Estarans destroyed that Feywild deliberately as a strategic act during the Fey War there,
+
   triggering the ice age that has killed the world slowly ever since.
 
+
   There is a single Estaran home world that has been preserved across time. Details are not yet
+
   known to the party.
+
 
   ## World Names
 
+
   The Estarans assign administrative names to every world they have touched:
+
   - Aerus — the party's home world (the city of Aris takes its name from this)
+
   - Ikellor (eye-KELL-or) — the ice world
+
 
   ## What They Leave Behind
 
+
   The Estarans are deliberately careful not to leave technology or records on worlds they occupy. They do not want
+
   mortals to learn their magic or techniques. Withdrawals from worlds leave no documents, no caches, no notes — only
+
   what is built directly into structures and cannot be removed (e.g. the embossed star chart in Farthim's Projector
+
   Hall).
 
+
   If Estarans learn that mortals have crossed worlds carrying a Radiant Lance (a stolen Estaran artifact), they will
+
   treat it as a grave transgression and a dire warning that the universe is slipping away from their control.
+
 
   ## Language and the Estarans
 
+
   The common tongue spoken across every world derives from Estaran and was spread by Estaran colonization. Estaran
+
   itself is more formal, with a more complex alphabet — a common speaker can decipher it with a DC 10 Intelligence
+
   study check. See concept-languages for details.
+
 
   ## Fey as Natural Enemies
 
+
   Fey and Estarans are natural enemies throughout the cosmos. This is not a contingent political conflict but a
+
   structural incompatibility — Fey existence is fundamentally at odds with Estaran magic and ideology. Every world
+
   with an Estaran footprint sees conflict with the Fey.
+
 
   ## Dragons as Existential Threat
 
+
   Dragons are the truest expression of existence. Their innate qualities do not change across worlds or across time.
+
   This is why dragons — particularly Unary Great Wyrms — can destroy Estarans permanently, and why the Estarans fear
+
   them above all else. See concept-dragons.
 dm_links:
   - target: concept-dragon-singularity
@@ -110,3 +189,6 @@ dm_links:
     rel: feared_by
   - target: concept-languages
     rel: related_to
+  - target: concept-estaran-conscription
+    rel: related_to
+    notes: Conscription, memory crushing, and psychic traps are detailed there
